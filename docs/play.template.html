@@ -33,10 +33,12 @@ button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--gold);outl
 h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:700}
 .sub{font-size:15px;color:var(--muted);margin:2px 0 0}
 .lvl{font-size:13px;font-weight:600;color:var(--gold);margin-top:4px}
-.chips{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
-.chips::-webkit-scrollbar{display:none}
-.chip{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:999px;background:var(--surface);border:1px solid var(--border);font-size:13px;font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums;flex:none}
-.chip svg{width:13px;height:13px;fill:currentColor}
+.chips{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0}
+.chip{display:flex;flex-direction:column;align-items:center;gap:3px;padding:8px 4px;border-radius:12px;background:var(--surface);border:1px solid var(--border);font-size:14px;font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums;min-width:0}
+.chip svg{width:19px;height:19px;fill:currentColor}
+.chip .ic{height:22px;display:flex;align-items:center}
+.chip .ic .coin{width:20px;height:20px}
+.chip .dt{font-size:10px;font-weight:600;color:var(--muted);min-height:13px}
 .c-gold{color:var(--gold)}.c-brand{color:var(--brand)}.c-wrong{color:var(--wrong)}.c-text{color:var(--text)}.c-muted{color:var(--muted)}.c-correct{color:var(--correct)}.c-ice{color:var(--ice-ink)}
 .coin{display:inline-block;border-radius:50%;background:var(--gold);position:relative;flex:none;width:16px;height:16px}
 .coin::before{content:"";position:absolute;inset:14%;border-radius:50%;border:1.5px solid color-mix(in srgb,var(--brand-ink) 55%,transparent)}
@@ -334,12 +336,10 @@ function render(){
   else if(screen.name==='chest'){ renderChest(); }
 }
 function chipsHtml(){
-  var h=hearts(), ht=h+'/'+HEARTS+(h<HEARTS?' · '+mmss(msToNextHeart()):'');
-  return '<div class="chips">'+
-    '<span class="chip c-gold">'+ico('flame')+displayStreak()+'</span>'+
-    '<span class="chip c-brand">'+ico('book')+S.xp+' XP</span>'+
-    '<span class="chip c-wrong" id="heartChip">'+ico('heart')+ht+'</span>'+
-    '<span class="chip c-text"><i class="coin"></i>'+S.talents+'</span></div>';
+  return '<div class="chips">'+chip('c-gold',ico('flame'),displayStreak(),'')+chip('c-brand',ico('book'),S.xp,'XP')+heartChip()+chip('c-text','<i class="coin"></i>',S.talents,'')+'</div>';
+}
+function chip(c,icon,v,d,id){ return '<span class="chip '+c+'" '+(id?'id="'+id+'"':'')+'><span class="ic">'+icon+'</span><span>'+v+'</span><span class="dt">'+d+'</span></span>'; }
+function heartChip(){ var h=hearts(); return chip('c-wrong',ico('heart'),h+'/'+HEARTS,h<HEARTS?mmss(msToNextHeart()):'','heartChip');
 }
 function barHtml(){
   var s=T();
@@ -491,7 +491,7 @@ setInterval(function(){
   if(!S.heartLosses.length) return;
   var before=S.heartLosses.length; pruneHearts();
   if(S.heartLosses.length!==before && screen.name==='home'){ render(); return; }
-  var c=document.getElementById('heartChip'); if(c){ var h=hearts(); c.innerHTML=ico('heart')+h+'/'+HEARTS+(h<HEARTS?' · '+mmss(msToNextHeart()):''); }
+  var c=document.getElementById('heartChip'); if(c){ c.outerHTML=heartChip(); }
   var w=document.getElementById('waitBox'); if(w){ if(hearts()>0) render(); else w.textContent='❤️ '+T().waitForHeart(mmss(msToNextHeart())); }
 },1000);
 

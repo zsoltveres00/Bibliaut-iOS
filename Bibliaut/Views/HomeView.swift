@@ -68,85 +68,56 @@ struct StatsBar: View {
     @Environment(GameStore.self) private var store
 
     var body: some View {
-        // Wraps to a second line on narrow phones instead of clipping the last chip.
-        FlowLayout(spacing: 7) {
-            Chip(text: "\(store.displayStreak)", color: Color.gold) {
+        // Four equal tiles in one row: icon on top, value below.
+        HStack(spacing: 8) {
+            Chip(value: "\(store.displayStreak)", color: Color.gold) {
                 Image(systemName: "flame.fill")
             }
-            Chip(text: "\(store.xp) XP", color: Color.brand) {
+            Chip(value: "\(store.xp)", detail: "XP", color: Color.brand) {
                 Image(systemName: "book.fill")
             }
-            Chip(text: heartsText, color: Color.wrong) {
+            Chip(value: "\(store.currentHearts)/\(GameStore.heartsMax)", detail: heartsDetail, color: Color.wrong) {
                 Image(systemName: "heart.fill")
             }
-            Chip(text: "\(store.talents)", color: Color.text) {
-                TalentCoin(size: 16)
+            Chip(value: "\(store.talents)", color: Color.text) {
+                TalentCoin(size: 20)
             }
         }
     }
 
-    private var heartsText: String {
-        var text = "\(store.currentHearts)/\(GameStore.heartsMax)"
-        if store.currentHearts < GameStore.heartsMax {
-            text += " · " + store.formatCountdown(store.secondsUntilNextHeart)
-        }
-        return text
+    /// Countdown to the next heart while any is missing.
+    private var heartsDetail: String? {
+        store.currentHearts < GameStore.heartsMax ? store.formatCountdown(store.secondsUntilNextHeart) : nil
     }
 }
 
-/// Left-to-right layout that wraps subviews onto new rows when they run out of width.
-struct FlowLayout: Layout {
-    var spacing: CGFloat = 8
-
-    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
-        let width = proposal.width ?? .infinity
-        return arrange(subviews, width: width).size
-    }
-
-    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
-        let result = arrange(subviews, width: bounds.width)
-        for (subview, offset) in zip(subviews, result.offsets) {
-            subview.place(at: CGPoint(x: bounds.minX + offset.x, y: bounds.minY + offset.y), proposal: .unspecified)
-        }
-    }
-
-    private func arrange(_ subviews: Subviews, width: CGFloat) -> (size: CGSize, offsets: [CGPoint]) {
-        var offsets: [CGPoint] = []
-        var x: CGFloat = 0, y: CGFloat = 0, rowHeight: CGFloat = 0, maxX: CGFloat = 0
-        for subview in subviews {
-            let size = subview.sizeThatFits(.unspecified)
-            if x > 0, x + size.width > width {
-                x = 0
-                y += rowHeight + spacing
-                rowHeight = 0
-            }
-            offsets.append(CGPoint(x: x, y: y))
-            x += size.width + spacing
-            rowHeight = max(rowHeight, size.height)
-            maxX = max(maxX, x - spacing)
-        }
-        return (CGSize(width: maxX, height: y + rowHeight), offsets)
-    }
-}
-
-/// Small pill with an icon and a value.
+/// Stat tile: icon above the value, optional small detail line under it.
 struct Chip<Icon: View>: View {
-    let text: String
+    let value: String
+    var detail: String? = nil
     let color: Color
     @ViewBuilder let icon: () -> Icon
 
     var body: some View {
-        HStack(spacing: 5) {
+        VStack(spacing: 3) {
             icon()
-                .font(.system(size: 13, weight: .bold))
-            Text(text)
-                .font(.system(size: 13, weight: .bold))
+                .font(.system(size: 18, weight: .bold))
+                .frame(height: 22)
+            Text(value)
+                .font(.system(size: 14, weight: .bold))
+                .monospacedDigit()
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
+            Text(detail ?? " ")
+                .font(.system(size: 10, weight: .semibold))
+                .foregroundStyle(Color.muted)
+                .monospacedDigit()
         }
         .foregroundStyle(color)
-        .padding(.horizontal, 12)
-        .padding(.vertical, 6)
-        .background(Color.surface, in: Capsule())
-        .overlay(Capsule().stroke(Color.border, lineWidth: 1))
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 8)
+        .background(Color.surface, in: RoundedRectangle(cornerRadius: 12))
+        .overlay(RoundedRectangle(cornerRadius: 12).stroke(Color.border, lineWidth: 1))
     }
 }
 

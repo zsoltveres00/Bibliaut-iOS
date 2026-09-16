@@ -47,9 +47,11 @@ button.toggle:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 h3.brand{font-family:Spectral,Georgia,serif;font-size:26px;margin:0;font-weight:700}
 .sub{font-size:13.5px;color:var(--muted);margin:2px 0 0}
 .lvl{font-size:12px;font-weight:600;color:var(--gold);margin-top:4px}
-.chips{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
-.chip{display:inline-flex;align-items:center;gap:5px;padding:5px 9px;border-radius:999px;background:var(--surface);border:1px solid var(--border);font-size:12px;font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
-.chip svg{width:13px;height:13px;fill:currentColor}
+.chips{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:12px 0}
+.chip{display:flex;flex-direction:column;align-items:center;gap:3px;padding:7px 4px;border-radius:12px;background:var(--surface);border:1px solid var(--border);font-size:13px;font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums;min-width:0}
+.chip svg{width:18px;height:18px;fill:currentColor}
+.chip .ic{height:22px;display:flex;align-items:center}
+.chip .dt{font-size:10px;font-weight:600;color:var(--muted);min-height:13px}
 .c-gold{color:var(--gold)}.c-brand{color:var(--brand)}.c-wrong{color:var(--wrong)}.c-text{color:var(--text)}.c-muted{color:var(--muted)}.c-correct{color:var(--correct)}.c-ice{color:var(--ice-ink)}
 
 .coin{display:inline-block;border-radius:50%;background:var(--gold);position:relative;flex:none}
@@ -227,10 +229,10 @@ h3.brand{font-family:Spectral,Georgia,serif;font-size:26px;margin:0;font-weight:
         <p class="sub">Szia, Zsolt!</p>
         <div class="lvl">Szint: Újonc</div>
         <div class="chips">
-          <span class="chip c-gold"><svg><use href="#i-flame"/></svg>5</span>
-          <span class="chip c-brand"><svg><use href="#i-book"/></svg>380 XP</span>
-          <span class="chip c-wrong"><svg><use href="#i-heart"/></svg>4/5 · 3:12</span>
-          <span class="chip c-text"><i class="coin" style="width:15px;height:15px"></i>40</span>
+          <span class="chip c-gold"><span class="ic"><svg><use href="#i-flame"/></svg></span><span>5</span><span class="dt"></span></span>
+          <span class="chip c-brand"><span class="ic"><svg><use href="#i-book"/></svg></span><span>380</span><span class="dt">XP</span></span>
+          <span class="chip c-wrong"><span class="ic"><svg><use href="#i-heart"/></svg></span><span>4/5</span><span class="dt">3:12</span></span>
+          <span class="chip c-text"><span class="ic"><i class="coin" style="width:20px;height:20px"></i></span><span>40</span><span class="dt"></span></span>
         </div>
         <div class="banner" style="background:#7E9259">
           <div><small>1. SZAKASZ, 6. ÁLLOMÁS</small><b>Az emberiség elszaporodása</b></div><span>🌱</span>
