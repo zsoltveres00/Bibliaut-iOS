@@ -102,7 +102,7 @@ struct ChestView: View {
                 Rectangle().fill(Color.gold).frame(width: band)
             }
             .frame(width: w, height: lidH)
-            .rotation3DEffect(.degrees(open ? -105 : 0), axis: (x: 1, y: 0, z: 0),
+            .rotation3DEffect(.degrees(open ? -70 : 0), axis: (x: 1, y: 0, z: 0),
                               anchor: .bottom, perspective: 0.5)
             .zIndex(open ? 0 : 1)
 
