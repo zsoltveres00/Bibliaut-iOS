@@ -51,6 +51,53 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 .srow .st .coin{width:22px;height:22px}
 .srow .st .n{color:var(--text)}
 .srow .tm{font-size:11px;font-weight:700;color:var(--muted);margin-left:2px;font-variant-numeric:tabular-nums}
+.hero .stg{font-size:10px;font-weight:700;color:#fff;opacity:.85}
+.mascot.young{transform:scale(.8)}
+.mascot.gold{filter:sepia(.7) saturate(2.2) hue-rotate(-12deg) drop-shadow(0 0 5px var(--star))}
+.mascot.sad{filter:saturate(.5) brightness(.95);transform:rotate(-10deg)}
+.goal{display:flex;align-items:center;gap:8px;margin:-4px 0 12px;padding:8px 12px;border-radius:12px;background:var(--surface);border:1px solid var(--border);font-size:13px;font-weight:700}
+.goal svg{width:16px;height:16px;fill:var(--brand);flex:none}
+.goal.ok{border-color:var(--correct)}.goal.ok svg{fill:var(--correct)}
+.goal b{margin-left:auto;font-size:10px;font-weight:600;color:var(--muted);text-align:right}
+/* intro: story + memory verse */
+.ititle{font-family:Spectral,Georgia,serif;font-size:24px;margin:0 0 12px}
+.story{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px 16px;margin-bottom:12px}
+.story h4,.verse h4{margin:0 0 6px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.story p{margin:0;font-size:16px;line-height:1.55}
+.verse{background:linear-gradient(135deg,color-mix(in srgb,var(--gold) 18%,var(--surface)),var(--surface));border:1.5px solid var(--gold);border-radius:14px;padding:14px 16px}
+.verse p{margin:0;font-family:Spectral,Georgia,serif;font-size:17px;font-weight:600;line-height:1.45}
+.verse span{display:block;margin-top:6px;font-size:12px;font-weight:700;color:var(--gold)}
+/* ordering question */
+.oitem{display:flex;align-items:center;gap:12px;text-align:left}
+.oitem b{flex:none;width:28px;height:28px;border-radius:50%;border:2px solid var(--border);display:grid;place-items:center;font-size:13px;color:var(--brand-ink)}
+.oitem.picked{border-color:var(--brand);background:color-mix(in srgb,var(--brand) 10%,var(--surface))}
+.oitem.picked b{background:var(--brand);border-color:var(--brand)}
+.oitem.ok b{background:var(--correct);border-color:var(--correct)}.oitem.bad b{background:var(--wrong);border-color:var(--wrong)}
+/* collection tabs, shop, heroes */
+.tabs{display:flex;gap:6px;margin-top:14px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:4px}
+.tabs button{flex:1;padding:8px;border-radius:9px;font-size:13px;font-weight:700;color:var(--muted)}
+.tabs button.on{background:var(--brand);color:var(--brand-ink)}
+.shop .item{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:12px;margin-top:14px}
+.shop .ic{font-size:34px;flex:none}
+.shop .tx{flex:1;min-width:0}.shop .tx b{display:block;font-size:15px}.shop .tx span{display:block;font-size:12px;color:var(--muted);margin-top:2px}.shop .tx small{display:block;font-size:11px;font-weight:700;color:var(--brand);margin-top:4px}
+.shop .buy{flex:none;display:flex;align-items:center;gap:5px;padding:9px 12px;border-radius:9px;font-size:13px;font-weight:700;background:var(--brand);color:var(--brand-ink)}
+.shop .buy .coin{width:14px;height:14px}
+.shop .buy:disabled{background:var(--bg);color:var(--muted);border:1px solid var(--border);cursor:default}
+.hcard{margin-top:18px;display:flex;align-items:center;gap:12px;padding:12px;border-radius:14px;background:var(--surface);border:1.5px dashed var(--border)}
+.hcard.on{border:1.5px solid var(--gold);background:linear-gradient(135deg,color-mix(in srgb,var(--gold) 16%,var(--surface)),var(--surface))}
+.hcard .em{font-size:40px;flex:none}.hcard:not(.on) .em{filter:grayscale(1);opacity:.4}
+.hcard .tx{flex:1;min-width:0}.hcard .tx small{display:block;font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.hcard .tx b{display:block;font-family:Spectral,Georgia,serif;font-size:17px}.hcard .tx span{display:block;font-size:12px;color:var(--muted);line-height:1.35;margin-top:2px}
+.hcard .seal svg{width:20px;height:20px;fill:var(--gold)}.hcard:not(.on) .seal svg{fill:var(--muted)}
+/* badges */
+.sh{font-family:Spectral,Georgia,serif;font-size:18px;margin:18px 0 8px}
+.badges{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.badge{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:8px 4px;display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center}
+.badge span{font-size:26px;line-height:1}.badge small{font-size:9px;font-weight:700;color:var(--muted);line-height:1.2}
+.badge:not(.on){opacity:.45}.badge:not(.on) span{filter:grayscale(1)}
+.badge.on{border-color:var(--gold);background:color-mix(in srgb,var(--gold) 10%,var(--surface))}
+.days .d.p::before{background:color-mix(in srgb,var(--brand) 25%,var(--surface))}.days .d.p::after{content:"🛡";position:absolute;left:50%;transform:translateX(-50%);bottom:0;font-size:9px}
+.week .wd.p i{border-color:var(--brand);font-size:13px}
 /* mascot hint in the lesson */
 .hintrow{display:flex;align-items:center;gap:8px;margin:-8px 0 16px}
 .hintrow .mascot{width:40px;height:40px}
@@ -310,6 +357,8 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
   <symbol id="i-rosette" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M8 14l-2 8 6-3 6 3-2-8a7 7 0 0 1-8 0z"/></symbol>
   <symbol id="i-redo" viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 1-7.4 5h2.2A6 6 0 1 0 12 6v3L7 5l5-4z"/></symbol>
   <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 16l-7-7 1.8-1.8L12 12.4l5.2-5.2L19 9z"/></symbol>
+  <symbol id="i-egg" viewBox="0 0 64 64"><path d="M32 6c12 0 20 14 20 30 0 13-9 22-20 22S12 49 12 36C12 20 20 6 32 6z" fill="#FFF7E6" stroke="#E2CFA8" stroke-width="1.6"/><path d="M22 34l5 4 4-5 5 6 4-4 4 5" fill="none" stroke="#E2CFA8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="2" fill="#F3D9A6"/><circle cx="40" cy="20" r="1.6" fill="#F3D9A6"/><circle cx="36" cy="46" r="2.2" fill="#F3D9A6"/></symbol>
+  <symbol id="i-chick" viewBox="0 0 64 64"><ellipse cx="32" cy="42" rx="16" ry="13" fill="#FFD84D" stroke="#E0B52E" stroke-width="1.5"/><circle cx="34" cy="24" r="11" fill="#FFE066" stroke="#E0B52E" stroke-width="1.5"/><path d="M44 24l6 2.5-6 2.5z" fill="#F5A623"/><circle cx="37" cy="22.5" r="1.9" fill="#2B2440"/><circle cx="37.7" cy="21.9" r=".6" fill="#fff"/><circle cx="31" cy="27" r="1.6" fill="#F3A6A6" opacity=".7"/><path d="M20 40q-6 0-8 6 6 0 9-3z" fill="#FFE066" stroke="#E0B52E" stroke-width="1.2"/><path d="M27 55v5M37 55v5M24 60h6M34 60h6" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/><path d="M30 12q2-5 5-3-1 3 0 5" fill="none" stroke="#E0B52E" stroke-width="1.5" stroke-linecap="round"/></symbol>
   <symbol id="i-dove" viewBox="0 0 66 60">
     <g stroke="#B9B1D9" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
       <path d="M30 40c2 8 10 12 18 10-6-4-8-8-8-12z" fill="#DCD6F3"/>
@@ -347,18 +396,21 @@ var S = {
   lang: load('bq-lang','hu'), name: load('bq-name',''), xp: load('bq-xp',0), talents: load('bq-talents',0),
   progress: load('bq-progress',{}), heartLosses: load('bq-heart-losses',[]), streak: load('bq-streak',0),
   lastStudy: load('bq-laststudy',null), chests: load('bq-chests',{}), cards: load('bq-gift-log',[]),
-  daily: load('bq-daily',{}), firstStudy: load('bq-first-study',null), stars: load('bq-stars',{}), weekChests: load('bq-week-chests',{})
+  daily: load('bq-daily',{}), firstStudy: load('bq-first-study',null), stars: load('bq-stars',{}), weekChests: load('bq-week-chests',{}),
+  shields: load('bq-shields',0), shielded: load('bq-shielded',{}), cnt: load('bq-cnt',{correct:0,perfect:0,chests:0,hints:0})
 };
 function persist(){
   save('bq-lang',S.lang); save('bq-name',S.name); save('bq-xp',S.xp); save('bq-talents',S.talents);
   save('bq-progress',S.progress); save('bq-heart-losses',S.heartLosses); save('bq-streak',S.streak);
   save('bq-laststudy',S.lastStudy); save('bq-chests',S.chests); save('bq-gift-log',S.cards);
-  save('bq-daily',S.daily); save('bq-first-study',S.firstStudy); save('bq-stars',S.stars); save('bq-week-chests',S.weekChests);
+  save('bq-daily',S.daily); save('bq-first-study',S.firstStudy); save('bq-stars',S.stars); save('bq-week-chests',S.weekChests); save('bq-shields',S.shields); save('bq-shielded',S.shielded); save('bq-cnt',S.cnt);
 }
 
 // ---------- rules ----------
 var XP_PER=10, BONUS=5, HEARTS=5, REGEN=5*60*1000, CHEST_AFTER=[4,9], TALENTS_PER_CHEST=20, WEEK_BONUS=50, Q_PER_STATION=10;
-var TALENTS_PER_STATION=5, RUN_SMALL=5, RUN_BIG=10, TWO_STAR_PCT=70;
+var TALENTS_PER_STATION=5, RUN_SMALL=5, RUN_BIG=10, TWO_STAR_PCT=70, SHIELD_PRICE=60, SHIELD_MAX=2;
+// Mascot growth: study-day thresholds for each stage (egg, chick, young dove, dove, golden dove).
+var STAGES=[0,1,4,10,25];
 
 // ---------- strings ----------
 var STR = {
@@ -373,6 +425,14 @@ var STR = {
     mistakesFixed:function(n){return n===0?'Egy hibád sem volt!':n+' hibát kijavítottál'},
     runBonus:function(m){return '×'+(m===2?'2':'1,5')+' sorozat-bónusz'},
     mascotName:'Olívia',
+    storyTitle:'Történet',verseTitle:'Aranymondás',startQuiz:'Jöhetnek a kérdések!',introBubble:'Figyelj, elmesélem!',
+    orderHint:'Koppints a sorokra a helyes sorrendben!',orderRetry:'Újrakezdem',orderOk:'Tökéletes sorrend!',orderBad:'Nem ez a helyes sorrend. Így volt:',
+    treasuresTab:'Kincsek',shopTab:'Bolt',shield:'Széria-pajzs',shieldDesc:'Ha egy napot kihagysz, megvédi a sorozatodat. Magától működik.',shieldOwned:function(n){return 'Nálad: '+n+' db'},shieldMax:'Legfeljebb 2 lehet nálad',shieldUsed:'pajzs védte',
+    heroTag:'Bibliai hős',heroLocked:'Teljesítsd a modult, és feloldódik!',heroUnlocked:'Feloldva',
+    badgesTitle:'Kitüntetések',badges:{first:'Első lépés',module:'Modul kész',streak7:'7 napos sorozat',streak30:'30 napos sorozat',c100:'100 helyes válasz',c500:'500 helyes válasz',perfect10:'10 hibátlan állomás',chests5:'5 láda',week:'Teljes hét',xp1000:'1000 XP',cards:'Egy modul minden kincse',days30:'30 tanult nap'},
+    stageNames:['Tojás','Fióka','Kis galamb','Galamb','Arany galamb'],stageProgress:function(n){return 'még '+n+' tanult nap a következő fokozatig'},stageMax:'Olívia teljesen felnőtt!',
+    mascotEgg:'Tanulj mindennap, és hamarosan kikelek!',mascotSad:'Hiányoztál! Tanulj ma, hogy tovább nőjek.',mascotGrew:'Nőttem egyet! Köszönöm, hogy tanulsz.',
+    goalDone:'Mai cél kész',goalTodo:'Mai cél: 1 lecke',studyDays:function(n){return n+' tanult nap'},
     mascotHome:function(st,name,nx){ if(!nx) return 'Végigjártad az egész utat! 🏆'; if(nx.chest) return 'Egy láda vár rád – nyisd ki!'; if(st>=3) return (name?name+', ':'')+'már '+st+' napja tartod a sorozatot! 🔥'; return name?'Szia, '+name+'! Gyerünk tovább!':'Szia! Olívia vagyok, végigrepülöm veled az utat.'; },
     hintBtn:'Segíts, Olívia!',hintUsed:'Ebben az állomásban már segítettem',hintBubble:'Kizártam egy rossz választ!',
     chestBanner:'Kincsesláda',chestBannerSub:'KOPPINTS, ÉS NYISD KI',collectionSub:'Minden modulnak megvannak a saját kincsei – a drágábbak ritkábbak.',lockedModule:'Még zárva',
@@ -396,6 +456,14 @@ var STR = {
     mistakesFixed:function(n){return n===0?'Not a single mistake!':'You fixed '+n+(n===1?' mistake':' mistakes')},
     runBonus:function(m){return '×'+(m===2?'2':'1.5')+' streak bonus'},
     mascotName:'Olivia',
+    storyTitle:'Story',verseTitle:'Memory verse',startQuiz:'Bring on the questions!',introBubble:'Listen, let me tell you!',
+    orderHint:'Tap the lines in the correct order!',orderRetry:'Start over',orderOk:'Perfect order!',orderBad:'Not the right order. It was:',
+    treasuresTab:'Treasures',shopTab:'Shop',shield:'Streak shield',shieldDesc:'If you miss a day, it protects your streak. Works automatically.',shieldOwned:function(n){return 'You have: '+n},shieldMax:'You can hold at most 2',shieldUsed:'protected by a shield',
+    heroTag:'Bible hero',heroLocked:'Finish the module to unlock!',heroUnlocked:'Unlocked',
+    badgesTitle:'Badges',badges:{first:'First step',module:'Module complete',streak7:'7-day streak',streak30:'30-day streak',c100:'100 correct answers',c500:'500 correct answers',perfect10:'10 flawless stations',chests5:'5 chests',week:'Full week',xp1000:'1000 XP',cards:'All treasures of a module',days30:'30 study days'},
+    stageNames:['Egg','Chick','Young dove','Dove','Golden dove'],stageProgress:function(n){return n+' more study days to the next stage'},stageMax:'Olivia is fully grown!',
+    mascotEgg:'Study every day and I will hatch soon!',mascotSad:'I missed you! Study today so I can keep growing.',mascotGrew:'I grew! Thank you for studying.',
+    goalDone:'Daily goal done',goalTodo:'Daily goal: 1 lesson',studyDays:function(n){return n+' study days'},
     mascotHome:function(st,name,nx){ if(!nx) return 'You walked the whole path! 🏆'; if(nx.chest) return 'A chest is waiting – open it!'; if(st>=3) return (name?name+', ':'')+'that\'s a '+st+'-day streak! 🔥'; return name?'Hi '+name+'! Let\'s keep going!':'Hi! I\'m Olivia, I\'ll fly the path with you.'; },
     hintBtn:'Help me, Olivia!',hintUsed:'I already helped on this station',hintBubble:'I removed one wrong answer!',
     chestBanner:'Treasure chest',chestBannerSub:'TAP TO OPEN',collectionSub:'Each module has its own treasures – the pricier ones are rarer.',lockedModule:'Locked',
@@ -449,7 +517,18 @@ function totalDone(){ var n=0; for(var k in S.progress) n+=S.progress[k].length;
 // ---------- streak & activity ----------
 function displayStreak(){ if(!S.lastStudy) return 0; var t=dayKey(new Date()), y=dayKey(addDays(new Date(),-1)); return (S.lastStudy===t||S.lastStudy===y)?S.streak:0; }
 function played(d){ return S.daily[dayKey(d)]||0; }
-function missed(d){ if(S.firstStudy==null) return false; var day=startOfDay(d), first=startOfDay(new Date(S.firstStudy)), today=startOfDay(new Date()); return day>=first && day<today && played(d)===0; }
+function shielded(d){ return !!S.shielded[dayKey(d)]; }
+function missed(d){ if(S.firstStudy==null) return false; var day=startOfDay(d), first=startOfDay(new Date(S.firstStudy)), today=startOfDay(new Date()); return day>=first && day<today && played(d)===0 && !shielded(d); }
+function parseKey(k){ var p=k.split('-'); return new Date(+p[0],+p[1]-1,+p[2]); }
+// Streak shields: each missed day since the last study consumes one shield and keeps the streak alive.
+function applyShields(){ if(!S.lastStudy) return; var today=startOfDay(new Date()), d=addDays(parseKey(S.lastStudy),1), changed=false;
+  while(d<today && S.shields>0){ S.shielded[dayKey(d)]=true; S.shields--; S.lastStudy=dayKey(d); d=addDays(d,1); changed=true; }
+  if(changed) persist(); }
+function studyDays(){ var n=0; for(var k in S.daily) if(S.daily[k]>0) n++; return n; }
+function stage(){ var n=studyDays(), s=0; for(var i=0;i<STAGES.length;i++) if(n>=STAGES[i]) s=i; return s; }
+function daysToNextStage(){ var s=stage(); return s>=STAGES.length-1?0:STAGES[s+1]-studyDays(); }
+function studiedToday(){ return played(new Date())>0; }
+function mascotSad(){ if(!S.lastStudy||stage()===0) return false; var t=dayKey(new Date()), y=dayKey(addDays(new Date(),-1)); return S.lastStudy!==t && S.lastStudy!==y; }
 function lessonsThisWeek(){ var t=startOfDay(new Date()), fd=T().firstDay, diff=(t.getDay()-fd+7)%7, start=addDays(t,-diff), n=0; for(var i=0;i<7;i++) n+=played(addDays(start,i)); return n; }
 function lessonsTotal(){ var n=0; for(var k in S.daily) n+=S.daily[k]; return n; }
 function registerToday(){ var t=dayKey(new Date()); S.daily[t]=(S.daily[t]||0)+1; if(S.firstStudy==null) S.firstStudy=Date.now(); if(S.lastStudy!==t){ S.streak=(S.lastStudy===dayKey(addDays(new Date(),-1)))?S.streak+1:1; S.lastStudy=t; } return S.streak; }
@@ -459,7 +538,7 @@ function chestKey(uid,si){ return uid+'-chest-'+si; }
 function claimChest(ui,si){ var u=C.units[ui], k=chestKey(u.id,si); if(!unitUnlocked(ui)||!done(u.id,si)||S.chests[k]) return; screen={name:'chest',talents:TALENTS_PER_CHEST,taps:0,key:k,kind:'path'}; render(); }
 // Chest screen: three taps open it, the reward is paid out on the third.
 function tapChest(){ if(screen.name!=='chest'||screen.taps>=3) return; screen.taps++; haptic('success');
-  if(screen.taps>=3){ S.talents+=screen.talents; if(screen.kind==='path') S.chests[screen.key]=true; else S.weekChests[screen.key]=true; persist(); }
+  if(screen.taps>=3){ S.talents+=screen.talents; S.cnt.chests=(S.cnt.chests||0)+1; if(screen.kind==='path') S.chests[screen.key]=true; else S.weekChests[screen.key]=true; persist(); }
   renderChest(); }
 // Weekly chest: every day of the current week studied.
 function weekStart(d){ var t=startOfDay(d), fd=T().firstDay, diff=(t.getDay()-fd+7)%7; return addDays(t,-diff); }
@@ -470,28 +549,38 @@ function weekComplete(){ return weekDays().every(function(d){ return played(d)>0
 function isLastWeekday(d){ return dayKey(d)===dayKey(addDays(weekStart(d),6)); }
 function weekChestEarned(){ var now=new Date(); return isLastWeekday(now) && played(now)>0 && !S.weekChests[weekKey(now)]; }
 function weekChestReward(){ return TALENTS_PER_CHEST+(weekComplete()?WEEK_BONUS:0); }
-function owns(g){ return S.cards.indexOf(g.id)>=0; }
+function owns(g){ if(g.hero) return unitComplete(unitById(g.unit)); return S.cards.indexOf(g.id)>=0; }
+function canBuyShield(){ return S.shields<SHIELD_MAX&&S.talents>=SHIELD_PRICE; }
+function buyShield(){ if(!canBuyShield()) return; S.talents-=SHIELD_PRICE; S.shields++; persist(); haptic('success'); render(); }
 function unitIndex(uid){ for(var i=0;i<C.units.length;i++) if(C.units[i].id===uid) return i; return -1; }
-function canBuy(g){ return !owns(g)&&unitUnlocked(unitIndex(g.unit))&&S.talents>=g.price; }
+function canBuy(g){ return !g.hero&&!owns(g)&&unitUnlocked(unitIndex(g.unit))&&S.talents>=g.price; }
 function buyCard(g){ if(!canBuy(g)) return; S.talents-=g.price; S.cards.push(g.id); persist(); haptic('success'); render(); }
 
 // ---------- lesson ----------
-var screen={name:'home'}, tab='home', lesson=null, calOffset=0;
+var screen={name:'home'}, tab='home', colTab='treasures', lesson=null, calOffset=0;
 function starKey(uid,si){ return uid+'-'+si; }
 function stationStars(uid,si){ if(!done(uid,si)) return 0; var v=S.stars[starKey(uid,si)]; return v==null?2:v; }
 function starsFor(correct,total){ if(correct>=total) return 3; return correct*100>=TWO_STAR_PCT*total?2:1; }
 function multiplierFor(run){ return run>=RUN_BIG?2:run>=RUN_SMALL?1.5:1; }
 function startStation(ui,si){ if(hearts()<=0) return; var st=C.units[ui].stations[si], q=[]; for(var i=0;i<st.qs.length;i++) q.push(i);
   // Each play draws Q_PER_STATION questions from the station's pool, so replays feel fresh.
-  lesson={ui:ui,si:si,qs:st.qs,queue:shuffle(q).slice(0,Q_PER_STATION),total:Math.min(Q_PER_STATION,q.length),pos:0,hearts:hearts(),firstTry:0,toReview:[],reviewing:false,mistakes:0,run:0,bestRun:0,failed:false,order:[],answered:null}; prepQ(); screen={name:'lesson'}; render(); }
+  lesson={ui:ui,si:si,qs:st.qs,queue:shuffle(q).slice(0,Q_PER_STATION),total:Math.min(Q_PER_STATION,q.length),pos:0,hearts:hearts(),firstTry:0,toReview:[],reviewing:false,mistakes:0,run:0,bestRun:0,failed:false,order:[],answered:null,picked:[]}; prepQ();
+  // Stations with a story open on the intro screen first (story + memory verse), then the questions.
+  screen={name:st.intro?'intro':'lesson'}; render(); }
+function startQuiz(){ if(!lesson) return; screen={name:'lesson'}; render(); }
 function curQ(){ return lesson.qs[lesson.queue[lesson.pos]]; }
 function lastInPass(){ return lesson.pos===lesson.queue.length-1; }
 function optCount(q){ return q.type==='image'?(q.opts||[]).length:((q.hu.o||[]).length); }
 function optLabel(q,i){ if(q.type==='image') return L(q.opts[i]); return (S.lang==='hu'?q.hu.o:q.en.o)[i]; }
-function prepQ(){ var q=curQ(); var o=[]; for(var i=0;i<optCount(q);i++) o.push(i); lesson.order=shuffle(o); lesson.answered=null; lesson.hidden=null; }
+function prepQ(){ var q=curQ(); var o=[]; for(var i=0;i<optCount(q);i++) o.push(i); lesson.order=shuffle(o); lesson.answered=null; lesson.hidden=null; lesson.picked=[]; }
+function isOrder(q){ return q.type==='order'; }
 // Olivia's help: once per station she removes one wrong option of the current question.
-function useHint(){ if(!lesson||lesson.hintUsed||lesson.answered!=null) return; var c=curQ().c, wrong=lesson.order.filter(function(o){return o!==c;}); if(!wrong.length) return; lesson.hidden=wrong[Math.floor(Math.random()*wrong.length)]; lesson.hintUsed=true; haptic('success'); render(); }
-function answer(i){ if(!lesson||lesson.answered!=null) return; lesson.answered=i; var q=curQ(), ok=i===q.c;
+function useHint(){ if(!lesson||lesson.hintUsed||lesson.answered!=null||isOrder(curQ())) return; S.cnt.hints=(S.cnt.hints||0)+1; var c=curQ().c, wrong=lesson.order.filter(function(o){return o!==c;}); if(!wrong.length) return; lesson.hidden=wrong[Math.floor(Math.random()*wrong.length)]; lesson.hintUsed=true; haptic('success'); render(); }
+function answer(i){ if(!lesson||lesson.answered!=null||isOrder(curQ())) return; settle(i===curQ().c,i); }
+// Ordering question: tap the items in sequence; it is checked once every item has been picked.
+function pickOrder(i){ if(!lesson||lesson.answered!=null||!isOrder(curQ())||lesson.picked.indexOf(i)>=0) return; lesson.picked.push(i); if(lesson.picked.length<lesson.order.length){ render(); return; } settle(lesson.picked.every(function(v,k){return v===k;}),'order'); }
+function resetOrder(){ if(!lesson||lesson.answered!=null) return; lesson.picked=[]; render(); }
+function settle(ok,i){ lesson.answered=i;
   if(ok){ if(!lesson.reviewing) lesson.firstTry++; lesson.run++; lesson.bestRun=Math.max(lesson.bestRun,lesson.run); }
   else { if(!lesson.reviewing) lesson.mistakes++; lesson.run=0; lesson.toReview.push(lesson.queue[lesson.pos]); loseHeart(); lesson.hearts=hearts(); }
   haptic(ok?'success':'error'); render(); }
@@ -503,17 +592,19 @@ function advance(){ if(!lesson) return;
   prepQ(); render(); document.getElementById('view').scrollTop=0; }
 function finish(){ var u=C.units[lesson.ui], ok=!lesson.failed, gain=lesson.firstTry*XP_PER+(ok?BONUS:0); S.xp+=gain;
   var was=unitComplete(u), just=false, stars=0, tg=0, mult=multiplierFor(lesson.bestRun);
-  if(ok){ markDone(u.id,lesson.si); just=!was&&unitComplete(u); stars=starsFor(lesson.firstTry,lesson.total); var k=starKey(u.id,lesson.si); S.stars[k]=Math.max(S.stars[k]||0,stars); tg=Math.round(TALENTS_PER_STATION*mult); S.talents+=tg; }
+  var stageBefore=stage(); S.cnt.correct=(S.cnt.correct||0)+lesson.firstTry;
+  if(ok){ markDone(u.id,lesson.si); just=!was&&unitComplete(u); stars=starsFor(lesson.firstTry,lesson.total); if(stars===3) S.cnt.perfect=(S.cnt.perfect||0)+1; var k=starKey(u.id,lesson.si); S.stars[k]=Math.max(S.stars[k]||0,stars); tg=Math.round(TALENTS_PER_STATION*mult); S.talents+=tg; }
   var st=registerToday(); persist(); var chestNext=ok&&chestBlocks(u.id,lesson.si), hasNext=ok&&!just&&!chestNext&&lesson.si+1<u.stations.length;
-  screen={name:'result',r:{success:ok,gain:gain,talents:tg,mult:mult,stars:stars,mistakes:lesson.mistakes,streak:st,unitJust:just,hasNext:hasNext,chestNext:chestNext,weekChest:weekChestEarned()}}; render(); }
+  screen={name:'result',r:{success:ok,gain:gain,talents:tg,mult:mult,stars:stars,mistakes:lesson.mistakes,streak:st,unitJust:just,hasNext:hasNext,chestNext:chestNext,weekChest:weekChestEarned(),grew:stage()>stageBefore}}; render(); }
 function openWeekChest(){ if(!weekChestEarned()) { goHome(); return; } screen={name:'chest',talents:weekChestReward(),bonus:weekComplete()?WEEK_BONUS:0,taps:0,key:weekKey(new Date()),kind:'week'}; render(); }
 function goHome(){ screen={name:'home'}; lesson=null; render(); }
 
 // ---------- rendering ----------
 var view=document.getElementById('view'), foot=document.getElementById('foot'), sheet=document.getElementById('sheet'), scrim=document.getElementById('scrim');
 function render(){
-  closeSheet();
+  closeSheet(); applyShields();
   if(screen.name==='home'){ renderHome(); }
+  else if(screen.name==='intro'){ renderIntro(); }
   else if(screen.name==='lesson'){ renderLesson(); }
   else if(screen.name==='result'){ renderResult(); }
   else if(screen.name==='chest'){ renderChest(); }
@@ -524,7 +615,41 @@ function chipsHtml(){
 function heartChip(){ var h=hearts();
   return '<span class="st c-wrong" id="heartChip">'+ico('heart')+'<span class="n">'+h+'</span>'+(h<HEARTS?'<span class="tm">'+mmss(msToNextHeart())+'</span>':'')+'</span>';
 }
-function mascotHtml(cls){ return '<svg class="mascot '+(cls||'')+'"><use href="#i-dove"/></svg>'; }
+// Olivia grows with the number of study days: egg, chick, then a dove that turns golden.
+function mascotHtml(cls,st){ var s=st==null?stage():st, sym=s===0?'egg':s===1?'chick':'dove', extra=s===2?' young':s>=4?' gold':''; return '<svg class="mascot '+(cls||'')+extra+(mascotSad()?' sad':'')+'"><use href="#i-'+sym+'"/></svg>'; }
+function mascotLine(nx){ var s=T(); if(stage()===0) return s.mascotEgg; if(mascotSad()) return s.mascotSad; return s.mascotHome(displayStreak(),S.name,nx); }
+function goalHtml(){ var s=T(), ok=studiedToday(); return '<div class="goal '+(ok?'ok':'')+'">'+ico(ok?'check':'flag')+'<span>'+esc(ok?s.goalDone:s.goalTodo)+'</span><b>'+esc(s.studyDays(studyDays()))+(daysToNextStage()?' · '+esc(s.stageProgress(daysToNextStage())):' · '+esc(s.stageMax))+'</b></div>'; }
+function renderIntro(){
+  var s=T(), u=C.units[lesson.ui], st=u.stations[lesson.si], h='';
+  h+='<button type="button" class="back" data-home>'+esc(s.backHome)+'</button>';
+  h+='<div class="top"><span>'+u.emoji+' '+s.stationTag(lesson.si+1,u.stations.length)+'</span></div>';
+  h+='<h2 class="ititle">'+esc(L(st))+'</h2>';
+  h+='<div class="rmascot" style="justify-content:flex-start;margin:0 0 12px">'+mascotHtml()+'<div class="bubble">'+esc(s.introBubble)+'</div></div>';
+  h+='<div class="story"><h4>'+esc(s.storyTitle)+'</h4><p>'+esc(L(st.intro))+'</p></div>';
+  if(st.verse) h+='<div class="verse"><h4>'+esc(s.verseTitle)+'</h4><p>„'+esc(L(st.verse))+'”</p><span>'+esc(S.lang==='hu'?st.verse.ref:(st.verse.refEn||st.verse.ref))+'</span></div>';
+  view.innerHTML=h; view.scrollTop=0;
+  foot.innerHTML='<div class="footpad"><button type="button" class="primary" data-startquiz>'+esc(s.startQuiz)+'</button></div>';
+}
+var BADGES=[
+  {id:'first',ic:'👣',t:function(){return totalDone()>=1;}},
+  {id:'module',ic:'🏆',t:function(){return C.units.some(unitComplete);}},
+  {id:'streak7',ic:'🔥',t:function(){return S.streak>=7;}},
+  {id:'streak30',ic:'☄️',t:function(){return S.streak>=30;}},
+  {id:'c100',ic:'✅',t:function(){return (S.cnt.correct||0)>=100;}},
+  {id:'c500',ic:'💯',t:function(){return (S.cnt.correct||0)>=500;}},
+  {id:'perfect10',ic:'⭐',t:function(){return (S.cnt.perfect||0)>=10;}},
+  {id:'chests5',ic:'🧰',t:function(){return (S.cnt.chests||0)>=5;}},
+  {id:'week',ic:'📅',t:function(){for(var k in S.weekChests) return true; return false;}},
+  {id:'xp1000',ic:'📖',t:function(){return S.xp>=1000;}},
+  {id:'cards',ic:'💎',t:function(){return C.units.some(function(u){ return C.gifts.filter(function(g){return g.unit===u.id&&!g.hero;}).every(owns); });}},
+  {id:'days30',ic:'🗓️',t:function(){return studyDays()>=30;}}
+];
+function badgesHtml(){ var s=T(), h='<h3 class="sh">'+esc(s.badgesTitle)+'</h3><div class="badges">';
+  BADGES.forEach(function(b){ var on=b.t(); h+='<div class="badge '+(on?'on':'')+'"><span>'+b.ic+'</span><small>'+esc(s.badges[b.id])+'</small></div>'; });
+  return h+'</div>'; }
+function shopHtml(){ var s=T();
+  return '<div class="shop"><div class="item"><div class="ic">🛡️</div><div class="tx"><b>'+esc(s.shield)+'</b><span>'+esc(s.shieldDesc)+'</span><small>'+esc(s.shieldOwned(S.shields))+(S.shields>=SHIELD_MAX?' · '+esc(s.shieldMax):'')+'</small></div>'+
+    '<button type="button" class="buy" data-buyshield '+(canBuyShield()?'':'disabled')+'><i class="coin"></i>'+SHIELD_PRICE+'</button></div></div>'; }
 function barHtml(){
   var s=T();
   function b(t,i,l){ return '<button data-tab="'+t+'" class="'+(tab===t?'on':'')+'" type="button">'+ico(i)+l+'</button>'; }
@@ -536,7 +661,7 @@ function renderHome(){
   if(tab==='home'){
     var nx=nextNode();
     html+='<div class="hero"><div class="hl"><h1 class="brand">'+esc(s.brand)+'</h1><p class="sub">'+esc(s.subtitle)+'</p><button type="button" class="lvl" data-tab="stats">'+ico('rosette')+esc(levelName())+'<b>· '+S.xp+' XP</b></button></div>'+
-      '<div class="mw"><div class="bubble">'+esc(s.mascotHome(displayStreak(),S.name,nx))+'</div>'+mascotHtml()+'</div></div>'+chipsHtml();
+      '<div class="mw"><div class="bubble">'+esc(mascotLine(nx))+'</div>'+mascotHtml()+'<div class="stg">'+esc(s.stageNames[stage()])+'</div></div></div>'+chipsHtml()+goalHtml();
     if(nx&&nx.chest){ html+='<button class="banner" type="button" data-chest="'+nx.ui+','+nx.si+'" style="background:linear-gradient(135deg,var(--gold),#F5C542)"><div><small>'+esc(s.chestBannerSub)+'</small><b>'+esc(s.chestBanner)+'</b></div><span>'+chestHtml(false,34)+'</span></button>'; }
     else if(nx){ var u=C.units[nx.ui]; html+='<button class="banner" type="button" data-start="'+nx.ui+','+nx.si+'" style="background:'+u.color+'" '+(hearts()>0?'':'disabled')+'><div><small>'+(nx.ui+1)+'. '+s.section+', '+(nx.si+1)+'. '+s.station+'</small><b>'+esc(L(u.stations[nx.si]))+'</b></div><span>'+u.emoji+'</span></button>'; }
     html+='<div class="path" id="path">'+pathHtml()+'</div>';
@@ -579,11 +704,14 @@ function layoutPath(){
 function collectionHtml(){
   var s=T(), n=C.gifts.filter(owns).length, h='<div class="hrow"><h1 class="brand">'+esc(s.tabCollection)+'</h1><span class="pill-right">'+s.cardsOwned(n,C.gifts.length)+'</span></div>';
   h+='<div class="card-bal"><i class="coin" style="width:36px;height:36px"></i><div><b>'+esc(s.talentsBalance(S.talents))+'</b><span>'+esc(s.chestHint)+'</span></div></div>';
+  h+='<div class="tabs"><button type="button" class="'+(colTab==='treasures'?'on':'')+'" data-coltab="treasures">'+esc(s.treasuresTab)+'</button><button type="button" class="'+(colTab==='shop'?'on':'')+'" data-coltab="shop">'+esc(s.shopTab)+'</button></div>';
+  if(colTab==='shop') return h+shopHtml();
   h+='<div class="intro">'+esc(s.collectionSub)+'</div>';
   C.units.forEach(function(u,ui){
-    var un=unitUnlocked(ui);
+    var un=unitUnlocked(ui), hero=C.gifts.filter(function(g){return g.hero&&g.unit===u.id;})[0];
+    if(hero){ var ho=owns(hero); h+='<div class="hcard '+(ho?'on':'')+'"><div class="em">'+hero.emoji+'</div><div class="tx"><small>'+esc(s.heroTag)+' · '+esc(L(u))+'</small><b>'+esc(L(hero))+'</b><span>'+esc(ho?L(hero.bio):s.heroLocked)+'</span></div>'+(ho?'<i class="seal">'+ico('seal')+'</i>':'<i class="seal">'+ico('lock')+'</i>')+'</div>'; }
     h+='<div class="mh"><span class="me" style="background:'+u.color+'">'+u.emoji+'</span>'+esc(L(u))+(un?'':'<span class="lk">'+ico('lock')+esc(s.lockedModule)+'</span>')+'</div><div class="cards">';
-    C.gifts.forEach(function(g,i){ if(g.unit!==u.id) return; var o=owns(g);
+    C.gifts.forEach(function(g,i){ if(g.unit!==u.id||g.hero) return; var o=owns(g);
       h+='<div class="gc '+(o?'own':'')+(un?'':' lock')+'"><div class="em">'+g.emoji+'</div><div class="nm">'+esc(L(g))+'</div>'+
         (o?'<div class="own-l">'+ico('seal')+esc(s.owned)+'</div>':'<button type="button" class="buy" data-buy="'+i+'" '+(canBuy(g)?'':'disabled')+'>'+(un?'':ico('lock'))+'<i class="coin"></i>'+g.price+'</button>')+'</div>'; });
     h+='</div>';
@@ -594,7 +722,7 @@ function statsHtml(){
   var s=T(), h='<h1 class="brand">'+esc(s.tabStats)+'</h1><div class="tiles">';
   function tile(i,c,t,v,d){ return '<div class="tile"><div class="t '+c+'">'+ico(i)+esc(t)+'</div><div class="v">'+esc(v)+'</div>'+(d?'<div class="d">'+esc(d)+'</div>':'')+'</div>'; }
   h+=tile('book','c-brand',s.statLevel,levelName(),S.xp+' XP')+tile('flame','c-gold',s.statStreak,s.days(displayStreak()),'')+tile('cal','c-ice',s.statWeek,s.lessons(lessonsThisWeek()),'')+tile('flag','c-correct',s.statStations,totalDone()+'/'+totalStations(),s.lessons(lessonsTotal()));
-  h+='</div>'+calendarHtml();
+  h+='</div>'+badgesHtml()+calendarHtml();
   return h;
 }
 function calendarHtml(){
@@ -606,7 +734,7 @@ function calendarHtml(){
   names.forEach(function(n){ h+='<div class="w">'+esc(n)+'</div>'; });
   for(i=0;i<lead;i++) h+='<div></div>';
   var st=0, mi=0;
-  for(i=1;i<=count;i++){ var d=new Date(m.getFullYear(),m.getMonth(),i), c=''; if(played(d)>0){c='s';st++;} else if(missed(d)){c='m';mi++;} if(dayKey(d)===dayKey(now)) c+=' t'; h+='<div class="d '+c+'"><span>'+i+'</span></div>'; }
+  for(i=1;i<=count;i++){ var d=new Date(m.getFullYear(),m.getMonth(),i), c=''; if(played(d)>0){c='s';st++;} else if(shielded(d)){c='p';} else if(missed(d)){c='m';mi++;} if(dayKey(d)===dayKey(now)) c+=' t'; h+='<div class="d '+c+'"><span>'+i+'</span></div>'; }
   h+='</div><div class="legend"><span><i style="background:var(--gold)"></i>'+esc(s.studiedDay)+'</span><span><i style="background:var(--ice)"></i>'+esc(s.missedDay)+'</span></div><div class="sum">'+esc(s.monthSummary(st,mi))+'</div></div>';
   return h;
 }
@@ -619,13 +747,25 @@ function renderLesson(){
   for(i=0;i<lesson.queue.length;i++) h+='<i class="'+(i<lesson.pos?'f':i===lesson.pos?'c':'')+'"></i>';
   if(lesson.reviewing) h+='<span class="rt">'+ico('redo')+esc(s.reviewTag)+'</span>';
   h+='</div><div class="q">'+esc(S.lang==='hu'?q.hu.q:q.en.q)+'</div>';
-  h+='<div class="hintrow">'+mascotHtml()+(lesson.hidden!=null?'<div class="bubble">'+esc(s.hintBubble)+'</div>':'<button type="button" data-hint '+(lesson.hintUsed||lesson.answered!=null?'disabled':'')+'>'+esc(lesson.hintUsed?s.hintUsed:s.hintBtn)+'</button>')+'</div>';
-  var img=q.type==='image'; h+='<div class="opts '+(img?'img':'')+'">';
-  lesson.order.forEach(function(o){
-    var cls='opt'+(img?' pic':''); if(o===lesson.hidden) cls+=' gone'; if(lesson.answered!=null){ if(o===q.c) cls+=' ok'; else if(o===lesson.answered) cls+=' bad'; }
-    h+='<button type="button" class="'+cls+'" data-answer="'+o+'" '+(lesson.answered!=null?'disabled':'')+'>'+(img?iconSvg(q.opts[o].icon,q.opts[o].color):'')+esc(optLabel(q,o))+'</button>';
-  });
-  h+='</div>';
+  if(isOrder(q)){
+    h+='<div class="hintrow">'+mascotHtml()+'<div class="bubble">'+esc(lesson.answered==null?s.orderHint:(lesson.answered==='order'&&lesson.picked.every(function(v,k){return v===k;})?s.orderOk:s.orderBad))+'</div></div>';
+    h+='<div class="opts">';
+    if(lesson.answered==null){
+      lesson.order.forEach(function(o){ var k=lesson.picked.indexOf(o); h+='<button type="button" class="opt oitem '+(k>=0?'picked':'')+'" data-pick="'+o+'"><b>'+(k>=0?k+1:'')+'</b>'+esc(optLabel(q,o))+'</button>'; });
+      h+='</div>'+(lesson.picked.length?'<button type="button" class="secondary" data-orderreset style="margin-top:10px">'+esc(s.orderRetry)+'</button>':'');
+    } else {
+      for(var k=0;k<lesson.order.length;k++){ var okk=lesson.picked[k]===k; h+='<div class="opt oitem '+(okk?'ok':'bad')+'"><b>'+(k+1)+'</b>'+esc(optLabel(q,k))+'</div>'; }
+      h+='</div>';
+    }
+  } else {
+    h+='<div class="hintrow">'+mascotHtml()+(lesson.hidden!=null?'<div class="bubble">'+esc(s.hintBubble)+'</div>':'<button type="button" data-hint '+(lesson.hintUsed||lesson.answered!=null?'disabled':'')+'>'+esc(lesson.hintUsed?s.hintUsed:s.hintBtn)+'</button>')+'</div>';
+    var img=q.type==='image'; h+='<div class="opts '+(img?'img':'')+'">';
+    lesson.order.forEach(function(o){
+      var cls='opt'+(img?' pic':''); if(o===lesson.hidden) cls+=' gone'; if(lesson.answered!=null){ if(o===q.c) cls+=' ok'; else if(o===lesson.answered) cls+=' bad'; }
+      h+='<button type="button" class="'+cls+'" data-answer="'+o+'" '+(lesson.answered!=null?'disabled':'')+'>'+(img?iconSvg(q.opts[o].icon,q.opts[o].color):'')+esc(optLabel(q,o))+'</button>';
+    });
+    h+='</div>';
+  }
   view.innerHTML=h;
   var label=lesson.hearts<=0?s.endLesson:!lastInPass()?s.next:(lesson.toReview.length?s.startReview:s.seeResult);
   foot.innerHTML=lesson.answered!=null?'<div class="footpad"><button type="button" class="primary" data-advance>'+esc(label)+'</button></div>':'';
@@ -641,7 +781,7 @@ function renderResult(){
     h+='<div class="tgain"><i class="coin spin"></i><span class="tv">'+esc(s.talentsGain(r.talents))+'</span>'+(r.mult>1?'<span class="mult">'+esc(s.runBonus(r.mult))+'</span>':'')+'</div>';
     if(r.unitJust) h+='<div class="box">'+esc(s.unitComplete(L(C.units[lesson.ui])))+'</div>'; }
   else { h+='<div class="m">'+esc(s.failBody)+'</div>'; if(hearts()<=0) h+='<div class="box red" id="waitBox">❤️ '+esc(s.waitForHeart(mmss(msToNextHeart())))+'</div>'; }
-  h+='<div class="rmascot">'+mascotHtml()+'<div class="bubble">'+esc(s.mascotResult(r.success?r.stars:0))+'</div></div>';
+  h+='<div class="rmascot">'+mascotHtml()+'<div class="bubble">'+esc(r.grew?s.mascotGrew+' ('+s.stageNames[stage()]+')':s.mascotResult(r.success?r.stars:0))+'</div></div>';
   h+=weekHtml(r.streak);
   h+='<div class="acts">';
   if(!r.success){ if(hearts()>0){ h+='<button type="button" class="primary" data-start="'+lesson.ui+','+lesson.si+'">'+esc(s.retry)+'</button><button type="button" class="secondary" data-home>'+esc(s.backHome)+'</button>'; } else h+='<button type="button" class="primary" data-home>'+esc(s.backHome)+'</button>'; }
@@ -654,9 +794,9 @@ function renderResult(){
 function weekHtml(streak){
   var s=T(), days=weekDays(), today=dayKey(new Date()), claimed=!!S.weekChests[weekKey(new Date())], h='';
   h+='<div class="m" style="margin-top:14px">🔥 '+streak+' '+esc(s.streakSuffix)+' · '+esc(s.weekTitle)+'</div><div class="week">';
-  days.forEach(function(d,i){ var k=dayKey(d), st=played(d)>0, last=i===6, cls='wd'+(st?' s':'')+(k===today?' t':'')+(last?' c':'');
+  days.forEach(function(d,i){ var k=dayKey(d), st=played(d)>0, sh=shielded(d), last=i===6, cls='wd'+(st?' s':'')+(sh?' p':'')+(k===today?' t':'')+(last?' c':'');
     var nm=d.toLocaleDateString(s.locale,{weekday:'short'}).replace('.','');
-    h+='<div class="'+cls+'"><i>'+(last?chestHtml(claimed,30):(st?ico('check'):''))+'</i>'+esc(nm)+'</div>'; });
+    h+='<div class="'+cls+'"><i>'+(last?chestHtml(claimed,30):(st?ico('check'):sh?'🛡️':''))+'</i>'+esc(nm)+'</div>'; });
   return h+'</div>';
 }
 function renderChest(){
@@ -696,6 +836,11 @@ document.getElementById('app').addEventListener('click',function(e){
   if(el.hasAttribute('data-advance')){ advance(); return; }
   if(el.hasAttribute('data-tap')){ tapChest(); return; }
   if(el.hasAttribute('data-hint')){ useHint(); return; }
+  if(d.pick!=null){ pickOrder(+d.pick); return; }
+  if(el.hasAttribute('data-orderreset')){ resetOrder(); return; }
+  if(el.hasAttribute('data-startquiz')){ startQuiz(); return; }
+  if(el.hasAttribute('data-buyshield')){ buyShield(); return; }
+  if(d.coltab){ colTab=d.coltab; render(); return; }
   if(el.hasAttribute('data-weekchest')){ openWeekChest(); return; }
   if(el.hasAttribute('data-home')){ goHome(); return; }
   if(d.gotab){ tab=d.gotab; goHome(); return; }
@@ -704,7 +849,7 @@ document.getElementById('app').addEventListener('click',function(e){
   if(d.lang){ S.lang=d.lang; persist(); render(); openSheet(menuHtml()); return; }
   if(el.hasAttribute('data-profile')){ openSheet(profileHtml()); setTimeout(function(){ var f=document.getElementById('nameField'); if(f) f.focus(); },250); return; }
   if(el.hasAttribute('data-savename')){ var f=document.getElementById('nameField'); S.name=(f?f.value:'').trim(); persist(); render(); return; }
-  if(el.hasAttribute('data-reset')){ if(confirm(T().resetConfirm)){ ['bq-lang','bq-name','bq-xp','bq-talents','bq-progress','bq-heart-losses','bq-streak','bq-laststudy','bq-chests','bq-gift-log','bq-daily','bq-first-study','bq-stars','bq-week-chests'].forEach(function(k){ try{localStorage.removeItem(k);}catch(x){} }); location.reload(); } return; }
+  if(el.hasAttribute('data-reset')){ if(confirm(T().resetConfirm)){ ['bq-lang','bq-name','bq-xp','bq-talents','bq-progress','bq-heart-losses','bq-streak','bq-laststudy','bq-chests','bq-gift-log','bq-daily','bq-first-study','bq-stars','bq-week-chests','bq-shields','bq-shielded','bq-cnt'].forEach(function(k){ try{localStorage.removeItem(k);}catch(x){} }); location.reload(); } return; }
 });
 scrim.addEventListener('click',closeSheet);
 sheet.addEventListener('keydown',function(e){ if(e.key==='Enter'&&e.target.id==='nameField'){ S.name=e.target.value.trim(); persist(); render(); } });

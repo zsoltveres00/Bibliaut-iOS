@@ -9,6 +9,17 @@ $base.gifts = Get-Content "$root\content\gifts.json" -Raw -Encoding UTF8 | Conve
 $units = @()
 foreach ($f in Get-ChildItem "$root\content\modules\*.json" | Sort-Object Name) {
     $u = Get-Content $f.FullName -Raw -Encoding UTF8 | ConvertFrom-Json -AsHashtable
+    # Optional per-module extras: intro story, memory verse and an ordering question per station.
+    $ef = "$root\content\extras\$($u.id).json"
+    if (Test-Path $ef) {
+        $ex = Get-Content $ef -Raw -Encoding UTF8 | ConvertFrom-Json -AsHashtable
+        for ($i = 0; $i -lt $u.stations.Count -and $i -lt $ex.stations.Count; $i++) {
+            $e = $ex.stations[$i]
+            if ($e.intro) { $u.stations[$i].intro = $e.intro }
+            if ($e.verse) { $u.stations[$i].verse = $e.verse }
+            if ($e.order) { $u.stations[$i].qs += [ordered]@{ type = 'order'; hu = $e.order.hu; en = $e.order.en; c = 0 } }
+        }
+    }
     $units += $u
 }
 $content = [ordered]@{ levels = $base.levels; gifts = $base.gifts; icons = $base.icons; units = $units }
