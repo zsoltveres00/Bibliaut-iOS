@@ -68,20 +68,19 @@ struct StatsBar: View {
     @Environment(GameStore.self) private var store
 
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 8) {
-                Chip(text: "\(store.displayStreak)", color: Color.gold) {
-                    Image(systemName: "flame.fill")
-                }
-                Chip(text: "\(store.xp) XP", color: Color.brand) {
-                    Image(systemName: "book.fill")
-                }
-                Chip(text: heartsText, color: Color.wrong) {
-                    Image(systemName: "heart.fill")
-                }
-                Chip(text: "\(store.talents)", color: Color.text) {
-                    TalentCoin(size: 16)
-                }
+        // Wraps to a second line on narrow phones instead of clipping the last chip.
+        FlowLayout(spacing: 7) {
+            Chip(text: "\(store.displayStreak)", color: Color.gold) {
+                Image(systemName: "flame.fill")
+            }
+            Chip(text: "\(store.xp) XP", color: Color.brand) {
+                Image(systemName: "book.fill")
+            }
+            Chip(text: heartsText, color: Color.wrong) {
+                Image(systemName: "heart.fill")
+            }
+            Chip(text: "\(store.talents)", color: Color.text) {
+                TalentCoin(size: 16)
             }
         }
     }
@@ -92,6 +91,41 @@ struct StatsBar: View {
             text += " · " + store.formatCountdown(store.secondsUntilNextHeart)
         }
         return text
+    }
+}
+
+/// Left-to-right layout that wraps subviews onto new rows when they run out of width.
+struct FlowLayout: Layout {
+    var spacing: CGFloat = 8
+
+    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
+        let width = proposal.width ?? .infinity
+        return arrange(subviews, width: width).size
+    }
+
+    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
+        let result = arrange(subviews, width: bounds.width)
+        for (subview, offset) in zip(subviews, result.offsets) {
+            subview.place(at: CGPoint(x: bounds.minX + offset.x, y: bounds.minY + offset.y), proposal: .unspecified)
+        }
+    }
+
+    private func arrange(_ subviews: Subviews, width: CGFloat) -> (size: CGSize, offsets: [CGPoint]) {
+        var offsets: [CGPoint] = []
+        var x: CGFloat = 0, y: CGFloat = 0, rowHeight: CGFloat = 0, maxX: CGFloat = 0
+        for subview in subviews {
+            let size = subview.sizeThatFits(.unspecified)
+            if x > 0, x + size.width > width {
+                x = 0
+                y += rowHeight + spacing
+                rowHeight = 0
+            }
+            offsets.append(CGPoint(x: x, y: y))
+            x += size.width + spacing
+            rowHeight = max(rowHeight, size.height)
+            maxX = max(maxX, x - spacing)
+        }
+        return (CGSize(width: maxX, height: y + rowHeight), offsets)
     }
 }
 
