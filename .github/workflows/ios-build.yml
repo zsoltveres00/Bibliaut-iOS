@@ -28,7 +28,7 @@ jobs:
             -target Bibliaut \
             -sdk iphonesimulator \
             -configuration Debug \
-            -derivedDataPath build/sim \
+            SYMROOT="$PWD/build/sim" \
             CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
             | xcbeautify --renderer github-actions
 
@@ -40,13 +40,13 @@ jobs:
             -target Bibliaut \
             -sdk iphoneos \
             -configuration Release \
-            -derivedDataPath build/device \
+            SYMROOT="$PWD/build/device" \
             CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
             | xcbeautify --renderer github-actions
 
       - name: Package unsigned .ipa
         run: |
-          APP="$(find build/device/Build/Products/Release-iphoneos -maxdepth 1 -name '*.app' | head -1)"
+          APP="$(find build/device/Release-iphoneos -maxdepth 1 -name '*.app' | head -1)"
           test -n "$APP"
           mkdir -p ipa/Payload
           cp -R "$APP" ipa/Payload/
