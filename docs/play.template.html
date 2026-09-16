@@ -174,7 +174,7 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 /* sheets */
 .scrim{position:absolute;inset:0;background:rgba(0,0,0,.3);opacity:0;pointer-events:none;transition:opacity .2s;z-index:5}
 .scrim.show{opacity:1;pointer-events:auto}
-.sheet{position:absolute;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-radius:18px 18px 0 0;padding:10px 20px calc(24px + env(safe-area-inset-bottom,0px));box-shadow:0 -10px 30px rgba(0,0,0,.25);transform:translateY(105%);transition:transform .25s ease}
+.sheet{position:absolute;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-radius:18px 18px 0 0;padding:10px 20px calc(24px + env(safe-area-inset-bottom,0px));box-shadow:0 -10px 30px rgba(0,0,0,.25);transform:translateY(calc(105% + 120px));transition:transform .25s ease}
 .sheet.show{transform:none}
 @media (prefers-reduced-motion:reduce){.sheet,.scrim{transition:none}}
 .grab{width:36px;height:5px;border-radius:3px;background:var(--border);margin:0 auto 12px}
@@ -406,18 +406,18 @@ var S = {
   progress: load('bq-progress',{}), heartLosses: load('bq-heart-losses',[]), streak: load('bq-streak',0),
   lastStudy: load('bq-laststudy',null), chests: load('bq-chests',{}), cards: load('bq-gift-log',[]),
   daily: load('bq-daily',{}), firstStudy: load('bq-first-study',null), stars: load('bq-stars',{}), weekChests: load('bq-week-chests',{}),
-  shields: load('bq-shields',0), shielded: load('bq-shielded',{}), cnt: load('bq-cnt',{correct:0,perfect:0,chests:0,hints:0})
+  shields: load('bq-shields',0), shieldMonth: load('bq-shield-month',null), shielded: load('bq-shielded',{}), cnt: load('bq-cnt',{correct:0,perfect:0,chests:0,hints:0})
 };
 function persist(){
   save('bq-lang',S.lang); save('bq-name',S.name); save('bq-xp',S.xp); save('bq-talents',S.talents);
   save('bq-progress',S.progress); save('bq-heart-losses',S.heartLosses); save('bq-streak',S.streak);
   save('bq-laststudy',S.lastStudy); save('bq-chests',S.chests); save('bq-gift-log',S.cards);
-  save('bq-daily',S.daily); save('bq-first-study',S.firstStudy); save('bq-stars',S.stars); save('bq-week-chests',S.weekChests); save('bq-shields',S.shields); save('bq-shielded',S.shielded); save('bq-cnt',S.cnt);
+  save('bq-daily',S.daily); save('bq-first-study',S.firstStudy); save('bq-stars',S.stars); save('bq-week-chests',S.weekChests); save('bq-shields',S.shields); save('bq-shield-month',S.shieldMonth); save('bq-shielded',S.shielded); save('bq-cnt',S.cnt);
 }
 
 // ---------- rules ----------
 var XP_PER=10, BONUS=5, HEARTS=5, REGEN=5*60*1000, CHEST_AFTER=[4,9], TALENTS_PER_CHEST=20, WEEK_BONUS=50, Q_PER_STATION=10;
-var TALENTS_PER_STATION=5, RUN_SMALL=5, RUN_BIG=10, TWO_STAR_PCT=70, SHIELD_PRICE=60, SHIELD_MAX=2;
+var TALENTS_PER_STATION=5, RUN_SMALL=5, RUN_BIG=10, TWO_STAR_PCT=70, SHIELD_PRICE=100, SHIELD_MAX=5, SHIELD_MONTHLY=3;
 // Mascot growth: study-day thresholds for each stage (egg, chick, young dove, dove, golden dove).
 var STAGES=[0,1,4,10,25];
 
@@ -436,7 +436,7 @@ var STR = {
     mascotName:'Olívia',
     storyTitle:'Történet',verseTitle:'Aranymondás',startQuiz:'Jöhetnek a kérdések!',introBubble:'Figyelj, elmesélem!',
     orderHint:'Koppints a sorokra a helyes sorrendben!',orderRetry:'Újrakezdem',orderOk:'Tökéletes sorrend!',orderBad:'Nem ez a helyes sorrend. Így volt:',
-    treasuresTab:'Kincsek',shopTab:'Bolt',shield:'Széria-pajzs',shieldDesc:'Ha egy napot kihagysz, megvédi a sorozatodat. Magától működik.',shieldOwned:function(n){return 'Nálad: '+n+' db'},shieldMax:'Legfeljebb 2 lehet nálad',shieldUsed:'pajzs védte',
+    treasuresTab:'Kincsek',shopTab:'Bolt',shield:'Széria-pajzs',shieldDesc:'Ha egy napot kihagysz, megvédi a sorozatodat. Magától működik. Minden hónapban 3-at kapsz ajándékba.',shieldOwned:function(n){return 'Nálad: '+n+' db'},shieldMax:'Legfeljebb 5 lehet nálad',shieldUsed:'pajzs védte',
     heroTag:'Bibliai hős',heroLocked:'Teljesítsd a modult, és feloldódik!',heroUnlocked:'Feloldva',
     badgesTitle:'Kitüntetések',badges:{first:'Első lépés',module:'Modul kész',streak7:'7 napos sorozat',streak30:'30 napos sorozat',c100:'100 helyes válasz',c500:'500 helyes válasz',perfect10:'10 hibátlan állomás',chests5:'5 láda',week:'Teljes hét',xp1000:'1000 XP',cards:'Egy modul minden kincse',days30:'30 tanult nap'},
     stageNames:['Tojás','Fióka','Kis galamb','Galamb','Arany galamb'],stageProgress:function(n){return 'még '+n+' tanult nap a következő fokozatig'},stageMax:'Olívia teljesen felnőtt!',
@@ -467,7 +467,7 @@ var STR = {
     mascotName:'Olivia',
     storyTitle:'Story',verseTitle:'Memory verse',startQuiz:'Bring on the questions!',introBubble:'Listen, let me tell you!',
     orderHint:'Tap the lines in the correct order!',orderRetry:'Start over',orderOk:'Perfect order!',orderBad:'Not the right order. It was:',
-    treasuresTab:'Treasures',shopTab:'Shop',shield:'Streak shield',shieldDesc:'If you miss a day, it protects your streak. Works automatically.',shieldOwned:function(n){return 'You have: '+n},shieldMax:'You can hold at most 2',shieldUsed:'protected by a shield',
+    treasuresTab:'Treasures',shopTab:'Shop',shield:'Streak shield',shieldDesc:'If you miss a day, it protects your streak. Works automatically. You get 3 for free every month.',shieldOwned:function(n){return 'You have: '+n},shieldMax:'You can hold at most 5',shieldUsed:'protected by a shield',
     heroTag:'Bible hero',heroLocked:'Finish the module to unlock!',heroUnlocked:'Unlocked',
     badgesTitle:'Badges',badges:{first:'First step',module:'Module complete',streak7:'7-day streak',streak30:'30-day streak',c100:'100 correct answers',c500:'500 correct answers',perfect10:'10 flawless stations',chests5:'5 chests',week:'Full week',xp1000:'1000 XP',cards:'All treasures of a module',days30:'30 study days'},
     stageNames:['Egg','Chick','Young dove','Dove','Golden dove'],stageProgress:function(n){return n+' more study days to the next stage'},stageMax:'Olivia is fully grown!',
@@ -530,7 +530,9 @@ function shielded(d){ return !!S.shielded[dayKey(d)]; }
 function missed(d){ if(S.firstStudy==null) return false; var day=startOfDay(d), first=startOfDay(new Date(S.firstStudy)), today=startOfDay(new Date()); return day>=first && day<today && played(d)===0 && !shielded(d); }
 function parseKey(k){ var p=k.split('-'); return new Date(+p[0],+p[1]-1,+p[2]); }
 // Streak shields: each missed day since the last study consumes one shield and keeps the streak alive.
-function applyShields(){ if(!S.lastStudy) return; var today=startOfDay(new Date()), d=addDays(parseKey(S.lastStudy),1), changed=false;
+// Every month the player gets SHIELD_MONTHLY shields for free (topped up, not added).
+function refillShields(){ var m=new Date(), key=m.getFullYear()+'-'+(m.getMonth()+1); if(S.shieldMonth!==key){ S.shieldMonth=key; if(S.shields<SHIELD_MONTHLY) S.shields=SHIELD_MONTHLY; persist(); } }
+function applyShields(){ refillShields(); if(!S.lastStudy) return; var today=startOfDay(new Date()), d=addDays(parseKey(S.lastStudy),1), changed=false;
   while(d<today && S.shields>0){ S.shielded[dayKey(d)]=true; S.shields--; S.lastStudy=dayKey(d); d=addDays(d,1); changed=true; }
   if(changed) persist(); }
 function studyDays(){ var n=0; for(var k in S.daily) if(S.daily[k]>0) n++; return n; }
@@ -588,7 +590,7 @@ function isOrder(q){ return q.type==='order'; }
 function useHint(){ if(!lesson||lesson.hintUsed||lesson.answered!=null||isOrder(curQ())) return; S.cnt.hints=(S.cnt.hints||0)+1; var c=curQ().c, wrong=lesson.order.filter(function(o){return o!==c;}); if(!wrong.length) return; lesson.hidden=wrong[Math.floor(Math.random()*wrong.length)]; lesson.hintUsed=true; haptic('success'); render(); }
 function answer(i){ if(!lesson||lesson.answered!=null||isOrder(curQ())) return; settle(i===curQ().c,i); }
 // Ordering question: tap the items in sequence; it is checked once every item has been picked.
-function pickOrder(i){ if(!lesson||lesson.answered!=null||!isOrder(curQ())||lesson.picked.indexOf(i)>=0) return; lesson.picked.push(i); if(lesson.picked.length<lesson.order.length){ render(); return; } settle(lesson.picked.every(function(v,k){return v===k;}),'order'); }
+function pickOrder(i){ if(!lesson||lesson.answered!=null||!isOrder(curQ())) return; var at=lesson.picked.indexOf(i); if(at>=0){ lesson.picked.splice(at,1); render(); return; } lesson.picked.push(i); if(lesson.picked.length<lesson.order.length){ render(); return; } settle(lesson.picked.every(function(v,k){return v===k;}),'order'); }
 function resetOrder(){ if(!lesson||lesson.answered!=null) return; lesson.picked=[]; render(); }
 function settle(ok,i){ lesson.answered=i;
   if(ok){ if(!lesson.reviewing) lesson.firstTry++; lesson.run++; lesson.bestRun=Math.max(lesson.bestRun,lesson.run); }
@@ -827,7 +829,7 @@ function renderChest(){
 
 // ---------- sheets ----------
 function openSheet(html){ var fh=foot.offsetHeight||0; sheet.style.bottom=fh+'px'; scrim.style.bottom=fh+'px'; sheet.innerHTML='<div class="grab"></div><button type="button" class="xclose" data-closesheet aria-label="'+esc(T().close)+'">'+ico('x')+'</button>'+html; sheet.classList.add('show'); scrim.classList.add('show'); }
-function closeSheet(){ sheet.classList.remove('show'); scrim.classList.remove('show'); }
+function closeSheet(){ sheet.classList.remove('show'); scrim.classList.remove('show'); sheet.style.bottom=''; scrim.style.bottom=''; }
 function menuHtml(){
   var s=T();
   return '<h4>'+esc(s.menu)+'</h4>'+
@@ -864,7 +866,7 @@ document.getElementById('app').addEventListener('click',function(e){
   if(d.lang){ S.lang=d.lang; persist(); render(); openSheet(menuHtml()); return; }
   if(el.hasAttribute('data-profile')){ openSheet(profileHtml()); setTimeout(function(){ var f=document.getElementById('nameField'); if(f) f.focus(); },250); return; }
   if(el.hasAttribute('data-savename')){ var f=document.getElementById('nameField'); S.name=(f?f.value:'').trim(); persist(); render(); return; }
-  if(el.hasAttribute('data-reset')){ if(confirm(T().resetConfirm)){ ['bq-lang','bq-name','bq-xp','bq-talents','bq-progress','bq-heart-losses','bq-streak','bq-laststudy','bq-chests','bq-gift-log','bq-daily','bq-first-study','bq-stars','bq-week-chests','bq-shields','bq-shielded','bq-cnt'].forEach(function(k){ try{localStorage.removeItem(k);}catch(x){} }); location.reload(); } return; }
+  if(el.hasAttribute('data-reset')){ if(confirm(T().resetConfirm)){ ['bq-lang','bq-name','bq-xp','bq-talents','bq-progress','bq-heart-losses','bq-streak','bq-laststudy','bq-chests','bq-gift-log','bq-daily','bq-first-study','bq-stars','bq-week-chests','bq-shields','bq-shield-month','bq-shielded','bq-cnt'].forEach(function(k){ try{localStorage.removeItem(k);}catch(x){} }); location.reload(); } return; }
 });
 scrim.addEventListener('click',closeSheet);
 sheet.addEventListener('keydown',function(e){ if(e.key==='Enter'&&e.target.id==='nameField'){ S.name=e.target.value.trim(); persist(); render(); } });
