@@ -8,17 +8,41 @@ struct ResultView: View {
         let s = store.strings
         ScrollView {
             VStack(spacing: 6) {
-                Text(result.success ? "🎉" : "💔")
-                    .font(.system(size: 42))
-                Text(result.success ? s.successTitle : s.failTitle)
+                if result.success {
+                    ResultStars(stars: result.stars)
+                        .padding(.bottom, 6)
+                } else {
+                    Text("💔")
+                        .font(.system(size: 42))
+                }
+                Text(result.success ? s.starsTitle(result.stars) : s.failTitle)
                     .font(.heading(24))
                     .foregroundStyle(Color.text)
+                Text(s.mistakesFixed(result.mistakes))
+                    .font(.system(size: 14))
+                    .foregroundStyle(Color.muted)
                     .padding(.bottom, 8)
+                    .opacity(result.success ? 1 : 0)
                 Text("+\(result.xpGain) XP")
                     .font(.heading(38))
                     .foregroundStyle(Color.gold)
 
                 if result.success {
+                    HStack(spacing: 6) {
+                        TalentCoin(size: 20)
+                        Text(s.talentsGain(result.talentGain))
+                            .font(.system(size: 17, weight: .bold))
+                            .foregroundStyle(Color.text)
+                        if result.talentMultiplier > 1 {
+                            Text(s.runBonus(result.talentMultiplier))
+                                .font(.system(size: 12, weight: .bold))
+                                .foregroundStyle(Color.bannerInk)
+                                .padding(.horizontal, 8)
+                                .padding(.vertical, 4)
+                                .background(Color.heroGradient, in: Capsule())
+                        }
+                    }
+                    .padding(.top, 4)
                     Text("🔥 \(result.streak) \(s.streakSuffix)")
                         .font(.system(size: 15))
                         .foregroundStyle(Color.muted)
@@ -81,6 +105,34 @@ struct ResultView: View {
     }
 }
 
+/// Three big stars that pop in one after another; the unearned ones stay grey outlines.
+struct ResultStars: View {
+    let stars: Int
+    @State private var shown = 0
+
+    var body: some View {
+        HStack(spacing: 10) {
+            ForEach(0..<3, id: \.self) { i in
+                let earned = i < stars
+                Image(systemName: earned ? "star.fill" : "star")
+                    .font(.system(size: i == 1 ? 54 : 42, weight: .bold))
+                    .foregroundStyle(earned ? Color.star : Color.border)
+                    .shadow(color: earned ? Color.star.opacity(0.6) : .clear, radius: 8)
+                    .scaleEffect(i < shown ? 1 : 0.3)
+                    .opacity(i < shown ? 1 : 0)
+                    .offset(y: i == 1 ? -8 : 0)
+            }
+        }
+        .frame(height: 70)
+        .task {
+            for i in 0..<3 {
+                try? await Task.sleep(for: .milliseconds(i == 0 ? 150 : 220))
+                withAnimation(.spring(response: 0.4, dampingFraction: 0.55)) { shown = i + 1 }
+            }
+        }
+    }
+}
+
 /// Shown right after a treasure chest on the path was tapped open.
 struct ChestRewardView: View {
     @Environment(GameStore.self) private var store
@@ -92,8 +144,8 @@ struct ChestRewardView: View {
             Text(s.chestFound)
                 .font(.heading(24))
                 .foregroundStyle(Color.text)
-            ChestIcon(size: 84, color: Color.gold)
-                .padding(.vertical, 14)
+            ChestView(open: true, size: 120)
+                .padding(.vertical, 20)
             HStack(spacing: 8) {
                 TalentCoin(size: 30)
                 Text(s.talentsGain(talents))

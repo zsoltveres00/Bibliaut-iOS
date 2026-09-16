@@ -3,11 +3,17 @@
 A webes Bibliaút artifact natív iPhone/iPad-portja. Ugyanaz a tartalom (6 szakasz, 60 állomás,
 600 kérdés, 8 képes kérdés, 8 ajándékkártya), ugyanaz az alapjátékmenet, plusz néhány natív extra:
 
-- ösvény állomásokkal, kincsesládákkal (5. és 10. állomás után), szakaszonkénti feloldással
+- ösvény állomásokkal, kincsesládákkal (5. és 10. állomás után), szakaszonkénti feloldással;
+  a ládák rajzolt fa-ládák, kinyitás után nyitva maradnak
 - 5 szív, 5 percenként regenerálódik (globálisan, nem leckénként)
-- 10 XP / helyes válasz + 5 XP állomás-bónusz, szintek (Újonc → Bibliatudós)
-- **talentum**: a ládák egy koppintásra 20 talentumot adnak; a Gyűjtemény fülön 30 talentumért
-  vásárolhatók az ajándékkártyák (12 láda × 20 = 240 = 8 kártya × 30)
+- **hibajavító kör**: a lecke végén a rosszul megválaszolt kérdések újra jönnek, amíg mind jó nem
+  lesz – csak utána zárul az állomás
+- **csillagok**: hibátlan első kör = 3 csillag (tele sárga), ≥70 % = 2 (fél sárga), alatta 1 (fehér
+  körvonal); az ösvényen a teljesített állomás közepén a legjobb eredmény csillaga látszik
+- 10 XP / első próbálkozásra helyes válasz + 5 XP állomás-bónusz, szintek (Újonc → Bibliatudós)
+- **talentum**: minden teljesített állomás 5 talentumot ad, 5-ös helyes sorozatnál ×1,5, 10-esnél ×2
+  (5 / 8 / 10); a ládák egy koppintásra 20-at adnak; a Gyűjtemény fülön 50 talentumért vásárolhatók
+  az ajándékkártyák
 - **Statisztika** fül: szint, sorozat, heti/összes lecke, havi naptár (arany = tanult nap,
   jégkék ❄ = kihagyott „befagyasztott” nap, karika = ma)
 - **Menü** (színes „•••” gomb): Profil (név), Nyelv (HU/EN), + 2 szabad hely későbbi funkcióknak
@@ -50,7 +56,7 @@ Mentések: a haladás `UserDefaults`-ban van (`bq-*` kulcsok), az app törlésé
 | Fájl | Mi van benne |
 |---|---|
 | `Bibliaut/BibliautApp.swift` | belépési pont + `RootView` (képernyőváltás: fő / lecke / eredmény / láda) |
-| `Bibliaut/Theme.swift` | színpaletta (light/dark), betűk, közös gombok, `TalentCoin` és `ChestIcon` |
+| `Bibliaut/Theme.swift` | színpaletta (light/dark), betűk, közös gombok, `TalentCoin`, rajzolt `ChestView`, `StationStar` |
 | `Bibliaut/Models/Content.swift` | `Codable` modellek, `content.json` betöltése |
 | `Bibliaut/Models/GameStore.swift` | játéklogika + mentés `UserDefaults`-ba (`bq-*` kulcsok, mint a weben) |
 | `Bibliaut/Models/Strings.swift` | HU/EN UI-szövegek |
@@ -65,7 +71,7 @@ Mentések: a haladás `UserDefaults`-ban van (`bq-*` kulcsok), az app törlésé
 
 ## Mentett kulcsok (UserDefaults)
 
-`bq-lang`, `bq-name`, `bq-xp`, `bq-talents`, `bq-progress`, `bq-heart-losses`, `bq-streak`,
+`bq-lang`, `bq-name`, `bq-xp`, `bq-talents`, `bq-progress`, `bq-stars` (legjobb csillag állomásonként), `bq-heart-losses`, `bq-streak`,
 `bq-laststudy`, `bq-chests`, `bq-gift-log` (megvett kártyák), `bq-daily` (napi leckeszám),
 `bq-first-study`.
 

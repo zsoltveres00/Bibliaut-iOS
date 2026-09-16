@@ -31,13 +31,31 @@ struct Strings {
     var nextStation: String { t("Következő állomás", "Next station") }
     var retry: String { t("Próbáld újra", "Try again") }
     var streakSuffix: String { t("napos sorozat", "day streak") }
+    var reviewTag: String { t("Hibák javítása", "Fix your mistakes") }
+    var startReview: String { t("Hibák javítása", "Fix mistakes") }
+    var reviewHint: String { t("Ami nem sikerült, azt még egyszer megkérdezzük.", "We'll ask the ones you missed once more.") }
+    func starsTitle(_ stars: Int) -> String {
+        switch stars {
+        case 3: return t("Tökéletes!", "Perfect!")
+        case 2: return t("Szép munka!", "Nice work!")
+        default: return t("Állomás teljesítve!", "Station complete!")
+        }
+    }
+    func mistakesFixed(_ n: Int) -> String {
+        n == 0 ? t("Egy hibád sem volt!", "Not a single mistake!")
+               : t("\(n) hibát kijavítottál", n == 1 ? "You fixed 1 mistake" : "You fixed \(n) mistakes")
+    }
+    func runBonus(_ multiplier: Double) -> String {
+        let m = multiplier == 2 ? "2" : "1,5"
+        return t("×\(m) sorozat-bónusz", "×\(multiplier == 2 ? "2" : "1.5") streak bonus")
+    }
 
     // Chest & talents
     var talents: String { t("talentum", "talents") }
     var chestFound: String { t("Kincsesládát találtál!", "You found a treasure chest!") }
     func talentsGain(_ n: Int) -> String { t("+\(n) talentum", "+\(n) talents") }
     func talentsBalance(_ n: Int) -> String { t("Egyenleged: \(n) talentum", "Your balance: \(n) talents") }
-    var chestHint: String { t("A ládákat az ösvényen minden 5. állomás után találod.", "Chests sit on the path after every 5th station.") }
+    var chestHint: String { t("Minden teljesített állomás talentumot ad, a ládák minden 5. állomás után extra 20-at.", "Every finished station earns talents; chests after every 5th station hold 20 more.") }
 
     // Bottom bar & menu
     var tabHome: String { t("Ösvény", "Path") }

@@ -26,23 +26,31 @@ extension Color {
         adaptive(light: UIColor(hex: light), dark: UIColor(hex: dark))
     }
 
-    static let bg        = adaptive("#EFE6D6", "#201B2E")
-    static let surface   = adaptive("#FFFFFF", "#2B2440")
-    static let text      = adaptive("#241F33", "#F1E9D8")
-    static let muted     = adaptive("#6B6154", "#B7AC9A")
-    static let brand     = adaptive("#5B2A3A", "#C07E93")
-    static let brandInk  = adaptive("#FBF6EC", "#201B2E")
-    static let bannerInk = Color(hex: "#FBF6EC")
-    static let gold      = adaptive("#9C6E22", "#E0B563")
-    static let correct   = adaptive("#3F7A4E", "#5FAE72")
-    static let wrong     = adaptive("#A83B32", "#D46856")
+    static let bg        = adaptive("#F3F1FF", "#161327")
+    static let surface   = adaptive("#FFFFFF", "#241F3B")
+    static let text      = adaptive("#1E1B3A", "#F4F1FF")
+    static let muted     = adaptive("#6B6690", "#A7A1C6")
+    static let brand     = adaptive("#5B3FD1", "#A78BFA")
+    static let brand2    = adaptive("#9B4DE0", "#E08BF7")
+    static let brandInk  = adaptive("#FFFFFF", "#161327")
+    static let bannerInk = Color(hex: "#FFFFFF")
+    static let gold      = adaptive("#F2A900", "#FFC83D")
+    /// Bright star yellow, readable on any of the section colours.
+    static let star      = Color(hex: "#FFD23F")
+    static let correct   = adaptive("#22A559", "#4ADE80")
+    static let wrong     = adaptive("#E5484D", "#F87171")
     /// "Frozen" (missed) days in the statistics calendar.
-    static let ice       = adaptive("#D9E7F2", "#2E4058")
-    static let iceInk    = adaptive("#4A6B8A", "#9FBAD6")
-    static let border    = adaptive(light: UIColor(red: 36/255, green: 31/255, blue: 51/255, alpha: 0.14),
-                                    dark: UIColor(red: 241/255, green: 233/255, blue: 216/255, alpha: 0.14))
-    static let shadow    = adaptive(light: UIColor(red: 36/255, green: 31/255, blue: 51/255, alpha: 0.10),
-                                    dark: UIColor(white: 0, alpha: 0.4))
+    static let ice       = adaptive("#D6ECFF", "#243A5C")
+    static let iceInk    = adaptive("#2F79C9", "#8FC4FF")
+    static let chestWood = Color(hex: "#9A5B2C")
+    static let chestLid  = Color(hex: "#B8712F")
+    static let border    = adaptive(light: UIColor(red: 30/255, green: 27/255, blue: 58/255, alpha: 0.12),
+                                    dark: UIColor(red: 244/255, green: 241/255, blue: 255/255, alpha: 0.14))
+    static let shadow    = adaptive(light: UIColor(red: 60/255, green: 40/255, blue: 140/255, alpha: 0.14),
+                                    dark: UIColor(white: 0, alpha: 0.45))
+
+    /// Header / hero gradient.
+    static let heroGradient = LinearGradient(colors: [brand, brand2], startPoint: .topLeading, endPoint: .bottomTrailing)
 }
 
 extension Font {
@@ -72,15 +80,71 @@ struct TalentCoin: View {
     }
 }
 
-/// Treasure chest glyph used on the path, in the bottom bar and on the reward screen.
-struct ChestIcon: View {
-    var size: CGFloat = 26
-    var color: Color = .gold
+/// Treasure chest drawn from shapes: a wooden body with a gold band and lock, and a lid that
+/// swings open (with sparkles) once the chest has been claimed.
+struct ChestView: View {
+    var open: Bool
+    var size: CGFloat = 56
 
     var body: some View {
-        Image(systemName: "archivebox.fill")
-            .font(.system(size: size, weight: .semibold))
-            .foregroundStyle(color)
+        let w = size
+        let bodyH = w * 0.48
+        let lidH = w * 0.34
+        let band = w * 0.11
+        VStack(spacing: 0) {
+            ZStack {
+                UnevenRoundedRectangle(topLeadingRadius: w * 0.26, bottomLeadingRadius: w * 0.04,
+                                       bottomTrailingRadius: w * 0.04, topTrailingRadius: w * 0.26)
+                    .fill(LinearGradient(colors: [Color.chestLid, Color.chestWood], startPoint: .top, endPoint: .bottom))
+                UnevenRoundedRectangle(topLeadingRadius: w * 0.26, bottomLeadingRadius: w * 0.04,
+                                       bottomTrailingRadius: w * 0.04, topTrailingRadius: w * 0.26)
+                    .stroke(Color.chestWood.opacity(0.7), lineWidth: max(1, w / 40))
+                Rectangle().fill(Color.gold).frame(width: band)
+            }
+            .frame(width: w, height: lidH)
+            .rotation3DEffect(.degrees(open ? -105 : 0), axis: (x: 1, y: 0, z: 0),
+                              anchor: .bottom, perspective: 0.5)
+            .zIndex(open ? 0 : 1)
+
+            ZStack {
+                RoundedRectangle(cornerRadius: w * 0.08)
+                    .fill(LinearGradient(colors: [Color.chestWood, Color.chestWood.opacity(0.8)], startPoint: .top, endPoint: .bottom))
+                RoundedRectangle(cornerRadius: w * 0.08)
+                    .stroke(Color.chestWood.opacity(0.7), lineWidth: max(1, w / 40))
+                Rectangle().fill(Color.gold).frame(height: band)
+                    .frame(maxHeight: .infinity, alignment: .top)
+                Rectangle().fill(Color.gold).frame(width: band)
+                RoundedRectangle(cornerRadius: w * 0.05)
+                    .fill(Color.gold)
+                    .overlay(RoundedRectangle(cornerRadius: w * 0.05).stroke(Color.chestWood, lineWidth: max(1, w / 40)))
+                    .frame(width: w * 0.22, height: w * 0.22)
+                    .overlay(Circle().fill(Color.chestWood).frame(width: w * 0.07, height: w * 0.07))
+                    .offset(y: -bodyH * 0.12)
+                if open {
+                    Image(systemName: "sparkles")
+                        .font(.system(size: w * 0.42, weight: .bold))
+                        .foregroundStyle(Color.star)
+                        .shadow(color: Color.star.opacity(0.8), radius: w * 0.12)
+                        .offset(y: -bodyH * 0.55)
+                }
+            }
+            .frame(width: w, height: bodyH)
+        }
+        .frame(width: w, height: lidH + bodyH)
+        .shadow(color: Color.shadow, radius: w * 0.06, y: w * 0.04)
+    }
+}
+
+/// The star a finished station shows on the path: full for 3 stars, half for 2, an outline for 1.
+struct StationStar: View {
+    let stars: Int
+    var size: CGFloat = 20
+
+    var body: some View {
+        Image(systemName: stars >= 3 ? "star.fill" : (stars == 2 ? "star.leadinghalf.filled" : "star"))
+            .font(.system(size: size, weight: .bold))
+            .foregroundStyle(stars >= 2 ? Color.star : Color.white)
+            .shadow(color: .black.opacity(0.25), radius: 1, y: 1)
     }
 }
 

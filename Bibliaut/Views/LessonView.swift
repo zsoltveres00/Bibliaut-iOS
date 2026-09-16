@@ -38,11 +38,17 @@ private struct LessonContent: View {
                 .padding(.bottom, 16)
 
                 HStack(spacing: 5) {
-                    ForEach(0..<lesson.qs.count, id: \.self) { i in
+                    ForEach(0..<lesson.queue.count, id: \.self) { i in
                         Circle()
-                            .fill(i < lesson.idx ? Color.gold : Color.clear)
-                            .overlay(Circle().stroke(i <= lesson.idx ? Color.gold : Color.border, lineWidth: 2))
+                            .fill(i < lesson.pos ? dotColor : Color.clear)
+                            .overlay(Circle().stroke(i <= lesson.pos ? dotColor : Color.border, lineWidth: 2))
                             .frame(width: 9, height: 9)
+                    }
+                    if lesson.reviewing {
+                        Label(s.reviewTag, systemImage: "arrow.counterclockwise")
+                            .font(.system(size: 12, weight: .bold))
+                            .foregroundStyle(Color.wrong)
+                            .padding(.leading, 6)
                     }
                 }
                 .padding(.bottom, 20)
@@ -95,7 +101,7 @@ private struct LessonContent: View {
             .padding(.top, 14)
             .padding(.bottom, 24)
         }
-        .id(lesson.idx) // reset scroll position for each question
+        .id("\(lesson.reviewing)-\(lesson.pos)") // reset scroll position for each question
         .background(Color.bg)
         .safeAreaInset(edge: .bottom, spacing: 0) {
             if lesson.answered != nil {
@@ -110,9 +116,12 @@ private struct LessonContent: View {
         .animation(.easeOut(duration: 0.18), value: lesson.answered)
     }
 
+    private var dotColor: Color { lesson.reviewing ? Color.wrong : Color.gold }
+
     private func nextLabel(_ s: Strings) -> String {
         if lesson.hearts <= 0 { return s.endLesson }
-        return lesson.isLast ? s.seeResult : s.next
+        guard lesson.isLastInPass else { return s.next }
+        return lesson.toReview.isEmpty ? s.seeResult : s.startReview
     }
 
     private func state(for orig: Int) -> OptionState {

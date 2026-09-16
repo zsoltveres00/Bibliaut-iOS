@@ -32,17 +32,27 @@ struct HomeView: View {
         let s = store.strings
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
-                Text(s.brand)
-                    .font(.heading(28))
-                    .foregroundStyle(Color.text)
-                Text(store.playerName.isEmpty ? s.subtitle : s.greeting(store.playerName))
-                    .font(.system(size: 15))
-                    .foregroundStyle(Color.muted)
-                    .padding(.top, 2)
-                Text("\(s.level): \(store.levelName)")
-                    .font(.system(size: 13, weight: .semibold))
-                    .foregroundStyle(Color.gold)
-                    .padding(.top, 4)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(s.brand)
+                        .font(.heading(28))
+                    Text(store.playerName.isEmpty ? s.subtitle : s.greeting(store.playerName))
+                        .font(.system(size: 15))
+                        .opacity(0.9)
+                    HStack(spacing: 6) {
+                        Image(systemName: "rosette")
+                        Text("\(s.level): \(store.levelName)")
+                    }
+                    .font(.system(size: 13, weight: .bold))
+                    .padding(.horizontal, 10)
+                    .padding(.vertical, 5)
+                    .background(Color.white.opacity(0.18), in: Capsule())
+                    .padding(.top, 8)
+                }
+                .foregroundStyle(Color.bannerInk)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(18)
+                .background(Color.heroGradient, in: RoundedRectangle(cornerRadius: 18))
+                .shadow(color: Color.shadow, radius: 8, y: 4)
 
                 StatsBar()
                     .padding(.vertical, 12)
@@ -288,10 +298,13 @@ struct StationRow: View {
 
     var body: some View {
         let unit = store.content.units[unitIndex]
+        let unitColor = Color(hex: unit.color)
         let completed = store.isStationDone(unit.id, stationIndex)
         let unlocked = store.isUnitUnlocked(unitIndex)
             && (stationIndex == 0 || store.isStationDone(unit.id, stationIndex - 1))
         let canPlay = unlocked && store.currentHearts > 0
+        let next = store.nextStation
+        let isNext = next?.unitIndex == unitIndex && next?.stationIndex == stationIndex
 
         HStack(spacing: 0) {
             if pos != .l { Spacer(minLength: 0) }
@@ -300,19 +313,22 @@ struct StationRow: View {
             } label: {
                 VStack(spacing: 2) {
                     ZStack {
+                        if isNext {
+                            Circle()
+                                .stroke(unitColor.opacity(0.35), lineWidth: 5)
+                                .padding(-6)
+                        }
                         Circle()
-                            .fill(completed ? Color.gold : (unlocked ? Color.brand : Color.surface))
-                            .shadow(color: Color.shadow, radius: 3, y: 2)
+                            .fill(unlocked ? unitColor : Color.surface)
+                            .shadow(color: unlocked ? unitColor.opacity(0.45) : Color.shadow, radius: 4, y: 3)
                         Circle()
-                            .stroke(completed ? Color.gold : (unlocked ? Color.brand : Color.border), lineWidth: 2)
+                            .stroke(unlocked ? Color.white.opacity(0.7) : Color.border, lineWidth: 2)
                         if completed {
-                            Image(systemName: "checkmark")
-                                .font(.system(size: 17, weight: .bold))
-                                .foregroundStyle(Color.brandInk)
+                            StationStar(stars: store.stationStars(unit.id, stationIndex), size: 22)
                         } else if unlocked {
                             Text("\(stationIndex + 1)")
                                 .font(.system(size: 17, weight: .bold))
-                                .foregroundStyle(Color.brandInk)
+                                .foregroundStyle(Color.bannerInk)
                         } else {
                             Image(systemName: "lock.fill")
                                 .font(.system(size: 15, weight: .semibold))
@@ -355,25 +371,25 @@ struct ChestRow: View {
             store.claimChest(unitIndex: unitIndex, stationIndex: stationIndex)
         } label: {
             ZStack {
-                RoundedRectangle(cornerRadius: 14)
-                    .fill(ready ? Color.gold : Color.surface)
-                    .shadow(color: Color.shadow, radius: 3, y: 2)
-                RoundedRectangle(cornerRadius: 14)
-                    .stroke(ready ? Color.gold : Color.border, lineWidth: 2)
-                if claimed {
-                    Image(systemName: "checkmark")
-                        .font(.system(size: 20, weight: .bold))
-                        .foregroundStyle(Color.gold)
-                } else if ready {
-                    ChestIcon(size: 24, color: Color.brandInk)
-                } else {
+                if ready {
+                    Circle()
+                        .fill(Color.star.opacity(0.35))
+                        .blur(radius: 10)
+                        .frame(width: 70, height: 70)
+                }
+                ChestView(open: claimed, size: 54)
+                    .saturation(ready || claimed ? 1 : 0.2)
+                if !ready && !claimed {
                     Image(systemName: "lock.fill")
-                        .font(.system(size: 18, weight: .semibold))
-                        .foregroundStyle(Color.muted)
+                        .font(.system(size: 13, weight: .bold))
+                        .foregroundStyle(Color.bannerInk)
+                        .padding(5)
+                        .background(Color.muted, in: Circle())
+                        .offset(x: 20, y: -18)
                 }
             }
-            .frame(width: 50, height: 50)
-            .opacity(claimed ? 0.6 : (ready ? 1 : 0.45))
+            .frame(width: 60, height: 60)
+            .opacity(claimed ? 0.75 : (ready ? 1 : 0.55))
             .anchorPreference(key: NodeAnchorKey.self, value: .center) { [$0] }
         }
         .buttonStyle(.plain)
