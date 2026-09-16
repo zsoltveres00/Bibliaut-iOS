@@ -50,9 +50,13 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 .srow .st svg{width:24px;height:24px;fill:currentColor}
 .srow .st .coin{width:22px;height:22px}
 .srow .st .n{color:var(--text)}
-.srow .clk{width:16px;height:16px;transform:rotate(-90deg);margin-left:1px}
-.srow .clk circle{fill:none;stroke-width:3}
-.srow .clk .bg{stroke:var(--border)}.srow .clk .fg{stroke:var(--wrong);stroke-linecap:round}
+.srow .tm{font-size:11px;font-weight:700;color:var(--muted);margin-left:2px;font-variant-numeric:tabular-nums}
+/* mascot hint in the lesson */
+.hintrow{display:flex;align-items:center;gap:8px;margin:-8px 0 16px}
+.hintrow .mascot{width:40px;height:40px}
+.hintrow button{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--brand);background:var(--surface);border:1.5px solid var(--brand);border-radius:999px;padding:6px 12px}
+.hintrow button:disabled{color:var(--muted);border-color:var(--border);cursor:default}
+.opt.gone{opacity:.3;text-decoration:line-through;pointer-events:none}
 .c-gold{color:var(--gold)}.c-brand{color:var(--brand)}.c-wrong{color:var(--wrong)}.c-text{color:var(--text)}.c-muted{color:var(--muted)}.c-correct{color:var(--correct)}.c-ice{color:var(--ice-ink)}
 .coin{display:inline-block;border-radius:50%;background:var(--gold);position:relative;flex:none;width:16px;height:16px}
 .coin::before{content:"";position:absolute;inset:14%;border-radius:50%;border:1.5px solid color-mix(in srgb,var(--brand-ink) 55%,transparent)}
@@ -86,13 +90,14 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 .node .dot svg{width:24px;height:24px;filter:drop-shadow(0 1px 1px rgba(0,0,0,.3))}
 .node.done .dot,.node.open .dot{background:linear-gradient(color-mix(in srgb,var(--uc) 85%,#fff),var(--uc));--edge:color-mix(in srgb,var(--uc) 65%,#000)}
 .node.done .dot svg{fill:var(--star);color:var(--star)}.node.done .dot svg.s1{fill:none;color:#fff}
-.node.next .dot::before{content:"";position:absolute;inset:-9px -9px -1px;border-radius:50%;border:4px solid var(--uc);opacity:.6;animation:pulse 1.6s ease-out infinite}
-@keyframes pulse{0%{transform:scale(.85);opacity:.7}70%{transform:scale(1.15);opacity:0}100%{transform:scale(1.15);opacity:0}}
-@media (prefers-reduced-motion:reduce){.node.next .dot::before{animation:none;opacity:.5}}
+.ring{position:absolute;left:50%;top:50%;width:76px;height:70px;margin:-33px 0 0 -38px;border-radius:50%;border:4px solid var(--uc);pointer-events:none;animation:pulse 1.5s ease-in-out infinite}
+.node .ring{top:calc(50% + 4px)}
+@keyframes pulse{0%,100%{transform:scale(.92);opacity:.35}50%{transform:scale(1.06);opacity:.9}}
 .node.open.nohearts .dot{opacity:.5}
 .node.locked .dot{opacity:.55;--edge:color-mix(in srgb,var(--muted) 45%,transparent)}.node.locked .dot svg{fill:var(--muted);width:16px;height:16px;filter:none}
 .node small{font-size:10px;font-weight:600;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:104px}
-.chest{position:absolute;left:50%;top:0;transform:translateX(-50%);width:60px;height:60px;display:grid;place-items:center}
+.chest{position:absolute;top:0;transform:translateX(-50%);width:60px;height:60px;display:grid;place-items:center}
+.chest .ring{--uc:var(--gold);width:78px;height:72px;margin:-36px 0 0 -39px}
 .chest.locked{opacity:.55;cursor:default}.chest.locked .cbox{filter:saturate(.2)}
 .chest.claimed{opacity:.75;cursor:default}
 .chest.ready::before{content:"";position:absolute;width:70px;height:70px;border-radius:50%;background:color-mix(in srgb,var(--star) 35%,transparent);filter:blur(10px)}
@@ -146,16 +151,23 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 .card-bal{display:flex;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px;margin-top:14px}
 .card-bal b{display:block;font-size:16px}.card-bal span{font-size:12px;color:var(--muted)}
 .intro{font-size:13px;color:var(--muted);display:flex;gap:5px;align-items:center;margin:14px 0;flex-wrap:wrap}
-.cards{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.gc{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:10px;display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center}
-.gc.own{border:1.5px solid var(--gold)}
-.gc .em{font-size:44px;padding-top:6px;line-height:1}
+.mh{display:flex;align-items:center;gap:8px;margin:18px 0 8px;font-family:Spectral,Georgia,serif;font-size:16px;font-weight:700}
+.mh .me{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:16px;color:#fff}
+.mh .lk{margin-left:auto;font-size:11px;font-weight:700;color:var(--muted);font-family:inherit;display:flex;align-items:center;gap:4px;white-space:nowrap;flex:none}
+.mh .lk svg{width:12px;height:12px;fill:currentColor}
+.cards{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.gc{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:8px 6px;display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;min-width:0}
+.gc.own{border:1.5px solid var(--gold);background:color-mix(in srgb,var(--gold) 8%,var(--surface))}
+.gc .em{font-size:36px;padding-top:4px;line-height:1}
 .gc:not(.own) .em{filter:grayscale(1);opacity:.45}
-.gc .nm{font-size:13px;font-weight:600;height:34px;display:flex;align-items:center;text-align:center}
-.gc .own-l{display:flex;gap:4px;align-items:center;color:var(--gold);font-weight:700;font-size:13px;padding:9px 0}
-.gc .own-l svg{width:14px;height:14px;fill:currentColor}
-.gc .buy{width:100%;display:flex;justify-content:center;align-items:center;gap:5px;padding:9px 0;border-radius:8px;font-size:13px;font-weight:700;background:var(--brand);color:var(--brand-ink)}
+.gc.lock .em{opacity:.25}
+.gc .nm{font-size:11px;font-weight:600;height:30px;display:flex;align-items:center;text-align:center;line-height:1.2}
+.gc .own-l{display:flex;gap:4px;align-items:center;color:var(--gold);font-weight:700;font-size:12px;padding:7px 0}
+.gc .own-l svg{width:13px;height:13px;fill:currentColor}
+.gc .buy{width:100%;display:flex;justify-content:center;align-items:center;gap:4px;padding:7px 0;border-radius:8px;font-size:12px;font-weight:700;background:var(--brand);color:var(--brand-ink)}
+.gc .buy .coin{width:13px;height:13px}
 .gc .buy:disabled{background:var(--bg);color:var(--muted);border:1px solid var(--border);cursor:default}
+.gc .buy svg{width:12px;height:12px;fill:currentColor}
 
 /* stats */
 .tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
@@ -298,23 +310,19 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
   <symbol id="i-rosette" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M8 14l-2 8 6-3 6 3-2-8a7 7 0 0 1-8 0z"/></symbol>
   <symbol id="i-redo" viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 1-7.4 5h2.2A6 6 0 1 0 12 6v3L7 5l5-4z"/></symbol>
   <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 16l-7-7 1.8-1.8L12 12.4l5.2-5.2L19 9z"/></symbol>
-  <symbol id="i-lamb" viewBox="0 0 64 64">
-    <g stroke="#CFC8E6" stroke-width="1.2">
-      <circle cx="17" cy="40" r="7" fill="#fff"/><circle cx="47" cy="40" r="7" fill="#fff"/>
-      <circle cx="22" cy="49" r="7" fill="#fff"/><circle cx="42" cy="49" r="7" fill="#fff"/>
-      <ellipse cx="32" cy="44" rx="17" ry="12" fill="#fff"/>
-      <circle cx="24" cy="34" r="7" fill="#fff"/><circle cx="40" cy="34" r="7" fill="#fff"/><circle cx="32" cy="32" r="8" fill="#fff"/>
+  <symbol id="i-dove" viewBox="0 0 67 64">
+    <g stroke="#B9B1D9" stroke-width="1.4" stroke-linejoin="round">
+      <path d="M16 36l-11-7 4 9-5 8 13-2z" fill="#fff"/>
+      <ellipse cx="31" cy="37" rx="17" ry="11.5" fill="#fff"/>
+      <path d="M24 33q1-19 22-17-9 5-12 18z" fill="#EEEAFB"/>
+      <circle cx="45" cy="26" r="8.5" fill="#fff"/>
     </g>
-    <rect x="23" y="52" width="5" height="9" rx="2.5" fill="#5A4A3A"/><rect x="36" y="52" width="5" height="9" rx="2.5" fill="#5A4A3A"/>
-    <ellipse cx="19" cy="25" rx="5.5" ry="3.2" fill="#F1D3B3" stroke="#D9B48F" stroke-width="1" transform="rotate(-20 19 25)"/>
-    <ellipse cx="45" cy="25" rx="5.5" ry="3.2" fill="#F1D3B3" stroke="#D9B48F" stroke-width="1" transform="rotate(20 45 25)"/>
-    <ellipse cx="32" cy="25" rx="11" ry="10" fill="#F6DEC2"/>
-    <g stroke="#CFC8E6" stroke-width="1.2"><circle cx="23" cy="17" r="5" fill="#fff"/><circle cx="32" cy="13.5" r="5.5" fill="#fff"/><circle cx="41" cy="17" r="5" fill="#fff"/></g>
-    <circle cx="27.5" cy="25" r="2" fill="#2B2440"/><circle cx="36.5" cy="25" r="2" fill="#2B2440"/>
-    <circle cx="28.2" cy="24.3" r=".7" fill="#fff"/><circle cx="37.2" cy="24.3" r=".7" fill="#fff"/>
-    <circle cx="24" cy="29.5" r="2" fill="#F3A6A6" opacity=".7"/><circle cx="40" cy="29.5" r="2" fill="#F3A6A6" opacity=".7"/>
-    <path d="M30.5 29.5q1.5 1.5 3 0" fill="none" stroke="#8A6A55" stroke-width="1.2" stroke-linecap="round"/>
-    <ellipse cx="32" cy="28.3" rx="1.4" ry=".9" fill="#8A6A55"/>
+    <path d="M53 24.5l6.5 2.5-6.5 2.5z" fill="#F5A623"/>
+    <circle cx="47" cy="24.5" r="1.9" fill="#2B2440"/><circle cx="47.7" cy="23.8" r=".7" fill="#fff"/>
+    <circle cx="43.5" cy="29.5" r="1.7" fill="#F3A6A6" opacity=".75"/>
+    <path d="M58 28q5 3 5.5 9" fill="none" stroke="#5E9B4E" stroke-width="1.6" stroke-linecap="round"/>
+    <ellipse cx="60.5" cy="30" rx="3" ry="1.5" fill="#7BBF5E" transform="rotate(40 60.5 30)"/>
+    <ellipse cx="62.5" cy="34.5" rx="2.8" ry="1.4" fill="#7BBF5E" transform="rotate(70 62.5 34.5)"/>
   </symbol>
 </svg>
 
@@ -363,8 +371,10 @@ var STR = {
     starsTitle:function(n){return n===3?'Tökéletes!':n===2?'Szép munka!':'Állomás teljesítve!'},
     mistakesFixed:function(n){return n===0?'Egy hibád sem volt!':n+' hibát kijavítottál'},
     runBonus:function(m){return '×'+(m===2?'2':'1,5')+' sorozat-bónusz'},
-    mascotName:'Bari',
-    mascotHome:function(st,name,hasNext){ if(!hasNext) return 'Végigjártad az egész utat! 🏆'; if(st>=3) return (name?name+', ':'')+'már '+st+' napja tartod a sorozatot! 🔥'; return name?'Szia, '+name+'! Gyerünk tovább!':'Szia! Én Bari vagyok, végigkísérlek az úton.'; },
+    mascotName:'Olívia',
+    mascotHome:function(st,name,nx){ if(!nx) return 'Végigjártad az egész utat! 🏆'; if(nx.chest) return 'Egy láda vár rád – nyisd ki!'; if(st>=3) return (name?name+', ':'')+'már '+st+' napja tartod a sorozatot! 🔥'; return name?'Szia, '+name+'! Gyerünk tovább!':'Szia! Olívia vagyok, végigrepülöm veled az utat.'; },
+    hintBtn:'Segíts, Olívia!',hintUsed:'Ebben az állomásban már segítettem',hintBubble:'Kizártam egy rossz választ!',
+    chestBanner:'Kincsesláda',chestBannerSub:'KOPPINTS, ÉS NYISD KI',collectionSub:'Minden modulnak megvannak a saját kincsei – a drágábbak ritkábbak.',lockedModule:'Még zárva',
     mascotResult:function(stars){ return stars===3?'Tökéletes! Nagyon büszke vagyok rád!':stars===2?'Szép munka, már majdnem hibátlan!':stars===1?'Megcsináltad! Legközelebb még jobb lesz.':'Semmi baj, pihenj egy kicsit, aztán próbáld újra!'; },
     weekTitle:'Ezen a héten',weekChest:'Heti láda!',weekChestHint:'Tanulj a hét minden napján, és vasárnap kinyílik a láda.',
     chestFound:'Kincsesládát találtál!',talentsGain:function(n){return '+'+n+' talentum'},talentsBalance:function(n){return 'Egyenleged: '+n+' talentum'},
@@ -384,8 +394,10 @@ var STR = {
     starsTitle:function(n){return n===3?'Perfect!':n===2?'Nice work!':'Station complete!'},
     mistakesFixed:function(n){return n===0?'Not a single mistake!':'You fixed '+n+(n===1?' mistake':' mistakes')},
     runBonus:function(m){return '×'+(m===2?'2':'1.5')+' streak bonus'},
-    mascotName:'Lamby',
-    mascotHome:function(st,name,hasNext){ if(!hasNext) return 'You walked the whole path! 🏆'; if(st>=3) return (name?name+', ':'')+'that\'s a '+st+'-day streak! 🔥'; return name?'Hi '+name+'! Let\'s keep going!':'Hi! I\'m Lamby, I\'ll walk the path with you.'; },
+    mascotName:'Olivia',
+    mascotHome:function(st,name,nx){ if(!nx) return 'You walked the whole path! 🏆'; if(nx.chest) return 'A chest is waiting – open it!'; if(st>=3) return (name?name+', ':'')+'that\'s a '+st+'-day streak! 🔥'; return name?'Hi '+name+'! Let\'s keep going!':'Hi! I\'m Olivia, I\'ll fly the path with you.'; },
+    hintBtn:'Help me, Olivia!',hintUsed:'I already helped on this station',hintBubble:'I removed one wrong answer!',
+    chestBanner:'Treasure chest',chestBannerSub:'TAP TO OPEN',collectionSub:'Each module has its own treasures – the pricier ones are rarer.',lockedModule:'Locked',
     mascotResult:function(stars){ return stars===3?'Perfect! I\'m so proud of you!':stars===2?'Nice work, almost flawless!':stars===1?'You did it! Next time will be even better.':'No worries, take a break and try again!'; },
     weekTitle:'This week',weekChest:'Weekly chest!',weekChestHint:'Study every day of the week and the chest opens on Sunday.',
     chestFound:'You found a treasure chest!',talentsGain:function(n){return '+'+n+' talents'},talentsBalance:function(n){return 'Your balance: '+n+' talents'},
@@ -419,9 +431,14 @@ function loseHeart(){ if(S.heartLosses.length<HEARTS){ S.heartLosses.push(Date.n
 function done(uid,i){ return (S.progress[uid]||[]).indexOf(i)>=0; }
 function doneCount(uid){ return (S.progress[uid]||[]).length; }
 function unitComplete(u){ return doneCount(u.id)>=u.stations.length; }
-function unitUnlocked(ui){ return ui===0||unitComplete(C.units[ui-1]); }
+// A chest after station i must be opened before station i+1 (or the next module) unlocks.
+function chestBlocks(uid,i){ return CHEST_AFTER.indexOf(i)>=0 && !S.chests[chestKey(uid,i)]; }
+function unitUnlocked(ui){ if(ui===0) return true; var p=C.units[ui-1]; return unitComplete(p)&&!chestBlocks(p.id,p.stations.length-1); }
+function stationUnlocked(ui,si){ var u=C.units[ui]; return unitUnlocked(ui)&&(si===0||(done(u.id,si-1)&&!chestBlocks(u.id,si-1))); }
 function markDone(uid,i){ var l=S.progress[uid]||[]; if(l.indexOf(i)<0) l.push(i); S.progress[uid]=l; }
-function nextStation(){ for(var ui=0;ui<C.units.length;ui++){ if(!unitUnlocked(ui)) return null; var u=C.units[ui]; for(var si=0;si<u.stations.length;si++){ if(!done(u.id,si)) return {ui:ui,si:si}; } } return null; }
+// The next thing to do on the path: a station, or a chest that is ready to open.
+function nextNode(){ for(var ui=0;ui<C.units.length;ui++){ if(!unitUnlocked(ui)) return null; var u=C.units[ui]; for(var si=0;si<u.stations.length;si++){ if(!done(u.id,si)) return {ui:ui,si:si,chest:false}; if(chestBlocks(u.id,si)) return {ui:ui,si:si,chest:true}; } } return null; }
+function nextStation(){ var n=nextNode(); return n&&!n.chest?n:null; }
 function levelName(){ var n=''; C.levels.forEach(function(l){ if(S.xp>=l.min) n=L(l); }); return n; }
 function totalStations(){ return C.units.reduce(function(a,u){return a+u.stations.length;},0); }
 function totalDone(){ var n=0; for(var k in S.progress) n+=S.progress[k].length; return n; }
@@ -447,8 +464,10 @@ function weekKey(d){ return dayKey(weekStart(d)); }
 function weekDays(){ var s=weekStart(new Date()), out=[]; for(var i=0;i<7;i++) out.push(addDays(s,i)); return out; }
 function weekComplete(){ return weekDays().every(function(d){ return played(d)>0; }); }
 function weekChestEarned(){ return weekComplete() && !S.weekChests[weekKey(new Date())]; }
-function owns(g){ return S.cards.indexOf(g.emoji)>=0; }
-function buyCard(g){ if(owns(g)||S.talents<CARD_PRICE) return; S.talents-=CARD_PRICE; S.cards.push(g.emoji); persist(); haptic('success'); render(); }
+function owns(g){ return S.cards.indexOf(g.id)>=0; }
+function unitIndex(uid){ for(var i=0;i<C.units.length;i++) if(C.units[i].id===uid) return i; return -1; }
+function canBuy(g){ return !owns(g)&&unitUnlocked(unitIndex(g.unit))&&S.talents>=g.price; }
+function buyCard(g){ if(!canBuy(g)) return; S.talents-=g.price; S.cards.push(g.id); persist(); haptic('success'); render(); }
 
 // ---------- lesson ----------
 var screen={name:'home'}, tab='home', lesson=null, calOffset=0;
@@ -462,7 +481,9 @@ function curQ(){ return lesson.qs[lesson.queue[lesson.pos]]; }
 function lastInPass(){ return lesson.pos===lesson.queue.length-1; }
 function optCount(q){ return q.type==='image'?(q.opts||[]).length:((q.hu.o||[]).length); }
 function optLabel(q,i){ if(q.type==='image') return L(q.opts[i]); return (S.lang==='hu'?q.hu.o:q.en.o)[i]; }
-function prepQ(){ var q=curQ(); var o=[]; for(var i=0;i<optCount(q);i++) o.push(i); lesson.order=shuffle(o); lesson.answered=null; }
+function prepQ(){ var q=curQ(); var o=[]; for(var i=0;i<optCount(q);i++) o.push(i); lesson.order=shuffle(o); lesson.answered=null; lesson.hidden=null; }
+// Olivia's help: once per station she removes one wrong option of the current question.
+function useHint(){ if(!lesson||lesson.hintUsed||lesson.answered!=null) return; var c=curQ().c, wrong=lesson.order.filter(function(o){return o!==c;}); if(!wrong.length) return; lesson.hidden=wrong[Math.floor(Math.random()*wrong.length)]; lesson.hintUsed=true; haptic('success'); render(); }
 function answer(i){ if(!lesson||lesson.answered!=null) return; lesson.answered=i; var q=curQ(), ok=i===q.c;
   if(ok){ if(!lesson.reviewing) lesson.firstTry++; lesson.run++; lesson.bestRun=Math.max(lesson.bestRun,lesson.run); }
   else { if(!lesson.reviewing) lesson.mistakes++; lesson.run=0; lesson.toReview.push(lesson.queue[lesson.pos]); loseHeart(); lesson.hearts=hearts(); }
@@ -476,8 +497,8 @@ function advance(){ if(!lesson) return;
 function finish(){ var u=C.units[lesson.ui], ok=!lesson.failed, gain=lesson.firstTry*XP_PER+(ok?BONUS:0); S.xp+=gain;
   var was=unitComplete(u), just=false, stars=0, tg=0, mult=multiplierFor(lesson.bestRun);
   if(ok){ markDone(u.id,lesson.si); just=!was&&unitComplete(u); stars=starsFor(lesson.firstTry,lesson.qs.length); var k=starKey(u.id,lesson.si); S.stars[k]=Math.max(S.stars[k]||0,stars); tg=Math.round(TALENTS_PER_STATION*mult); S.talents+=tg; }
-  var st=registerToday(); persist(); var hasNext=ok&&!just&&lesson.si+1<u.stations.length;
-  screen={name:'result',r:{success:ok,gain:gain,talents:tg,mult:mult,stars:stars,mistakes:lesson.mistakes,streak:st,unitJust:just,hasNext:hasNext,weekChest:weekChestEarned()}}; render(); }
+  var st=registerToday(); persist(); var chestNext=ok&&chestBlocks(u.id,lesson.si), hasNext=ok&&!just&&!chestNext&&lesson.si+1<u.stations.length;
+  screen={name:'result',r:{success:ok,gain:gain,talents:tg,mult:mult,stars:stars,mistakes:lesson.mistakes,streak:st,unitJust:just,hasNext:hasNext,chestNext:chestNext,weekChest:weekChestEarned()}}; render(); }
 function openWeekChest(){ if(!weekChestEarned()) { goHome(); return; } screen={name:'chest',talents:TALENTS_PER_CHEST,taps:0,key:weekKey(new Date()),kind:'week'}; render(); }
 function goHome(){ screen={name:'home'}; lesson=null; render(); }
 
@@ -493,11 +514,10 @@ function render(){
 function chipsHtml(){
   return '<div class="srow"><span class="st c-gold">'+ico('flame')+'<span class="n">'+displayStreak()+'</span></span>'+heartChip()+'<span class="st"><i class="coin"></i><span class="n">'+S.talents+'</span></span></div>';
 }
-function heartChip(){ var h=hearts(), clk='';
-  if(h<HEARTS){ var p=1-msToNextHeart()/REGEN, r=6, c=2*Math.PI*r; clk='<svg class="clk" viewBox="0 0 16 16"><circle class="bg" cx="8" cy="8" r="'+r+'"/><circle class="fg" cx="8" cy="8" r="'+r+'" stroke-dasharray="'+(c*p).toFixed(2)+' '+c.toFixed(2)+'"/></svg>'; }
-  return '<span class="st c-wrong" id="heartChip">'+ico('heart')+'<span class="n">'+h+'</span>'+clk+'</span>';
+function heartChip(){ var h=hearts();
+  return '<span class="st c-wrong" id="heartChip">'+ico('heart')+'<span class="n">'+h+'</span>'+(h<HEARTS?'<span class="tm">'+mmss(msToNextHeart())+'</span>':'')+'</span>';
 }
-function mascotHtml(cls){ return '<svg class="mascot '+(cls||'')+'"><use href="#i-lamb"/></svg>'; }
+function mascotHtml(cls){ return '<svg class="mascot '+(cls||'')+'"><use href="#i-dove"/></svg>'; }
 function barHtml(){
   var s=T();
   function b(t,i,l){ return '<button data-tab="'+t+'" class="'+(tab===t?'on':'')+'" type="button">'+ico(i)+l+'</button>'; }
@@ -507,10 +527,11 @@ function barHtml(){
 function renderHome(){
   var s=T(), html='';
   if(tab==='home'){
-    var nx=nextStation();
+    var nx=nextNode();
     html+='<div class="hero"><div class="hl"><h1 class="brand">'+esc(s.brand)+'</h1><p class="sub">'+esc(s.subtitle)+'</p><div class="lvl">'+ico('rosette')+esc(levelName())+'<b>· '+S.xp+' XP</b></div></div>'+
-      '<div class="mw"><div class="bubble">'+esc(s.mascotHome(displayStreak(),S.name,!!nx))+'</div>'+mascotHtml()+'</div></div>'+chipsHtml();
-    if(nx){ var u=C.units[nx.ui]; html+='<button class="banner" type="button" data-start="'+nx.ui+','+nx.si+'" style="background:'+u.color+'" '+(hearts()>0?'':'disabled')+'><div><small>'+(nx.ui+1)+'. '+s.section+', '+(nx.si+1)+'. '+s.station+'</small><b>'+esc(L(u.stations[nx.si]))+'</b></div><span>'+u.emoji+'</span></button>'; }
+      '<div class="mw"><div class="bubble">'+esc(s.mascotHome(displayStreak(),S.name,nx))+'</div>'+mascotHtml()+'</div></div>'+chipsHtml();
+    if(nx&&nx.chest){ html+='<button class="banner" type="button" data-chest="'+nx.ui+','+nx.si+'" style="background:linear-gradient(135deg,var(--gold),#F5C542)"><div><small>'+esc(s.chestBannerSub)+'</small><b>'+esc(s.chestBanner)+'</b></div><span>'+chestHtml(false,34)+'</span></button>'; }
+    else if(nx){ var u=C.units[nx.ui]; html+='<button class="banner" type="button" data-start="'+nx.ui+','+nx.si+'" style="background:'+u.color+'" '+(hearts()>0?'':'disabled')+'><div><small>'+(nx.ui+1)+'. '+s.section+', '+(nx.si+1)+'. '+s.station+'</small><b>'+esc(L(u.stations[nx.si]))+'</b></div><span>'+u.emoji+'</span></button>'; }
     html+='<div class="path" id="path">'+pathHtml()+'</div>';
   } else if(tab==='collection'){ html+=collectionHtml(); }
   else { html+=statsHtml(); }
@@ -519,19 +540,19 @@ function renderHome(){
   if(tab==='home') layoutPath();
 }
 function pathHtml(){
-  var s=T(), html='<svg class="line"></svg>', flat=0, pattern=['c','r','l'], hh=hearts(), nx=nextStation();
+  var s=T(), html='<svg class="line"></svg>', flat=0, pattern=['c','r','l'], hh=hearts(), nx=nextNode();
   C.units.forEach(function(u,ui){
     var un=unitUnlocked(ui);
     html+='<div class="marker"><div class="big '+(un?'':'lock')+'" style="'+(un?'background:'+u.color:'')+'">'+(un?u.emoji:ico('lock'))+'</div><b>'+esc(L(u))+'</b><i>'+s.unitProgress(un?doneCount(u.id):0,u.stations.length)+'</i></div>';
     u.stations.forEach(function(st,si){
       var pos=pattern[flat%3]; flat++;
-      var d=done(u.id,si), unl=un&&(si===0||done(u.id,si-1)), can=unl&&hh>0;
-      var cls=d?'done':unl?'open':'locked'; if(unl&&!d&&!can) cls+=' nohearts'; if(nx&&nx.ui===ui&&nx.si===si) cls+=' next';
-      html+='<div class="row"><button type="button" class="node '+cls+'" data-pos="'+pos+'" data-start="'+ui+','+si+'" style="--uc:'+u.color+'" '+(can?'':'disabled')+'><div class="dot">'+(d?starIco(stationStars(u.id,si)):unl?(si+1):ico('lock'))+'</div><small>'+esc(L(st))+'</small></button></div>';
+      var d=done(u.id,si), unl=stationUnlocked(ui,si), can=unl&&hh>0, isNext=nx&&!nx.chest&&nx.ui===ui&&nx.si===si;
+      var cls=d?'done':unl?'open':'locked'; if(unl&&!d&&!can) cls+=' nohearts';
+      html+='<div class="row"><button type="button" class="node '+cls+'" data-pos="'+pos+'" data-start="'+ui+','+si+'" style="--uc:'+u.color+'" '+(can?'':'disabled')+'><div class="dot">'+(isNext?'<span class="ring"></span>':'')+(d?starIco(stationStars(u.id,si)):unl?(si+1):ico('lock'))+'</div><small>'+esc(L(st))+'</small></button></div>';
       if(CHEST_AFTER.indexOf(si)>=0){
-        flat++;
-        var claimed=!!S.chests[chestKey(u.id,si)], ready=un&&done(u.id,si)&&!claimed;
-        html+='<div class="row chestrow"><button type="button" class="chest '+(claimed?'claimed':ready?'ready':'locked')+'" data-chest="'+ui+','+si+'" '+(ready?'':'disabled')+'>'+chestHtml(claimed,54)+(claimed||ready?'':'<span class="lk">'+ico('lock')+'</span>')+'</button></div>';
+        var cpos=pattern[flat%3]; flat++;
+        var claimed=!!S.chests[chestKey(u.id,si)], ready=un&&done(u.id,si)&&!claimed, cNext=nx&&nx.chest&&nx.ui===ui&&nx.si===si;
+        html+='<div class="row"><button type="button" class="chest '+(claimed?'claimed':ready?'ready':'locked')+'" data-pos="'+cpos+'" data-chest="'+ui+','+si+'" '+(ready?'':'disabled')+'>'+(cNext?'<span class="ring"></span>':'')+chestHtml(claimed,54)+(claimed||ready?'':'<span class="lk">'+ico('lock')+'</span>')+'</button></div>';
       }
     });
   });
@@ -542,7 +563,7 @@ function chestHtml(open,size){ return '<span class="cbox '+(open?'open':'')+'" s
 function layoutPath(){
   var path=document.getElementById('path'); if(!path) return;
   var w=path.clientWidth, x={c:w/2,r:w-24-52,l:24+52};
-  path.querySelectorAll('.node').forEach(function(n){ n.style.left=x[n.dataset.pos]+'px'; });
+  path.querySelectorAll('.node,.chest').forEach(function(n){ n.style.left=x[n.dataset.pos]+'px'; });
   var top=path.getBoundingClientRect(), pts=[];
   path.querySelectorAll('.big,.dot,.chest').forEach(function(el){ var r=el.getBoundingClientRect(); pts.push(((r.left+r.right)/2-top.left).toFixed(1)+','+((r.top+r.bottom)/2-top.top).toFixed(1)); });
   var svg=path.querySelector('svg.line'); svg.setAttribute('viewBox','0 0 '+w+' '+path.scrollHeight);
@@ -551,9 +572,16 @@ function layoutPath(){
 function collectionHtml(){
   var s=T(), n=C.gifts.filter(owns).length, h='<div class="hrow"><h1 class="brand">'+esc(s.tabCollection)+'</h1><span class="pill-right">'+s.cardsOwned(n,C.gifts.length)+'</span></div>';
   h+='<div class="card-bal"><i class="coin" style="width:36px;height:36px"></i><div><b>'+esc(s.talentsBalance(S.talents))+'</b><span>'+esc(s.chestHint)+'</span></div></div>';
-  h+='<div class="intro">'+esc(s.collectionIntro)+' <i class="coin" style="width:14px;height:14px"></i><b>'+CARD_PRICE+'</b></div><div class="cards">';
-  C.gifts.forEach(function(g,i){ var o=owns(g); h+='<div class="gc '+(o?'own':'')+'"><div class="em">'+g.emoji+'</div><div class="nm">'+esc(L(g))+'</div>'+(o?'<div class="own-l">'+ico('seal')+esc(s.owned)+'</div>':'<button type="button" class="buy" data-buy="'+i+'" '+(S.talents>=CARD_PRICE?'':'disabled')+'>'+esc(s.buy)+' <i class="coin" style="width:14px;height:14px"></i>'+CARD_PRICE+'</button>')+'</div>'; });
-  return h+'</div>';
+  h+='<div class="intro">'+esc(s.collectionSub)+'</div>';
+  C.units.forEach(function(u,ui){
+    var un=unitUnlocked(ui);
+    h+='<div class="mh"><span class="me" style="background:'+u.color+'">'+u.emoji+'</span>'+esc(L(u))+(un?'':'<span class="lk">'+ico('lock')+esc(s.lockedModule)+'</span>')+'</div><div class="cards">';
+    C.gifts.forEach(function(g,i){ if(g.unit!==u.id) return; var o=owns(g);
+      h+='<div class="gc '+(o?'own':'')+(un?'':' lock')+'"><div class="em">'+g.emoji+'</div><div class="nm">'+esc(L(g))+'</div>'+
+        (o?'<div class="own-l">'+ico('seal')+esc(s.owned)+'</div>':'<button type="button" class="buy" data-buy="'+i+'" '+(canBuy(g)?'':'disabled')+'>'+(un?'':ico('lock'))+'<i class="coin"></i>'+g.price+'</button>')+'</div>'; });
+    h+='</div>';
+  });
+  return h;
 }
 function statsHtml(){
   var s=T(), h='<h1 class="brand">'+esc(s.tabStats)+'</h1><div class="tiles">';
@@ -584,9 +612,10 @@ function renderLesson(){
   for(i=0;i<lesson.queue.length;i++) h+='<i class="'+(i<lesson.pos?'f':i===lesson.pos?'c':'')+'"></i>';
   if(lesson.reviewing) h+='<span class="rt">'+ico('redo')+esc(s.reviewTag)+'</span>';
   h+='</div><div class="q">'+esc(S.lang==='hu'?q.hu.q:q.en.q)+'</div>';
+  h+='<div class="hintrow">'+mascotHtml()+(lesson.hidden!=null?'<div class="bubble">'+esc(s.hintBubble)+'</div>':'<button type="button" data-hint '+(lesson.hintUsed||lesson.answered!=null?'disabled':'')+'>'+esc(lesson.hintUsed?s.hintUsed:s.hintBtn)+'</button>')+'</div>';
   var img=q.type==='image'; h+='<div class="opts '+(img?'img':'')+'">';
   lesson.order.forEach(function(o){
-    var cls='opt'+(img?' pic':''); if(lesson.answered!=null){ if(o===q.c) cls+=' ok'; else if(o===lesson.answered) cls+=' bad'; }
+    var cls='opt'+(img?' pic':''); if(o===lesson.hidden) cls+=' gone'; if(lesson.answered!=null){ if(o===q.c) cls+=' ok'; else if(o===lesson.answered) cls+=' bad'; }
     h+='<button type="button" class="'+cls+'" data-answer="'+o+'" '+(lesson.answered!=null?'disabled':'')+'>'+(img?iconSvg(q.opts[o].icon,q.opts[o].color):'')+esc(optLabel(q,o))+'</button>';
   });
   h+='</div>';
@@ -610,6 +639,7 @@ function renderResult(){
   h+='<div class="acts">';
   if(!r.success){ if(hearts()>0){ h+='<button type="button" class="primary" data-start="'+lesson.ui+','+lesson.si+'">'+esc(s.retry)+'</button><button type="button" class="secondary" data-home>'+esc(s.backHome)+'</button>'; } else h+='<button type="button" class="primary" data-home>'+esc(s.backHome)+'</button>'; }
   else if(r.weekChest){ h+='<button type="button" class="primary" data-weekchest>🎁 '+esc(s.weekChest)+'</button>'; }
+  else if(r.chestNext){ h+='<button type="button" class="primary" data-chest="'+lesson.ui+','+lesson.si+'">'+esc(s.chestBanner)+' – '+esc(s.chestBannerSub.toLowerCase())+'</button><button type="button" class="secondary" data-home>'+esc(s.backHome)+'</button>'; }
   else if(r.hasNext){ h+='<button type="button" class="primary" data-start="'+lesson.ui+','+(lesson.si+1)+'">'+esc(s.nextStation)+'</button><button type="button" class="secondary" data-home>'+esc(s.backHome)+'</button>'; }
   else h+='<button type="button" class="primary" data-home>'+esc(s.backHome)+'</button>';
   view.innerHTML=h+'</div></div>'; foot.innerHTML='';
@@ -658,6 +688,7 @@ document.getElementById('app').addEventListener('click',function(e){
   if(d.answer!=null){ answer(+d.answer); return; }
   if(el.hasAttribute('data-advance')){ advance(); return; }
   if(el.hasAttribute('data-tap')){ tapChest(); return; }
+  if(el.hasAttribute('data-hint')){ useHint(); return; }
   if(el.hasAttribute('data-weekchest')){ openWeekChest(); return; }
   if(el.hasAttribute('data-home')){ goHome(); return; }
   if(d.gotab){ tab=d.gotab; goHome(); return; }
