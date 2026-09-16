@@ -26,7 +26,7 @@ button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--gold);outl
 
 #app{position:relative;height:100%;max-width:430px;margin:0 auto;background:var(--bg);display:flex;flex-direction:column;overflow:hidden}
 @media (min-width:460px){#app{box-shadow:0 0 0 1px var(--border),0 24px 60px -20px rgba(0,0,0,.5)}}
-#view{flex:1;overflow:auto;padding:14px 18px 24px;-webkit-overflow-scrolling:touch}
+#view{flex:1;overflow:auto;overflow-x:hidden;padding:14px 18px 24px;-webkit-overflow-scrolling:touch}
 #foot{flex:none}
 #foot:empty{display:none}
 
@@ -68,7 +68,7 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 .verse p{margin:0;font-family:Spectral,Georgia,serif;font-size:17px;font-weight:600;line-height:1.45}
 .verse span{display:block;margin-top:6px;font-size:12px;font-weight:700;color:var(--gold)}
 /* ordering question */
-.oitem{display:flex;align-items:center;gap:12px;text-align:left}
+.opt.oitem{display:flex;align-items:center;gap:12px;text-align:left}
 .oitem b{flex:none;width:28px;height:28px;border-radius:50%;border:2px solid var(--border);display:grid;place-items:center;font-size:13px;color:var(--brand-ink)}
 .oitem.picked{border-color:var(--brand);background:color-mix(in srgb,var(--brand) 10%,var(--surface))}
 .oitem.picked b{background:var(--brand);border-color:var(--brand)}
@@ -83,7 +83,7 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 .shop .buy{flex:none;display:flex;align-items:center;gap:5px;padding:9px 12px;border-radius:9px;font-size:13px;font-weight:700;background:var(--brand);color:var(--brand-ink)}
 .shop .buy .coin{width:14px;height:14px}
 .shop .buy:disabled{background:var(--bg);color:var(--muted);border:1px solid var(--border);cursor:default}
-.hcard{margin-top:18px;display:flex;align-items:center;gap:12px;padding:12px;border-radius:14px;background:var(--surface);border:1.5px dashed var(--border)}
+.hcard{margin:0 0 10px;display:flex;align-items:center;gap:12px;padding:12px;border-radius:14px;background:var(--surface);border:1.5px dashed var(--border)}
 .hcard.on{border:1.5px solid var(--gold);background:linear-gradient(135deg,color-mix(in srgb,var(--gold) 16%,var(--surface)),var(--surface))}
 .hcard .em{font-size:40px;flex:none}.hcard:not(.on) .em{filter:grayscale(1);opacity:.4}
 .hcard .tx{flex:1;min-width:0}.hcard .tx small{display:block;font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
@@ -162,7 +162,6 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 .cbox.open .lid{transform:rotateX(-70deg);z-index:0}
 .cbox .spark{display:none;position:absolute;left:50%;top:.02em;transform:translateX(-50%);width:.42em;height:.42em;fill:var(--star);filter:drop-shadow(0 0 .12em var(--star));z-index:3}
 .cbox.open .spark{display:block}
-@media (prefers-reduced-motion:reduce){.cbox .lid{transition:none}}
 
 /* bottom bar */
 .bar{display:flex;background:var(--surface);border-top:1px solid var(--border);padding:8px 0 calc(6px + env(safe-area-inset-bottom,0px))}
@@ -179,6 +178,8 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 .sheet.show{transform:none}
 @media (prefers-reduced-motion:reduce){.sheet,.scrim{transition:none}}
 .grab{width:36px;height:5px;border-radius:3px;background:var(--border);margin:0 auto 12px}
+.xclose{position:absolute;right:12px;top:12px;width:32px;height:32px;border-radius:50%;background:var(--bg);display:grid;place-items:center}
+.xclose svg{width:14px;height:14px;fill:var(--muted)}
 .sheet h4{font-size:13px;font-weight:700;color:var(--muted);margin:0 0 8px}
 .mrow{display:flex;align-items:center;gap:12px;width:100%;padding:12px 14px;border-radius:12px;background:var(--bg);margin-bottom:8px;font-size:16px;font-weight:600}
 .mrow svg{width:18px;height:18px;fill:var(--brand);flex:none}
@@ -268,7 +269,6 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 .footpad{padding:8px 18px calc(8px + env(safe-area-inset-bottom,0px));background:var(--bg)}
 @keyframes up{from{transform:translateY(20px);opacity:0}to{transform:none;opacity:1}}
 .footpad .primary{animation:up .18s ease-out}
-@media (prefers-reduced-motion:reduce){.footpad .primary{animation:none}}
 
 /* result / chest */
 .center{text-align:center;padding-top:30px}
@@ -289,7 +289,6 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 .stars svg:nth-child(1){animation-delay:.15s}.stars svg:nth-child(2){animation-delay:.37s}.stars svg:nth-child(3){animation-delay:.59s}
 .stars svg.on{fill:var(--star);color:var(--star);filter:drop-shadow(0 0 8px color-mix(in srgb,var(--star) 60%,transparent))}
 @keyframes pop{to{transform:none;opacity:1}}
-@media (prefers-reduced-motion:reduce){.stars svg{animation:none;transform:none;opacity:1}}
 .sub2{font-size:14px;color:var(--muted);margin:0 0 8px}
 .tgain{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;margin-top:6px;font-size:17px;font-weight:700}
 .tgain .tv{white-space:nowrap}
@@ -315,11 +314,20 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 .week .wd.c:not(.s) .cbox{filter:saturate(.35);opacity:.7}
 /* tap-to-open chest */
 .tapchest{display:block;margin:6px auto 0;position:relative;width:200px;height:200px;display:grid;place-items:center;-webkit-tap-highlight-color:transparent}
-.tapchest .cbox{font-size:150px;transition:transform .12s}
-.tapchest.w1 .cbox{animation:wob .35s}
-.tapchest.w2 .cbox{animation:wob2 .35s}
-@keyframes wob{0%{transform:rotate(0)}25%{transform:rotate(-7deg) scale(1.04)}60%{transform:rotate(6deg) scale(1.04)}100%{transform:rotate(0)}}
-@keyframes wob2{0%{transform:rotate(0)}25%{transform:rotate(7deg) scale(1.06)}60%{transform:rotate(-6deg) scale(1.06)}100%{transform:rotate(0)}}
+.tapchest .cbox{font-size:150px}
+.tapchest.idle .cbox{animation:bob 1.8s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-8px) rotate(2deg)}}
+.tapchest.w1 .cbox{animation:shake .5s cubic-bezier(.36,.07,.19,.97)}
+.tapchest.w2 .cbox{animation:shake2 .5s cubic-bezier(.36,.07,.19,.97)}
+@keyframes shake{10%,90%{transform:translate(-2px,0) rotate(-3deg)}20%,80%{transform:translate(4px,0) rotate(4deg)}30%,50%,70%{transform:translate(-8px,0) rotate(-6deg) scale(1.05)}40%,60%{transform:translate(8px,0) rotate(6deg) scale(1.05)}}
+@keyframes shake2{10%,90%{transform:translate(2px,0) rotate(3deg)}20%,80%{transform:translate(-4px,0) rotate(-4deg)}30%,50%,70%{transform:translate(8px,0) rotate(6deg) scale(1.07)}40%,60%{transform:translate(-8px,0) rotate(-6deg) scale(1.07)}}
+.tapchest.opened .cbox{animation:popopen .6s cubic-bezier(.34,1.56,.64,1)}
+@keyframes popopen{0%{transform:scale(.9)}60%{transform:scale(1.12)}100%{transform:scale(1)}}
+.tapchest .lid{transition:transform .35s cubic-bezier(.34,1.56,.64,1)}
+.tapchest.t1 .lid{transform:rotateX(-14deg)}.tapchest.t2 .lid{transform:rotateX(-30deg)}
+.tapchest .p{position:absolute;left:50%;top:45%;font-size:22px;pointer-events:none;animation:fly .9s ease-out forwards;opacity:0}
+@keyframes fly{0%{transform:translate(-50%,-50%) scale(.4);opacity:1}70%{opacity:1}100%{transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(1.1) rotate(var(--r));opacity:0}}
+.tapchest.opened .p{animation-duration:1.4s;font-size:26px}
 .tapchest .glow{position:absolute;width:190px;height:190px;border-radius:50%;background:radial-gradient(color-mix(in srgb,var(--star) 45%,transparent),transparent 70%);opacity:0;transition:opacity .4s}
 .tapchest.opened .glow{opacity:1}
 .hint{display:flex;justify-content:center;margin-top:-6px;height:34px}
@@ -356,6 +364,7 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
   <symbol id="i-starh" viewBox="0 0 24 24"><clipPath id="halfclip"><rect x="0" y="0" width="12" height="24"/></clipPath><path d="M12 2.5l2.9 6.2 6.8.8-5 4.7 1.3 6.7L12 17.6l-6 3.3 1.3-6.7-5-4.7 6.8-.8z" clip-path="url(#halfclip)"/><path d="M12 2.5l2.9 6.2 6.8.8-5 4.7 1.3 6.7L12 17.6l-6 3.3 1.3-6.7-5-4.7 6.8-.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
   <symbol id="i-rosette" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M8 14l-2 8 6-3 6 3-2-8a7 7 0 0 1-8 0z"/></symbol>
   <symbol id="i-redo" viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 1-7.4 5h2.2A6 6 0 1 0 12 6v3L7 5l5-4z"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 4.6L12 10.6 18 4.6 19.4 6 13.4 12l6 6-1.4 1.4-6-6-6 6L4.6 18l6-6-6-6z"/></symbol>
   <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 16l-7-7 1.8-1.8L12 12.4l5.2-5.2L19 9z"/></symbol>
   <symbol id="i-egg" viewBox="0 0 64 64"><path d="M32 6c12 0 20 14 20 30 0 13-9 22-20 22S12 49 12 36C12 20 20 6 32 6z" fill="#FFF7E6" stroke="#E2CFA8" stroke-width="1.6"/><path d="M22 34l5 4 4-5 5 6 4-4 4 5" fill="none" stroke="#E2CFA8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="2" fill="#F3D9A6"/><circle cx="40" cy="20" r="1.6" fill="#F3D9A6"/><circle cx="36" cy="46" r="2.2" fill="#F3D9A6"/></symbol>
   <symbol id="i-chick" viewBox="0 0 64 64"><ellipse cx="32" cy="42" rx="16" ry="13" fill="#FFD84D" stroke="#E0B52E" stroke-width="1.5"/><circle cx="34" cy="24" r="11" fill="#FFE066" stroke="#E0B52E" stroke-width="1.5"/><path d="M44 24l6 2.5-6 2.5z" fill="#F5A623"/><circle cx="37" cy="22.5" r="1.9" fill="#2B2440"/><circle cx="37.7" cy="21.9" r=".6" fill="#fff"/><circle cx="31" cy="27" r="1.6" fill="#F3A6A6" opacity=".7"/><path d="M20 40q-6 0-8 6 6 0 9-3z" fill="#FFE066" stroke="#E0B52E" stroke-width="1.2"/><path d="M27 55v5M37 55v5M24 60h6M34 60h6" stroke="#F5A623" stroke-width="2" stroke-linecap="round"/><path d="M30 12q2-5 5-3-1 3 0 5" fill="none" stroke="#E0B52E" stroke-width="1.5" stroke-linecap="round"/></symbol>
@@ -440,7 +449,7 @@ var STR = {
     weekTitle:'Ezen a héten',weekChest:'Vasárnapi láda!',weekBonus:function(n){return '+'+n+' bónusz a teljes hétért!'},subscription:'Előfizetés',
     chestFound:'Kincsesládát találtál!',talentsGain:function(n){return '+'+n+' talentum'},talentsBalance:function(n){return 'Egyenleged: '+n+' talentum'},
     chestHint:'Minden teljesített állomás talentumot ad, a ládák minden 5. állomás után extra 20-at.',tabHome:'Ösvény',tabCollection:'Gyűjtemény',tabStats:'Statisztika',
-    menu:'Menü',profile:'Profil',language:'Nyelv',comingSoon:'Hamarosan',yourName:'A neved',namePlaceholder:'Hogy szólíthatunk?',save:'Mentés',
+    menu:'Menü',profile:'Profil',language:'Nyelv',comingSoon:'Hamarosan',yourName:'A neved',namePlaceholder:'Hogy szólíthatunk?',save:'Mentés',close:'Bezárás',
     collectionIntro:'Gyűjtsd össze mind a 8 kártyát! Egy kártya ára:',owned:'Megvan',buy:'Megveszem',cardsOwned:function(n,t){return n+'/'+t+' kártya'},
     statLevel:'Szint',statStreak:'Sorozat',statWeek:'Ezen a héten',statStations:'Állomások',lessons:function(n){return n+' lecke'},days:function(n){return n+' nap'},
     studiedDay:'tanult nap',missedDay:'kihagyott nap',calendarTitle:'Naptár',monthSummary:function(s,m){return s+' tanult · '+m+' kihagyott nap'},
@@ -471,7 +480,7 @@ var STR = {
     weekTitle:'This week',weekChest:'Sunday chest!',weekBonus:function(n){return '+'+n+' bonus for a full week!'},subscription:'Subscription',
     chestFound:'You found a treasure chest!',talentsGain:function(n){return '+'+n+' talents'},talentsBalance:function(n){return 'Your balance: '+n+' talents'},
     chestHint:'Every finished station earns talents; chests after every 5th station hold 20 more.',tabHome:'Path',tabCollection:'Collection',tabStats:'Stats',
-    menu:'Menu',profile:'Profile',language:'Language',comingSoon:'Coming soon',yourName:'Your name',namePlaceholder:'What should we call you?',save:'Save',
+    menu:'Menu',profile:'Profile',language:'Language',comingSoon:'Coming soon',yourName:'Your name',namePlaceholder:'What should we call you?',save:'Save',close:'Close',
     collectionIntro:'Collect all 8 cards! One card costs:',owned:'Owned',buy:'Buy',cardsOwned:function(n,t){return n+'/'+t+' cards'},
     statLevel:'Level',statStreak:'Streak',statWeek:'This week',statStations:'Stations',lessons:function(n){return n+(n===1?' lesson':' lessons')},days:function(n){return n+(n===1?' day':' days')},
     studiedDay:'studied',missedDay:'missed',calendarTitle:'Calendar',monthSummary:function(s,m){return s+' studied · '+m+' missed days'},
@@ -562,9 +571,10 @@ function starKey(uid,si){ return uid+'-'+si; }
 function stationStars(uid,si){ if(!done(uid,si)) return 0; var v=S.stars[starKey(uid,si)]; return v==null?2:v; }
 function starsFor(correct,total){ if(correct>=total) return 3; return correct*100>=TWO_STAR_PCT*total?2:1; }
 function multiplierFor(run){ return run>=RUN_BIG?2:run>=RUN_SMALL?1.5:1; }
-function startStation(ui,si){ if(hearts()<=0) return; var st=C.units[ui].stations[si], q=[]; for(var i=0;i<st.qs.length;i++) q.push(i);
-  // Each play draws Q_PER_STATION questions from the station's pool, so replays feel fresh.
-  lesson={ui:ui,si:si,qs:st.qs,queue:shuffle(q).slice(0,Q_PER_STATION),total:Math.min(Q_PER_STATION,q.length),pos:0,hearts:hearts(),firstTry:0,toReview:[],reviewing:false,mistakes:0,run:0,bestRun:0,failed:false,order:[],answered:null,picked:[]}; prepQ();
+function startStation(ui,si){ if(hearts()<=0) return; var st=C.units[ui].stations[si], q=[], must=[]; for(var i=0;i<st.qs.length;i++){ if(st.qs[i].type==='order') must.push(i); else q.push(i); }
+  // Each play draws Q_PER_STATION questions from the station's pool (ordering questions always included), so replays feel fresh.
+  var queue=shuffle(must.concat(shuffle(q).slice(0,Math.max(0,Q_PER_STATION-must.length))));
+  lesson={ui:ui,si:si,qs:st.qs,queue:queue,total:queue.length,pos:0,hearts:hearts(),firstTry:0,toReview:[],reviewing:false,mistakes:0,run:0,bestRun:0,failed:false,order:[],answered:null,picked:[]}; prepQ();
   // Stations with a story open on the intro screen first (story + memory verse), then the questions.
   screen={name:st.intro?'intro':'lesson'}; render(); }
 function startQuiz(){ if(!lesson) return; screen={name:'lesson'}; render(); }
@@ -709,8 +719,9 @@ function collectionHtml(){
   h+='<div class="intro">'+esc(s.collectionSub)+'</div>';
   C.units.forEach(function(u,ui){
     var un=unitUnlocked(ui), hero=C.gifts.filter(function(g){return g.hero&&g.unit===u.id;})[0];
+    h+='<div class="mh"><span class="me" style="background:'+u.color+'">'+u.emoji+'</span>'+esc(L(u))+(un?'':'<span class="lk">'+ico('lock')+esc(s.lockedModule)+'</span>')+'</div>';
     if(hero){ var ho=owns(hero); h+='<div class="hcard '+(ho?'on':'')+'"><div class="em">'+hero.emoji+'</div><div class="tx"><small>'+esc(s.heroTag)+' · '+esc(L(u))+'</small><b>'+esc(L(hero))+'</b><span>'+esc(ho?L(hero.bio):s.heroLocked)+'</span></div>'+(ho?'<i class="seal">'+ico('seal')+'</i>':'<i class="seal">'+ico('lock')+'</i>')+'</div>'; }
-    h+='<div class="mh"><span class="me" style="background:'+u.color+'">'+u.emoji+'</span>'+esc(L(u))+(un?'':'<span class="lk">'+ico('lock')+esc(s.lockedModule)+'</span>')+'</div><div class="cards">';
+    h+='<div class="cards">';
     C.gifts.forEach(function(g,i){ if(g.unit!==u.id||g.hero) return; var o=owns(g);
       h+='<div class="gc '+(o?'own':'')+(un?'':' lock')+'"><div class="em">'+g.emoji+'</div><div class="nm">'+esc(L(g))+'</div>'+
         (o?'<div class="own-l">'+ico('seal')+esc(s.owned)+'</div>':'<button type="button" class="buy" data-buy="'+i+'" '+(canBuy(g)?'':'disabled')+'>'+(un?'':ico('lock'))+'<i class="coin"></i>'+g.price+'</button>')+'</div>'; });
@@ -804,7 +815,10 @@ function renderChest(){
   for(var i=0;i<3;i++) d+='<i class="'+(i<screen.taps?'f':'')+'"></i>';
   var h='<div class="center"><h2>'+esc(screen.kind==='week'?s.weekChest:s.chestFound)+'</h2>';
   if(!open) h+='<div class="hint">'+(screen.taps===0?ico('down'):'')+'</div>';
-  h+='<button type="button" class="tapchest '+(open?'opened':'w'+(screen.taps%2+1))+'" data-tap '+(open?'disabled':'')+'><span class="glow"></span>'+chestHtml(open,150)+'</button>';
+  // Every tap shakes the chest, lifts the lid a bit more and throws out a few sparks; the third tap bursts it open.
+  var cls=open?'opened':(screen.taps===0?'idle':'w'+(screen.taps%2+1)+' t'+screen.taps), parts='';
+  if(screen.taps>0){ var n=open?14:5, glyphs=open?['🪙','⭐','✨','🪙','💛']:['✨','⭐','✨']; for(var k=0;k<n;k++){ var a=(Math.PI*(open?2:1.2))*(k/n)+(open?0:Math.PI*-0.1)+(open?0:0), dist=open?90+Math.random()*70:50+Math.random()*30; var dx=(open?Math.cos(a):Math.cos(Math.PI+a))*dist, dy=(open?Math.sin(a):-Math.abs(Math.sin(a)))*dist-(open?0:30); parts+='<span class="p" style="--dx:'+dx.toFixed(0)+'px;--dy:'+dy.toFixed(0)+'px;--r:'+((Math.random()*160-80)|0)+'deg;animation-delay:'+(Math.random()*.15).toFixed(2)+'s">'+glyphs[k%glyphs.length]+'</span>'; } }
+  h+='<button type="button" class="tapchest '+cls+'" data-tap '+(open?'disabled':'')+'><span class="glow"></span>'+chestHtml(open,150)+parts+'</button>';
   if(open){ h+='<div class="reveal"><div class="gain"><i class="coin spin"></i><span class="xp">'+esc(s.talentsGain(screen.talents))+'</span></div>'+(screen.bonus?'<div class="m c-gold" style="font-weight:700">'+esc(s.weekBonus(screen.bonus))+'</div>':'')+'<div class="m">'+esc(s.talentsBalance(S.talents))+'</div>'+
     '<div class="acts"><button type="button" class="primary" data-home>'+esc(s.backHome)+'</button><button type="button" class="secondary" data-gotab="collection">'+esc(s.tabCollection)+'</button></div></div>'; }
   else { h+='<div class="tdots">'+d+'</div>'; }
@@ -812,7 +826,7 @@ function renderChest(){
 }
 
 // ---------- sheets ----------
-function openSheet(html){ sheet.innerHTML='<div class="grab"></div>'+html; sheet.classList.add('show'); scrim.classList.add('show'); }
+function openSheet(html){ var fh=foot.offsetHeight||0; sheet.style.bottom=fh+'px'; scrim.style.bottom=fh+'px'; sheet.innerHTML='<div class="grab"></div><button type="button" class="xclose" data-closesheet aria-label="'+esc(T().close)+'">'+ico('x')+'</button>'+html; sheet.classList.add('show'); scrim.classList.add('show'); }
 function closeSheet(){ sheet.classList.remove('show'); scrim.classList.remove('show'); }
 function menuHtml(){
   var s=T();
@@ -836,6 +850,7 @@ document.getElementById('app').addEventListener('click',function(e){
   if(el.hasAttribute('data-advance')){ advance(); return; }
   if(el.hasAttribute('data-tap')){ tapChest(); return; }
   if(el.hasAttribute('data-hint')){ useHint(); return; }
+  if(el.hasAttribute('data-closesheet')){ closeSheet(); return; }
   if(d.pick!=null){ pickOrder(+d.pick); return; }
   if(el.hasAttribute('data-orderreset')){ resetOrder(); return; }
   if(el.hasAttribute('data-startquiz')){ startQuiz(); return; }
