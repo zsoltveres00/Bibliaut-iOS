@@ -1,0 +1,423 @@
+<title>Bibliaút iOS előnézet</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&display=swap">
+<style>
+:root{
+  --bg:#EFE6D6;--surface:#FFFFFF;--text:#241F33;--muted:#6B6154;--brand:#5B2A3A;--brand-ink:#FBF6EC;
+  --gold:#9C6E22;--correct:#3F7A4E;--wrong:#A83B32;--ice:#D9E7F2;--ice-ink:#4A6B8A;
+  --border:rgba(36,31,51,.14);--shadow:rgba(36,31,51,.10);
+  --page:#E4DAC6;--page-ink:#3A3147;--frame:#1C1826;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#201B2E;--surface:#2B2440;--text:#F1E9D8;--muted:#B7AC9A;--brand:#C07E93;--brand-ink:#201B2E;
+  --gold:#E0B563;--correct:#5FAE72;--wrong:#D46856;--ice:#2E4058;--ice-ink:#9FBAD6;
+  --border:rgba(241,233,216,.14);--shadow:rgba(0,0,0,.4);
+  --page:#15121D;--page-ink:#D9D0C0;--frame:#0B0910;
+}}
+:root[data-theme="dark"]{
+  --bg:#201B2E;--surface:#2B2440;--text:#F1E9D8;--muted:#B7AC9A;--brand:#C07E93;--brand-ink:#201B2E;
+  --gold:#E0B563;--correct:#5FAE72;--wrong:#D46856;--ice:#2E4058;--ice-ink:#9FBAD6;
+  --border:rgba(241,233,216,.14);--shadow:rgba(0,0,0,.4);
+  --page:#15121D;--page-ink:#D9D0C0;--frame:#0B0910;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--page-ink);font:14px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif;padding:0 16px 40px}
+.serif{font-family:Spectral,"New York",Georgia,serif}
+header{max-width:1240px;margin:0 auto;padding:28px 0 18px;display:flex;flex-wrap:wrap;gap:12px 24px;align-items:flex-end;justify-content:space-between}
+header h1{font-family:Spectral,Georgia,serif;font-size:30px;margin:0;color:var(--page-ink);text-wrap:balance}
+header p{margin:4px 0 0;color:var(--page-ink);opacity:.75;max-width:60ch}
+.meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tag{font-size:12px;padding:5px 10px;border-radius:999px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-variant-numeric:tabular-nums}
+.tag code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px}
+button.toggle{font:inherit;font-size:12px;font-weight:600;padding:6px 12px;border-radius:999px;border:1.5px solid var(--brand);background:var(--brand);color:var(--brand-ink);cursor:pointer}
+button.toggle:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+.grid{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px 22px;justify-items:center}
+.shot{display:flex;flex-direction:column;align-items:center;gap:10px;width:100%;max-width:330px}
+.shot > h2{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin:0;color:var(--page-ink);opacity:.7}
+.shot > p{margin:0;font-size:12.5px;opacity:.75;text-align:center;max-width:32ch}
+
+/* phone */
+.phone{width:100%;max-width:330px;aspect-ratio:330/700;border-radius:34px;background:var(--frame);padding:8px;box-shadow:0 18px 40px -18px rgba(0,0,0,.55)}
+.screen{position:relative;width:100%;height:100%;border-radius:27px;overflow:hidden;background:var(--bg);color:var(--text);display:flex;flex-direction:column}
+.status{height:34px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 22px;font-size:12px;font-weight:600;font-variant-numeric:tabular-nums}
+.content{flex:1;overflow:auto;padding:6px 16px 20px;scrollbar-width:thin}
+.content::-webkit-scrollbar{width:4px}
+.content::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px}
+
+h3.brand{font-family:Spectral,Georgia,serif;font-size:26px;margin:0;font-weight:700}
+.sub{font-size:13.5px;color:var(--muted);margin:2px 0 0}
+.lvl{font-size:12px;font-weight:600;color:var(--gold);margin-top:4px}
+.chips{display:flex;gap:7px;margin:12px 0;overflow:hidden}
+.chip{display:inline-flex;align-items:center;gap:5px;padding:5px 11px;border-radius:999px;background:var(--surface);border:1px solid var(--border);font-size:12px;font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
+.chip svg{width:13px;height:13px;fill:currentColor}
+.c-gold{color:var(--gold)}.c-brand{color:var(--brand)}.c-wrong{color:var(--wrong)}.c-text{color:var(--text)}.c-muted{color:var(--muted)}.c-correct{color:var(--correct)}.c-ice{color:var(--ice-ink)}
+
+.coin{display:inline-block;border-radius:50%;background:var(--gold);position:relative;flex:none}
+.coin::before{content:"";position:absolute;inset:14%;border-radius:50%;border:1.5px solid color-mix(in srgb,var(--brand-ink) 55%,transparent)}
+.coin::after{content:"";position:absolute;left:50%;top:50%;width:42%;height:42%;transform:translate(-50%,-50%);background:var(--brand-ink);opacity:.85;
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M8 0h4v6h6v4h-6v10H8V10H2V6h6z'/%3E%3C/svg%3E") center/contain no-repeat;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M8 0h4v6h6v4h-6v10H8V10H2V6h6z'/%3E%3C/svg%3E") center/contain no-repeat}
+
+.banner{display:flex;align-items:center;gap:10px;color:#FBF6EC;padding:12px 14px;border-radius:14px;box-shadow:0 3px 8px var(--shadow);margin-bottom:12px}
+.banner small{display:block;font-size:10px;font-weight:700;letter-spacing:.05em;opacity:.85}
+.banner b{font-family:Spectral,Georgia,serif;font-size:17px;font-weight:700;display:block;line-height:1.2}
+.banner span{margin-left:auto;font-size:20px;opacity:.9}
+
+/* path */
+.path{position:relative}
+.path svg.line{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.marker{display:flex;flex-direction:column;align-items:center;padding-top:10px;gap:3px;text-align:center}
+.marker .big{width:72px;height:72px;border-radius:50%;display:grid;place-items:center;font-size:30px;border:3px solid var(--surface);box-shadow:0 4px 10px var(--shadow)}
+.marker .big.lock{background:var(--surface);border:2px solid var(--border);opacity:.55}
+.marker .big.lock svg{width:24px;height:24px;fill:var(--muted)}
+.marker b{font-family:Spectral,Georgia,serif;font-size:15px}
+.marker i{font-style:normal;font-size:11.5px;color:var(--muted)}
+.row{height:70px;position:relative}
+.node{position:absolute;top:0;width:104px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:2px}
+.node .dot{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:16px;border:2px solid var(--border);background:var(--surface);color:var(--brand-ink);box-shadow:0 2px 6px var(--shadow)}
+.node .dot svg{width:17px;height:17px}
+.node.done .dot{background:var(--gold);border-color:var(--gold)}.node.done .dot svg{fill:var(--brand-ink)}
+.node.open .dot{background:var(--brand);border-color:var(--brand)}
+.node.locked .dot{opacity:.5}.node.locked .dot svg{fill:var(--muted)}
+.node small{font-size:10px;font-weight:600;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:104px}
+.chest{position:absolute;left:50%;top:0;transform:translateX(-50%);width:50px;height:50px;border-radius:14px;display:grid;place-items:center;background:var(--surface);border:2px solid var(--border);box-shadow:0 2px 6px var(--shadow)}
+.chest svg{width:24px;height:24px;fill:var(--muted)}
+.chest.ready{background:var(--gold);border-color:var(--gold)}.chest.ready svg{fill:var(--brand-ink)}
+.chest.locked{opacity:.45}
+.chest.claimed{opacity:.6}.chest.claimed svg{fill:var(--gold)}
+.row.chestrow{height:58px}
+
+/* bottom bar */
+.bar{flex:none;display:flex;background:var(--surface);border-top:1px solid var(--border);padding:8px 0 10px}
+.bar button{flex:1;background:none;border:0;display:flex;flex-direction:column;align-items:center;gap:3px;font:inherit;font-size:10px;font-weight:600;color:var(--muted);cursor:pointer;padding:0}
+.bar button svg{width:22px;height:22px;fill:currentColor}
+.bar button.on{color:var(--brand)}
+.bar .menu-dot{width:28px;height:28px;border-radius:50%;background:var(--brand);display:grid;place-items:center}
+.bar .menu-dot svg{width:15px;height:15px;fill:var(--brand-ink)}
+.bar button:focus-visible{outline:2px solid var(--gold);outline-offset:-2px;border-radius:8px}
+
+/* sheet */
+.sheet{position:absolute;left:0;right:0;bottom:0;background:var(--surface);border-radius:18px 18px 0 0;padding:10px 18px 22px;box-shadow:0 -10px 30px rgba(0,0,0,.25);transform:translateY(105%);transition:transform .25s ease}
+.sheet.show{transform:none}
+.scrim{position:absolute;inset:0;background:rgba(0,0,0,.25);opacity:0;pointer-events:none;transition:opacity .25s}
+.scrim.show{opacity:1;pointer-events:auto}
+.grab{width:36px;height:5px;border-radius:3px;background:var(--border);margin:0 auto 12px}
+.sheet h4{font-size:12px;font-weight:700;color:var(--muted);margin:0 0 8px}
+.mrow{display:flex;align-items:center;gap:12px;padding:11px 14px;border-radius:12px;background:var(--bg);margin-bottom:8px;font-size:15px;font-weight:600}
+.mrow svg{width:18px;height:18px;fill:var(--brand);flex:none}
+.mrow .chev{margin-left:auto;fill:var(--muted);width:13px;height:13px}
+.mrow .det{margin-left:auto;font-weight:400;font-size:13px;color:var(--muted)}
+.mrow.off{opacity:.45}
+.lang{margin-left:auto;display:flex;gap:6px}
+.lang span{padding:6px 12px;border-radius:8px;border:1.5px solid var(--border);font-size:13px;font-weight:700}
+.lang span.on{background:var(--brand);border-color:var(--brand);color:var(--brand-ink)}
+@media (prefers-reduced-motion:reduce){.sheet,.scrim{transition:none}}
+
+/* collection */
+.card-bal{display:flex;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:12px;margin-top:12px}
+.card-bal b{display:block;font-size:15px}.card-bal span{font-size:11.5px;color:var(--muted)}
+.intro{font-size:12.5px;color:var(--muted);display:flex;gap:5px;align-items:center;margin:12px 0}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.gc{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:10px;display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center}
+.gc.own{border:1.5px solid var(--gold)}
+.gc .em{font-size:40px;padding-top:4px;line-height:1}
+.gc:not(.own) .em{filter:grayscale(1);opacity:.45}
+.gc .nm{font-size:12.5px;font-weight:600;height:32px;display:flex;align-items:center}
+.gc .own-l{display:flex;gap:4px;align-items:center;color:var(--gold);font-weight:700;font-size:12.5px;padding:8px 0}
+.gc .own-l svg{width:14px;height:14px;fill:currentColor}
+.gc .buy{width:100%;display:flex;justify-content:center;align-items:center;gap:5px;padding:8px 0;border-radius:8px;font-size:12.5px;font-weight:700;background:var(--brand);color:var(--brand-ink)}
+.gc .buy.off{background:var(--bg);color:var(--muted);border:1px solid var(--border)}
+.pill-right{margin-left:auto;font-size:12.5px;font-weight:600;color:var(--gold)}
+.hrow{display:flex;align-items:baseline}
+
+/* stats */
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.tile{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:11px 12px}
+.tile .t{display:flex;gap:6px;align-items:center;font-size:11.5px;font-weight:600}
+.tile .t svg{width:13px;height:13px;fill:currentColor}
+.tile .v{font-family:Spectral,Georgia,serif;font-size:19px;font-weight:700;margin-top:3px;white-space:nowrap}
+.tile .d{font-size:11.5px;color:var(--muted)}
+.cal{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:13px;margin-top:16px}
+.cal .hd{display:flex;align-items:center;gap:4px;font-size:12px;font-weight:700;color:var(--muted)}
+.cal .hd b{color:var(--text);font-size:13.5px;margin-left:auto}
+.cal .hd svg{width:14px;height:14px;fill:var(--brand);padding:0 6px;box-sizing:content-box}
+.cal .hd svg.off{opacity:.35}
+.days{display:grid;grid-template-columns:repeat(7,1fr);gap:5px 4px;margin-top:10px;text-align:center}
+.days .w{font-size:11px;font-weight:700;color:var(--muted)}
+.days .d{height:32px;display:grid;place-items:center;position:relative;font-size:12.5px;font-weight:500;font-variant-numeric:tabular-nums}
+.days .d::before{content:"";position:absolute;width:32px;height:32px;border-radius:50%;left:50%;top:0;transform:translateX(-50%)}
+.days .d span{position:relative}
+.days .d.s::before{background:var(--gold)}.days .d.s span{color:var(--brand-ink);font-weight:700}
+.days .d.m::before{background:var(--ice)}.days .d.m span{color:var(--ice-ink);transform:translateY(-3px)}
+.days .d.m::after{content:"❄";position:absolute;left:50%;transform:translateX(-50%);bottom:1px;font-size:8px;color:var(--ice-ink)}
+.days .d.t::before{box-shadow:inset 0 0 0 2px var(--brand)}
+.legend{display:flex;gap:14px;font-size:11px;color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+.sum{font-size:12.5px;font-weight:600;margin-top:6px}
+
+/* lesson */
+.back{font-size:13px;color:var(--muted);text-decoration:underline;margin:6px 0 14px;display:block}
+.top{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;font-weight:700;color:var(--muted);margin-bottom:14px}
+.hearts{letter-spacing:2px;font-size:15px}
+.dots{display:flex;gap:5px;margin-bottom:18px}
+.dots i{width:9px;height:9px;border-radius:50%;border:2px solid var(--border)}
+.dots i.f{background:var(--gold);border-color:var(--gold)}.dots i.c{border-color:var(--gold)}
+.q{font-family:Spectral,Georgia,serif;font-size:19px;font-weight:600;line-height:1.35;margin-bottom:18px;text-wrap:balance}
+.opt{display:block;background:var(--surface);border:1.5px solid var(--border);border-radius:12px;padding:13px 15px;font-size:15px;font-weight:500;margin-bottom:10px}
+.opt.ok{border-color:var(--correct);background:color-mix(in srgb,var(--correct) 16%,var(--surface))}
+.opt.bad{border-color:var(--wrong);background:color-mix(in srgb,var(--wrong) 16%,var(--surface))}
+.primary{display:block;width:100%;text-align:center;background:var(--brand);color:var(--brand-ink);font-weight:700;font-size:15px;padding:14px;border-radius:10px;border:0;font-family:inherit}
+.secondary{display:block;width:100%;text-align:center;color:var(--text);font-weight:600;font-size:15px;padding:13px;border-radius:10px;border:1.5px solid var(--border);background:none;font-family:inherit}
+.footer{flex:none;padding:8px 16px 12px;background:var(--bg)}
+
+/* result / chest */
+.center{text-align:center;padding-top:36px}
+.center .emoji{font-size:40px}
+.center h3{font-family:Spectral,Georgia,serif;font-size:23px;margin:6px 0 10px;text-wrap:balance}
+.center .xp{font-family:Spectral,Georgia,serif;font-size:36px;font-weight:700;color:var(--gold);line-height:1.1}
+.center .m{font-size:14.5px;color:var(--muted);margin-top:6px}
+.center .box{margin:14px auto 0;background:var(--surface);border:1px solid var(--gold);color:var(--gold);border-radius:10px;padding:12px;font-weight:700;font-size:14px}
+.center .acts{display:flex;flex-direction:column;gap:10px;margin-top:28px}
+.center svg.bigchest{width:84px;height:84px;fill:var(--gold);margin:14px 0}
+.gain{display:flex;justify-content:center;align-items:center;gap:8px}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 2c1 4 5 5.5 5 11a5 5 0 0 1-10 0c0-2 1-3.5 2-4.5 0 2 1 3 2 3 0-3 .5-6 1-9.5z"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M3 5c3-1 6-1 8 1v14c-2-2-5-2-8-1zm18 0c-3-1-6-1-8 1v14c2-2 5-2 8-1z"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 21s-8-5.3-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.7-8 11-8 11z"/></symbol>
+  <symbol id="i-house" viewBox="0 0 24 24"><path d="M12 3l9 8h-2.5v9h-5v-6h-3v6h-5v-9H3z"/></symbol>
+  <symbol id="i-chest" viewBox="0 0 24 24"><path d="M3 4h18a1 1 0 0 1 1 1v3H2V5a1 1 0 0 1 1-1zm0 6h18v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zm6 2v2h6v-2z"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 12h4v9H3zm7-7h4v16h-4zm7 4h4v12h-4z"/></symbol>
+  <symbol id="i-dots" viewBox="0 0 24 24"><circle cx="5" cy="12" r="2.4"/><circle cx="12" cy="12" r="2.4"/><circle cx="19" cy="12" r="2.4"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><path d="M7 10V8a5 5 0 0 1 10 0v2h1a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1zm2 0h6V8a3 3 0 0 0-6 0z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M9.5 17.5 4 12l1.8-1.8 3.7 3.7 8.7-8.7L20 7z"/></symbol>
+  <symbol id="i-person" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20a8 8 0 0 1 16 0z"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm7.9 9h-3a15 15 0 0 0-1.3-5.6A8 8 0 0 1 19.9 11zM12 4c1 1.2 2.3 3.7 2.8 7H9.2c.5-3.3 1.8-5.8 2.8-7zM4.1 13h3a15 15 0 0 0 1.3 5.6A8 8 0 0 1 4.1 13zm3-2h-3a8 8 0 0 1 4.3-5.6A15 15 0 0 0 7.1 11zM12 20c-1-1.2-2.3-3.7-2.8-7h5.6c-.5 3.3-1.8 5.8-2.8 7zm3.6-1.4a15 15 0 0 0 1.3-5.6h3a8 8 0 0 1-4.3 5.6z"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M10 2l1.8 5.2L17 9l-5.2 1.8L10 16l-1.8-5.2L3 9l5.2-1.8zM18 13l1 3 3 1-3 1-1 3-1-3-3-1 3-1z"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7-1.8-1.8L12.4 12 7.2 6.8z"/></symbol>
+  <symbol id="i-chevl" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7 1.8-1.8L11.6 12l5.2-5.2z"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><path d="M5 4h14a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 5v10h14V9zM7 2h2v4H7zm8 0h2v4h-2z"/></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 3h2v18H5zm3 0h11l-3 4 3 4H8z"/></symbol>
+  <symbol id="i-seal" viewBox="0 0 24 24"><path d="M12 2l2.4 2 3-.5 1 2.9 2.7 1.4-.5 3L22 13l-1.4 2.7.5 3-3 .5-2.4 2L12 20l-2.4 1.2-2.4-2-3-.5.5-3L2 13l1.4-2.2-.5-3 2.7-1.4 1-2.9 3 .5zm-1.5 13.5L17 9l-1.5-1.5-5 5-2-2L7 12z"/></symbol>
+</svg>
+
+<header>
+  <div>
+    <h1>Bibliaút – iOS előnézet</h1>
+    <p>A SwiftUI-képernyők HTML-mása a legutóbbi állapot szerint. A telefonkeretben az alsó sáv és a menü kattintható.</p>
+  </div>
+  <div class="meta">
+    <span class="tag">Commit <code>c83aefa</code></span>
+    <span class="tag">2026-09-16</span>
+    <button class="toggle" id="themeBtn" type="button">Sötét mód</button>
+  </div>
+</header>
+
+<main class="grid">
+
+  <!-- MAIN (tabs) -->
+  <section class="shot">
+    <h2>Ösvény · Gyűjtemény · Statisztika</h2>
+    <div class="phone"><div class="screen" id="mainScreen">
+      <div class="status"><span>9:41</span><span>●●● ▲ ▮</span></div>
+
+      <div class="content" id="tab-home">
+        <h3 class="brand">Bibliaút</h3>
+        <p class="sub">Szia, Zsolt!</p>
+        <div class="lvl">Szint: Újonc</div>
+        <div class="chips">
+          <span class="chip c-gold"><svg><use href="#i-flame"/></svg>5</span>
+          <span class="chip c-brand"><svg><use href="#i-book"/></svg>380 XP</span>
+          <span class="chip c-wrong"><svg><use href="#i-heart"/></svg>4/5 · 3:12</span>
+          <span class="chip c-text"><i class="coin" style="width:15px;height:15px"></i>40</span>
+        </div>
+        <div class="banner" style="background:#7E9259">
+          <div><small>1. SZAKASZ, 6. ÁLLOMÁS</small><b>Az emberiség elszaporodása</b></div><span>🌱</span>
+        </div>
+        <div class="path" id="path"></div>
+      </div>
+
+      <div class="content" id="tab-collection" hidden>
+        <div class="hrow"><h3 class="brand">Gyűjtemény</h3><span class="pill-right">3/8 kártya</span></div>
+        <div class="card-bal"><i class="coin" style="width:36px;height:36px"></i><div><b>Egyenleged: 40 talentum</b><span>A ládákat az ösvényen minden 5. állomás után találod.</span></div></div>
+        <div class="intro">Gyűjtsd össze mind a 8 kártyát! Egy kártya ára: <i class="coin" style="width:14px;height:14px"></i><b>30</b></div>
+        <div class="cards" id="cards"></div>
+      </div>
+
+      <div class="content" id="tab-stats" hidden>
+        <h3 class="brand">Statisztika</h3>
+        <div class="tiles">
+          <div class="tile"><div class="t c-brand"><svg><use href="#i-book"/></svg>Szint</div><div class="v">Újonc</div><div class="d">380 XP</div></div>
+          <div class="tile"><div class="t c-gold"><svg><use href="#i-flame"/></svg>Sorozat</div><div class="v">5 nap</div></div>
+          <div class="tile"><div class="t c-ice"><svg><use href="#i-cal"/></svg>Ezen a héten</div><div class="v">9 lecke</div></div>
+          <div class="tile"><div class="t c-correct"><svg><use href="#i-flag"/></svg>Állomások</div><div class="v">5/60</div><div class="d">11 lecke</div></div>
+        </div>
+        <div class="cal">
+          <div class="hd">Naptár <svg style="margin-left:auto"><use href="#i-chevl"/></svg><b style="margin:0">2026. szeptember</b><svg class="off"><use href="#i-chev"/></svg></div>
+          <div class="days" id="days"></div>
+          <div class="legend"><span><i style="background:var(--gold)"></i>tanult nap</span><span><i style="background:var(--ice)"></i>kihagyott nap</span></div>
+          <div class="sum">13 tanult · 3 kihagyott nap</div>
+        </div>
+      </div>
+
+      <div class="bar" id="bar">
+        <button class="on" data-tab="home" type="button"><svg><use href="#i-house"/></svg>Ösvény</button>
+        <button data-tab="collection" type="button"><svg><use href="#i-chest"/></svg>Gyűjtemény</button>
+        <button data-tab="stats" type="button"><svg><use href="#i-chart"/></svg>Statisztika</button>
+        <button data-tab="menu" type="button"><span class="menu-dot"><svg><use href="#i-dots"/></svg></span>Menü</button>
+      </div>
+
+      <div class="scrim" id="scrim"></div>
+      <div class="sheet" id="sheet">
+        <div class="grab"></div>
+        <h4>Menü</h4>
+        <div class="mrow"><svg><use href="#i-person"/></svg>Profil<span class="det">Zsolt</span><svg class="chev"><use href="#i-chev"/></svg></div>
+        <div class="mrow"><svg><use href="#i-globe"/></svg>Nyelv<span class="lang"><span class="on">HU</span><span>EN</span></span></div>
+        <div class="mrow off"><svg><use href="#i-spark"/></svg>Hamarosan<svg class="chev"><use href="#i-chev"/></svg></div>
+        <div class="mrow off"><svg><use href="#i-spark"/></svg>Hamarosan<svg class="chev"><use href="#i-chev"/></svg></div>
+      </div>
+    </div></div>
+    <p>Az alsó sáv 4 eleme kattintható; a „•••” megnyitja a menüt.</p>
+  </section>
+
+  <!-- LESSON -->
+  <section class="shot">
+    <h2>Lecke – válasz után</h2>
+    <div class="phone"><div class="screen">
+      <div class="status"><span>9:41</span><span>●●● ▲ ▮</span></div>
+      <div class="content">
+        <span class="back">‹ Vissza az ösvényhez</span>
+        <div class="top"><span>🌱 1/10. állomás</span><span class="hearts">❤️❤️❤️❤️🤍</span></div>
+        <div class="dots"><i class="f"></i><i class="f"></i><i class="c"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="q">Hányadik napon teremtette Isten az embert?</div>
+        <span class="opt">Hetedik</span>
+        <span class="opt ok">Hatodik</span>
+        <span class="opt bad">Ötödik</span>
+        <span class="opt">Negyedik</span>
+      </div>
+      <div class="footer"><button class="primary" type="button">Következő</button></div>
+    </div></div>
+    <p>Zöld a helyes, piros a rossz választás; a „Következő” gomb alul csúszik be.</p>
+  </section>
+
+  <!-- RESULT -->
+  <section class="shot">
+    <h2>Eredmény</h2>
+    <div class="phone"><div class="screen">
+      <div class="status"><span>9:41</span><span>●●● ▲ ▮</span></div>
+      <div class="content center">
+        <div class="emoji">🎉</div>
+        <h3>Állomás teljesítve!</h3>
+        <div class="xp">+95 XP</div>
+        <div class="m">🔥 5 napos sorozat</div>
+        <div class="acts">
+          <button class="primary" type="button">Következő állomás</button>
+          <button class="secondary" type="button">‹ Vissza az ösvényhez</button>
+        </div>
+      </div>
+    </div></div>
+    <p>9 helyes válasz × 10 XP + 5 XP bónusz.</p>
+  </section>
+
+  <!-- CHEST -->
+  <section class="shot">
+    <h2>Kincsesláda</h2>
+    <div class="phone"><div class="screen">
+      <div class="status"><span>9:41</span><span>●●● ▲ ▮</span></div>
+      <div class="content center">
+        <h3>Kincsesládát találtál!</h3>
+        <svg class="bigchest"><use href="#i-chest"/></svg>
+        <div class="gain"><i class="coin" style="width:30px;height:30px"></i><span class="xp">+20 talentum</span></div>
+        <div class="m">Egyenleged: 40 talentum</div>
+        <div class="acts">
+          <button class="primary" type="button">‹ Vissza az ösvényhez</button>
+          <button class="secondary" type="button">Gyűjtemény</button>
+        </div>
+      </div>
+    </div></div>
+    <p>Egy koppintás a ládára az ösvényen → +20 talentum.</p>
+  </section>
+
+</main>
+
+<script>
+(function(){
+  // theme toggle (light/dark) on the whole page
+  var btn=document.getElementById('themeBtn'), root=document.documentElement;
+  function isDark(){ var t=root.getAttribute('data-theme'); if(t) return t==='dark'; return matchMedia('(prefers-color-scheme: dark)').matches; }
+  function label(){ btn.textContent=isDark()?'Világos mód':'Sötét mód'; }
+  btn.addEventListener('click',function(){ root.setAttribute('data-theme',isDark()?'light':'dark'); label(); });
+  label();
+
+  // tabs + menu sheet
+  var bar=document.getElementById('bar'), sheet=document.getElementById('sheet'), scrim=document.getElementById('scrim');
+  bar.addEventListener('click',function(e){
+    var b=e.target.closest('button'); if(!b) return;
+    var t=b.dataset.tab;
+    if(t==='menu'){ sheet.classList.add('show'); scrim.classList.add('show'); return; }
+    ['home','collection','stats'].forEach(function(n){ document.getElementById('tab-'+n).hidden=(n!==t); });
+    bar.querySelectorAll('button').forEach(function(x){ x.classList.toggle('on',x.dataset.tab===t); });
+  });
+  scrim.addEventListener('click',function(){ sheet.classList.remove('show'); scrim.classList.remove('show'); });
+
+  // ----- path -----
+  var units=[
+    {emoji:'🌱',color:'#7E9259',name:'Teremtés és kezdetek',done:5,unlocked:true,
+     st:['A teremtés napjai','Ádám és Éva','Az Éden kertje','A bűnbeesés','Káin és Ábel','Az emberiség elszaporodása','Noé és a bárka','Az özönvíz','A szivárvány szövetsége','Bábel tornya']},
+    {emoji:'🏜️',color:'#B5562F',name:'Pátriárkák',done:0,unlocked:false,
+     st:['Ábrahám elhívása','Ábrahám és Lót','Az ígéret','Izsák születése','Izsák feláldozása','Izsák és Rebeka','Jákob és Ézsau','Jákob álma','József és a színes köntös','József Egyiptomban']}
+  ];
+  var path=document.getElementById('path'), html='', flat=0, pattern=['c','r','l'];
+  units.forEach(function(u,ui){
+    html+='<div class="marker"><div class="big '+(u.unlocked?'':'lock')+'" style="background:'+(u.unlocked?u.color:'')+'">'+(u.unlocked?u.emoji:'<svg><use href="#i-lock"/></svg>')+'</div><b>'+u.name+'</b><i>'+(u.unlocked?u.done:0)+'/10 állomás</i></div>';
+    u.st.forEach(function(name,si){
+      var pos=pattern[flat%3]; flat++;
+      var done=u.unlocked&&si<u.done, open=u.unlocked&&si===u.done;
+      var cls=done?'done':open?'open':'locked';
+      var inner=done?'<svg><use href="#i-check"/></svg>':open?(si+1):'<svg><use href="#i-lock"/></svg>';
+      html+='<div class="row"><div class="node '+cls+'" data-pos="'+pos+'"><div class="dot">'+inner+'</div><small>'+name+'</small></div></div>';
+      if(si===4||si===9){
+        flat++;
+        var ready=u.unlocked&&si<u.done; // az 5. állomás utáni láda még nyitatlan
+        html+='<div class="row chestrow"><div class="chest '+(ready?'ready':'locked')+'"><svg><use href="#i-'+(ready?'chest':'lock')+'"/></svg></div></div>';
+      }
+    });
+  });
+  path.innerHTML='<svg class="line"></svg>'+html;
+
+  function layout(){
+    var w=path.clientWidth, x={c:w/2,r:w-24-52,l:24+52};
+    path.querySelectorAll('.node').forEach(function(n){ n.style.left=x[n.dataset.pos]+'px'; });
+    var pts=[], top=path.getBoundingClientRect();
+    path.querySelectorAll('.big,.dot,.chest').forEach(function(el){
+      var r=el.getBoundingClientRect(); pts.push([(r.left+r.right)/2-top.left,(r.top+r.bottom)/2-top.top+path.scrollTop]);
+    });
+    var svg=path.querySelector('svg.line');
+    svg.setAttribute('viewBox','0 0 '+w+' '+path.scrollHeight);
+    svg.innerHTML='<polyline fill="none" stroke="var(--border)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" points="'+pts.map(function(p){return p.join(',')}).join(' ')+'"/>';
+  }
+  layout(); addEventListener('resize',layout); if(document.fonts&&document.fonts.ready) document.fonts.ready.then(layout);
+
+  // ----- collection -----
+  var gifts=[['🕊️','Béke galambja',1],['🌈','A szövetség szivárványa',1],['⭐','A teremtés csillaga',1],['🍎','Éden gyümölcse',0],['🛶','Bárka jelvénye',0],['🦁','Teremtés oroszlánja',0],['🌙','Az éjszaka holdja',0],['☀️','A nappal napja',0]];
+  var talents=40, ch='';
+  gifts.forEach(function(g){
+    ch+='<div class="gc '+(g[2]?'own':'')+'"><div class="em">'+g[0]+'</div><div class="nm">'+g[1]+'</div>'+
+      (g[2]?'<div class="own-l"><svg><use href="#i-seal"/></svg>Megvan</div>':
+      '<div class="buy '+(talents>=30?'':'off')+'">Megveszem <i class="coin" style="width:14px;height:14px"></i>30</div>')+'</div>';
+  });
+  document.getElementById('cards').innerHTML=ch;
+
+  // ----- calendar (2026 szeptember, hétfő kezdés, ma = 16.) -----
+  var studied=[1,2,3,5,6,8,9,10,12,13,14,15,16], missed=[4,7,11], d='';
+  ['H','K','Sze','Cs','P','Szo','V'].forEach(function(w){ d+='<div class="w">'+w+'</div>'; });
+  d+='<div></div>'; // Sept 1 2026 = kedd
+  for(var i=1;i<=30;i++){
+    var c=studied.indexOf(i)>=0?'s':missed.indexOf(i)>=0?'m':'';
+    if(i===16) c+=' t';
+    d+='<div class="d '+c+'"><span>'+i+'</span></div>';
+  }
+  document.getElementById('days').innerHTML=d;
+})();
+</script>
