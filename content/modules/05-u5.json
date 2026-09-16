@@ -1,0 +1,2169 @@
+{
+  "id": "u5",
+  "emoji": "✝️",
+  "color": "#9B4DE0",
+  "hu": "Jézus élete",
+  "en": "The Life of Jesus",
+  "stations": [
+    {
+      "hu": "Jézus születése",
+      "en": "The Birth of Jesus",
+      "qs": [
+        {
+          "hu": {
+            "q": "Melyik angyal jelentette be Máriának a fia születését?",
+            "o": [
+              "Gábriel",
+              "Mihály",
+              "Ráfáel",
+              "Uriel"
+            ]
+          },
+          "en": {
+            "q": "Which angel announced to Mary that she would have a son?",
+            "o": [
+              "Gabriel",
+              "Michael",
+              "Raphael",
+              "Uriel"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért utaztak József és Mária Betlehembe?",
+            "o": [
+              "Egy római népszámlálás miatt kellett beiratkozniuk",
+              "Menekültek",
+              "Ott volt a rokonságuk",
+              "Zarándoklatra mentek"
+            ]
+          },
+          "en": {
+            "q": "Why did Joseph and Mary travel to Bethlehem before the birth of Jesus?",
+            "o": [
+              "They had to register for a Roman census",
+              "They were fleeing",
+              "Their relatives lived there",
+              "They were on a pilgrimage"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hova fektették Jézust születése után?",
+            "o": [
+              "Jászolba",
+              "Egy ágyba",
+              "Egy kosárba",
+              "Egy templomba"
+            ]
+          },
+          "en": {
+            "q": "Where was Jesus laid after his birth?",
+            "o": [
+              "In a manger",
+              "In a bed",
+              "In a basket",
+              "In a temple"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Mária jegyese, akihez a szülés előtt hozzáment?",
+            "o": [
+              "József",
+              "Zakariás",
+              "Lázár",
+              "Kleofás"
+            ]
+          },
+          "en": {
+            "q": "Who was the betrothed of Mary, whom she married before the birth?",
+            "o": [
+              "Joseph",
+              "Zechariah",
+              "Lazarus",
+              "Clopas"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik családi ágból származott József, Dávid házából?",
+            "o": [
+              "Dávid házából",
+              "Áron házából",
+              "Lévi házából",
+              "Efraim házából"
+            ]
+          },
+          "en": {
+            "q": "From which family line did Joseph come, of the house of David?",
+            "o": [
+              "The house of David",
+              "The house of Aaron",
+              "The house of Levi",
+              "The house of Ephraim"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kik voltak az elsők, akiknek hírül adták Jézus születését?",
+            "o": [
+              "A pásztorok a mezőn",
+              "A papok a templomban",
+              "A rómaiak",
+              "Heródes udvara"
+            ]
+          },
+          "en": {
+            "q": "Who were the first to be told about the birth of Jesus?",
+            "o": [
+              "The shepherds in the field",
+              "The priests in the temple",
+              "The Romans",
+              "The court of Herod"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki jelentette be a pásztoroknak Jézus születését?",
+            "o": [
+              "Az Úr angyala",
+              "Egy próféta",
+              "Mária maga",
+              "Egy csillagász"
+            ]
+          },
+          "en": {
+            "q": "Who announced the birth of Jesus to the shepherds?",
+            "o": [
+              "An angel of the Lord",
+              "A prophet",
+              "Mary herself",
+              "An astronomer"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen éneket énekelt a mennyei sereg Jézus születésekor?",
+            "o": [
+              "\"Dicsőség a magasságban Istennek\"",
+              "\"Áldott a Messiás\"",
+              "\"Boldogok a szegények\"",
+              "\"Szent, szent, szent\""
+            ]
+          },
+          "en": {
+            "q": "What song did the heavenly host sing at the birth of Jesus?",
+            "o": [
+              "\"Glory to God in the highest\"",
+              "\"Blessed is the Messiah\"",
+              "\"Blessed are the poor\"",
+              "\"Holy, holy, holy\""
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány nappal Jézus születése után metélték körül?",
+            "o": [
+              "Nyolc nap után",
+              "Tizennégy nap után",
+              "Egy hónap után",
+              "Negyven nap után"
+            ]
+          },
+          "en": {
+            "q": "How many days after birth was Jesus circumcised?",
+            "o": [
+              "After eight days",
+              "After fourteen days",
+              "After one month",
+              "After forty days"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki ismerte fel a templomban Jézust Messiásként csecsemőkorában?",
+            "o": [
+              "Simeon és Anna prófétanő",
+              "Keresztelő János",
+              "Nikodémus",
+              "Zakeus"
+            ]
+          },
+          "en": {
+            "q": "Who recognized Jesus as the Messiah at the temple in his infancy?",
+            "o": [
+              "Simeon and the prophetess Anna",
+              "John the Baptist",
+              "Nicodemus",
+              "Zacchaeus"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "A napkeleti bölcsek",
+      "en": "The Wise Men",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mi vezette a napkeleti bölcseket Jézushoz?",
+            "o": [
+              "Egy csillag",
+              "Egy angyal hangja",
+              "Egy térkép",
+              "Egy álom minden éjjel"
+            ]
+          },
+          "en": {
+            "q": "What led the wise men to Jesus?",
+            "o": [
+              "A star",
+              "The voice of an angel",
+              "A map",
+              "A dream every night"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen ajándékokat hoztak a bölcsek Jézusnak?",
+            "o": [
+              "Aranyat, tömjént és mirhát",
+              "Ezüstöt és bort",
+              "Gyapjút és olajat",
+              "Fűszereket és selymet"
+            ]
+          },
+          "en": {
+            "q": "What gifts did the wise men bring Jesus?",
+            "o": [
+              "Gold, frankincense, and myrrh",
+              "Silver and wine",
+              "Wool and oil",
+              "Spices and silk"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki elől kellett Egyiptomba menekülniük Jézussal?",
+            "o": [
+              "Heródes király elől",
+              "A rómaiak elől",
+              "Egy éhínség elől",
+              "A farizeusok elől"
+            ]
+          },
+          "en": {
+            "q": "From whom did Joseph and Mary have to flee to Egypt with Jesus?",
+            "o": [
+              "From King Herod",
+              "From the Romans",
+              "From a famine",
+              "From the Pharisees"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Honnan érkeztek a napkeleti bölcsek a hagyomány szerint?",
+            "o": [
+              "Keletről",
+              "Egyiptomból",
+              "Rómából",
+              "Görögországból"
+            ]
+          },
+          "en": {
+            "q": "From where did the wise men traditionally come?",
+            "o": [
+              "From the East",
+              "From Egypt",
+              "From Rome",
+              "From Greece"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kihez mentek először a bölcsek, mielőtt Betlehembe értek?",
+            "o": [
+              "Heródes királyhoz Jeruzsálemben",
+              "A templom papjaihoz",
+              "Rómába a császárhoz",
+              "Keresztelő Jánoshoz"
+            ]
+          },
+          "en": {
+            "q": "To whom did the wise men go first, before reaching Bethlehem?",
+            "o": [
+              "King Herod in Jerusalem",
+              "The temple priests",
+              "The emperor in Rome",
+              "John the Baptist"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit kérdeztek a bölcsek Heródestől?",
+            "o": [
+              "Hol született a zsidók királya?",
+              "Hol van a templom?",
+              "Merre van Egyiptom?",
+              "Hol lakik a főpap?"
+            ]
+          },
+          "en": {
+            "q": "What did the wise men ask Herod?",
+            "o": [
+              "Where is the one born king of the Jews?",
+              "Where is the temple?",
+              "Which way is Egypt?",
+              "Where does the high priest live?"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit parancsolt Heródes titokban a bölcseknek?",
+            "o": [
+              "Térjenek vissza, és jelentsék, hol van a gyermek",
+              "Maradjanak Jeruzsálemben",
+              "Vigyék magukkal a gyermeket",
+              "Hagyják el az országot azonnal"
+            ]
+          },
+          "en": {
+            "q": "What did Herod secretly command the wise men?",
+            "o": [
+              "To return and report where the child was",
+              "To stay in Jerusalem",
+              "To bring the child with them",
+              "To leave the country immediately"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért nem tértek vissza a bölcsek Heródeshez?",
+            "o": [
+              "Álomban figyelmeztetést kaptak",
+              "Eltévedtek",
+              "Elfogyott az idejük",
+              "Heródes meggondolta magát"
+            ]
+          },
+          "en": {
+            "q": "Why did the wise men not return to Herod?",
+            "o": [
+              "They were warned in a dream",
+              "They got lost",
+              "They ran out of time",
+              "Herod changed his mind"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen kegyetlen parancsot adott ki Heródes csecsemők ellen?",
+            "o": [
+              "Megölette a betlehemi kétévesnél fiatalabb fiúgyermekeket",
+              "Kiűzette az összes idegen családot",
+              "Bezáratta a templomot",
+              "Elrendelte a városi népszámlálást"
+            ]
+          },
+          "en": {
+            "q": "What cruel order did Herod give against infants?",
+            "o": [
+              "He ordered the killing of boys in Bethlehem two years old and under",
+              "He expelled all foreign families",
+              "He closed the temple",
+              "He ordered a city census"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Honnan tért vissza József és Mária Jézussal, miután Heródes meghalt?",
+            "o": [
+              "Egyiptomból",
+              "Rómából",
+              "Babilonból",
+              "Görögországból"
+            ]
+          },
+          "en": {
+            "q": "From where did Joseph and Mary return with Jesus after Herod died?",
+            "o": [
+              "From Egypt",
+              "From Rome",
+              "From Babylon",
+              "From Greece"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Keresztelő János",
+      "en": "John the Baptist",
+      "qs": [
+        {
+          "hu": {
+            "q": "Hogyan függött össze Keresztelő János Jézus családjával?",
+            "o": [
+              "Erzsébet, Mária rokona, János édesanyja volt",
+              "János Mária testvére volt",
+              "János József apja volt",
+              "Nem volt köztük rokoni kapcsolat"
+            ]
+          },
+          "en": {
+            "q": "How was John the Baptist related to the family of Jesus?",
+            "o": [
+              "Elizabeth, a relative of Mary, was the mother of John",
+              "John was the brother of Mary",
+              "John was the father of Joseph",
+              "They were not related"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit hirdetett Keresztelő János a pusztában?",
+            "o": [
+              "A bűnbánatot és a Messiás eljövetelét",
+              "Egy új törvényt",
+              "A rómaiak elleni lázadást",
+              "A gazdagság útját"
+            ]
+          },
+          "en": {
+            "q": "What did John the Baptist proclaim in the desert?",
+            "o": [
+              "Repentance and the coming of the Messiah",
+              "A new law",
+              "Rebellion against the Romans",
+              "The path to wealth"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hol keresztelte meg János Jézust?",
+            "o": [
+              "A Jordán folyóban",
+              "A Galileai-tengerben",
+              "A Holt-tengerben",
+              "Egy kútnál"
+            ]
+          },
+          "en": {
+            "q": "Where did John baptize Jesus?",
+            "o": [
+              "In the Jordan River",
+              "In the Sea of Galilee",
+              "In the Dead Sea",
+              "At a well"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Keresztelő János apja?",
+            "o": [
+              "Zakariás",
+              "József",
+              "Kleofás",
+              "Abiásás"
+            ]
+          },
+          "en": {
+            "q": "Who was the father of John the Baptist?",
+            "o": [
+              "Zechariah",
+              "Joseph",
+              "Clopas",
+              "Abijah"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért nem tudott Zakariás beszélni Erzsébet terhessége alatt?",
+            "o": [
+              "Nem hitt az angyal szavának, ezért megnémult",
+              "Beteg lett",
+              "Fogadalmat tett a csendről",
+              "Elveszítette a hangját öregségében"
+            ]
+          },
+          "en": {
+            "q": "Why was Zechariah unable to speak during the pregnancy of Elizabeth?",
+            "o": [
+              "He did not believe the words of the angel, so he was struck mute",
+              "He fell ill",
+              "He took a vow of silence",
+              "He lost his voice from old age"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit evett János a pusztában?",
+            "o": [
+              "Sáskát és vadmézet",
+              "Kenyeret és halat",
+              "Csak gyümölcsöt",
+              "Kecsketejet"
+            ]
+          },
+          "en": {
+            "q": "What did John the Baptist eat in the desert?",
+            "o": [
+              "Locusts and wild honey",
+              "Bread and fish",
+              "Only fruit",
+              "Goat milk"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen ruhát viselt Keresztelő János?",
+            "o": [
+              "Teveszőr ruhát bőrövvel",
+              "Papi köntöst",
+              "Királyi ruhát",
+              "Egyszerű lenvászon ruhát"
+            ]
+          },
+          "en": {
+            "q": "What clothing did John the Baptist wear?",
+            "o": [
+              "Clothing of camel hair with a leather belt",
+              "A priestly robe",
+              "Royal clothing",
+              "Simple linen clothing"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kiket nevezett János \"viperák fajzatainak\"?",
+            "o": [
+              "A farizeusokat és szadduceusokat",
+              "A rómaiakat",
+              "A saját tanítványait",
+              "A pásztorokat"
+            ]
+          },
+          "en": {
+            "q": "Whom did John call a \"brood of vipers\"?",
+            "o": [
+              "The Pharisees and Sadducees",
+              "The Romans",
+              "His own disciples",
+              "The shepherds"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért habozott János megkeresztelni Jézust?",
+            "o": [
+              "Úgy érezte, neki kellene Jézustól megkeresztelkednie",
+              "Nem ismerte fel Jézust",
+              "Nem volt elég víz a folyóban",
+              "Féltette a saját életét"
+            ]
+          },
+          "en": {
+            "q": "Why did John hesitate to baptize Jesus?",
+            "o": [
+              "He felt he should be baptized by Jesus instead",
+              "He did not recognize Jesus",
+              "There was not enough water in the river",
+              "He feared for his own life"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki végeztette ki később Keresztelő Jánost?",
+            "o": [
+              "Heródes Antipász",
+              "Pontius Pilátus",
+              "Kaifás",
+              "Augustus császár"
+            ]
+          },
+          "en": {
+            "q": "Who later had John the Baptist executed?",
+            "o": [
+              "Herod Antipas",
+              "Pontius Pilate",
+              "Caiaphas",
+              "Emperor Augustus"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Jézus megkísértése",
+      "en": "The Temptation of Jesus",
+      "qs": [
+        {
+          "hu": {
+            "q": "Hány napig böjtölt Jézus a pusztában?",
+            "o": [
+              "40",
+              "30",
+              "7",
+              "50"
+            ]
+          },
+          "en": {
+            "q": "How many days did Jesus fast in the desert before being tempted?",
+            "o": [
+              "40",
+              "30",
+              "7",
+              "50"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki kísértette meg Jézust a pusztában?",
+            "o": [
+              "A Sátán",
+              "Egy római katona",
+              "Egy farizeus",
+              "Heródes"
+            ]
+          },
+          "en": {
+            "q": "Who tempted Jesus in the desert?",
+            "o": [
+              "Satan",
+              "A Roman soldier",
+              "A Pharisee",
+              "Herod"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mivel válaszolt Jézus mindegyik kísértésre?",
+            "o": [
+              "Az Írás szavaival",
+              "Csenddel",
+              "Egy csodával",
+              "Elmeneküléssel"
+            ]
+          },
+          "en": {
+            "q": "How did Jesus respond to each temptation?",
+            "o": [
+              "With words from Scripture",
+              "With silence",
+              "With a miracle",
+              "By fleeing"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mivel kísértette meg a Sátán Jézust először?",
+            "o": [
+              "Változtassa kővé a kenyeret",
+              "Ugorjon le egy hegyről",
+              "Imádja őt azonnal",
+              "Változtassa vízzé a bort"
+            ]
+          },
+          "en": {
+            "q": "With what did Satan first tempt Jesus, regarding his hunger?",
+            "o": [
+              "Turn stones into bread",
+              "Jump off a mountain",
+              "Worship him immediately",
+              "Turn wine into water"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hova vitte a Sátán Jézust a második kísértéshez?",
+            "o": [
+              "A templom párkányára",
+              "Egy magas hegyre",
+              "A pusztaság mélyére",
+              "Egy palota tetejére"
+            ]
+          },
+          "en": {
+            "q": "Where did Satan take Jesus for the second temptation?",
+            "o": [
+              "To the highest point of the temple",
+              "To a high mountain",
+              "Deeper into the desert",
+              "To the roof of a palace"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mire kérte a Sátán Jézust a templom tetején?",
+            "o": [
+              "Vesse le magát, hogy angyalok mentsék meg",
+              "Imádkozzon hangosan",
+              "Gyógyítson meg valakit",
+              "Prédikáljon a tömegnek"
+            ]
+          },
+          "en": {
+            "q": "What did Satan ask Jesus to do on the temple roof?",
+            "o": [
+              "To throw himself down so angels would save him",
+              "To pray loudly",
+              "To heal someone",
+              "To preach to the crowd"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ígért a Sátán Jézusnak a harmadik kísértésben?",
+            "o": [
+              "A világ minden országát és dicsőségét",
+              "Örök életet",
+              "Egy hatalmas sereget",
+              "Gazdagságot csak"
+            ]
+          },
+          "en": {
+            "q": "What did Satan promise Jesus in the third temptation?",
+            "o": [
+              "All the kingdoms of the world and their splendor",
+              "Eternal life",
+              "A mighty army",
+              "Wealth alone"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit kért cserébe a Sátán a harmadik kísértésben?",
+            "o": [
+              "Hogy Jézus imádja őt",
+              "Hogy Jézus hallgasson örökre",
+              "Hogy Jézus hagyja el a tanítványait",
+              "Hogy Jézus térjen vissza Názáretbe"
+            ]
+          },
+          "en": {
+            "q": "What did Satan ask in exchange in the third temptation?",
+            "o": [
+              "That Jesus worship him",
+              "That Jesus remain silent forever",
+              "That Jesus abandon his disciples",
+              "That Jesus return to Nazareth"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi történt a kísértés végén, miután Jézus ellenállt?",
+            "o": [
+              "A Sátán elhagyta, és angyalok szolgáltak neki",
+              "Jézus azonnal Jeruzsálembe ment",
+              "A Sátán újra megkísértette",
+              "Jézus elaludt kimerülten"
+            ]
+          },
+          "en": {
+            "q": "What happened at the end of the temptation, after Jesus resisted?",
+            "o": [
+              "Satan left him, and angels attended him",
+              "Jesus went immediately to Jerusalem",
+              "Satan tempted him again right away",
+              "Jesus fell asleep from exhaustion"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hova ment Jézus a böjtje és megkísértése után?",
+            "o": [
+              "Galileába, és elkezdte tanítani",
+              "Vissza a pusztába",
+              "Egyenesen Jeruzsálembe",
+              "Egyiptomba"
+            ]
+          },
+          "en": {
+            "q": "Where did Jesus go after his fasting and temptation?",
+            "o": [
+              "To Galilee, and he began to teach",
+              "Back into the desert",
+              "Straight to Jerusalem",
+              "To Egypt"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Az első tanítványok",
+      "en": "The First Disciples",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mi volt Péter és András foglalkozása korábban?",
+            "o": [
+              "Halászok voltak",
+              "Ácsok voltak",
+              "Vámszedők voltak",
+              "Pásztorok voltak"
+            ]
+          },
+          "en": {
+            "q": "What was the occupation of Peter and Andrew before they became disciples?",
+            "o": [
+              "They were fishermen",
+              "They were carpenters",
+              "They were tax collectors",
+              "They were shepherds"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik tanítvány volt vámszedő korábban?",
+            "o": [
+              "Máté",
+              "János",
+              "Fülöp",
+              "Tamás"
+            ]
+          },
+          "en": {
+            "q": "Which disciple was a tax collector before following Jesus?",
+            "o": [
+              "Matthew",
+              "John",
+              "Philip",
+              "Thomas"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit mondott Jézus Péternek és Andrásnak, amikor elhívta őket?",
+            "o": [
+              "\"Emberek halászaivá teszlek titeket\"",
+              "\"Kövessetek engem a templomba\"",
+              "\"Gyógyítsátok meg a betegeket\"",
+              "\"Menjetek el Jeruzsálembe\""
+            ]
+          },
+          "en": {
+            "q": "What did Jesus say to Peter and Andrew when he called them?",
+            "o": [
+              "\"I will make you fishers of men\"",
+              "\"Follow me to the temple\"",
+              "\"Go heal the sick\"",
+              "\"Go to Jerusalem\""
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik tengernél hívta el Jézus Pétert és Andrást?",
+            "o": [
+              "A Galileai-tengernél",
+              "A Holt-tengernél",
+              "A Vörös-tengernél",
+              "A Földközi-tengernél"
+            ]
+          },
+          "en": {
+            "q": "By which sea did Jesus call Peter and Andrew?",
+            "o": [
+              "The Sea of Galilee",
+              "The Dead Sea",
+              "The Red Sea",
+              "The Mediterranean Sea"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik két testvért hívta el Jézus hálót javítva?",
+            "o": [
+              "Jakabot és Jánost",
+              "Pétert és Fülöpöt",
+              "Tamást és Mátét",
+              "Bertalant és Jakabot"
+            ]
+          },
+          "en": {
+            "q": "Which two brothers did Jesus call from their boat while mending nets?",
+            "o": [
+              "James and John",
+              "Peter and Philip",
+              "Thomas and Matthew",
+              "Bartholomew and James"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Jakab és János apja?",
+            "o": [
+              "Zebedeus",
+              "Jónás",
+              "Alfeus",
+              "Kleofás"
+            ]
+          },
+          "en": {
+            "q": "Who was the father of James and John?",
+            "o": [
+              "Zebedee",
+              "Jonah",
+              "Alphaeus",
+              "Clopas"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hányan voltak Jézus fő tanítványai, az apostolok?",
+            "o": [
+              "Tízen",
+              "Tizenegyen",
+              "Tizenketten",
+              "Tizenhárman"
+            ]
+          },
+          "en": {
+            "q": "How many were the main disciples of Jesus, the apostles?",
+            "o": [
+              "Ten",
+              "Eleven",
+              "Twelve",
+              "Thirteen"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Melyik asztalnál ülve hívta el Jézus Mátét?",
+            "o": [
+              "A vámszedő asztalánál",
+              "A templom lépcsőjénél",
+              "Egy lakomán",
+              "A tenger partján"
+            ]
+          },
+          "en": {
+            "q": "Where was Matthew sitting when Jesus called him?",
+            "o": [
+              "At the tax collector’s booth",
+              "On the temple steps",
+              "At a feast",
+              "On the seashore"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik tanítvány árulta el később Jézust?",
+            "o": [
+              "Júdás Iskáriótes",
+              "Tamás",
+              "Fülöp",
+              "Bertalan"
+            ]
+          },
+          "en": {
+            "q": "Which disciple later betrayed Jesus?",
+            "o": [
+              "Judas Iscariot",
+              "Thomas",
+              "Philip",
+              "Bartholomew"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen néven ismerték Simont, mielőtt Jézus elnevezte Péternek?",
+            "o": [
+              "Simonként",
+              "Andrásként",
+              "Jánosként",
+              "Fülöpként"
+            ]
+          },
+          "en": {
+            "q": "By what name was Simon known before Jesus named him Peter?",
+            "o": [
+              "Simon",
+              "Andrew",
+              "John",
+              "Philip"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Jézus csodái",
+      "en": "The Miracles of Jesus",
+      "qs": [
+        {
+          "hu": {
+            "q": "Hány kenyérrel és hallal lakatott jól Jézus ötezer embert?",
+            "o": [
+              "5 kenyér és 2 hal",
+              "2 kenyér és 5 hal",
+              "7 kenyér és 3 hal",
+              "3 kenyér és 7 hal"
+            ]
+          },
+          "en": {
+            "q": "With how many loaves and fish did Jesus feed five thousand people?",
+            "o": [
+              "5 loaves and 2 fish",
+              "2 loaves and 5 fish",
+              "7 loaves and 3 fish",
+              "3 loaves and 7 fish"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik tanítványát hívta Jézus a vízen maga felé?",
+            "o": [
+              "Pétert",
+              "Jánost",
+              "Tamást",
+              "Andrást"
+            ]
+          },
+          "en": {
+            "q": "Which disciple did Jesus call to step onto the water toward him?",
+            "o": [
+              "Peter",
+              "John",
+              "Thomas",
+              "Andrew"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kit támasztott fel Jézus a halálból négy nap után?",
+            "o": [
+              "Lázárt",
+              "Jairus lányát",
+              "Egy özvegy fiát Náinban",
+              "Keresztelő Jánost"
+            ]
+          },
+          "en": {
+            "q": "Whom did Jesus raise from the dead after four days in the tomb?",
+            "o": [
+              "Lazarus",
+              "The daughter of Jairus",
+              "The son of a widow in Nain",
+              "John the Baptist"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen beteget érintett meg Jézus, akit mások elkerültek?",
+            "o": [
+              "Leprást",
+              "Egy vakot csak",
+              "Egy némát csak",
+              "Egy süketet csak"
+            ]
+          },
+          "en": {
+            "q": "What kind of sick person did Jesus touch, whom others avoided?",
+            "o": [
+              "A man with leprosy",
+              "A blind man only",
+              "A mute man only",
+              "A deaf man only"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kinek a szolgáját gyógyította meg Jézus távolról?",
+            "o": [
+              "Egy római századosét",
+              "Egy farizeusét",
+              "Egy papét",
+              "Egy halászét"
+            ]
+          },
+          "en": {
+            "q": "Whose servant did Jesus heal from a distance, because of his faith in his word?",
+            "o": [
+              "A Roman centurion’s servant",
+              "A servant of a Pharisee",
+              "A servant of a priest",
+              "A servant of a fisherman"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen természeti erő felett mutatott hatalmat Jézus a tavon?",
+            "o": [
+              "A szél és a vihar felett",
+              "A hullámok színe felett",
+              "A halak fajtája felett",
+              "A part alakja felett"
+            ]
+          },
+          "en": {
+            "q": "Over what natural force did Jesus show power on the lake?",
+            "o": [
+              "The wind and the storm",
+              "The color of the waves",
+              "The species of fish",
+              "The shape of the shore"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány évig szenvedett vérfolyásban az asszony, akit Jézus meggyógyított?",
+            "o": [
+              "Öt évig",
+              "Nyolc évig",
+              "Tizenkét évig",
+              "Húsz évig"
+            ]
+          },
+          "en": {
+            "q": "For how many years had the woman with the bleeding suffered before Jesus healed her?",
+            "o": [
+              "Five years",
+              "Eight years",
+              "Twelve years",
+              "Twenty years"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Hány évesen halt meg Jairus lánya, akit Jézus feltámasztott?",
+            "o": [
+              "Nyolc éves",
+              "Tíz éves",
+              "Tizenkét éves",
+              "Tizenöt éves"
+            ]
+          },
+          "en": {
+            "q": "How old was the daughter of Jairus when she died, whom Jesus raised?",
+            "o": [
+              "Eight years old",
+              "Ten years old",
+              "Twelve years old",
+              "Fifteen years old"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Milyen csoda történt, amikor Jézus megérintett egy vak embert Betszaidánál?",
+            "o": [
+              "Fokozatosan visszakapta a látását",
+              "Azonnal teljesen látott",
+              "Nem történt semmi látható változás",
+              "Elveszítette a hallását cserébe"
+            ]
+          },
+          "en": {
+            "q": "What kind of miracle happened when Jesus touched a blind man near Bethsaida?",
+            "o": [
+              "He gradually received his sight",
+              "He saw perfectly at once",
+              "Nothing visibly changed",
+              "He lost his hearing instead"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan írja le a Biblia Jézus gyógyító szolgálatát általában?",
+            "o": [
+              "Sok beteget gyógyított meg mindenféle betegségből",
+              "Csak egyetlen embert gyógyított meg összesen",
+              "Csak Jeruzsálemben gyógyított",
+              "Csak a saját családját gyógyította"
+            ]
+          },
+          "en": {
+            "q": "How does the Bible generally describe the extent of the healing ministry of Jesus?",
+            "o": [
+              "He healed many sick people of every kind of disease",
+              "He healed only a single person in total",
+              "He healed only in Jerusalem",
+              "He healed only his own family"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "A Hegyi beszéd",
+      "en": "The Sermon on the Mount",
+      "qs": [
+        {
+          "hu": {
+            "q": "Hogy kezdődnek a Boldogmondások?",
+            "o": [
+              "\"Boldogok a lelki szegények\"",
+              "\"Boldogok a gazdagok\"",
+              "\"Boldogok az erősek\"",
+              "\"Boldogok a bölcsek\""
+            ]
+          },
+          "en": {
+            "q": "How do the Beatitudes begin?",
+            "o": [
+              "\"Blessed are the poor in spirit\"",
+              "\"Blessed are the rich\"",
+              "\"Blessed are the strong\"",
+              "\"Blessed are the wise\""
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen imádságot tanított Jézus a Hegyi beszédben?",
+            "o": [
+              "A Miatyánkot",
+              "A Zsoltárok könyvét",
+              "A Magnificatot",
+              "A Tízparancsolatot"
+            ]
+          },
+          "en": {
+            "q": "What prayer did Jesus teach in the Sermon on the Mount?",
+            "o": [
+              "The Lord’s Prayer",
+              "The Book of Psalms",
+              "The Magnificat",
+              "The Ten Commandments"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mire hasonlította Jézus azt, aki hallja és megtartja tanítását?",
+            "o": [
+              "Egy bölcs emberhez, aki kősziklára épít házat",
+              "Egy gazdag kereskedőhöz",
+              "Egy pásztorhoz",
+              "Egy katonához"
+            ]
+          },
+          "en": {
+            "q": "What did Jesus compare someone who hears and follows his teaching to?",
+            "o": [
+              "A wise man who builds his house on rock",
+              "A wealthy merchant",
+              "A shepherd",
+              "A soldier"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tanított Jézus a föld sójáról?",
+            "o": [
+              "A tanítványai a föld sói",
+              "A só drágább az aranynál",
+              "A só szimbóluma a bűnnek",
+              "A sót nem szabad használni"
+            ]
+          },
+          "en": {
+            "q": "What did Jesus teach in the Sermon on the Mount about the salt of the earth?",
+            "o": [
+              "His disciples are the salt of the earth",
+              "Salt is more precious than gold",
+              "Salt is a symbol of sin",
+              "Salt should not be used"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mihez hasonlította Jézus a tanítványait a világ világosságával kapcsolatban?",
+            "o": [
+              "Egy hegyen épült városhoz és egy lámpáshoz",
+              "Egy elrejtett kincshez",
+              "Egy néma kőhöz",
+              "Egy száraz fához"
+            ]
+          },
+          "en": {
+            "q": "To what did Jesus compare his disciples regarding the light of the world?",
+            "o": [
+              "A city built on a hill and a lamp",
+              "A hidden treasure",
+              "A silent stone",
+              "A dry tree"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tanított Jézus az ellenségszeretetről?",
+            "o": [
+              "Szeressétek ellenségeiteket, imádkozzatok üldözőitekért",
+              "Kerüljétek el az ellenségeket",
+              "Fizessetek egyenlő rosszal",
+              "Ne beszéljetek velük soha"
+            ]
+          },
+          "en": {
+            "q": "What did Jesus teach about loving enemies?",
+            "o": [
+              "Love your enemies, pray for those who persecute you",
+              "Avoid your enemies",
+              "Repay evil with equal evil",
+              "Never speak to them"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tanított Jézus az aggodalmaskodásról?",
+            "o": [
+              "Ne aggódjatok a holnap felől, nézzétek a mezők liliomait",
+              "Gyűjtsetek tartalékot mindenre",
+              "Aggódjatok mindig a jövőért",
+              "Kérjetek segítséget mindenkitől"
+            ]
+          },
+          "en": {
+            "q": "What did Jesus teach about worrying?",
+            "o": [
+              "Do not worry about tomorrow, consider the lilies of the field",
+              "Store up reserves for everything",
+              "Always worry about the future",
+              "Ask everyone for help"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tanított Jézus a kincsgyűjtésről?",
+            "o": [
+              "Ne a földön gyűjtsetek kincset, hanem a mennyben",
+              "Gyűjtsetek minél több aranyat",
+              "A kincs nem fontos kérdés",
+              "Adjátok oda mindenki kincsét a templomnak"
+            ]
+          },
+          "en": {
+            "q": "What did Jesus teach about storing up treasure?",
+            "o": [
+              "Do not store up treasures on earth, but in heaven",
+              "Gather as much gold as possible",
+              "Treasure is not an important topic",
+              "Give everyone’s treasure to the temple"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tanított Jézus az ítélkezésről másokkal szemben?",
+            "o": [
+              "Ne ítélkezzetek, hogy ne ítéltessetek",
+              "Ítéljetek szigorúan mindenkit",
+              "Csak a papok ítélkezhetnek",
+              "Az ítélkezés kötelesség mindenkinek"
+            ]
+          },
+          "en": {
+            "q": "What did Jesus teach about judging others?",
+            "o": [
+              "Do not judge, or you too will be judged",
+              "Judge everyone strictly",
+              "Only priests may judge",
+              "Judging is a duty for everyone"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tanított Jézus a keskeny és a széles útról?",
+            "o": [
+              "A keskeny út vezet az életre, a széles a pusztulásra",
+              "Mindkét út ugyanoda vezet",
+              "A széles út a helyes választás",
+              "Az utak nem számítanak, csak a cél"
+            ]
+          },
+          "en": {
+            "q": "What did Jesus teach about the narrow and wide gate?",
+            "o": [
+              "The narrow gate leads to life, the wide gate leads to destruction",
+              "Both roads lead to the same place",
+              "The wide road is the right choice",
+              "The road does not matter, only the destination"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Jézus példázatai",
+      "en": "The Parables of Jesus",
+      "qs": [
+        {
+          "hu": {
+            "q": "Miről szól az irgalmas szamaritánus példázata?",
+            "o": [
+              "Egy idegen segít egy kiraboltnak, akit mások elkerültek",
+              "Egy pásztorról, aki elvész",
+              "Egy gazdag emberről és Lázárról",
+              "Egy magvetőről"
+            ]
+          },
+          "en": {
+            "q": "What is the parable of the Good Samaritan about?",
+            "o": [
+              "A stranger helps a robbed man others ignored",
+              "A shepherd who gets lost",
+              "A rich man and Lazarus",
+              "A sower"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miről szól a tékozló fiú példázata?",
+            "o": [
+              "Egy fiú elpazarolja örökségét, majd hazatér, és apja megbocsát neki",
+              "Két testvér vetélkedéséről",
+              "Egy szolgáról, aki nem bocsát meg másnak",
+              "Szőlőmunkásokról"
+            ]
+          },
+          "en": {
+            "q": "What is the parable of the Prodigal Son about?",
+            "o": [
+              "A son wastes his inheritance, then returns home and is forgiven by his father",
+              "Two brothers competing for a kingdom",
+              "A servant who will not forgive another",
+              "Vineyard workers"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ábrázol az elveszett juh példázata?",
+            "o": [
+              "Isten örömét egyetlen megtért bűnös felett",
+              "A pásztorok munkáját",
+              "Egy juhnyáj elvesztését háborúban",
+              "A bárányáldozat szabályait"
+            ]
+          },
+          "en": {
+            "q": "What does the parable of the Lost Sheep depict?",
+            "o": [
+              "The joy of God over a single repentant sinner",
+              "The work of shepherds",
+              "The loss of a flock in war",
+              "The rules of lamb sacrifice"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ábrázol a magvető példázata?",
+            "o": [
+              "Hogyan fogadják különböző emberek Isten igéjét",
+              "Egy gazda csődjét",
+              "Egy arató ünnepét",
+              "Egy kertész munkáját"
+            ]
+          },
+          "en": {
+            "q": "What does the parable of the Sower depict?",
+            "o": [
+              "How different people receive the word of God",
+              "The bankruptcy of a farmer",
+              "A harvest festival",
+              "The work of a gardener"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mihez hasonlította Jézus a mennyek országát egy apró mag esetében?",
+            "o": [
+              "A mustármaghoz",
+              "A búzaszemhez",
+              "A homokszemhez",
+              "A gyöngyszemhez"
+            ]
+          },
+          "en": {
+            "q": "To what did Jesus compare the kingdom of heaven using a tiny seed?",
+            "o": [
+              "A mustard seed",
+              "A grain of wheat",
+              "A grain of sand",
+              "A pearl"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ábrázol a gyöngyhalász és a drágagyöngy példázata?",
+            "o": [
+              "A mennyek országa mindennél értékesebb, amiért mindent felad az ember",
+              "A gazdagság hiábavalóságát",
+              "A halászat nehézségeit",
+              "A kereskedelem szabályait"
+            ]
+          },
+          "en": {
+            "q": "What does the parable of the merchant and the pearl depict?",
+            "o": [
+              "The kingdom of heaven is worth giving up everything for",
+              "The vanity of wealth",
+              "The difficulty of fishing",
+              "The rules of trade"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miről szól a tíz szűz példázata?",
+            "o": [
+              "Éberségről, felkészülve a vőlegény érkezésére",
+              "Egy esküvői lakomáról csak",
+              "Tíz nővér veszekedéséről",
+              "Egy király ítéletéről"
+            ]
+          },
+          "en": {
+            "q": "What is the parable of the Ten Virgins about?",
+            "o": [
+              "Being ready and watchful for the arrival of the bridegroom",
+              "Only a wedding feast",
+              "A quarrel between ten sisters",
+              "A judgment of a king"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miről szól a talentumok példázata?",
+            "o": [
+              "A ránk bízott javakkal való sáfárkodásról",
+              "Egy király adósságáról",
+              "Egy szolga szabadulásáról",
+              "Egy föld eladásáról"
+            ]
+          },
+          "en": {
+            "q": "What is the parable of the Talents about?",
+            "o": [
+              "Being faithful stewards of what is entrusted to us",
+              "A debt of a king",
+              "The release of a servant",
+              "The sale of a field"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miről szól a gonosz szőlőmunkások példázata?",
+            "o": [
+              "A vezetők elutasítják és megölik a gazda szolgáit és fiát",
+              "Egy jó termésű évről",
+              "Egy szőlő eladásáról",
+              "Munkások béréről vitatkozva"
+            ]
+          },
+          "en": {
+            "q": "What is the parable of the wicked tenants about?",
+            "o": [
+              "The tenants reject and kill the servants and son of the landowner",
+              "A year of good harvest",
+              "The sale of a vineyard",
+              "A dispute over wages"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miről szól a farizeus és a vámszedő példázata az imádságban?",
+            "o": [
+              "Az alázatos imádság elfogadottabb, mint a büszke",
+              "A templom szabályairól",
+              "Az adófizetés kötelességéről",
+              "A böjtölés módjáról"
+            ]
+          },
+          "en": {
+            "q": "What is the parable of the Pharisee and the tax collector about, regarding prayer?",
+            "o": [
+              "Humble prayer is more acceptable than proud prayer",
+              "The rules of the temple",
+              "The duty of paying taxes",
+              "The manner of fasting"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Az utolsó vacsora",
+      "en": "The Last Supper",
+      "qs": [
+        {
+          "hu": {
+            "q": "Milyen ünnepre gyűltek össze Jézus és tanítványai?",
+            "o": [
+              "A páska ünnepére",
+              "A pünkösd ünnepére",
+              "A sátoros ünnepre",
+              "Az engesztelés napjára"
+            ]
+          },
+          "en": {
+            "q": "For which feast did Jesus and his disciples gather at the Last Supper?",
+            "o": [
+              "The Passover feast",
+              "The feast of Pentecost",
+              "The Feast of Tabernacles",
+              "The Day of Atonement"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit adott Jézus a kenyérrel és a borral?",
+            "o": [
+              "Saját testét és vérét jelképezve",
+              "Egy áldást a jövő évre",
+              "Egy törvénykönyvet",
+              "Egy ígéretet a gazdagságra"
+            ]
+          },
+          "en": {
+            "q": "What did Jesus give his disciples with the bread and wine?",
+            "o": [
+              "A symbol of his own body and blood",
+              "A blessing for the coming year",
+              "A book of law",
+              "A promise of wealth"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kiről jövendölte Jézus, hogy elárulja őt?",
+            "o": [
+              "Júdás Iskáriótesről",
+              "Péterről",
+              "Tamásról",
+              "Fülöpről"
+            ]
+          },
+          "en": {
+            "q": "Who was foretold to betray Jesus at the Last Supper?",
+            "o": [
+              "Judas Iscariot",
+              "Peter",
+              "Thomas",
+              "Philip"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hol készítették elő az utolsó vacsora termét?",
+            "o": [
+              "Egy felső teremben Jeruzsálemben",
+              "A templom udvarán",
+              "Egy hegyoldalon",
+              "Egy halászcsónakban"
+            ]
+          },
+          "en": {
+            "q": "Where was the room for the Last Supper prepared?",
+            "o": [
+              "In an upper room in Jerusalem",
+              "In the temple courtyard",
+              "On a hillside",
+              "In a fishing boat"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tett Jézus a tanítványok lábával az utolsó vacsora előtt?",
+            "o": [
+              "Megmosta azokat",
+              "Megáldotta azokat",
+              "Bekötözte azokat",
+              "Megkente olajjal"
+            ]
+          },
+          "en": {
+            "q": "What did Jesus do with the feet of the disciples before the Last Supper?",
+            "o": [
+              "He washed them",
+              "He blessed them",
+              "He bandaged them",
+              "He anointed them with oil"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki tiltakozott először, amikor Jézus meg akarta mosni a lábát?",
+            "o": [
+              "Péter",
+              "János",
+              "Tamás",
+              "Júdás"
+            ]
+          },
+          "en": {
+            "q": "Who first protested when Jesus wanted to wash his feet?",
+            "o": [
+              "Peter",
+              "John",
+              "Thomas",
+              "Judas"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen új parancsot adott Jézus a tanítványoknak?",
+            "o": [
+              "Szeressék egymást, ahogy ő szerette őket",
+              "Böjtöljenek negyven napig",
+              "Hagyják el a családjukat",
+              "Ne egyenek húst többé"
+            ]
+          },
+          "en": {
+            "q": "What new command did Jesus give the disciples at the Last Supper?",
+            "o": [
+              "Love one another as he had loved them",
+              "Fast for forty days",
+              "Leave their families",
+              "Never eat meat again"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit jövendölt Jézus Péterről az utolsó vacsora éjszakáján?",
+            "o": [
+              "Háromszor megtagadja őt, mielőtt a kakas megszólal",
+              "Elárulja őt pénzért",
+              "Elalszik az egész éjjel",
+              "Elmenekül egyedül Rómába"
+            ]
+          },
+          "en": {
+            "q": "What did Jesus foretell about Peter on the night of the Last Supper?",
+            "o": [
+              "He would deny him three times before the rooster crowed",
+              "He would betray him for money",
+              "He would sleep through the whole night",
+              "He would flee alone to Rome"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hova mentek Jézus és tanítványai imádkozni a vacsora után?",
+            "o": [
+              "A Getszemáné kertjébe",
+              "A templom udvarára",
+              "Az Olajfák hegyének túloldalára",
+              "Egy közeli faluba"
+            ]
+          },
+          "en": {
+            "q": "Where did Jesus and his disciples go to pray after the supper?",
+            "o": [
+              "The Garden of Gethsemane",
+              "The temple courtyard",
+              "The far side of the Mount of Olives",
+              "A nearby village"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan azonosította Júdás Jézust az őt elfogóknak?",
+            "o": [
+              "Egy csókkal",
+              "Egy kiáltással",
+              "Egy fehér ruhával",
+              "Egy lámpással"
+            ]
+          },
+          "en": {
+            "q": "How did Judas identify Jesus to those who arrested him?",
+            "o": [
+              "With a kiss",
+              "With a shout",
+              "With a white cloth",
+              "With a lamp"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "A kereszthalál és a feltámadás",
+      "en": "The Crucifixion and Resurrection",
+      "qs": [
+        {
+          "hu": {
+            "q": "Ki ítélte halálra Jézust római helytartóként?",
+            "o": [
+              "Pontius Pilátus",
+              "Heródes Antipász",
+              "Kaifás",
+              "Augustus császár"
+            ]
+          },
+          "en": {
+            "q": "Who, as Roman governor, sentenced Jesus to death?",
+            "o": [
+              "Pontius Pilate",
+              "Herod Antipas",
+              "Caiaphas",
+              "Emperor Augustus"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogy hívták azt a helyet, ahol Jézust keresztre feszítették?",
+            "o": [
+              "Golgota",
+              "Getszemáné",
+              "Olajfák hegye",
+              "Sion"
+            ]
+          },
+          "en": {
+            "q": "What was the place called where Jesus was crucified?",
+            "o": [
+              "Golgotha",
+              "Gethsemane",
+              "Mount of Olives",
+              "Zion"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki találta üresen Jézus sírját a feltámadás reggelén?",
+            "o": [
+              "Az asszonyok, köztük Mária Magdolna",
+              "A tanítványok együtt",
+              "A római katonák",
+              "A főpapok"
+            ]
+          },
+          "en": {
+            "q": "Who found the tomb of Jesus empty on the morning of the resurrection?",
+            "o": [
+              "The women, including Mary Magdalene",
+              "The disciples together",
+              "The Roman soldiers",
+              "The chief priests"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki segített Jézusnak vinni a keresztet?",
+            "o": [
+              "Cirénei Simon",
+              "Barabás",
+              "Nikodémus",
+              "Egy római katona névtelenül"
+            ]
+          },
+          "en": {
+            "q": "Who helped Jesus carry the cross?",
+            "o": [
+              "Simon of Cyrene",
+              "Barabbas",
+              "Nicodemus",
+              "An unnamed Roman soldier"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit írattak Pilátussal Jézus feje fölé a keresztre?",
+            "o": [
+              "\"A zsidók királya\"",
+              "\"A béke fejedelme\"",
+              "\"Isten fia\"",
+              "\"A próféta\""
+            ]
+          },
+          "en": {
+            "q": "What did Pilate have written above the head of Jesus on the cross?",
+            "o": [
+              "\"The King of the Jews\"",
+              "\"The Prince of Peace\"",
+              "\"Son of God\"",
+              "\"The Prophet\""
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi történt a templom kárpitjával Jézus halálakor?",
+            "o": [
+              "Kettéhasadt felülről lefelé",
+              "Elégett teljesen",
+              "Eltűnt nyomtalanul",
+              "Aranyszínűvé változott"
+            ]
+          },
+          "en": {
+            "q": "What happened to the curtain of the temple at the death of Jesus?",
+            "o": [
+              "It was torn in two, from top to bottom",
+              "It burned completely",
+              "It disappeared without a trace",
+              "It turned golden"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki temette el Jézus testét saját sírboltjában?",
+            "o": [
+              "Arimátiai József",
+              "Nikodémus egyedül",
+              "Péter",
+              "Egy római tiszt"
+            ]
+          },
+          "en": {
+            "q": "Who buried the body of Jesus in his own tomb?",
+            "o": [
+              "Joseph of Arimathea",
+              "Nicodemus alone",
+              "Peter",
+              "A Roman officer"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mivel zárták le Jézus sírját?",
+            "o": [
+              "Egy nagy kővel",
+              "Egy vasajtóval",
+              "Egy fatáblával",
+              "Egy szövettel"
+            ]
+          },
+          "en": {
+            "q": "With what was the tomb of Jesus sealed?",
+            "o": [
+              "A large stone",
+              "An iron door",
+              "A wooden board",
+              "A cloth"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kinek jelent meg Jézus elsőként a feltámadása után?",
+            "o": [
+              "Mária Magdolnának",
+              "Péternek",
+              "Tamásnak",
+              "Pilátusnak"
+            ]
+          },
+          "en": {
+            "q": "To whom did Jesus first appear after his resurrection?",
+            "o": [
+              "Mary Magdalene",
+              "Peter",
+              "Thomas",
+              "Pilate"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit mondott a feltámadt Jézus a tanítványoknak mennybemenetele előtt?",
+            "o": [
+              "Menjenek el minden néphez tanítványokat szerezni",
+              "Maradjanak örökre Jeruzsálemben",
+              "Építsenek új templomot",
+              "Térjenek vissza a halászathoz"
+            ]
+          },
+          "en": {
+            "q": "What did the risen Jesus tell the disciples before ascending to heaven?",
+            "o": [
+              "Go and make disciples of all nations",
+              "Stay in Jerusalem forever",
+              "Build a new temple",
+              "Return to fishing"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    }
+  ]
+}

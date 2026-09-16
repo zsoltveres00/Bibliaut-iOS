@@ -1,0 +1,2169 @@
+{
+  "id": "u2",
+  "emoji": "🏜️",
+  "color": "#F27B35",
+  "hu": "Pátriárkák",
+  "en": "The Patriarchs",
+  "stations": [
+    {
+      "hu": "Ábrahám elhívása",
+      "en": "The Call of Abraham",
+      "qs": [
+        {
+          "hu": {
+            "q": "Hogy hívták Ábrahámot, mielőtt Isten megváltoztatta a nevét?",
+            "o": [
+              "Ábrám",
+              "Támár",
+              "Náhor",
+              "Lábán"
+            ]
+          },
+          "en": {
+            "q": "What was Abraham called before God changed his name?",
+            "o": [
+              "Abram",
+              "Tamar",
+              "Nahor",
+              "Laban"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik városból indult el Ábrahám és családja?",
+            "o": [
+              "Úr",
+              "Ninive",
+              "Babilon",
+              "Damaszkusz"
+            ]
+          },
+          "en": {
+            "q": "From which city did Abraham and his family set out?",
+            "o": [
+              "Ur",
+              "Nineveh",
+              "Babylon",
+              "Damascus"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ígért Isten Ábrahámnak, amikor elhívta?",
+            "o": [
+              "Hogy nagy néppé teszi",
+              "Hogy király lesz belőle",
+              "Hogy pap lesz belőle",
+              "Hogy próféta lesz belőle"
+            ]
+          },
+          "en": {
+            "q": "What did God promise Abraham when He called him?",
+            "o": [
+              "That He would make him into a great nation",
+              "That he would become a king",
+              "That he would become a priest",
+              "That he would become a prophet"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány éves volt Ábrahám, amikor elhagyta Háránt Kánaán felé?",
+            "o": [
+              "65 év",
+              "75 év",
+              "85 év",
+              "95 év"
+            ]
+          },
+          "en": {
+            "q": "How old was Abraham when he left Haran for Canaan?",
+            "o": [
+              "65 years",
+              "75 years",
+              "85 years",
+              "95 years"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Ki kísérte el Ábrahámot Háránból Kánaánba?",
+            "o": [
+              "Sára és Lót",
+              "Csak Sára",
+              "Csak Lót",
+              "Izsák és Jákob"
+            ]
+          },
+          "en": {
+            "q": "Who accompanied Abraham from Haran to Canaan?",
+            "o": [
+              "Sarah and Lot",
+              "Sarah alone",
+              "Lot alone",
+              "Isaac and Jacob"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik várost hagyta el Ábrahám családja, mielőtt Háránba mentek?",
+            "o": [
+              "Úr",
+              "Damaszkusz",
+              "Jerikó",
+              "Betlehem"
+            ]
+          },
+          "en": {
+            "q": "Which city did the family of Abraham leave before going to Haran?",
+            "o": [
+              "Ur",
+              "Damascus",
+              "Jericho",
+              "Bethlehem"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit épített Ábrahám Kánaán földjén, ahova ért?",
+            "o": [
+              "Oltárt az Úrnak",
+              "Egy palotát",
+              "Egy tornyot",
+              "Egy hidat"
+            ]
+          },
+          "en": {
+            "q": "What did Abraham build in the land of Canaan when he arrived?",
+            "o": [
+              "An altar to the Lord",
+              "A palace",
+              "A tower",
+              "A bridge"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik uralkodó vette el ideiglenesen Sárát, azt hívén hogy Ábrahám húga?",
+            "o": [
+              "Egyiptom fáraója",
+              "Babilon királya",
+              "Asszíria királya",
+              "Móáb királya"
+            ]
+          },
+          "en": {
+            "q": "Which ruler temporarily took Sarah, believing she was the sister of Abraham?",
+            "o": [
+              "The Pharaoh of Egypt",
+              "The King of Babylon",
+              "The King of Assyria",
+              "The King of Moab"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért mondta Ábrahám, hogy Sára a húga, nem a felesége?",
+            "o": [
+              "Félt, hogy megölik miatta",
+              "Hazudni akart pénzért",
+              "Isten parancsolta neki",
+              "Nem volt igaz, hogy férj és feleség"
+            ]
+          },
+          "en": {
+            "q": "Why did Abraham say Sarah was his sister, not his wife?",
+            "o": [
+              "He feared he would be killed because of her",
+              "He wanted to lie for money",
+              "God commanded him to",
+              "It was not true that they were married"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Ábrahám apja?",
+            "o": [
+              "Táré",
+              "Náhor",
+              "Lábán",
+              "Betuél"
+            ]
+          },
+          "en": {
+            "q": "Who was the father of Abraham?",
+            "o": [
+              "Terah",
+              "Nahor",
+              "Laban",
+              "Bethuel"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Ábrahám és Lót",
+      "en": "Abraham and Lot",
+      "qs": [
+        {
+          "hu": {
+            "q": "Ki volt Lót Ábrahámhoz képest?",
+            "o": [
+              "Testvére",
+              "Unokaöccse",
+              "Fia",
+              "Veje"
+            ]
+          },
+          "en": {
+            "q": "Who was Lot in relation to Abraham?",
+            "o": [
+              "His brother",
+              "His nephew",
+              "His son",
+              "His son in law"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Miért vált szét Ábrahám és Lót útja?",
+            "o": [
+              "Nem fért el a nyájuk együtt a földön",
+              "Lót elárulta Ábrahámot",
+              "Isten megparancsolta",
+              "Háború tört ki köztük"
+            ]
+          },
+          "en": {
+            "q": "Why did Abraham and Lot part ways?",
+            "o": [
+              "Their flocks and herds could not share the land",
+              "Lot betrayed Abraham",
+              "God commanded it",
+              "War broke out between them"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik két várost pusztította el Isten, ahol Lót élt?",
+            "o": [
+              "Szodoma és Gomora",
+              "Ninive és Babilon",
+              "Jerikó és Ái",
+              "Tírusz és Szidón"
+            ]
+          },
+          "en": {
+            "q": "Which two cities did God destroy, where Lot lived?",
+            "o": [
+              "Sodom and Gomorrah",
+              "Nineveh and Babylon",
+              "Jericho and Ai",
+              "Tyre and Sidon"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik síkságot választotta Lót, amikor szétváltak?",
+            "o": [
+              "A Jordán síkságát",
+              "A Sínai-sivatagot",
+              "A tengerpartot",
+              "A hegyvidéket"
+            ]
+          },
+          "en": {
+            "q": "Which plain did Lot choose when they parted?",
+            "o": [
+              "The plain of the Jordan",
+              "The Sinai desert",
+              "The seacoast",
+              "The mountain region"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik városban telepedett le Lót?",
+            "o": [
+              "Szodomában",
+              "Betlehemben",
+              "Hebronban",
+              "Sikemben"
+            ]
+          },
+          "en": {
+            "q": "In which city did Lot settle?",
+            "o": [
+              "Sodom",
+              "Bethlehem",
+              "Hebron",
+              "Shechem"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki mentette ki Lótot, amikor királyok háborújában elfogták?",
+            "o": [
+              "Ábrahám",
+              "Izsák",
+              "Egy angyal egyedül",
+              "A szodomai király"
+            ]
+          },
+          "en": {
+            "q": "Who rescued Lot when he was captured in a war of kings?",
+            "o": [
+              "Abraham",
+              "Isaac",
+              "An angel alone",
+              "The king of Sodom"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kik látogatták meg Ábrahámot Mamré tölgyesénél, mielőtt Szodoma elpusztult?",
+            "o": [
+              "Három férfi",
+              "Egy próféta",
+              "Lót és családja",
+              "Izsák és Rebeka"
+            ]
+          },
+          "en": {
+            "q": "Who visited Abraham at the oaks of Mamre before the destruction of Sodom?",
+            "o": [
+              "Three men",
+              "A prophet",
+              "Lot and his family",
+              "Isaac and Rebekah"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mivé változott Lót felesége, amikor hátranézett Szodomára?",
+            "o": [
+              "Sóoszloppá",
+              "Kővé",
+              "Porrá",
+              "Fává"
+            ]
+          },
+          "en": {
+            "q": "What did the wife of Lot turn into when she looked back at Sodom?",
+            "o": [
+              "A pillar of salt",
+              "A stone",
+              "Dust",
+              "A tree"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kikkel menekült ki Lót Szodomából?",
+            "o": [
+              "Feleségével és két lányával",
+              "Egyedül",
+              "Ábrahámmal",
+              "Egész városával"
+            ]
+          },
+          "en": {
+            "q": "With whom did Lot flee Sodom?",
+            "o": [
+              "His wife and two daughters",
+              "Alone",
+              "With Abraham",
+              "With his whole city"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik kis városba engedték Lótot menekülni?",
+            "o": [
+              "Coárba",
+              "Betlehembe",
+              "Hebronba",
+              "Damaszkuszba"
+            ]
+          },
+          "en": {
+            "q": "To which small town was Lot allowed to flee?",
+            "o": [
+              "Zoar",
+              "Bethlehem",
+              "Hebron",
+              "Damascus"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Az ígéret",
+      "en": "The Promise",
+      "qs": [
+        {
+          "hu": {
+            "q": "Hány éves volt Ábrahám a körülmetélés szövetségekor?",
+            "o": [
+              "70",
+              "80",
+              "99",
+              "100"
+            ]
+          },
+          "en": {
+            "q": "How old was Abraham when God made the covenant of circumcision with him?",
+            "o": [
+              "70",
+              "80",
+              "99",
+              "100"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Mit adott Isten jelül a szövetségre Ábrahámmal?",
+            "o": [
+              "A körülmetélkedést",
+              "A szombatot",
+              "Az áldozatot",
+              "A szivárványt"
+            ]
+          },
+          "en": {
+            "q": "What did God give as a sign of the covenant with Abraham?",
+            "o": [
+              "Circumcision",
+              "The Sabbath",
+              "Sacrifice",
+              "The rainbow"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Aminek atyjává Isten ígéretében tette Ábrahámot?",
+            "o": [
+              "Egy népnek",
+              "Sok népnek",
+              "Egy törzsnek",
+              "Egy városnak"
+            ]
+          },
+          "en": {
+            "q": "According to the promise, what did God make Abraham the father of?",
+            "o": [
+              "One nation",
+              "Many nations",
+              "One tribe",
+              "One city"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Mihez hasonlította Isten Ábrahám leszármazottainak számát?",
+            "o": [
+              "Az ég csillagaihoz",
+              "A folyók vizéhez",
+              "A hegyek magasságához",
+              "A felhők sokaságához"
+            ]
+          },
+          "en": {
+            "q": "To what did God compare the number of the descendants of Abraham?",
+            "o": [
+              "The stars of the sky",
+              "The waters of the rivers",
+              "The height of the mountains",
+              "The multitude of clouds"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen szertartással pecsételte meg Isten a szövetséget Ábrahámmal?",
+            "o": [
+              "Kettévágott állatok közötti átvonulással",
+              "Egy lakomával",
+              "Egy áldozati bárány levágásával",
+              "Egy fogadalmi énekkel"
+            ]
+          },
+          "en": {
+            "q": "What ritual sealed the covenant with Abraham in Genesis 15?",
+            "o": [
+              "Passing between divided animal pieces",
+              "A feast",
+              "Slaughtering a sacrificial lamb",
+              "A vow song"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik szolgálólányától született Ábrahámnak fia, mielőtt Izsák megszületett?",
+            "o": [
+              "Hágártól",
+              "Ráheltől",
+              "Leától",
+              "Sárától"
+            ]
+          },
+          "en": {
+            "q": "Through which servant did Abraham first have a son, before Isaac was born?",
+            "o": [
+              "Hagar",
+              "Rachel",
+              "Leah",
+              "Sarah"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogy hívták Ábrahám és Hágár fiát?",
+            "o": [
+              "Izmael",
+              "Izsák",
+              "Midián",
+              "József"
+            ]
+          },
+          "en": {
+            "q": "What was the name of the son of Abraham and Hagar?",
+            "o": [
+              "Ishmael",
+              "Isaac",
+              "Midian",
+              "Joseph"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ígért Isten Izmaelnek is?",
+            "o": [
+              "Hogy nagy néppé teszi őt is",
+              "Hogy király lesz belőle",
+              "Hogy próféta lesz belőle",
+              "Hogy pap lesz belőle"
+            ]
+          },
+          "en": {
+            "q": "What did God also promise concerning Ishmael?",
+            "o": [
+              "That He would also make him into a great nation",
+              "That he would become a king",
+              "That he would become a prophet",
+              "That he would become a priest"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen nevet adott Isten Sárának, amikor megváltoztatta Sárai nevét?",
+            "o": [
+              "Sára",
+              "Sarai marad",
+              "Rebeka",
+              "Lea"
+            ]
+          },
+          "en": {
+            "q": "What new name did God give Sarah, changing it from Sarai?",
+            "o": [
+              "Sarah",
+              "It stayed Sarai",
+              "Rebekah",
+              "Leah"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért nevette ki Sára Isten ígéretét, hogy fia születik?",
+            "o": [
+              "Mert öreg volt már ehhez",
+              "Mert nem hitt Istenben",
+              "Mert Ábrahám tiltakozott",
+              "Mert nem akart gyereket"
+            ]
+          },
+          "en": {
+            "q": "Why did Sarah laugh at the promise of God that she would have a son?",
+            "o": [
+              "Because she was already too old for this",
+              "Because she did not believe in God",
+              "Because Abraham objected",
+              "Because she did not want a child"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Izsák születése",
+      "en": "The Birth of Isaac",
+      "qs": [
+        {
+          "hu": {
+            "q": "Hány éves volt Sára, amikor megszülte Izsákot?",
+            "o": [
+              "70",
+              "80",
+              "90",
+              "100"
+            ]
+          },
+          "en": {
+            "q": "How old was Sarah when she gave birth to Isaac?",
+            "o": [
+              "70",
+              "80",
+              "90",
+              "100"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Mit jelent Izsák neve?",
+            "o": [
+              "Nevetés",
+              "Áldás",
+              "Ígéret",
+              "Öröm"
+            ]
+          },
+          "en": {
+            "q": "What does the name Isaac mean?",
+            "o": [
+              "Laughter",
+              "Blessing",
+              "Promise",
+              "Joy"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány éves volt Ábrahám Izsák születésekor?",
+            "o": [
+              "90",
+              "100",
+              "110",
+              "120"
+            ]
+          },
+          "en": {
+            "q": "How old was Abraham when Isaac was born?",
+            "o": [
+              "90",
+              "100",
+              "110",
+              "120"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Ki nevette ki Isten ígéretét fia születéséről, még mielőtt Sára tette volna?",
+            "o": [
+              "Ábrahám",
+              "Lót",
+              "Izmael",
+              "Hágár"
+            ]
+          },
+          "en": {
+            "q": "Who laughed at the promise of God about a son being born, even before Sarah did?",
+            "o": [
+              "Abraham",
+              "Lot",
+              "Ishmael",
+              "Hagar"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért kellett elküldeni Hágárt és Izmaelt a háztól Izsák születése után?",
+            "o": [
+              "Izmael csúfolta Izsákot, és Sára nem akarta hogy örököljön vele",
+              "Isten megparancsolta hirtelen",
+              "Hágár elszökött magától",
+              "Izmael megbetegedett"
+            ]
+          },
+          "en": {
+            "q": "Why did Hagar and Ishmael have to be sent away from the household after the birth of Isaac?",
+            "o": [
+              "Ishmael mocked Isaac, and Sarah did not want him to inherit alongside Isaac",
+              "God suddenly commanded it",
+              "Hagar ran away on her own",
+              "Ishmael fell ill"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hányadik napon metélték körül Izsákot a parancs szerint?",
+            "o": [
+              "A hetedik napon",
+              "A nyolcadik napon",
+              "A tizedik napon",
+              "A negyvenedik napon"
+            ]
+          },
+          "en": {
+            "q": "On which day was Isaac circumcised according to the command?",
+            "o": [
+              "On the seventh day",
+              "On the eighth day",
+              "On the tenth day",
+              "On the fortieth day"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Mit rendezett Ábrahám, amikor Izsákot elválasztották?",
+            "o": [
+              "Nagy lakomát",
+              "Áldozati szertartást",
+              "Vándorlást",
+              "Böjtöt"
+            ]
+          },
+          "en": {
+            "q": "What did Abraham hold when Isaac was weaned?",
+            "o": [
+              "A great feast",
+              "A sacrificial ceremony",
+              "A journey",
+              "A fast"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki gondoskodott Hágárról és Izmaelről a pusztában, amikor elfogyott a vizük?",
+            "o": [
+              "Isten, egy kutat mutatva nekik",
+              "Ábrahám, aki utánuk ment",
+              "Egy karaván, ami arra járt",
+              "Lót, aki befogadta őket"
+            ]
+          },
+          "en": {
+            "q": "Who provided for Hagar and Ishmael in the desert when their water ran out?",
+            "o": [
+              "God, by showing them a well",
+              "Abraham, who went after them",
+              "A caravan that passed by",
+              "Lot, who took them in"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen néven emlegetik gyakran Izsákot, mint Ábrahám ígéretének gyermekét?",
+            "o": [
+              "Az ígéret gyermeke",
+              "A pusztaság gyermeke",
+              "A vándorlás fia",
+              "A béke fia"
+            ]
+          },
+          "en": {
+            "q": "How is Isaac often referred to, as the child of the promise of Abraham?",
+            "o": [
+              "The child of promise",
+              "The child of the desert",
+              "The son of wandering",
+              "The son of peace"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik vidéken lakott Ábrahám családja Izsák születése körüli időben?",
+            "o": [
+              "Beérseba vidékén",
+              "Egyiptom földjén",
+              "Babilon vidékén",
+              "Asszíria földjén"
+            ]
+          },
+          "en": {
+            "q": "In which region did the family of Abraham live around the time of the birth of Isaac?",
+            "o": [
+              "The region of Beersheba",
+              "The land of Egypt",
+              "The region of Babylon",
+              "The land of Assyria"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Izsák feláldozása",
+      "en": "The Sacrifice of Isaac",
+      "qs": [
+        {
+          "hu": {
+            "q": "Melyik hegyvidéken kérte Isten Ábrahámot, hogy áldozza fel Izsákot?",
+            "o": [
+              "Mórija",
+              "Sínai",
+              "Karmel",
+              "Hóreb"
+            ]
+          },
+          "en": {
+            "q": "On which mountain region did God ask Abraham to sacrifice Isaac?",
+            "o": [
+              "Moriah",
+              "Sinai",
+              "Carmel",
+              "Horeb"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mivel helyettesítette Isten Izsákot az áldozatnál?",
+            "o": [
+              "Egy kecskével",
+              "Egy kossal, ami bozótba akadt",
+              "Egy borjúval",
+              "Egy galambbal"
+            ]
+          },
+          "en": {
+            "q": "What did God provide as a substitute for Isaac?",
+            "o": [
+              "A goat",
+              "A ram caught in a thicket",
+              "A calf",
+              "A dove"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Miért kérte Isten Ábrahámot Izsák feláldozására?",
+            "o": [
+              "Hogy próbára tegye a hitét",
+              "Mert Izsák vétkezett",
+              "Hogy megbüntesse Ábrahámot",
+              "Véletlen félreértésből"
+            ]
+          },
+          "en": {
+            "q": "Why did God ask Abraham to sacrifice Isaac?",
+            "o": [
+              "To test his faith",
+              "Because Isaac had sinned",
+              "To punish Abraham",
+              "Due to a misunderstanding"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit vitt magával Ábrahám az áldozathoz Izsákon kívül?",
+            "o": [
+              "Fát, tüzet és egy kést",
+              "Csak vizet",
+              "Egy sátrat",
+              "Ezüstöt és aranyat"
+            ]
+          },
+          "en": {
+            "q": "What did Abraham bring for the sacrifice besides Isaac?",
+            "o": [
+              "Wood, fire, and a knife",
+              "Only water",
+              "A tent",
+              "Silver and gold"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit kérdezett Izsák útközben az áldozati báránnyal kapcsolatban?",
+            "o": [
+              "Hol van a bárány az áldozathoz?",
+              "Miért megyünk a hegyre?",
+              "Kik jönnek még velünk?",
+              "Meddig tart az út?"
+            ]
+          },
+          "en": {
+            "q": "What did Isaac ask on the way about the sacrificial lamb?",
+            "o": [
+              "Where is the lamb for the sacrifice?",
+              "Why are we going to the mountain?",
+              "Who else is coming with us?",
+              "How long is the journey?"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit válaszolt Ábrahám Izsák kérdésére a bárányról?",
+            "o": [
+              "Isten gondoskodik majd a bárányról",
+              "Nincs szükség bárányra",
+              "Otthon felejtették",
+              "Egy szolga hozza majd"
+            ]
+          },
+          "en": {
+            "q": "What did Abraham answer Isaac about the lamb?",
+            "o": [
+              "God Himself will provide the lamb",
+              "No lamb is needed",
+              "It was left at home",
+              "A servant will bring it"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány napig tartott az út a feláldozás helyére?",
+            "o": [
+              "Egy nap",
+              "Három nap",
+              "Öt nap",
+              "Hét nap"
+            ]
+          },
+          "en": {
+            "q": "How many days did the journey to the place of sacrifice take?",
+            "o": [
+              "One day",
+              "Three days",
+              "Five days",
+              "Seven days"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Ki állította meg Ábrahámot, mielőtt feláldozta volna Izsákot?",
+            "o": [
+              "Az Úr angyala",
+              "Sára",
+              "Izmael",
+              "Egy próféta"
+            ]
+          },
+          "en": {
+            "q": "Who stopped Abraham before he sacrificed Isaac?",
+            "o": [
+              "The angel of the Lord",
+              "Sarah",
+              "Ishmael",
+              "A prophet"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen nevet adott Ábrahám annak a helynek, ahol ez történt?",
+            "o": [
+              "\"Az Úr gondoskodik\"",
+              "\"Az Úr látja\"",
+              "\"Az Úr békéje\"",
+              "\"Az Úr ereje\""
+            ]
+          },
+          "en": {
+            "q": "What name did Abraham give to the place where this happened?",
+            "o": [
+              "\"The Lord Will Provide\"",
+              "\"The Lord Sees\"",
+              "\"The Peace of the Lord\"",
+              "\"The Strength of the Lord\""
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen esküt tett Isten Ábrahámnak engedelmessége után?",
+            "o": [
+              "Hogy megsokasítja leszármazottait és megáldja általuk a népeket",
+              "Hogy azonnal királlyá teszi",
+              "Hogy soha többé nem próbálja meg",
+              "Hogy visszaadja Szodomát"
+            ]
+          },
+          "en": {
+            "q": "What oath did God make to Abraham after his obedience?",
+            "o": [
+              "That He would multiply his descendants and bless the nations through them",
+              "That He would immediately make him king",
+              "That He would never test him again",
+              "That He would restore Sodom"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Izsák és Rebeka",
+      "en": "Isaac and Rebekah",
+      "qs": [
+        {
+          "hu": {
+            "q": "Kit küldött Ábrahám, hogy feleséget találjon Izsáknak?",
+            "o": [
+              "Ábrahám szolgáját",
+              "Lótot",
+              "Jákobot",
+              "Egy prófétát"
+            ]
+          },
+          "en": {
+            "q": "Whom did Abraham send to find a wife for Isaac?",
+            "o": [
+              "His servant",
+              "Lot",
+              "Jacob",
+              "A prophet"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miről ismerte fel a szolga, hogy Rebeka a megfelelő menyasszony?",
+            "o": [
+              "Megitatta a tevéit is a kútnál",
+              "Gazdag volt",
+              "Király lánya volt",
+              "Próféta jelezte"
+            ]
+          },
+          "en": {
+            "q": "How did the servant recognize Rebekah as the right bride?",
+            "o": [
+              "She also gave water to his camels at the well",
+              "She was wealthy",
+              "She was the daughter of a king",
+              "A prophet pointed her out"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány gyermeke született Izsáknak és Rebekának?",
+            "o": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          "en": {
+            "q": "How many children did Isaac and Rebekah have?",
+            "o": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Honnan hozta a szolga Rebekát Izsáknak?",
+            "o": [
+              "Ábrahám rokonságától Mezopotámiából",
+              "Egyiptomból",
+              "Kánaán helyi városaiból",
+              "Moábból"
+            ]
+          },
+          "en": {
+            "q": "From where did the servant bring Rebekah for Isaac?",
+            "o": [
+              "From the relatives of Abraham in Mesopotamia",
+              "From Egypt",
+              "From local towns in Canaan",
+              "From Moab"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Rebeka apja?",
+            "o": [
+              "Betuél",
+              "Náhor",
+              "Lábán",
+              "Táré"
+            ]
+          },
+          "en": {
+            "q": "Who was the father of Rebekah?",
+            "o": [
+              "Bethuel",
+              "Nahor",
+              "Laban",
+              "Terah"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Rebeka testvére, aki beleegyezett a házasságba?",
+            "o": [
+              "Lábán",
+              "Izmael",
+              "Betuél",
+              "Ézsau"
+            ]
+          },
+          "en": {
+            "q": "Who was the brother of Rebekah, who agreed to the marriage?",
+            "o": [
+              "Laban",
+              "Ishmael",
+              "Bethuel",
+              "Esau"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hol találkozott Izsák először Rebekával?",
+            "o": [
+              "A mezőn, amikor imádkozott",
+              "A templomban",
+              "Egy lakomán",
+              "Egy hegyen"
+            ]
+          },
+          "en": {
+            "q": "Where did Isaac first meet Rebekah?",
+            "o": [
+              "In the field, while he was praying",
+              "In the temple",
+              "At a feast",
+              "On a mountain"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik sátorba vezette Izsák Rebekát, miután feleségül vette?",
+            "o": [
+              "Anyja, Sára sátrába",
+              "Apja sátrába",
+              "Egy új sátorba",
+              "Lábán sátrába"
+            ]
+          },
+          "en": {
+            "q": "To which tent did Isaac bring Rebekah after marrying her?",
+            "o": [
+              "The tent of his mother, Sarah",
+              "His father’s tent",
+              "A newly built tent",
+              "The tent of Laban"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mennyi ideig volt Rebeka meddő, mielőtt teherbe esett?",
+            "o": [
+              "Tíz évig",
+              "Húsz évig",
+              "Harminc évig",
+              "Öt évig"
+            ]
+          },
+          "en": {
+            "q": "How long was Rebekah childless before she conceived?",
+            "o": [
+              "Ten years",
+              "Twenty years",
+              "Thirty years",
+              "Five years"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Miért imádkozott Izsák Rebekáért?",
+            "o": [
+              "Mert nem tudott gyermeket szülni",
+              "Mert beteg volt",
+              "Mert elveszett a pusztában",
+              "Mert bántotta valaki"
+            ]
+          },
+          "en": {
+            "q": "Why did Isaac pray for Rebekah?",
+            "o": [
+              "Because she was unable to have children",
+              "Because she was ill",
+              "Because she was lost in the desert",
+              "Because someone had harmed her"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Jákob és Ézsau",
+      "en": "Jacob and Esau",
+      "qs": [
+        {
+          "hu": {
+            "q": "Ki volt Izsák és Rebeka elsőszülött fia?",
+            "o": [
+              "Jákob",
+              "Ézsau",
+              "Benjámin",
+              "Lévi"
+            ]
+          },
+          "en": {
+            "q": "Who was the firstborn son of Isaac and Rebekah?",
+            "o": [
+              "Jacob",
+              "Esau",
+              "Benjamin",
+              "Levi"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Miért adta el Ézsau az elsőszülöttségi jogát?",
+            "o": [
+              "Egy tál lencseételért, mert nagyon éhes volt",
+              "Pénzért",
+              "Egy juhnyájért",
+              "Egy szövetségért"
+            ]
+          },
+          "en": {
+            "q": "Why did Esau sell his birthright to Jacob?",
+            "o": [
+              "For a bowl of lentil stew, because he was very hungry",
+              "For money",
+              "For a flock of sheep",
+              "For an alliance"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan szerezte meg Jákob apja áldását?",
+            "o": [
+              "Megtévesztéssel, kecskebőrbe öltözve",
+              "Erővel elvette",
+              "Anyja megvette neki",
+              "Isten közvetlenül neki adta"
+            ]
+          },
+          "en": {
+            "q": "How did Jacob obtain his father’s blessing instead of Esau?",
+            "o": [
+              "By deception, disguised in goat skins",
+              "By force",
+              "His mother bought it for him",
+              "God gave it to him directly"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit jelentett Isten Rebekának a méhében küzdő ikrekről?",
+            "o": [
+              "Hogy két nép lesz belőlük, és az idősebb szolgálja a fiatalabbat",
+              "Hogy csak egyikük marad életben",
+              "Hogy mindketten királyok lesznek",
+              "Hogy ikreik sosem lesznek"
+            ]
+          },
+          "en": {
+            "q": "What did God tell Rebekah about the twins struggling in her womb?",
+            "o": [
+              "That they would become two nations, and the older would serve the younger",
+              "That only one would survive",
+              "That both would become kings",
+              "That she would never have twins"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miről kapta Ézsau a leírását születésekor?",
+            "o": [
+              "Vörös és szőrös volt",
+              "Sápadt és sovány volt",
+              "Csendes és halk volt",
+              "Kék szemű volt"
+            ]
+          },
+          "en": {
+            "q": "What was notable about Esau at his birth?",
+            "o": [
+              "He was red and hairy",
+              "He was pale and thin",
+              "He was quiet and calm",
+              "He had blue eyes"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit jelent Jákob neve?",
+            "o": [
+              "\"Aki a sarkot fogja\"",
+              "\"Aki a napot uralja\"",
+              "\"Aki bölcsen ítél\"",
+              "\"Aki messze utazik\""
+            ]
+          },
+          "en": {
+            "q": "What does the name Jacob mean?",
+            "o": [
+              "\"Heel grabber\"",
+              "\"Ruler of the sun\"",
+              "\"Wise judge\"",
+              "\"Far traveler\""
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik fiút szerette jobban Izsák, és melyiket Rebeka?",
+            "o": [
+              "Izsák Ézsaut, Rebeka Jákobot",
+              "Izsák Jákobot, Rebeka Ézsaut",
+              "Mindketten Ézsaut szerették jobban",
+              "Mindketten Jákobot szerették jobban"
+            ]
+          },
+          "en": {
+            "q": "Which son did Isaac favor, and which did Rebekah favor?",
+            "o": [
+              "Isaac favored Esau, Rebekah favored Jacob",
+              "Isaac favored Jacob, Rebekah favored Esau",
+              "Both favored Esau",
+              "Both favored Jacob"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen foglalkozású volt Ézsau?",
+            "o": [
+              "Ügyes vadász",
+              "Pásztor",
+              "Kereskedő",
+              "Ács"
+            ]
+          },
+          "en": {
+            "q": "What was the occupation of Esau?",
+            "o": [
+              "A skillful hunter",
+              "A shepherd",
+              "A merchant",
+              "A carpenter"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen ember volt Jákob, aki otthon maradt?",
+            "o": [
+              "Csendes ember, aki a sátrak körül tartózkodott",
+              "Harcos, aki csatákban vett részt",
+              "Utazó kereskedő",
+              "Halász a tó partján"
+            ]
+          },
+          "en": {
+            "q": "What kind of person was Jacob described as, staying near home?",
+            "o": [
+              "A quiet man, who stayed among the tents",
+              "A warrior who fought in battles",
+              "A traveling merchant",
+              "A fisherman by the lake"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hova menekült Jákob, miután megszerezte az áldást?",
+            "o": [
+              "Háránba, Lábánhoz",
+              "Egyiptomba",
+              "Móábba",
+              "Edomba"
+            ]
+          },
+          "en": {
+            "q": "Where did Jacob flee after obtaining the blessing?",
+            "o": [
+              "To Haran, to Laban",
+              "To Egypt",
+              "To Moab",
+              "To Edom"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Jákob álma",
+      "en": "The Dream of Jacob",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mit látott Jákob álmában Bételnél?",
+            "o": [
+              "Egy létrát, amely a földtől az égig ért",
+              "Egy tüzes szekeret",
+              "Egy hatalmas viharfelhőt",
+              "Egy oroszlánt"
+            ]
+          },
+          "en": {
+            "q": "What did Jacob see in his dream at Bethel?",
+            "o": [
+              "A ladder reaching from earth to heaven",
+              "A fiery chariot",
+              "A great storm cloud",
+              "A lion"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kinél dolgozott Jákob hosszú éveken át?",
+            "o": [
+              "Lábánnál",
+              "Lótnál",
+              "Potifárnál",
+              "Náhornál"
+            ]
+          },
+          "en": {
+            "q": "For whom did Jacob work for many years to gain his wife?",
+            "o": [
+              "Laban",
+              "Lot",
+              "Potiphar",
+              "Nahor"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kik voltak Jákob feleségei?",
+            "o": [
+              "Ráhel és Lea",
+              "Sára és Rebeka",
+              "Márta és Mária",
+              "Ruth és Naomi"
+            ]
+          },
+          "en": {
+            "q": "Who were the wives of Jacob?",
+            "o": [
+              "Rachel and Leah",
+              "Sarah and Rebekah",
+              "Martha and Mary",
+              "Ruth and Naomi"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ígért Isten Jákobnak az álomban a létránál?",
+            "o": [
+              "Hogy vele lesz és megáldja őt és leszármazottait",
+              "Hogy azonnal királlyá teszi",
+              "Hogy visszaküldi Ézsauhoz",
+              "Hogy elveszi tőle a földet"
+            ]
+          },
+          "en": {
+            "q": "What did God promise Jacob in the dream at the ladder?",
+            "o": [
+              "That He would be with him and bless him and his descendants",
+              "That He would immediately make him king",
+              "That He would send him back to Esau",
+              "That He would take the land from him"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tett Jákob a kővel, amin aludt, miután felébredt?",
+            "o": [
+              "Oszlopként állította fel, és olajat öntött rá",
+              "Elrejtette a földbe",
+              "Magával vitte Egyiptomba",
+              "Eltörte"
+            ]
+          },
+          "en": {
+            "q": "What did Jacob do with the stone he slept on after waking?",
+            "o": [
+              "He set it up as a pillar and poured oil on it",
+              "He buried it in the ground",
+              "He carried it to Egypt",
+              "He broke it"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen nevet adott Jákob annak a helynek, ahol az álmot látta?",
+            "o": [
+              "Bétel",
+              "Bétlehem",
+              "Beérseba",
+              "Sikem"
+            ]
+          },
+          "en": {
+            "q": "What name did Jacob give to the place where he had the dream?",
+            "o": [
+              "Bethel",
+              "Bethlehem",
+              "Beersheba",
+              "Shechem"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit fogadott meg Jákob Istennek Bételnél?",
+            "o": [
+              "Hogy tizedet ad mindenből, amit kap",
+              "Hogy sosem nősül meg",
+              "Hogy visszatér Kánaánba azonnal",
+              "Hogy templomot épít"
+            ]
+          },
+          "en": {
+            "q": "What did Jacob vow to God at Bethel?",
+            "o": [
+              "That he would give a tenth of everything he received",
+              "That he would never marry",
+              "That he would return to Canaan immediately",
+              "That he would build a temple"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan csapta be Lábán Jákobot az esküvő éjszakáján?",
+            "o": [
+              "Leát adta neki Ráhel helyett",
+              "Elvette a nyáját",
+              "Elküldte messzire",
+              "Nem engedte megnősülni"
+            ]
+          },
+          "en": {
+            "q": "How did Laban deceive Jacob on the wedding night?",
+            "o": [
+              "He gave him Leah instead of Rachel",
+              "He took away his flock",
+              "He sent him far away",
+              "He did not allow him to marry"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány évet kellett szolgálnia Jákobnak összesen a két lányért?",
+            "o": [
+              "Hét évet",
+              "Tizennégy évet",
+              "Húsz évet",
+              "Négy évet"
+            ]
+          },
+          "en": {
+            "q": "How many years in total did Jacob have to serve for the two daughters?",
+            "o": [
+              "Seven years",
+              "Fourteen years",
+              "Twenty years",
+              "Four years"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Hány fia született Jákobnak összesen, akikből a tizenkét törzs ered?",
+            "o": [
+              "Tíz",
+              "Tizenegy",
+              "Tizenkettő",
+              "Tizenhárom"
+            ]
+          },
+          "en": {
+            "q": "How many sons did Jacob have in total, the ancestors of the twelve tribes?",
+            "o": [
+              "Ten",
+              "Eleven",
+              "Twelve",
+              "Thirteen"
+            ]
+          },
+          "c": 2
+        }
+      ]
+    },
+    {
+      "hu": "József és a színes köntös",
+      "en": "Joseph and the Coat of Many Colors",
+      "qs": [
+        {
+          "hu": {
+            "q": "Miért szerette Jákob Józsefet a többi fiánál jobban?",
+            "o": [
+              "Mert öregkori fia volt",
+              "Mert a legidősebb volt",
+              "Mert pap volt",
+              "Mert király volt"
+            ]
+          },
+          "en": {
+            "q": "Why did Jacob love Joseph more than his other sons?",
+            "o": [
+              "Because he was the son of his old age",
+              "Because he was the eldest",
+              "Because he was a priest",
+              "Because he was a king"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ajándékozott Jákob Józsefnek?",
+            "o": [
+              "Egy sokszínű köntöst",
+              "Egy kardot",
+              "Egy juhnyájat",
+              "Egy házat"
+            ]
+          },
+          "en": {
+            "q": "What gift did Jacob give Joseph that provoked his brothers’ envy?",
+            "o": [
+              "A coat of many colors",
+              "A sword",
+              "A flock of sheep",
+              "A house"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miről álmodott József, ami feldühítette testvéreit?",
+            "o": [
+              "Hogy ők meghajolnak majd előtte",
+              "Hogy gazdag lesz",
+              "Hogy király lesz Egyiptomban",
+              "Hogy elveszíti a családját"
+            ]
+          },
+          "en": {
+            "q": "What did Joseph dream about that angered his brothers?",
+            "o": [
+              "That they would one day bow down to him",
+              "That he would become rich",
+              "That he would become king of Egypt",
+              "That he would lose his family"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hányan voltak összesen József testvérei?",
+            "o": [
+              "Kilenc",
+              "Tíz",
+              "Tizenegy",
+              "Tizenkettő"
+            ]
+          },
+          "en": {
+            "q": "How many brothers did Joseph have in total?",
+            "o": [
+              "Nine",
+              "Ten",
+              "Eleven",
+              "Twelve"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Melyik testvér javasolta, hogy inkább adják el Józsefet, ne öljék meg?",
+            "o": [
+              "Júda",
+              "Rúben",
+              "Simeon",
+              "Benjámin"
+            ]
+          },
+          "en": {
+            "q": "Which brother suggested selling Joseph instead of killing him?",
+            "o": [
+              "Judah",
+              "Reuben",
+              "Simeon",
+              "Benjamin"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik testvér próbálta megmenteni Józsefet a testvérei elől?",
+            "o": [
+              "Rúben",
+              "Júda",
+              "Lévi",
+              "Dán"
+            ]
+          },
+          "en": {
+            "q": "Which brother tried to save Joseph from the other brothers?",
+            "o": [
+              "Reuben",
+              "Judah",
+              "Levi",
+              "Dan"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hova dobták József testvérei, mielőtt eladták?",
+            "o": [
+              "Egy száraz kútba",
+              "Egy barlangba",
+              "Egy folyóba",
+              "Egy sátorba"
+            ]
+          },
+          "en": {
+            "q": "Where did the brothers of Joseph throw him before selling him?",
+            "o": [
+              "Into an empty cistern",
+              "Into a cave",
+              "Into a river",
+              "Into a tent"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kiknek adták el József testvérei?",
+            "o": [
+              "Izmaelita kereskedőknek",
+              "Egyiptomi katonáknak",
+              "Filiszteus harcosoknak",
+              "Babiloni papoknak"
+            ]
+          },
+          "en": {
+            "q": "To whom did the brothers of Joseph sell him?",
+            "o": [
+              "Ishmaelite traders",
+              "Egyptian soldiers",
+              "Philistine warriors",
+              "Babylonian priests"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mibe mártották József köntösét, hogy becsapják apjukat?",
+            "o": [
+              "Kecske vérébe",
+              "Vörös borba",
+              "Festékbe",
+              "Olívaolajba"
+            ]
+          },
+          "en": {
+            "q": "What did they dip the robe of Joseph into to deceive their father?",
+            "o": [
+              "Goat blood",
+              "Red wine",
+              "Dye",
+              "Olive oil"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kinek adták el a kereskedők Józsefet Egyiptomban?",
+            "o": [
+              "Potifárnak, a fáraó tisztjének",
+              "A fáraónak személyesen",
+              "Egy papnak",
+              "Egy kereskedő családnak"
+            ]
+          },
+          "en": {
+            "q": "To whom did the traders sell Joseph in Egypt?",
+            "o": [
+              "Potiphar, an officer of Pharaoh",
+              "Pharaoh himself",
+              "A priest",
+              "A merchant family"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "József Egyiptomban",
+      "en": "Joseph in Egypt",
+      "qs": [
+        {
+          "hu": {
+            "q": "Hogyan került József Egyiptomba?",
+            "o": [
+              "Testvérei eladták rabszolgának",
+              "Önként utazott oda",
+              "Fáraó hívta meg",
+              "Menekülnie kellett éhínség elől"
+            ]
+          },
+          "en": {
+            "q": "How did Joseph end up in Egypt?",
+            "o": [
+              "His brothers sold him into slavery",
+              "He traveled there voluntarily",
+              "Pharaoh invited him",
+              "He had to flee a famine"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért került József börtönbe Egyiptomban?",
+            "o": [
+              "Potifár felesége hamisan megvádolta",
+              "Lopott",
+              "Fellázadt a fáraó ellen",
+              "Nem fizetett adót"
+            ]
+          },
+          "en": {
+            "q": "Why was Joseph imprisoned in Egypt?",
+            "o": [
+              "The wife of Potiphar falsely accused him",
+              "He stole something",
+              "He rebelled against Pharaoh",
+              "He failed to pay taxes"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mivel emelkedett József Egyiptom második emberévé?",
+            "o": [
+              "Megfejtette a fáraó álmait",
+              "Legyőzött egy sereget",
+              "Gazdag családból származott",
+              "Feleségül vette a fáraó lányát"
+            ]
+          },
+          "en": {
+            "q": "What raised Joseph to become the second most powerful man in Egypt?",
+            "o": [
+              "He interpreted the dreams of Pharaoh",
+              "He defeated an army",
+              "He came from a wealthy family",
+              "He married the daughter of Pharaoh"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen tisztséget kapott József Potifár házában?",
+            "o": [
+              "Az egész háztartás vezetőjét",
+              "Egyszerű mezei munkást",
+              "Katonai parancsnokot",
+              "Templomi papot"
+            ]
+          },
+          "en": {
+            "q": "What position did Joseph receive in the house of Potiphar?",
+            "o": [
+              "Overseer of the whole household",
+              "A simple field worker",
+              "A military commander",
+              "A temple priest"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kiknek az álmait fejtette meg József a börtönben?",
+            "o": [
+              "A pohárnok és a pék álmait",
+              "Két őrét",
+              "A börtönparancsnokét",
+              "Egy másik fogolyét"
+            ]
+          },
+          "en": {
+            "q": "Whose dreams did Joseph interpret in prison?",
+            "o": [
+              "The dreams of the cupbearer and the baker",
+              "Two of his guards",
+              "The prison warden",
+              "Another prisoner"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miről álmodott a fáraó, amit József megfejtett?",
+            "o": [
+              "Hét kövér és hét sovány tehénről",
+              "Egy nagy folyóról",
+              "Egy aranyszoborról",
+              "Egy viharfelhőről"
+            ]
+          },
+          "en": {
+            "q": "What did Pharaoh dream about, which Joseph interpreted?",
+            "o": [
+              "Seven fat cows and seven thin cows",
+              "A great river",
+              "A golden statue",
+              "A storm cloud"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit jelentett József szerint a fáraó álma?",
+            "o": [
+              "Hét bő és hét szűk esztendő következik",
+              "Háború közeleg",
+              "A fáraó fia trónra lép",
+              "Egy új város épül"
+            ]
+          },
+          "en": {
+            "q": "What did the dream of Pharaoh mean according to Joseph?",
+            "o": [
+              "Seven years of abundance followed by seven years of famine",
+              "War was coming",
+              "The son of Pharaoh would take the throne",
+              "A new city would be built"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen tanácsot adott József a fáraónak az éhínségre készülve?",
+            "o": [
+              "Gyűjtsenek gabonát a bő évek alatt",
+              "Építsenek új templomot",
+              "Küldjenek katonákat más földekre",
+              "Csökkentsék az adókat"
+            ]
+          },
+          "en": {
+            "q": "What advice did Joseph give Pharaoh to prepare for the famine?",
+            "o": [
+              "Store up grain during the abundant years",
+              "Build a new temple",
+              "Send soldiers to other lands",
+              "Lower the taxes"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért mentek József testvérei Egyiptomba?",
+            "o": [
+              "Hogy gabonát vegyenek az éhínség idején",
+              "Hogy kereskedjenek arannyal",
+              "Hogy megkeressék Józsefet szándékosan",
+              "Hogy találkozzanak a fáraóval"
+            ]
+          },
+          "en": {
+            "q": "Why did the brothers of Joseph go to Egypt?",
+            "o": [
+              "To buy grain during the famine",
+              "To trade in gold",
+              "To deliberately search for Joseph",
+              "To meet with Pharaoh"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan mutatkozott be végül József a testvéreinek?",
+            "o": [
+              "\"Én vagyok József, a testvéretek\"",
+              "Levelet küldött nekik",
+              "Egy szolgával üzent",
+              "Sosem árulta el magát"
+            ]
+          },
+          "en": {
+            "q": "How did Joseph eventually reveal himself to his brothers?",
+            "o": [
+              "\"I am Joseph, your brother\"",
+              "He sent them a letter",
+              "He sent word through a servant",
+              "He never revealed himself"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    }
+  ]
+}

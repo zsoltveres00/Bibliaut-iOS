@@ -40,7 +40,7 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 .hero .lvl{display:inline-flex;align-items:center;gap:5px;color:#fff;font-weight:700;background:rgba(255,255,255,.18);border-radius:999px;padding:5px 10px;margin-top:8px;font-size:12px;white-space:nowrap}
 .hero .lvl svg{width:13px;height:13px;fill:currentColor}
 .hero .lvl b{opacity:.85;font-weight:600}
-.mascot{width:62px;height:62px;flex:none}
+.mascot{width:50px;height:50px;flex:none}
 .hero .mw{display:flex;flex-direction:column;align-items:center;gap:4px;flex:none;width:112px}
 .bubble{position:relative;background:#fff;color:var(--text);font-size:11px;font-weight:600;line-height:1.25;border-radius:10px;padding:6px 8px;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,.15)}
 .bubble::after{content:"";position:absolute;left:50%;bottom:-5px;width:10px;height:10px;background:#fff;transform:translateX(-50%) rotate(45deg)}
@@ -73,30 +73,30 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
 /* path */
 .path{position:relative}
 .path svg.line{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
-.marker{display:flex;flex-direction:column;align-items:center;padding-top:10px;gap:4px;text-align:center;position:relative}
-.marker .big{width:74px;height:74px;border-radius:50%;display:grid;place-items:center;font-size:30px;border:3px solid var(--surface);box-shadow:0 4px 10px var(--shadow)}
+.marker{display:flex;flex-direction:column;align-items:center;padding:6px 0 4px;gap:2px;text-align:center;position:relative}
+.marker .big{width:62px;height:62px;border-radius:50%;display:grid;place-items:center;font-size:30px;border:3px solid var(--surface);box-shadow:0 4px 10px var(--shadow)}
 .marker .big.lock{background:var(--surface);border:2px solid var(--border);opacity:.55}
 .marker .big.lock svg{width:24px;height:24px;fill:var(--muted)}
 .marker b{font-family:Spectral,Georgia,serif;font-size:16px;max-width:220px}
 .marker i{font-style:normal;font-size:12px;color:var(--muted)}
-.row{height:80px;position:relative}
+.row{height:62px;position:relative}
 .row.chestrow{height:64px}
 .node{position:absolute;top:0;width:104px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:2px}
 .node:disabled{cursor:default}
-.node .dot{width:58px;height:48px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:18px;background:var(--surface);color:#fff;position:relative;margin-bottom:8px;
-  --edge:color-mix(in srgb,var(--border) 60%,#000 0%);box-shadow:0 8px 0 var(--edge),0 10px 10px var(--shadow);transition:transform .08s,box-shadow .08s}
+.node .dot{width:52px;height:42px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:18px;background:var(--surface);color:#fff;position:relative;margin-bottom:6px;
+  --edge:color-mix(in srgb,var(--border) 60%,#000 0%);box-shadow:0 6px 0 var(--edge),0 8px 8px var(--shadow);transition:transform .08s,box-shadow .08s}
 .node .dot::after{content:"";position:absolute;left:12%;right:12%;top:8%;height:34%;border-radius:50%;background:linear-gradient(rgba(255,255,255,.35),rgba(255,255,255,0));pointer-events:none}
 .node:not(:disabled):active .dot{transform:translateY(6px);box-shadow:0 2px 0 var(--edge),0 3px 6px var(--shadow)}
 .node .dot svg{width:24px;height:24px;filter:drop-shadow(0 1px 1px rgba(0,0,0,.3))}
 .node.done .dot,.node.open .dot{background:linear-gradient(color-mix(in srgb,var(--uc) 85%,#fff),var(--uc));--edge:color-mix(in srgb,var(--uc) 65%,#000)}
 .node.done .dot svg{fill:var(--star);color:var(--star)}.node.done .dot svg.s1{fill:none;color:#fff}
-.ring{position:absolute;left:50%;top:50%;width:76px;height:70px;margin:-33px 0 0 -38px;border-radius:50%;border:4px solid var(--uc);pointer-events:none;animation:pulse 1.5s ease-in-out infinite}
-.node .ring{top:calc(50% + 4px)}
+.ring{position:absolute;left:50%;top:50%;width:68px;height:60px;margin:-28px 0 0 -34px;border-radius:50%;border:4px solid var(--uc);pointer-events:none;animation:pulse 1.5s ease-in-out infinite}
+.node .ring{top:calc(50% + 3px)}
 @keyframes pulse{0%,100%{transform:scale(.92);opacity:.35}50%{transform:scale(1.06);opacity:.9}}
 .node.open.nohearts .dot{opacity:.5}
 .node.locked .dot{opacity:.55;--edge:color-mix(in srgb,var(--muted) 45%,transparent)}.node.locked .dot svg{fill:var(--muted);width:16px;height:16px;filter:none}
-.node small{font-size:10px;font-weight:600;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:104px}
-.chest{position:absolute;top:0;transform:translateX(-50%);width:60px;height:60px;display:grid;place-items:center}
+.node small{font-size:9px;font-weight:600;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:104px}
+.chest{position:absolute;top:-2px;transform:translateX(-50%);width:56px;height:56px;display:grid;place-items:center}
 .chest .ring{--uc:var(--gold);width:78px;height:72px;margin:-36px 0 0 -39px}
 .chest.locked{opacity:.55;cursor:default}.chest.locked .cbox{filter:saturate(.2)}
 .chest.claimed{opacity:.75;cursor:default}
@@ -310,19 +310,20 @@ h1.brand{font-family:Spectral,Georgia,serif;font-size:28px;margin:0;font-weight:
   <symbol id="i-rosette" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M8 14l-2 8 6-3 6 3-2-8a7 7 0 0 1-8 0z"/></symbol>
   <symbol id="i-redo" viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 1-7.4 5h2.2A6 6 0 1 0 12 6v3L7 5l5-4z"/></symbol>
   <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 16l-7-7 1.8-1.8L12 12.4l5.2-5.2L19 9z"/></symbol>
-  <symbol id="i-dove" viewBox="0 0 67 64">
-    <g stroke="#B9B1D9" stroke-width="1.4" stroke-linejoin="round">
-      <path d="M16 36l-11-7 4 9-5 8 13-2z" fill="#fff"/>
-      <ellipse cx="31" cy="37" rx="17" ry="11.5" fill="#fff"/>
-      <path d="M24 33q1-19 22-17-9 5-12 18z" fill="#EEEAFB"/>
-      <circle cx="45" cy="26" r="8.5" fill="#fff"/>
+  <symbol id="i-dove" viewBox="0 0 66 60">
+    <g stroke="#B9B1D9" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M30 40c2 8 10 12 18 10-6-4-8-8-8-12z" fill="#DCD6F3"/>
+      <path d="M4 36l13-5 1 4-5 3 6 2-2 4-6-1 1 5z" fill="#EEEAFB"/>
+      <path d="M14 36c0-10 12-15 26-11 8 2 12 8 10 14-4 8-20 10-30 4-4-2-6-4-6-7z" fill="#fff"/>
+      <path d="M28 31c-3-12 6-21 20-23-1 4-3 6-2 8-4 2-6 4-5 7-4 2-6 5-5 9z" fill="#EEEAFB"/>
+      <circle cx="49" cy="26" r="7.5" fill="#fff"/>
     </g>
-    <path d="M53 24.5l6.5 2.5-6.5 2.5z" fill="#F5A623"/>
-    <circle cx="47" cy="24.5" r="1.9" fill="#2B2440"/><circle cx="47.7" cy="23.8" r=".7" fill="#fff"/>
-    <circle cx="43.5" cy="29.5" r="1.7" fill="#F3A6A6" opacity=".75"/>
-    <path d="M58 28q5 3 5.5 9" fill="none" stroke="#5E9B4E" stroke-width="1.6" stroke-linecap="round"/>
-    <ellipse cx="60.5" cy="30" rx="3" ry="1.5" fill="#7BBF5E" transform="rotate(40 60.5 30)"/>
-    <ellipse cx="62.5" cy="34.5" rx="2.8" ry="1.4" fill="#7BBF5E" transform="rotate(70 62.5 34.5)"/>
+    <path d="M56 24.5l6 2.5-6 2.5z" fill="#F5A623"/>
+    <circle cx="50.5" cy="25" r="1.8" fill="#2B2440"/><circle cx="51.1" cy="24.4" r=".6" fill="#fff"/>
+    <circle cx="47" cy="29.5" r="1.5" fill="#F3A6A6" opacity=".75"/>
+    <path d="M61 28c4 2 5 6 4 10" fill="none" stroke="#5E9B4E" stroke-width="1.6" stroke-linecap="round"/>
+    <ellipse cx="63" cy="30.5" rx="2.8" ry="1.4" fill="#7BBF5E" transform="rotate(45 63 30.5)"/>
+    <ellipse cx="64.5" cy="35" rx="2.6" ry="1.3" fill="#7BBF5E" transform="rotate(75 64.5 35)"/>
   </symbol>
 </svg>
 
@@ -356,7 +357,7 @@ function persist(){
 }
 
 // ---------- rules ----------
-var XP_PER=10, BONUS=5, HEARTS=5, REGEN=5*60*1000, CHEST_AFTER=[4,9], TALENTS_PER_CHEST=20, CARD_PRICE=50;
+var XP_PER=10, BONUS=5, HEARTS=5, REGEN=5*60*1000, CHEST_AFTER=[4,9], TALENTS_PER_CHEST=20, WEEK_BONUS=50, Q_PER_STATION=10;
 var TALENTS_PER_STATION=5, RUN_SMALL=5, RUN_BIG=10, TWO_STAR_PCT=70;
 
 // ---------- strings ----------
@@ -376,7 +377,7 @@ var STR = {
     hintBtn:'Segíts, Olívia!',hintUsed:'Ebben az állomásban már segítettem',hintBubble:'Kizártam egy rossz választ!',
     chestBanner:'Kincsesláda',chestBannerSub:'KOPPINTS, ÉS NYISD KI',collectionSub:'Minden modulnak megvannak a saját kincsei – a drágábbak ritkábbak.',lockedModule:'Még zárva',
     mascotResult:function(stars){ return stars===3?'Tökéletes! Nagyon büszke vagyok rád!':stars===2?'Szép munka, már majdnem hibátlan!':stars===1?'Megcsináltad! Legközelebb még jobb lesz.':'Semmi baj, pihenj egy kicsit, aztán próbáld újra!'; },
-    weekTitle:'Ezen a héten',weekChest:'Heti láda!',weekChestHint:'Tanulj a hét minden napján, és vasárnap kinyílik a láda.',
+    weekTitle:'Ezen a héten',weekChest:'Vasárnapi láda!',weekBonus:function(n){return '+'+n+' bónusz a teljes hétért!'},subscription:'Előfizetés',
     chestFound:'Kincsesládát találtál!',talentsGain:function(n){return '+'+n+' talentum'},talentsBalance:function(n){return 'Egyenleged: '+n+' talentum'},
     chestHint:'Minden teljesített állomás talentumot ad, a ládák minden 5. állomás után extra 20-at.',tabHome:'Ösvény',tabCollection:'Gyűjtemény',tabStats:'Statisztika',
     menu:'Menü',profile:'Profil',language:'Nyelv',comingSoon:'Hamarosan',yourName:'A neved',namePlaceholder:'Hogy szólíthatunk?',save:'Mentés',
@@ -399,7 +400,7 @@ var STR = {
     hintBtn:'Help me, Olivia!',hintUsed:'I already helped on this station',hintBubble:'I removed one wrong answer!',
     chestBanner:'Treasure chest',chestBannerSub:'TAP TO OPEN',collectionSub:'Each module has its own treasures – the pricier ones are rarer.',lockedModule:'Locked',
     mascotResult:function(stars){ return stars===3?'Perfect! I\'m so proud of you!':stars===2?'Nice work, almost flawless!':stars===1?'You did it! Next time will be even better.':'No worries, take a break and try again!'; },
-    weekTitle:'This week',weekChest:'Weekly chest!',weekChestHint:'Study every day of the week and the chest opens on Sunday.',
+    weekTitle:'This week',weekChest:'Sunday chest!',weekBonus:function(n){return '+'+n+' bonus for a full week!'},subscription:'Subscription',
     chestFound:'You found a treasure chest!',talentsGain:function(n){return '+'+n+' talents'},talentsBalance:function(n){return 'Your balance: '+n+' talents'},
     chestHint:'Every finished station earns talents; chests after every 5th station hold 20 more.',tabHome:'Path',tabCollection:'Collection',tabStats:'Stats',
     menu:'Menu',profile:'Profile',language:'Language',comingSoon:'Coming soon',yourName:'Your name',namePlaceholder:'What should we call you?',save:'Save',
@@ -432,7 +433,9 @@ function done(uid,i){ return (S.progress[uid]||[]).indexOf(i)>=0; }
 function doneCount(uid){ return (S.progress[uid]||[]).length; }
 function unitComplete(u){ return doneCount(u.id)>=u.stations.length; }
 // A chest after station i must be opened before station i+1 (or the next module) unlocks.
-function chestBlocks(uid,i){ return CHEST_AFTER.indexOf(i)>=0 && !S.chests[chestKey(uid,i)]; }
+function chestsOf(u){ return u.chests||CHEST_AFTER; }
+function chestBlocks(uid,i){ return chestsOf(unitById(uid)).indexOf(i)>=0 && !S.chests[chestKey(uid,i)]; }
+function unitById(uid){ for(var i=0;i<C.units.length;i++) if(C.units[i].id===uid) return C.units[i]; return null; }
 function unitUnlocked(ui){ if(ui===0) return true; var p=C.units[ui-1]; return unitComplete(p)&&!chestBlocks(p.id,p.stations.length-1); }
 function stationUnlocked(ui,si){ var u=C.units[ui]; return unitUnlocked(ui)&&(si===0||(done(u.id,si-1)&&!chestBlocks(u.id,si-1))); }
 function markDone(uid,i){ var l=S.progress[uid]||[]; if(l.indexOf(i)<0) l.push(i); S.progress[uid]=l; }
@@ -463,7 +466,10 @@ function weekStart(d){ var t=startOfDay(d), fd=T().firstDay, diff=(t.getDay()-fd
 function weekKey(d){ return dayKey(weekStart(d)); }
 function weekDays(){ var s=weekStart(new Date()), out=[]; for(var i=0;i<7;i++) out.push(addDays(s,i)); return out; }
 function weekComplete(){ return weekDays().every(function(d){ return played(d)>0; }); }
-function weekChestEarned(){ return weekComplete() && !S.weekChests[weekKey(new Date())]; }
+// The Sunday chest opens when the player studies on the last day of the week; a full week adds a bonus.
+function isLastWeekday(d){ return dayKey(d)===dayKey(addDays(weekStart(d),6)); }
+function weekChestEarned(){ var now=new Date(); return isLastWeekday(now) && played(now)>0 && !S.weekChests[weekKey(now)]; }
+function weekChestReward(){ return TALENTS_PER_CHEST+(weekComplete()?WEEK_BONUS:0); }
 function owns(g){ return S.cards.indexOf(g.id)>=0; }
 function unitIndex(uid){ for(var i=0;i<C.units.length;i++) if(C.units[i].id===uid) return i; return -1; }
 function canBuy(g){ return !owns(g)&&unitUnlocked(unitIndex(g.unit))&&S.talents>=g.price; }
@@ -476,7 +482,8 @@ function stationStars(uid,si){ if(!done(uid,si)) return 0; var v=S.stars[starKey
 function starsFor(correct,total){ if(correct>=total) return 3; return correct*100>=TWO_STAR_PCT*total?2:1; }
 function multiplierFor(run){ return run>=RUN_BIG?2:run>=RUN_SMALL?1.5:1; }
 function startStation(ui,si){ if(hearts()<=0) return; var st=C.units[ui].stations[si], q=[]; for(var i=0;i<st.qs.length;i++) q.push(i);
-  lesson={ui:ui,si:si,qs:st.qs,queue:shuffle(q),pos:0,hearts:hearts(),firstTry:0,toReview:[],reviewing:false,mistakes:0,run:0,bestRun:0,failed:false,order:[],answered:null}; prepQ(); screen={name:'lesson'}; render(); }
+  // Each play draws Q_PER_STATION questions from the station's pool, so replays feel fresh.
+  lesson={ui:ui,si:si,qs:st.qs,queue:shuffle(q).slice(0,Q_PER_STATION),total:Math.min(Q_PER_STATION,q.length),pos:0,hearts:hearts(),firstTry:0,toReview:[],reviewing:false,mistakes:0,run:0,bestRun:0,failed:false,order:[],answered:null}; prepQ(); screen={name:'lesson'}; render(); }
 function curQ(){ return lesson.qs[lesson.queue[lesson.pos]]; }
 function lastInPass(){ return lesson.pos===lesson.queue.length-1; }
 function optCount(q){ return q.type==='image'?(q.opts||[]).length:((q.hu.o||[]).length); }
@@ -496,10 +503,10 @@ function advance(){ if(!lesson) return;
   prepQ(); render(); document.getElementById('view').scrollTop=0; }
 function finish(){ var u=C.units[lesson.ui], ok=!lesson.failed, gain=lesson.firstTry*XP_PER+(ok?BONUS:0); S.xp+=gain;
   var was=unitComplete(u), just=false, stars=0, tg=0, mult=multiplierFor(lesson.bestRun);
-  if(ok){ markDone(u.id,lesson.si); just=!was&&unitComplete(u); stars=starsFor(lesson.firstTry,lesson.qs.length); var k=starKey(u.id,lesson.si); S.stars[k]=Math.max(S.stars[k]||0,stars); tg=Math.round(TALENTS_PER_STATION*mult); S.talents+=tg; }
+  if(ok){ markDone(u.id,lesson.si); just=!was&&unitComplete(u); stars=starsFor(lesson.firstTry,lesson.total); var k=starKey(u.id,lesson.si); S.stars[k]=Math.max(S.stars[k]||0,stars); tg=Math.round(TALENTS_PER_STATION*mult); S.talents+=tg; }
   var st=registerToday(); persist(); var chestNext=ok&&chestBlocks(u.id,lesson.si), hasNext=ok&&!just&&!chestNext&&lesson.si+1<u.stations.length;
   screen={name:'result',r:{success:ok,gain:gain,talents:tg,mult:mult,stars:stars,mistakes:lesson.mistakes,streak:st,unitJust:just,hasNext:hasNext,chestNext:chestNext,weekChest:weekChestEarned()}}; render(); }
-function openWeekChest(){ if(!weekChestEarned()) { goHome(); return; } screen={name:'chest',talents:TALENTS_PER_CHEST,taps:0,key:weekKey(new Date()),kind:'week'}; render(); }
+function openWeekChest(){ if(!weekChestEarned()) { goHome(); return; } screen={name:'chest',talents:weekChestReward(),bonus:weekComplete()?WEEK_BONUS:0,taps:0,key:weekKey(new Date()),kind:'week'}; render(); }
 function goHome(){ screen={name:'home'}; lesson=null; render(); }
 
 // ---------- rendering ----------
@@ -512,7 +519,7 @@ function render(){
   else if(screen.name==='chest'){ renderChest(); }
 }
 function chipsHtml(){
-  return '<div class="srow"><span class="st c-gold">'+ico('flame')+'<span class="n">'+displayStreak()+'</span></span>'+heartChip()+'<span class="st"><i class="coin"></i><span class="n">'+S.talents+'</span></span></div>';
+  return '<div class="srow"><button type="button" class="st c-gold" data-tab="stats">'+ico('flame')+'<span class="n">'+displayStreak()+'</span></button>'+heartChip()+'<button type="button" class="st" data-tab="collection"><i class="coin"></i><span class="n">'+S.talents+'</span></button></div>';
 }
 function heartChip(){ var h=hearts();
   return '<span class="st c-wrong" id="heartChip">'+ico('heart')+'<span class="n">'+h+'</span>'+(h<HEARTS?'<span class="tm">'+mmss(msToNextHeart())+'</span>':'')+'</span>';
@@ -528,7 +535,7 @@ function renderHome(){
   var s=T(), html='';
   if(tab==='home'){
     var nx=nextNode();
-    html+='<div class="hero"><div class="hl"><h1 class="brand">'+esc(s.brand)+'</h1><p class="sub">'+esc(s.subtitle)+'</p><div class="lvl">'+ico('rosette')+esc(levelName())+'<b>· '+S.xp+' XP</b></div></div>'+
+    html+='<div class="hero"><div class="hl"><h1 class="brand">'+esc(s.brand)+'</h1><p class="sub">'+esc(s.subtitle)+'</p><button type="button" class="lvl" data-tab="stats">'+ico('rosette')+esc(levelName())+'<b>· '+S.xp+' XP</b></button></div>'+
       '<div class="mw"><div class="bubble">'+esc(s.mascotHome(displayStreak(),S.name,nx))+'</div>'+mascotHtml()+'</div></div>'+chipsHtml();
     if(nx&&nx.chest){ html+='<button class="banner" type="button" data-chest="'+nx.ui+','+nx.si+'" style="background:linear-gradient(135deg,var(--gold),#F5C542)"><div><small>'+esc(s.chestBannerSub)+'</small><b>'+esc(s.chestBanner)+'</b></div><span>'+chestHtml(false,34)+'</span></button>'; }
     else if(nx){ var u=C.units[nx.ui]; html+='<button class="banner" type="button" data-start="'+nx.ui+','+nx.si+'" style="background:'+u.color+'" '+(hearts()>0?'':'disabled')+'><div><small>'+(nx.ui+1)+'. '+s.section+', '+(nx.si+1)+'. '+s.station+'</small><b>'+esc(L(u.stations[nx.si]))+'</b></div><span>'+u.emoji+'</span></button>'; }
@@ -549,10 +556,10 @@ function pathHtml(){
       var d=done(u.id,si), unl=stationUnlocked(ui,si), can=unl&&hh>0, isNext=nx&&!nx.chest&&nx.ui===ui&&nx.si===si;
       var cls=d?'done':unl?'open':'locked'; if(unl&&!d&&!can) cls+=' nohearts';
       html+='<div class="row"><button type="button" class="node '+cls+'" data-pos="'+pos+'" data-start="'+ui+','+si+'" style="--uc:'+u.color+'" '+(can?'':'disabled')+'><div class="dot">'+(isNext?'<span class="ring"></span>':'')+(d?starIco(stationStars(u.id,si)):unl?(si+1):ico('lock'))+'</div><small>'+esc(L(st))+'</small></button></div>';
-      if(CHEST_AFTER.indexOf(si)>=0){
+      if(chestsOf(u).indexOf(si)>=0){
         var cpos=pattern[flat%3]; flat++;
         var claimed=!!S.chests[chestKey(u.id,si)], ready=un&&done(u.id,si)&&!claimed, cNext=nx&&nx.chest&&nx.ui===ui&&nx.si===si;
-        html+='<div class="row"><button type="button" class="chest '+(claimed?'claimed':ready?'ready':'locked')+'" data-pos="'+cpos+'" data-chest="'+ui+','+si+'" '+(ready?'':'disabled')+'>'+(cNext?'<span class="ring"></span>':'')+chestHtml(claimed,54)+(claimed||ready?'':'<span class="lk">'+ico('lock')+'</span>')+'</button></div>';
+        html+='<div class="row"><button type="button" class="chest '+(claimed?'claimed':ready?'ready':'locked')+'" data-pos="'+cpos+'" data-chest="'+ui+','+si+'" '+(ready?'':'disabled')+'>'+(cNext?'<span class="ring"></span>':'')+chestHtml(claimed,48)+(claimed||ready?'':'<span class="lk">'+ico('lock')+'</span>')+'</button></div>';
       }
     });
   });
@@ -658,7 +665,7 @@ function renderChest(){
   var h='<div class="center"><h2>'+esc(screen.kind==='week'?s.weekChest:s.chestFound)+'</h2>';
   if(!open) h+='<div class="hint">'+(screen.taps===0?ico('down'):'')+'</div>';
   h+='<button type="button" class="tapchest '+(open?'opened':'w'+(screen.taps%2+1))+'" data-tap '+(open?'disabled':'')+'><span class="glow"></span>'+chestHtml(open,150)+'</button>';
-  if(open){ h+='<div class="reveal"><div class="gain"><i class="coin spin"></i><span class="xp">'+esc(s.talentsGain(screen.talents))+'</span></div><div class="m">'+esc(s.talentsBalance(S.talents))+'</div>'+
+  if(open){ h+='<div class="reveal"><div class="gain"><i class="coin spin"></i><span class="xp">'+esc(s.talentsGain(screen.talents))+'</span></div>'+(screen.bonus?'<div class="m c-gold" style="font-weight:700">'+esc(s.weekBonus(screen.bonus))+'</div>':'')+'<div class="m">'+esc(s.talentsBalance(S.talents))+'</div>'+
     '<div class="acts"><button type="button" class="primary" data-home>'+esc(s.backHome)+'</button><button type="button" class="secondary" data-gotab="collection">'+esc(s.tabCollection)+'</button></div></div>'; }
   else { h+='<div class="tdots">'+d+'</div>'; }
   view.innerHTML=h+'</div>'; foot.innerHTML='';
@@ -672,7 +679,7 @@ function menuHtml(){
   return '<h4>'+esc(s.menu)+'</h4>'+
     '<button type="button" class="mrow" data-profile>'+ico('person')+esc(s.profile)+(S.name?'<span class="det">'+esc(S.name)+'</span>':'')+'<svg class="chev"><use href="#i-chev"/></svg></button>'+
     '<div class="mrow">'+ico('globe')+esc(s.language)+'<span class="lang"><button type="button" data-lang="hu" class="'+(S.lang==='hu'?'on':'')+'">HU</button><button type="button" data-lang="en" class="'+(S.lang==='en'?'on':'')+'">EN</button></span></div>'+
-    '<div class="mrow off">'+ico('spark')+esc(s.comingSoon)+'<svg class="chev"><use href="#i-chev"/></svg></div>'+
+    '<div class="mrow off">'+ico('spark')+esc(s.subscription)+'<svg class="chev"><use href="#i-chev"/></svg></div>'+
     '<div class="mrow off">'+ico('spark')+esc(s.comingSoon)+'<svg class="chev"><use href="#i-chev"/></svg></div>'+
     '<button type="button" class="mrow" data-reset style="color:var(--wrong)"><svg style="fill:var(--wrong)"><use href="#i-trash"/></svg>'+esc(s.reset)+'</button>';
 }

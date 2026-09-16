@@ -1,0 +1,2169 @@
+{
+  "id": "u4",
+  "emoji": "👑",
+  "color": "#E8A317",
+  "hu": "Bírák és királyok",
+  "en": "Judges and Kings",
+  "stations": [
+    {
+      "hu": "Józsué és Jerikó",
+      "en": "Joshua and Jericho",
+      "qs": [
+        {
+          "hu": {
+            "q": "Ki vezette Izrael népét Mózes halála után?",
+            "o": [
+              "Józsué",
+              "Káleb",
+              "Áron",
+              "Sámuel"
+            ]
+          },
+          "en": {
+            "q": "Who led the people of Israel after the death of Moses?",
+            "o": [
+              "Joshua",
+              "Caleb",
+              "Aaron",
+              "Samuel"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan omlottak le Jerikó falai?",
+            "o": [
+              "A nép körbejárta a várost és megfújta a kürtöket",
+              "Ostromgéppel törték át",
+              "Alagutat ástak alattuk",
+              "Éjszaka megtámadták a várost"
+            ]
+          },
+          "en": {
+            "q": "How did the walls of Jericho fall?",
+            "o": [
+              "The people marched around the city and blew trumpets",
+              "They broke through with a battering ram",
+              "They dug a tunnel underneath",
+              "They attacked the city at night"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hányadik napon omlottak le a falak?",
+            "o": [
+              "3.",
+              "6.",
+              "7.",
+              "12."
+            ]
+          },
+          "en": {
+            "q": "On which day did the walls fall, after marching around the city?",
+            "o": [
+              "3rd",
+              "6th",
+              "7th",
+              "12th"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Kit küldött Józsué kémként Jerikóba?",
+            "o": [
+              "Két férfit",
+              "Öt férfit",
+              "Egy asszonyt",
+              "Tíz katonát"
+            ]
+          },
+          "en": {
+            "q": "Whom did Joshua send as spies into Jericho?",
+            "o": [
+              "Two men",
+              "Five men",
+              "A woman",
+              "Ten soldiers"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki rejtette el a kémeket Jerikóban?",
+            "o": [
+              "Ráháb",
+              "Debóra",
+              "Mirjam",
+              "Egy pap"
+            ]
+          },
+          "en": {
+            "q": "Who hid the spies in Jericho?",
+            "o": [
+              "Rahab",
+              "Deborah",
+              "Miriam",
+              "A priest"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mivel jelölte meg Ráháb a házát, hogy megmeneküljön?",
+            "o": [
+              "Egy piros zsinórral",
+              "Egy fehér ruhával",
+              "Egy zászlóval",
+              "Egy oltárral"
+            ]
+          },
+          "en": {
+            "q": "What did Rahab mark her house with to be spared?",
+            "o": [
+              "A scarlet cord",
+              "A white cloth",
+              "A flag",
+              "An altar"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Min kelt át Izrael népe Józsué vezetésével a Jordán folyón?",
+            "o": [
+              "Száraz lábbal, a víz megállt",
+              "Csónakokkal",
+              "Egy hídon",
+              "Úszva"
+            ]
+          },
+          "en": {
+            "q": "How did the people of Israel cross the Jordan River under Joshua?",
+            "o": [
+              "On dry ground, as the water stopped",
+              "By boats",
+              "On a bridge",
+              "By swimming"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit vittek a papok a Jordán átkelésekor?",
+            "o": [
+              "A frigyládát",
+              "Egy zászlót",
+              "Kürtöket csak",
+              "Egy oltárt"
+            ]
+          },
+          "en": {
+            "q": "What did the priests carry when crossing the Jordan?",
+            "o": [
+              "The Ark of the Covenant",
+              "A banner",
+              "Only trumpets",
+              "An altar"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hányszor járták körbe Jerikót az utolsó napon?",
+            "o": [
+              "Egyszer",
+              "Háromszor",
+              "Hétszer",
+              "Tizenkétszer"
+            ]
+          },
+          "en": {
+            "q": "How many times did they march around Jericho on the last day?",
+            "o": [
+              "Once",
+              "Three times",
+              "Seven times",
+              "Twelve times"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Ki maradt életben Jerikóban a pusztítás után?",
+            "o": [
+              "Ráháb és családja",
+              "A király egyedül",
+              "Senki",
+              "Az összes pap"
+            ]
+          },
+          "en": {
+            "q": "Who survived in Jericho after the destruction?",
+            "o": [
+              "Rahab and her family",
+              "The king alone",
+              "No one",
+              "All the priests"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "A bírák kora",
+      "en": "The Age of the Judges",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mi jellemezte Izrael népét a bírák korában?",
+            "o": [
+              "Mindenki azt tette, ami jónak látszott a szemében",
+              "Erős központi kormányzat volt",
+              "Mindig béke és jólét uralkodott",
+              "Egyetlen törzs uralkodott a többi felett"
+            ]
+          },
+          "en": {
+            "q": "What characterized Israel in the age of the Judges, before they had a king?",
+            "o": [
+              "Everyone did what was right in their own eyes",
+              "There was a strong central government",
+              "Peace and prosperity always reigned",
+              "One tribe ruled over the others"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi volt a bírák fő feladata?",
+            "o": [
+              "Megmenteni a népet az elnyomóktól, és vezetni őket",
+              "Templomot építeni",
+              "Adót szedni",
+              "Törvényeket írni"
+            ]
+          },
+          "en": {
+            "q": "What was the main role of the judges?",
+            "o": [
+              "To deliver the people from oppressors and lead them",
+              "To build a temple",
+              "To collect taxes",
+              "To write laws"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Nagyjából hány évig tartott a bírák kora?",
+            "o": [
+              "Néhány évig",
+              "Kb. 300 évig",
+              "Kb. 1000 évig",
+              "Csak egy nemzedékig"
+            ]
+          },
+          "en": {
+            "q": "Roughly how long did the period of the Judges last?",
+            "o": [
+              "A few years",
+              "About 300 years",
+              "About 1000 years",
+              "Just one generation"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Miért engedte Isten, hogy más népek maradjanak Kánaánban?",
+            "o": [
+              "Hogy próbára tegyék Izraelt",
+              "Mert Izrael kérte",
+              "Mert nem volt elég katona",
+              "Véletlenül maradtak ott"
+            ]
+          },
+          "en": {
+            "q": "Why did God allow other peoples to remain in Canaan after the conquest?",
+            "o": [
+              "To test Israel",
+              "Because Israel asked for it",
+              "Because there were not enough soldiers",
+              "They remained there by accident"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen ismétlődő mintázat jellemezte a bírák korát?",
+            "o": [
+              "Bűn, elnyomás, kiáltás, szabadulás",
+              "Béke, háború, béke, háború",
+              "Csak folyamatos jólét",
+              "Csak folyamatos háború"
+            ]
+          },
+          "en": {
+            "q": "What repeating pattern characterized the age of the Judges?",
+            "o": [
+              "Sin, oppression, crying out, deliverance",
+              "Peace, war, peace, war",
+              "Only continuous prosperity",
+              "Only continuous war"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt az első megnevezett bíró Izrael történetében?",
+            "o": [
+              "Otniel",
+              "Ehud",
+              "Gedeon",
+              "Sámson"
+            ]
+          },
+          "en": {
+            "q": "Who was the first named judge in the history of Israel?",
+            "o": [
+              "Othniel",
+              "Ehud",
+              "Gideon",
+              "Samson"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik bíró volt balkezes, és megölte Eglon királyt?",
+            "o": [
+              "Ehud",
+              "Otniel",
+              "Sámson",
+              "Gedeon"
+            ]
+          },
+          "en": {
+            "q": "Which judge was left handed and killed King Eglon?",
+            "o": [
+              "Ehud",
+              "Othniel",
+              "Samson",
+              "Gideon"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik nép elnyomta gyakran Izraelt keletről a bírák korában?",
+            "o": [
+              "A midiániták",
+              "A filiszteusok csak",
+              "A babiloniak",
+              "Az egyiptomiak"
+            ]
+          },
+          "en": {
+            "q": "Which people often oppressed Israel from the east during the Judges?",
+            "o": [
+              "The Midianites",
+              "The Philistines alone",
+              "The Babylonians",
+              "The Egyptians"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Nagyjából hány fő bírót sorol fel a Bírák könyve?",
+            "o": [
+              "Kettőt",
+              "Hatot-hetet",
+              "Húszat",
+              "Százat"
+            ]
+          },
+          "en": {
+            "q": "Roughly how many major judges does the Book of Judges describe?",
+            "o": [
+              "Two",
+              "Six or seven",
+              "Twenty",
+              "A hundred"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Melyik könyv követi a Bírák könyvét egy hűséges családról szólva?",
+            "o": [
+              "Ruth könyve",
+              "Sámuel könyve",
+              "Királyok könyve",
+              "Józsué könyve"
+            ]
+          },
+          "en": {
+            "q": "Which book follows Judges, telling of a loyal family?",
+            "o": [
+              "The Book of Ruth",
+              "The Book of Samuel",
+              "The Book of Kings",
+              "The Book of Joshua"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Debóra és Gedeon",
+      "en": "Deborah and Gideon",
+      "qs": [
+        {
+          "hu": {
+            "q": "Milyen tisztséget töltött be Debóra Izraelben?",
+            "o": [
+              "Bírónő és prófétanő",
+              "Királynő",
+              "Papnő",
+              "Katona"
+            ]
+          },
+          "en": {
+            "q": "What role did Deborah hold in Israel?",
+            "o": [
+              "Judge and prophetess",
+              "Queen",
+              "Priestess",
+              "Soldier"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány katonával győzött Gedeon a midianiták ellen?",
+            "o": [
+              "300",
+              "3000",
+              "30000",
+              "1000"
+            ]
+          },
+          "en": {
+            "q": "With how many soldiers did Gideon defeat the Midianites, after God reduced his army?",
+            "o": [
+              "300",
+              "3000",
+              "30000",
+              "1000"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen jellel kérte Gedeon Isten megerősítését?",
+            "o": [
+              "Harmatot egy gyapjún, míg a föld száraz marad",
+              "Esőt egy napon",
+              "Egy csillagot az égen",
+              "Egy hangot az égből"
+            ]
+          },
+          "en": {
+            "q": "What sign did Gideon ask for to confirm the will of God, the fleece test?",
+            "o": [
+              "Dew on a fleece while the ground stayed dry",
+              "Rain on a single day",
+              "A star in the sky",
+              "A voice from heaven"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik fa alatt ítélkezett Debóra?",
+            "o": [
+              "A Debóra-pálma alatt",
+              "Egy tölgyfa alatt",
+              "Egy fügefa alatt",
+              "Egy cédrus alatt"
+            ]
+          },
+          "en": {
+            "q": "Under which tree did Deborah judge?",
+            "o": [
+              "Under the palm of Deborah",
+              "Under an oak tree",
+              "Under a fig tree",
+              "Under a cedar"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Izrael hadvezére, akit Debóra csatába küldött?",
+            "o": [
+              "Bárák",
+              "Gedeon",
+              "Sámson",
+              "Otniel"
+            ]
+          },
+          "en": {
+            "q": "Who was the military commander of Israel, whom Deborah sent into battle?",
+            "o": [
+              "Barak",
+              "Gideon",
+              "Samson",
+              "Othniel"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki ölte meg Siserát, az ellenséges hadvezért, egy sátorszöggel?",
+            "o": [
+              "Jáél",
+              "Debóra",
+              "Mirjam",
+              "Ráháb"
+            ]
+          },
+          "en": {
+            "q": "Who killed Sisera, the enemy commander, with a tent peg?",
+            "o": [
+              "Jael",
+              "Deborah",
+              "Miriam",
+              "Rahab"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen jelet kért Gedeon Istentől a gyapjúval először?",
+            "o": [
+              "Hogy a gyapjú nedves legyen, a föld száraz",
+              "Hogy a gyapjú száraz legyen, a föld nedves",
+              "Hogy tűz gyulladjon a gyapjún",
+              "Hogy a gyapjú eltűnjön"
+            ]
+          },
+          "en": {
+            "q": "What sign did Gideon first ask God for with the fleece?",
+            "o": [
+              "That the fleece be wet while the ground stayed dry",
+              "That the fleece stay dry while the ground was wet",
+              "That fire appear on the fleece",
+              "That the fleece disappear"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan válogatta ki Isten Gedeon 300 katonáját?",
+            "o": [
+              "Aszerint, ahogyan ittak a patakból",
+              "Sorsolással",
+              "A legerősebbeket választva",
+              "A legfiatalabbakat választva"
+            ]
+          },
+          "en": {
+            "q": "How did God select the 300 soldiers of Gideon?",
+            "o": [
+              "By how they drank from the stream",
+              "By drawing lots",
+              "By choosing the strongest",
+              "By choosing the youngest"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen eszközökkel győzött Gedeon serege a midianiták ellen?",
+            "o": [
+              "Kürtökkel és fáklyákkal korsókban",
+              "Karddal és pajzzsal",
+              "Íjjal és nyíllal",
+              "Parittyával"
+            ]
+          },
+          "en": {
+            "q": "With what tools did the army of Gideon defeat the Midianites?",
+            "o": [
+              "With trumpets and torches in jars",
+              "With sword and shield",
+              "With bow and arrow",
+              "With slings"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ajánlottak fel Gedeonnak győzelme után, amit ő visszautasított?",
+            "o": [
+              "Hogy legyen a király felettük",
+              "Aranyat és ezüstöt",
+              "Egy várost",
+              "Egy sereget"
+            ]
+          },
+          "en": {
+            "q": "What was offered to Gideon after his victory, which he refused?",
+            "o": [
+              "To rule as king over them",
+              "Gold and silver",
+              "A city",
+              "An army"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Sámson",
+      "en": "Samson",
+      "qs": [
+        {
+          "hu": {
+            "q": "Honnan eredt Sámson rendkívüli ereje?",
+            "o": [
+              "Egy fogadalomból, hogy sosem vágatja le a haját",
+              "Egy varázsövből",
+              "Egy angyal áldásából minden reggel",
+              "Egy különleges fegyverből"
+            ]
+          },
+          "en": {
+            "q": "What was the source of the extraordinary strength of Samson?",
+            "o": [
+              "A vow never to cut his hair",
+              "A magic belt",
+              "A blessing from an angel every morning",
+              "A special weapon"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki árulta el Sámson titkát a filiszteusoknak?",
+            "o": [
+              "Delila",
+              "Debóra",
+              "Ráhel",
+              "Mirjam"
+            ]
+          },
+          "en": {
+            "q": "Who betrayed the secret of Samson to the Philistines?",
+            "o": [
+              "Delilah",
+              "Deborah",
+              "Rachel",
+              "Miriam"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan halt meg Sámson végül?",
+            "o": [
+              "Ledöntötte a filiszteus templom oszlopait magával együtt",
+              "Csatában esett el",
+              "Megöregedve halt meg",
+              "Vízbe fulladt"
+            ]
+          },
+          "en": {
+            "q": "How did Samson ultimately die?",
+            "o": [
+              "He pulled down the pillars of a Philistine temple, dying with them",
+              "He fell in battle",
+              "He died of old age",
+              "He drowned"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen fogadalom alatt született Sámson?",
+            "o": [
+              "Názír fogadalom alatt",
+              "Papi fogadalom alatt",
+              "Királyi eskü alatt",
+              "Semmilyen fogadalom alatt"
+            ]
+          },
+          "en": {
+            "q": "Under what vow was Samson born?",
+            "o": [
+              "Under a Nazirite vow",
+              "Under a priestly vow",
+              "Under a royal oath",
+              "Under no vow"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kihez ment feleségül Sámson először?",
+            "o": [
+              "Egy timnai filiszteus nőhöz",
+              "Delilához azonnal",
+              "Egy izraelita nőhöz",
+              "Ráhábhoz"
+            ]
+          },
+          "en": {
+            "q": "Whom did Samson first marry, a Philistine woman?",
+            "o": [
+              "A woman from Timnah",
+              "Delilah right away",
+              "An Israelite woman",
+              "Rahab"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen állatot ölt meg Sámson puszta kézzel?",
+            "o": [
+              "Egy oroszlánt",
+              "Egy medvét",
+              "Egy farkast",
+              "Egy bikát"
+            ]
+          },
+          "en": {
+            "q": "What animal did Samson kill with his bare hands?",
+            "o": [
+              "A lion",
+              "A bear",
+              "A wolf",
+              "A bull"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen rejtvényt adott fel Sámson a lakomáján?",
+            "o": [
+              "Az oroszlán és a méz rejtvényét",
+              "Egy számrejtvényt",
+              "Egy szóláncot",
+              "Egy térképes rejtvényt"
+            ]
+          },
+          "en": {
+            "q": "What riddle did Samson pose at his feast?",
+            "o": [
+              "The riddle of the lion and the honey",
+              "A number riddle",
+              "A word chain",
+              "A map riddle"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány filiszteust ölt meg Sámson egy szamárállkapoccsal?",
+            "o": [
+              "Százat",
+              "Ezret",
+              "Tízet",
+              "Tízezret"
+            ]
+          },
+          "en": {
+            "q": "How many Philistines did Samson kill with a jawbone of a donkey?",
+            "o": [
+              "A hundred",
+              "A thousand",
+              "Ten",
+              "Ten thousand"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Hányszor hazudott Sámson Delilának ereje forrásáról?",
+            "o": [
+              "Egyszer",
+              "Kétszer",
+              "Háromszor",
+              "Négyszer"
+            ]
+          },
+          "en": {
+            "q": "How many times did Samson lie to Delilah about the source of his strength before telling the truth?",
+            "o": [
+              "Once",
+              "Twice",
+              "Three times",
+              "Four times"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Mit kért Sámson Istentől utolsó tettéhez?",
+            "o": [
+              "Adja vissza az erejét még egyszer",
+              "Adjon neki új hajat",
+              "Mentse meg az életét",
+              "Küldjön egy angyalt segítségül"
+            ]
+          },
+          "en": {
+            "q": "What did Samson ask God for before his final act?",
+            "o": [
+              "To restore his strength one more time",
+              "To give him new hair",
+              "To save his life",
+              "To send an angel to help"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Ruth",
+      "en": "Ruth",
+      "qs": [
+        {
+          "hu": {
+            "q": "Honnan származott Ruth?",
+            "o": [
+              "Moábból",
+              "Egyiptomból",
+              "Babilonból",
+              "Edomból"
+            ]
+          },
+          "en": {
+            "q": "Where was Ruth from?",
+            "o": [
+              "Moab",
+              "Egypt",
+              "Babylon",
+              "Edom"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Ruth anyósa, akihez hűséges maradt?",
+            "o": [
+              "Naomi",
+              "Debóra",
+              "Orpa",
+              "Mirjam"
+            ]
+          },
+          "en": {
+            "q": "Who was the mother in law of Ruth, to whom she remained loyal?",
+            "o": [
+              "Naomi",
+              "Deborah",
+              "Orpah",
+              "Miriam"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kihez ment feleségül Ruth Betlehemben?",
+            "o": [
+              "Boázhoz",
+              "Elimélekhez",
+              "Mahlonhoz",
+              "Kiljonhoz"
+            ]
+          },
+          "en": {
+            "q": "Whom did Ruth marry in Bethlehem, an ancestor of King David?",
+            "o": [
+              "Boaz",
+              "Elimelech",
+              "Mahlon",
+              "Kilion"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért költözött Naomi családja Moábba?",
+            "o": [
+              "Éhínség volt Betlehemben",
+              "Háború tört ki",
+              "Üldözték őket",
+              "Kereskedni akartak"
+            ]
+          },
+          "en": {
+            "q": "Why did the family of Naomi move to Moab?",
+            "o": [
+              "There was a famine in Bethlehem",
+              "War broke out",
+              "They were persecuted",
+              "They wanted to trade"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Naomi férje?",
+            "o": [
+              "Elimélek",
+              "Boáz",
+              "Mahlon",
+              "Kiljon"
+            ]
+          },
+          "en": {
+            "q": "Who was the husband of Naomi?",
+            "o": [
+              "Elimelech",
+              "Boaz",
+              "Mahlon",
+              "Kilion"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit mondott Ruth Naominak, amikor vissza akart térni Betlehembe?",
+            "o": [
+              "\"Néped az én népem, Istened az én Istenem\"",
+              "\"Elmegyek Moábba visszavédeni téged\"",
+              "\"Nem tudlak elkísérni\"",
+              "\"Keresek magamnak új családot\""
+            ]
+          },
+          "en": {
+            "q": "What did Ruth say to Naomi when she wanted to return to Bethlehem?",
+            "o": [
+              "\"Your people will be my people and your God my God\"",
+              "\"I will go back to Moab to protect you\"",
+              "\"I cannot go with you\"",
+              "\"I will find myself a new family\""
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen munkát végzett Ruth Betlehemben, hogy ellássa Naomit?",
+            "o": [
+              "Learatott kalászokat szedegetett a mezőn",
+              "Fonalat szőtt eladásra",
+              "Edényeket készített",
+              "Állatokat őrzött"
+            ]
+          },
+          "en": {
+            "q": "What work did Ruth do in Bethlehem to provide for Naomi?",
+            "o": [
+              "She gleaned leftover grain in the fields",
+              "She wove thread to sell",
+              "She made pottery",
+              "She herded animals"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kinek a mezején dolgozott Ruth, ahol felfigyeltek rá?",
+            "o": [
+              "Boáz mezején",
+              "Elimélek mezején",
+              "Egy idegen mezején",
+              "A király mezején"
+            ]
+          },
+          "en": {
+            "q": "In whose field did Ruth work, where she was noticed?",
+            "o": [
+              "The field of Boaz",
+              "The field of Elimelech",
+              "A stranger’s field",
+              "The field of the king"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen rokoni kapcsolatban állt Boáz Elimélekkel?",
+            "o": [
+              "Közeli rokona volt",
+              "Testvére volt",
+              "Apja volt",
+              "Nem álltak rokonságban"
+            ]
+          },
+          "en": {
+            "q": "What family relation did Boaz have to Elimelech?",
+            "o": [
+              "He was a close relative",
+              "He was his brother",
+              "He was his father",
+              "They were not related"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Ruth és Boáz dédunokája, aki Izrael királya lett?",
+            "o": [
+              "Dávid",
+              "Salamon",
+              "Saul",
+              "Sámuel"
+            ]
+          },
+          "en": {
+            "q": "Who was the great grandson of Ruth and Boaz, who became king of Israel?",
+            "o": [
+              "David",
+              "Solomon",
+              "Saul",
+              "Samuel"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Sámuel és Saul",
+      "en": "Samuel and Saul",
+      "qs": [
+        {
+          "hu": {
+            "q": "Ki nevelte fel Sámuelt gyermekkorától?",
+            "o": [
+              "Éli főpap",
+              "Áron",
+              "Debóra",
+              "Gedeon"
+            ]
+          },
+          "en": {
+            "q": "Who raised Samuel from childhood at the sanctuary?",
+            "o": [
+              "Eli the priest",
+              "Aaron",
+              "Deborah",
+              "Gideon"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért kérte Izrael népe, hogy legyen királyuk?",
+            "o": [
+              "Hogy olyanok legyenek, mint a többi nép",
+              "Mert Isten megparancsolta",
+              "Mert Sámuel király akart lenni",
+              "Mert éhínség volt"
+            ]
+          },
+          "en": {
+            "q": "Why did the people of Israel ask for a king?",
+            "o": [
+              "To be like the other nations",
+              "Because God commanded it",
+              "Because Samuel wanted to be king",
+              "Because there was a famine"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik törzsből származott Saul, Izrael első királya?",
+            "o": [
+              "Benjámin",
+              "Júda",
+              "Lévi",
+              "Efraim"
+            ]
+          },
+          "en": {
+            "q": "From which tribe did Saul, the first king of Israel, come?",
+            "o": [
+              "Benjamin",
+              "Judah",
+              "Levi",
+              "Ephraim"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Sámuel anyja, aki imádkozott érte?",
+            "o": [
+              "Anna",
+              "Debóra",
+              "Ruth",
+              "Mirjam"
+            ]
+          },
+          "en": {
+            "q": "Who was the mother of Samuel, who prayed for him?",
+            "o": [
+              "Hannah",
+              "Deborah",
+              "Ruth",
+              "Miriam"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért adta oda Anna Sámuelt az Úr szolgálatára?",
+            "o": [
+              "Fogadalma szerint, mivel Isten meghallgatta imáját",
+              "Mert nem tudta eltartani",
+              "Mert Éli kérte",
+              "Mert Sámuel maga kérte"
+            ]
+          },
+          "en": {
+            "q": "Why did Hannah give Samuel to the service of the Lord?",
+            "o": [
+              "According to her vow, since God had answered her prayer",
+              "Because she could not support him",
+              "Because Eli asked for him",
+              "Because Samuel asked for it himself"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan szólította meg Isten először Sámuelt?",
+            "o": [
+              "Éjjel, nevén szólítva, míg aludt",
+              "Egy álomban jelképesen",
+              "Egy angyal által nappal",
+              "Írásban egy táblán"
+            ]
+          },
+          "en": {
+            "q": "How did God first call out to Samuel?",
+            "o": [
+              "At night, calling his name while he slept",
+              "Symbolically in a dream",
+              "Through an angel by day",
+              "In writing on a tablet"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit vesztett el Izrael egy csatában, amit a filiszteusok elfogtak?",
+            "o": [
+              "A frigyládát",
+              "A Tízparancsolat tábláit külön",
+              "Sámuel botját",
+              "A szövetség sátrát egészében"
+            ]
+          },
+          "en": {
+            "q": "What did Israel lose in a battle, which the Philistines captured?",
+            "o": [
+              "The Ark of the Covenant",
+              "The tablets of the Ten Commandments alone",
+              "The staff of Samuel",
+              "The entire Tabernacle"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hol találta meg Sámuel Sault, amikor felkente királlyá?",
+            "o": [
+              "Amikor apja szamarait kereste",
+              "A csatatéren",
+              "A templomban imádkozva",
+              "Egy lakomán"
+            ]
+          },
+          "en": {
+            "q": "Where did Samuel find Saul when he anointed him king?",
+            "o": [
+              "While he was searching for his father’s donkeys",
+              "On the battlefield",
+              "Praying at the temple",
+              "At a feast"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen magas volt Saul a többi emberhez képest?",
+            "o": [
+              "Egy fejjel magasabb mindenkinél",
+              "Átlagos magasságú",
+              "A legalacsonyabb a népben",
+              "Csak kicsivel magasabb"
+            ]
+          },
+          "en": {
+            "q": "How tall was Saul compared to other people?",
+            "o": [
+              "A head taller than anyone else",
+              "Of average height",
+              "The shortest among the people",
+              "Only slightly taller"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért utasította el Isten végül Sault királyként?",
+            "o": [
+              "Mert nem engedelmeskedett Isten parancsának",
+              "Mert túl fiatal volt",
+              "Mert nem volt elég erős",
+              "Mert nem szerette a nép"
+            ]
+          },
+          "en": {
+            "q": "Why did God eventually reject Saul as king?",
+            "o": [
+              "Because he disobeyed the command of God",
+              "Because he was too young",
+              "Because he was not strong enough",
+              "Because the people did not love him"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Dávid és Góliát",
+      "en": "David and Goliath",
+      "qs": [
+        {
+          "hu": {
+            "q": "Milyen fegyvert használt Dávid Góliát ellen?",
+            "o": [
+              "Parittyát és követ",
+              "Kardot",
+              "Íjat és nyilat",
+              "Lándzsát"
+            ]
+          },
+          "en": {
+            "q": "What weapon did David use against Goliath?",
+            "o": [
+              "A sling and a stone",
+              "A sword",
+              "A bow and arrow",
+              "A spear"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen nép harcosa volt Góliát?",
+            "o": [
+              "Filiszteus",
+              "Moábita",
+              "Ammonita",
+              "Edomita"
+            ]
+          },
+          "en": {
+            "q": "What people was Goliath a warrior of?",
+            "o": [
+              "Philistine",
+              "Moabite",
+              "Ammonite",
+              "Edomite"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mivel foglalkozott Dávid, mielőtt szembeszállt Góliáttal?",
+            "o": [
+              "Juhokat őrzött pásztorként",
+              "Katona volt",
+              "Pap volt",
+              "Kereskedő volt"
+            ]
+          },
+          "en": {
+            "q": "What was David doing before he faced Goliath?",
+            "o": [
+              "Tending sheep as a shepherd",
+              "He was a soldier",
+              "He was a priest",
+              "He was a merchant"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik völgyben állt szemben Izrael és a filiszteusok serege?",
+            "o": [
+              "Az Éla-völgyben",
+              "A Jezréel-völgyben",
+              "A Jordán-völgyben",
+              "A Kidron-völgyben"
+            ]
+          },
+          "en": {
+            "q": "In which valley did the armies of Israel and the Philistines face each other?",
+            "o": [
+              "The Valley of Elah",
+              "The Jezreel Valley",
+              "The Jordan Valley",
+              "The Kidron Valley"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért ment Dávid a csatatérre aznap?",
+            "o": [
+              "Élelmet vitt testvéreinek apja kérésére",
+              "Katonának jelentkezett",
+              "Kémkedni küldték",
+              "Véletlenül arra járt"
+            ]
+          },
+          "en": {
+            "q": "Why did David go to the battlefield that day?",
+            "o": [
+              "He brought food to his brothers at his father’s request",
+              "He enlisted as a soldier",
+              "He was sent to spy",
+              "He happened to pass by"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért nem vette fel Dávid Saul páncélját?",
+            "o": [
+              "Nem szokott hozzá, akadályozta a mozgásban",
+              "Saul nem engedte neki",
+              "Túl kicsi volt neki",
+              "Nem volt ideje felvenni"
+            ]
+          },
+          "en": {
+            "q": "Why did David not wear the armor of Saul?",
+            "o": [
+              "He was not used to it, and it hindered his movement",
+              "Saul did not allow him to",
+              "It was too small for him",
+              "There was no time to put it on"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány követ választott Dávid a patakból?",
+            "o": [
+              "Hármat",
+              "Ötöt",
+              "Hetet",
+              "Tízet"
+            ]
+          },
+          "en": {
+            "q": "How many stones did David choose from the stream?",
+            "o": [
+              "Three",
+              "Five",
+              "Seven",
+              "Ten"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Hova találta el Dávid köve Góliátot?",
+            "o": [
+              "A homlokán",
+              "A mellkasán",
+              "A lábán",
+              "A kezén"
+            ]
+          },
+          "en": {
+            "q": "Where did the stone of David strike Goliath?",
+            "o": [
+              "On his forehead",
+              "On his chest",
+              "On his leg",
+              "On his hand"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mivel vágta le Dávid Góliát fejét?",
+            "o": [
+              "Góliát saját kardjával",
+              "Dávid parittyájával",
+              "Egy fejszével",
+              "Egy köpennyel megfojtva"
+            ]
+          },
+          "en": {
+            "q": "With what did David cut off the head of Goliath?",
+            "o": [
+              "With the sword of Goliath himself",
+              "With the sling of David",
+              "With an axe",
+              "By strangling him with a cloak"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki lett Dávid legjobb barátja Saul udvarában?",
+            "o": [
+              "Jonatán, Saul fia",
+              "Ábner, a hadvezér",
+              "Nátán, a próféta",
+              "Sámuel"
+            ]
+          },
+          "en": {
+            "q": "Who became the closest friend of David at the court of Saul?",
+            "o": [
+              "Jonathan, the son of Saul",
+              "Abner, the commander",
+              "Nathan, the prophet",
+              "Samuel"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Dávid király",
+      "en": "King David",
+      "qs": [
+        {
+          "hu": {
+            "q": "Ki kente fel titokban Dávidot királlyá?",
+            "o": [
+              "Sámuel",
+              "Nátán",
+              "Gád",
+              "Áron"
+            ]
+          },
+          "en": {
+            "q": "Who secretly anointed David as king, while Saul was still alive?",
+            "o": [
+              "Samuel",
+              "Nathan",
+              "Gad",
+              "Aaron"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik várost tette Dávid Izrael fővárosává?",
+            "o": [
+              "Jeruzsálemet",
+              "Betlehemet",
+              "Hebront",
+              "Sikemet"
+            ]
+          },
+          "en": {
+            "q": "Which city did David make the capital of Israel?",
+            "o": [
+              "Jerusalem",
+              "Bethlehem",
+              "Hebron",
+              "Shechem"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik próféta feddte meg Dávidot Betsabéval elkövetett bűne miatt?",
+            "o": [
+              "Nátán",
+              "Sámuel",
+              "Illés",
+              "Elizeus"
+            ]
+          },
+          "en": {
+            "q": "Which prophet rebuked David for his sin with Bathsheba?",
+            "o": [
+              "Nathan",
+              "Samuel",
+              "Elijah",
+              "Elisha"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért üldözte Saul Dávidot annyi éven át?",
+            "o": [
+              "Féltékeny volt és félt, hogy Dávid elveszi a trónját",
+              "Dávid ellopott valamit tőle",
+              "Dávid megtagadta a szolgálatot",
+              "Egy próféta parancsolta"
+            ]
+          },
+          "en": {
+            "q": "Why did Saul pursue David for so many years?",
+            "o": [
+              "He was jealous and feared David would take his throne",
+              "David had stolen something from him",
+              "David refused to serve him",
+              "A prophet commanded it"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hányszor kímélte meg Dávid Saul életét, bár megölhette volna?",
+            "o": [
+              "Egyszer",
+              "Kétszer",
+              "Háromszor",
+              "Sosem volt lehetősége"
+            ]
+          },
+          "en": {
+            "q": "How many times did David spare the life of Saul, though he could have killed him?",
+            "o": [
+              "Once",
+              "Twice",
+              "Three times",
+              "He never had the chance"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Hogyan halt meg Saul végül?",
+            "o": [
+              "Csatában, saját kardjába dőlt",
+              "Öregkorában, ágyban",
+              "Mérgezés által",
+              "Egy baleset során"
+            ]
+          },
+          "en": {
+            "q": "How did Saul eventually die?",
+            "o": [
+              "In battle, he fell on his own sword",
+              "In old age, in bed",
+              "By poisoning",
+              "In an accident"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány éves volt Dávid, amikor Izrael királyává tették?",
+            "o": [
+              "Húsz éves",
+              "Harminc éves",
+              "Negyven éves",
+              "Ötven éves"
+            ]
+          },
+          "en": {
+            "q": "How old was David when he became king over all Israel?",
+            "o": [
+              "Twenty years old",
+              "Thirty years old",
+              "Forty years old",
+              "Fifty years old"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Kit vett magához feleségül Dávid, akinek férjét csatába küldte?",
+            "o": [
+              "Betsabét",
+              "Mikált",
+              "Abigailt",
+              "Ahinóámot"
+            ]
+          },
+          "en": {
+            "q": "Whom did David take as his wife, after sending her husband to die in battle?",
+            "o": [
+              "Bathsheba",
+              "Michal",
+              "Abigail",
+              "Ahinoam"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Betsabé első férje, akit Dávid a harc élvonalába küldött?",
+            "o": [
+              "Uriás",
+              "Jóáb",
+              "Ábner",
+              "Absolon"
+            ]
+          },
+          "en": {
+            "q": "Who was the first husband of Bathsheba, whom David sent to the front line?",
+            "o": [
+              "Uriah",
+              "Joab",
+              "Abner",
+              "Absalom"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Dávid fia, aki fellázadt ellene?",
+            "o": [
+              "Absolon",
+              "Salamon",
+              "Amnon",
+              "Kileáb"
+            ]
+          },
+          "en": {
+            "q": "Who was the son of David, who rebelled against him?",
+            "o": [
+              "Absalom",
+              "Solomon",
+              "Amnon",
+              "Chileab"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Salamon bölcsessége",
+      "en": "The Wisdom of Solomon",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mit kért Salamon Istentől?",
+            "o": [
+              "Bölcs szívet, hogy igazságosan uralkodhasson",
+              "Gazdagságot",
+              "Hosszú életet",
+              "Ellenségei legyőzését"
+            ]
+          },
+          "en": {
+            "q": "What did Solomon ask God for, when God offered him anything?",
+            "o": [
+              "A wise heart to govern justly",
+              "Wealth",
+              "Long life",
+              "Victory over his enemies"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik híres ítélettel bizonyította Salamon a bölcsességét?",
+            "o": [
+              "A két anya és az egy gyermek ügyében",
+              "Egy peres földügyben",
+              "Egy lopási ügyben",
+              "Egy házassági vitában"
+            ]
+          },
+          "en": {
+            "q": "With which famous judgment did Solomon prove his wisdom?",
+            "o": [
+              "The case of the two mothers and one baby",
+              "A land dispute",
+              "A theft case",
+              "A marriage dispute"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki látogatta meg Salamont, hogy próbára tegye bölcsességét?",
+            "o": [
+              "Sába királynője",
+              "Egyiptom fáraója",
+              "Tírusz királya",
+              "Babilon királya"
+            ]
+          },
+          "en": {
+            "q": "Who visited Solomon to test his wisdom with riddles?",
+            "o": [
+              "The Queen of Sheba",
+              "Pharaoh of Egypt",
+              "The King of Tyre",
+              "The King of Babylon"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Salamon anyja?",
+            "o": [
+              "Betsabé",
+              "Mikál",
+              "Abigail",
+              "Ahinóám"
+            ]
+          },
+          "en": {
+            "q": "Who was the mother of Solomon?",
+            "o": [
+              "Bathsheba",
+              "Michal",
+              "Abigail",
+              "Ahinoam"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mennyi ideig épült Salamon temploma?",
+            "o": [
+              "Öt évig",
+              "Hét évig",
+              "Tíz évig",
+              "Húsz évig"
+            ]
+          },
+          "en": {
+            "q": "How long did it take to build the temple of Solomon?",
+            "o": [
+              "Five years",
+              "Seven years",
+              "Ten years",
+              "Twenty years"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Melyik uralkodóval kötött Salamon szövetséget fa szállítására a templomhoz?",
+            "o": [
+              "Tírusz királyával, Hírámmal",
+              "Egyiptom fáraójával",
+              "Babilon királyával",
+              "Asszíria királyával"
+            ]
+          },
+          "en": {
+            "q": "Which ruler did Solomon make an alliance with for supplying wood to build the temple?",
+            "o": [
+              "Hiram, king of Tyre",
+              "Pharaoh of Egypt",
+              "The King of Babylon",
+              "The King of Assyria"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány feleséget és ágyast tulajdonít a hagyomány Salamonnak?",
+            "o": [
+              "Csak egyet",
+              "Tízet",
+              "Sok százat",
+              "Ezret pontosan mindig"
+            ]
+          },
+          "en": {
+            "q": "How many wives and concubines does tradition attribute to Solomon?",
+            "o": [
+              "Only one",
+              "Ten",
+              "Many hundreds",
+              "Exactly a thousand always"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Miért fordultak el Salamon idős korában szívei Istentől?",
+            "o": [
+              "Idegen feleségei más istenek felé fordították",
+              "Egy próféta megátkozta",
+              "Elveszítette a hitét háborúban",
+              "Egy álom miatt"
+            ]
+          },
+          "en": {
+            "q": "Why did the heart of Solomon turn away from God in his old age?",
+            "o": [
+              "His foreign wives turned him toward other gods",
+              "A prophet cursed him",
+              "He lost his faith in war",
+              "Because of a dream"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen könyveket tulajdonít a hagyomány Salamonnak?",
+            "o": [
+              "Példabeszédek, Prédikátor, Énekek éneke",
+              "Zsoltárok könyvét",
+              "Mózes öt könyvét",
+              "A próféták könyveit"
+            ]
+          },
+          "en": {
+            "q": "Which books does tradition attribute to Solomon?",
+            "o": [
+              "Proverbs, Ecclesiastes, Song of Songs",
+              "The Book of Psalms",
+              "The five books of Moses",
+              "The books of the prophets"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miről volt híres Salamon uralkodása a gazdagságon kívül?",
+            "o": [
+              "Békéről és bölcsességről szóló hírnévről",
+              "Folytonos háborúkról",
+              "Éhínségről",
+              "Lázadásokról"
+            ]
+          },
+          "en": {
+            "q": "What else was the reign of Solomon known for, besides wealth?",
+            "o": [
+              "Renown for peace and wisdom",
+              "Constant wars",
+              "Famine",
+              "Rebellions"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "A birodalom kettészakadása",
+      "en": "The Kingdom Divided",
+      "qs": [
+        {
+          "hu": {
+            "q": "Ki volt Salamon fia, aki alatt kettészakadt az ország?",
+            "o": [
+              "Roboám",
+              "Jeroboám",
+              "Abijám",
+              "Nádáb"
+            ]
+          },
+          "en": {
+            "q": "Who was the son and successor of Solomon, under whose rule the kingdom split?",
+            "o": [
+              "Rehoboam",
+              "Jeroboam",
+              "Abijam",
+              "Nadab"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi lett az északi ország neve a kettészakadás után?",
+            "o": [
+              "Izrael",
+              "Júda",
+              "Efraim",
+              "Szamária"
+            ]
+          },
+          "en": {
+            "q": "What was the name of the northern kingdom after the split?",
+            "o": [
+              "Israel",
+              "Judah",
+              "Ephraim",
+              "Samaria"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi lett a déli ország neve, Jeruzsálemmel a fővárosban?",
+            "o": [
+              "Júda",
+              "Izrael",
+              "Edom",
+              "Móáb"
+            ]
+          },
+          "en": {
+            "q": "What was the name of the southern kingdom, with Jerusalem as capital?",
+            "o": [
+              "Judah",
+              "Israel",
+              "Edom",
+              "Moab"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért lázadt fel a nép Roboám ellen?",
+            "o": [
+              "Kemény munkát és adót ígért, nem enyhített rajtuk",
+              "Túl gyenge király volt",
+              "Elárulta a népet ellenségnek",
+              "Megváltoztatta a vallást"
+            ]
+          },
+          "en": {
+            "q": "Why did the people rebel against Rehoboam?",
+            "o": [
+              "He promised harsh labor and taxes instead of relief",
+              "He was too weak a king",
+              "He betrayed the people to an enemy",
+              "He changed the religion"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki lett az északi királyság, Izrael első királya?",
+            "o": [
+              "Jeroboám",
+              "Roboám",
+              "Omri",
+              "Ácháb"
+            ]
+          },
+          "en": {
+            "q": "Who became the first king of the northern kingdom, Israel?",
+            "o": [
+              "Jeroboam",
+              "Rehoboam",
+              "Omri",
+              "Ahab"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen bálványt állított fel Jeroboám, hogy a nép ne menjen Jeruzsálembe?",
+            "o": [
+              "Aranyborjakat",
+              "Kőoszlopokat",
+              "Egy sárkányszobrot",
+              "Egy tűzoltárt"
+            ]
+          },
+          "en": {
+            "q": "What idol did Jeroboam set up so the people would not go to Jerusalem?",
+            "o": [
+              "Golden calves",
+              "Stone pillars",
+              "A dragon statue",
+              "A fire altar"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik törzsek maradtak hűek a Dávid házához Júda királyságában?",
+            "o": [
+              "Júda és Benjámin",
+              "Efraim és Manassé",
+              "Dán és Naftali",
+              "Rúben és Gád"
+            ]
+          },
+          "en": {
+            "q": "Which tribes remained loyal to the house of David, in the kingdom of Judah?",
+            "o": [
+              "Judah and Benjamin",
+              "Ephraim and Manasseh",
+              "Dan and Naphtali",
+              "Reuben and Gad"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik próféta lépett fel erőteljesen az északi királyságban Baál ellen?",
+            "o": [
+              "Illés",
+              "Ézsaiás",
+              "Jeremiás",
+              "Dániel"
+            ]
+          },
+          "en": {
+            "q": "Which prophet stood powerfully against Baal in the northern kingdom?",
+            "o": [
+              "Elijah",
+              "Isaiah",
+              "Jeremiah",
+              "Daniel"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik birodalom hódította meg és vitte fogságba az északi királyságot?",
+            "o": [
+              "Asszíria",
+              "Babilon",
+              "Egyiptom",
+              "Perzsia"
+            ]
+          },
+          "en": {
+            "q": "Which empire conquered and exiled the northern kingdom?",
+            "o": [
+              "Assyria",
+              "Babylon",
+              "Egypt",
+              "Persia"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik birodalom hódította meg később Júda déli királyságát?",
+            "o": [
+              "Babilon",
+              "Asszíria",
+              "Görögország",
+              "Róma"
+            ]
+          },
+          "en": {
+            "q": "Which empire later conquered the southern kingdom of Judah?",
+            "o": [
+              "Babylon",
+              "Assyria",
+              "Greece",
+              "Rome"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    }
+  ]
+}

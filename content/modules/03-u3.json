@@ -1,0 +1,2169 @@
+{
+  "id": "u3",
+  "emoji": "⚡",
+  "color": "#2F80ED",
+  "hu": "Kivonulás Egyiptomból",
+  "en": "The Exodus",
+  "stations": [
+    {
+      "hu": "Mózes születése",
+      "en": "The Birth of Moses",
+      "qs": [
+        {
+          "hu": {
+            "q": "Miért kellett Mózes anyjának elrejtenie őt?",
+            "o": [
+              "A fáraó megparancsolta a héber fiúk megölését",
+              "Mózes beteg volt",
+              "Nem volt elég ételük",
+              "Apja elutasította"
+            ]
+          },
+          "en": {
+            "q": "Why did the mother of Moses have to hide him after his birth?",
+            "o": [
+              "Pharaoh had ordered Hebrew baby boys to be killed",
+              "Moses was ill",
+              "They had no food",
+              "His father rejected him"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hova helyezte Mózes anyja a kosarat a csecsemővel?",
+            "o": [
+              "A Nílus folyó nádasába",
+              "Egy erdőbe",
+              "Egy barlangba",
+              "Egy templom udvarába"
+            ]
+          },
+          "en": {
+            "q": "Where did the mother of Moses place the basket with the baby?",
+            "o": [
+              "Among the reeds of the Nile River",
+              "In a forest",
+              "In a cave",
+              "In a temple courtyard"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki találta meg és nevelte fel Mózest?",
+            "o": [
+              "A fáraó lánya",
+              "Egy pásztor",
+              "Egy pap",
+              "Egy katona"
+            ]
+          },
+          "en": {
+            "q": "Who found and raised Moses?",
+            "o": [
+              "The daughter of Pharaoh",
+              "A shepherd",
+              "A priest",
+              "A soldier"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik törzsből származott Mózes?",
+            "o": [
+              "Lévi törzséből",
+              "Júda törzséből",
+              "Efraim törzséből",
+              "Benjámin törzséből"
+            ]
+          },
+          "en": {
+            "q": "From which tribe did Moses come?",
+            "o": [
+              "The tribe of Levi",
+              "The tribe of Judah",
+              "The tribe of Ephraim",
+              "The tribe of Benjamin"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Mózes testvére, aki később mellette szólt a fáraóhoz?",
+            "o": [
+              "Áron",
+              "Józsué",
+              "Kálev",
+              "Hór"
+            ]
+          },
+          "en": {
+            "q": "Who was the brother of Moses, who later spoke for him to Pharaoh?",
+            "o": [
+              "Aaron",
+              "Joshua",
+              "Caleb",
+              "Hur"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Mózes nővére, aki figyelte a kosarat a folyón?",
+            "o": [
+              "Mirjam",
+              "Debóra",
+              "Ráhel",
+              "Naomi"
+            ]
+          },
+          "en": {
+            "q": "Who was the sister of Moses, who watched the basket on the river?",
+            "o": [
+              "Miriam",
+              "Deborah",
+              "Rachel",
+              "Naomi"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kit hívott Mirjam, hogy szoptassa a gyermeket, miután megtalálták?",
+            "o": [
+              "A saját anyjukat",
+              "Egy dajkát a palotából",
+              "A fáraó feleségét",
+              "Egy idegen asszonyt"
+            ]
+          },
+          "en": {
+            "q": "Whom did Miriam call to nurse the child after he was found?",
+            "o": [
+              "Their own mother",
+              "A wet nurse from the palace",
+              "The wife of Pharaoh",
+              "A foreign woman"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért menekült el Mózes felnőttként Egyiptomból?",
+            "o": [
+              "Megölt egy egyiptomi felügyelőt",
+              "Fellázadt a fáraó ellen",
+              "Elutasította a trónt",
+              "Éhínség elől menekült"
+            ]
+          },
+          "en": {
+            "q": "Why did Moses flee Egypt as an adult?",
+            "o": [
+              "He killed an Egyptian overseer",
+              "He rebelled against Pharaoh",
+              "He refused the throne",
+              "He fled a famine"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik földre menekült Mózes Egyiptomból?",
+            "o": [
+              "Midián földjére",
+              "Kánaán földjére",
+              "Asszíria földjére",
+              "Babilon földjére"
+            ]
+          },
+          "en": {
+            "q": "To which land did Moses flee from Egypt?",
+            "o": [
+              "The land of Midian",
+              "The land of Canaan",
+              "The land of Assyria",
+              "The land of Babylon"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kinek a lányát vette feleségül Mózes Midiánban?",
+            "o": [
+              "Jetró, a midiáni pap lányát",
+              "Egy fáraó lányát",
+              "Egy király lányát",
+              "Egy pásztor lányát, akit nem neveznek meg"
+            ]
+          },
+          "en": {
+            "q": "Whose daughter did Moses marry in Midian?",
+            "o": [
+              "The daughter of Jethro, the priest of Midian",
+              "The daughter of a Pharaoh",
+              "The daughter of a king",
+              "An unnamed shepherd’s daughter"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Az égő csipkebokor",
+      "en": "The Burning Bush",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mit őrzött Mózes, amikor meglátta az égő csipkebokrot?",
+            "o": [
+              "Apósa nyáját",
+              "Egy szőlőskertet",
+              "Egy gabonaföldet",
+              "Egy várost"
+            ]
+          },
+          "en": {
+            "q": "What was Moses tending when he saw the burning bush?",
+            "o": [
+              "The flock of his father in law",
+              "A vineyard",
+              "A grain field",
+              "A city"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért nem égett el a csipkebokor?",
+            "o": [
+              "Isten jelenléte volt benne",
+              "Nedves volt",
+              "Nem is égett igazán, csak fénylett",
+              "Egy angyal védte"
+            ]
+          },
+          "en": {
+            "q": "Why did the bush not burn up?",
+            "o": [
+              "It was because of the presence of God",
+              "It was wet",
+              "It was only glowing, without truly burning",
+              "An angel protected it"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen néven mutatkozott be Isten Mózesnek?",
+            "o": [
+              "\"Vagyok, aki vagyok\"",
+              "\"A Mindenható Király\"",
+              "\"A Teremtő Isten\"",
+              "\"Az Örökkévaló Atya\""
+            ]
+          },
+          "en": {
+            "q": "By what name did God introduce Himself to Moses at the bush?",
+            "o": [
+              "\"I Am Who I Am\"",
+              "\"The Almighty King\"",
+              "\"God the Creator\"",
+              "\"The Eternal Father\""
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt Mózes apósa, akinek a nyáját őrizte?",
+            "o": [
+              "Jetró",
+              "Lábán",
+              "Potifár",
+              "Betuél"
+            ]
+          },
+          "en": {
+            "q": "Who was the father in law of Moses, whose flock he tended?",
+            "o": [
+              "Jethro",
+              "Laban",
+              "Potiphar",
+              "Bethuel"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik hegynél jelent meg Isten Mózesnek az égő csipkebokorban?",
+            "o": [
+              "A Hóreb hegynél",
+              "A Sínai-hegynél másik alkalommal",
+              "A Karmel-hegynél",
+              "A Nébó-hegynél"
+            ]
+          },
+          "en": {
+            "q": "At which mountain did God appear in the burning bush?",
+            "o": [
+              "Mount Horeb",
+              "Mount Sinai on another occasion",
+              "Mount Carmel",
+              "Mount Nebo"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit kellett tennie Mózesnek a saruival Isten jelenlétében?",
+            "o": [
+              "Vegye le, mert szent föld",
+              "Tartsa meg, mert utazni fog",
+              "Cserélje ki újra",
+              "Adja oda áldozatul"
+            ]
+          },
+          "en": {
+            "q": "What did Moses have to do with his sandals in the presence of God?",
+            "o": [
+              "Take them off, because it was holy ground",
+              "Keep them on, because he would travel",
+              "Exchange them for new ones",
+              "Offer them as a sacrifice"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen küldetést adott Isten Mózesnek a csipkebokornál?",
+            "o": [
+              "Vezesse ki népét Egyiptomból",
+              "Építsen oltárt azonnal",
+              "Térjen vissza a palotába",
+              "Keresse meg testvérét"
+            ]
+          },
+          "en": {
+            "q": "What mission did God give Moses at the burning bush?",
+            "o": [
+              "Lead His people out of Egypt",
+              "Build an altar immediately",
+              "Return to the palace",
+              "Search for his brother"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen kifogást hozott fel Mózes, hogy nem alkalmas a küldetésre?",
+            "o": [
+              "Nem beszél jól, nehéz ajkú",
+              "Túl öreg már",
+              "Nincs elég ereje",
+              "Fél a fáraótól egyedül"
+            ]
+          },
+          "en": {
+            "q": "What excuse did Moses give that he was not fit for the mission?",
+            "o": [
+              "He was not a good speaker, slow of speech",
+              "He was already too old",
+              "He lacked strength",
+              "He was afraid of Pharaoh alone"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen jelet adott Isten Mózesnek a bot átváltoztatásával?",
+            "o": [
+              "Kígyóvá változtatta",
+              "Tűzzé változtatta",
+              "Vízzé változtatta",
+              "Kővé változtatta"
+            ]
+          },
+          "en": {
+            "q": "What sign did God give Moses by transforming his staff?",
+            "o": [
+              "He turned it into a snake",
+              "He turned it into fire",
+              "He turned it into water",
+              "He turned it into stone"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kit rendelt Isten Mózes mellé, hogy szóvivője legyen?",
+            "o": [
+              "Áront",
+              "Józsuét",
+              "Hórt",
+              "Kálebet"
+            ]
+          },
+          "en": {
+            "q": "Whom did God appoint alongside Moses to be his spokesman?",
+            "o": [
+              "Aaron",
+              "Joshua",
+              "Hur",
+              "Caleb"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "A tíz csapás",
+      "en": "The Ten Plagues",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mi volt az első csapás Egyiptomon?",
+            "o": [
+              "A Nílus vízzé vérré változása",
+              "Sáskajárás",
+              "Sötétség",
+              "Békák"
+            ]
+          },
+          "en": {
+            "q": "What was the first plague God sent on Egypt?",
+            "o": [
+              "The Nile turning to blood",
+              "Locusts",
+              "Darkness",
+              "Frogs"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi volt az utolsó, legsúlyosabb csapás?",
+            "o": [
+              "Az elsőszülöttek halála",
+              "Jégeső",
+              "Sötétség",
+              "Sáskajárás"
+            ]
+          },
+          "en": {
+            "q": "What was the last and most severe plague?",
+            "o": [
+              "The death of the firstborn",
+              "Hail",
+              "Darkness",
+              "Locusts"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért nem engedte sokáig a fáraó a népet?",
+            "o": [
+              "Isten megkeményítette a szívét",
+              "Nem volt hatalma dönteni",
+              "Nem tudott a csapásokról",
+              "Mózes nem kérte elég sokszor"
+            ]
+          },
+          "en": {
+            "q": "Why did Pharaoh refuse for so long to let the people go?",
+            "o": [
+              "God hardened his heart",
+              "He had no power to decide",
+              "He knew nothing about the plagues",
+              "Moses failed to ask enough times"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik csapás volt a második Egyiptomon?",
+            "o": [
+              "A békák",
+              "A szúnyogok",
+              "A dögvész",
+              "A jégeső"
+            ]
+          },
+          "en": {
+            "q": "What was the second plague on Egypt?",
+            "o": [
+              "Frogs",
+              "Gnats",
+              "Pestilence on livestock",
+              "Hail"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik csapás volt a harmadik?",
+            "o": [
+              "A szúnyogok, tetvek",
+              "A sáskák",
+              "A sötétség",
+              "A fekélyek"
+            ]
+          },
+          "en": {
+            "q": "What was the third plague?",
+            "o": [
+              "Gnats, lice",
+              "Locusts",
+              "Darkness",
+              "Boils"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik csapás sújtotta az állatokat Egyiptomban?",
+            "o": [
+              "A dögvész",
+              "A jégeső",
+              "A sötétség",
+              "A sáskajárás"
+            ]
+          },
+          "en": {
+            "q": "Which plague struck the livestock of Egypt?",
+            "o": [
+              "Pestilence on livestock",
+              "Hail",
+              "Darkness",
+              "Locusts"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik számú csapás volt a jégeső?",
+            "o": [
+              "A hetedik",
+              "A harmadik",
+              "A kilencedik",
+              "Az ötödik"
+            ]
+          },
+          "en": {
+            "q": "Which numbered plague was the hail?",
+            "o": [
+              "The seventh",
+              "The third",
+              "The ninth",
+              "The fifth"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi pusztított el mindent, amit a jégeső meghagyott?",
+            "o": [
+              "A sáskák",
+              "A tetvek",
+              "A fekélyek",
+              "A vér"
+            ]
+          },
+          "en": {
+            "q": "What destroyed everything the hail had left?",
+            "o": [
+              "Locusts",
+              "Lice",
+              "Boils",
+              "Blood"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány napig tartott a sötétség csapása Egyiptomban?",
+            "o": [
+              "Egy napig",
+              "Két napig",
+              "Három napig",
+              "Öt napig"
+            ]
+          },
+          "en": {
+            "q": "How many days did the plague of darkness last in Egypt?",
+            "o": [
+              "One day",
+              "Two days",
+              "Three days",
+              "Five days"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Kiket kímélt meg az elsőszülöttek halálának csapása?",
+            "o": [
+              "Az izraelitákat, akiknek ajtaja be volt kenve vérrel",
+              "Az egész egyiptomi népet",
+              "Csak a fáraó családját",
+              "Senkit sem kímélt meg"
+            ]
+          },
+          "en": {
+            "q": "Whom did the plague of the death of the firstborn spare?",
+            "o": [
+              "The Israelites, whose doors were marked with blood",
+              "The whole Egyptian people",
+              "Only the family of Pharaoh",
+              "No one was spared"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "A páska",
+      "en": "The Passover",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mivel kellett bekenni az ajtófélfákat, hogy megmeneküljenek?",
+            "o": [
+              "Egy bárány vérével",
+              "Olívaolajjal",
+              "Borral",
+              "Hamuval"
+            ]
+          },
+          "en": {
+            "q": "What did the Israelites mark their doorposts with to be spared?",
+            "o": [
+              "The blood of a lamb",
+              "Olive oil",
+              "Wine",
+              "Ash"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen kenyeret kellett enniük a páska éjszakáján?",
+            "o": [
+              "Kovásztalan kenyeret",
+              "Kovászos kenyeret",
+              "Mézeskalácsot",
+              "Árpakenyeret"
+            ]
+          },
+          "en": {
+            "q": "What kind of bread did the Israelites eat on the night of Passover?",
+            "o": [
+              "Unleavened bread",
+              "Leavened bread",
+              "Honey cake",
+              "Barley bread"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ünnepelnek a zsidók a páska ünnepén mind a mai napig?",
+            "o": [
+              "A kivonulást Egyiptomból",
+              "A Tízparancsolat átadását",
+              "A templom felépítését",
+              "Az özönvíz végét"
+            ]
+          },
+          "en": {
+            "q": "What do Jews commemorate at Passover to this day?",
+            "o": [
+              "The exodus from Egypt",
+              "The giving of the Ten Commandments",
+              "The building of the temple",
+              "The end of the flood"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik hónapban kellett megünnepelni a páskát?",
+            "o": [
+              "Az első hónapban",
+              "A hetedik hónapban",
+              "A tizenkettedik hónapban",
+              "Az ötödik hónapban"
+            ]
+          },
+          "en": {
+            "q": "In which month did the Passover have to be celebrated?",
+            "o": [
+              "In the first month",
+              "In the seventh month",
+              "In the twelfth month",
+              "In the fifth month"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen állatot kellett kiválasztani a páskavacsorához?",
+            "o": [
+              "Egy hibátlan bárányt vagy kecskét",
+              "Egy tinót",
+              "Egy galambot",
+              "Egy halat"
+            ]
+          },
+          "en": {
+            "q": "What animal had to be chosen for the Passover meal?",
+            "o": [
+              "A lamb or goat without blemish",
+              "A young bull",
+              "A dove",
+              "A fish"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan kellett elkészíteni a páskabárányt?",
+            "o": [
+              "Megsütve, sietve, útra készen",
+              "Főzve, lassan",
+              "Nyersen",
+              "Szárítva"
+            ]
+          },
+          "en": {
+            "q": "How was the Passover lamb to be prepared and eaten?",
+            "o": [
+              "Roasted, eaten in haste, ready for the journey",
+              "Boiled slowly",
+              "Raw",
+              "Dried"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mennyi ideig kellett a kovásztalan kenyér ünnepét ülni?",
+            "o": [
+              "Három napig",
+              "Öt napig",
+              "Hét napig",
+              "Tíz napig"
+            ]
+          },
+          "en": {
+            "q": "For how long was the Feast of Unleavened Bread to be observed?",
+            "o": [
+              "Three days",
+              "Five days",
+              "Seven days",
+              "Ten days"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Mit kellett tenni minden kovásszal a páska idején?",
+            "o": [
+              "El kellett távolítani a házból",
+              "Fel kellett szentelni",
+              "El kellett égetni a templomban",
+              "Oda kellett adni a papoknak"
+            ]
+          },
+          "en": {
+            "q": "What had to be done with any leaven during Passover?",
+            "o": [
+              "It had to be removed from the house",
+              "It had to be consecrated",
+              "It had to be burned at the temple",
+              "It had to be given to the priests"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Nagyjából hány izraelita férfi hagyta el Egyiptomot a kivonuláskor?",
+            "o": [
+              "Kb. 60 000",
+              "Kb. 600 000",
+              "Kb. 6 000 000",
+              "Kb. 6000"
+            ]
+          },
+          "en": {
+            "q": "Roughly how many Israelite men left Egypt at the exodus?",
+            "o": [
+              "About 60,000",
+              "About 600,000",
+              "About 6,000,000",
+              "About 6,000"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Mennyi ideig éltek Izrael fiai Egyiptomban a kivonulásig?",
+            "o": [
+              "230 évig",
+              "330 évig",
+              "430 évig",
+              "530 évig"
+            ]
+          },
+          "en": {
+            "q": "How long had the Israelites lived in Egypt until the exodus?",
+            "o": [
+              "230 years",
+              "330 years",
+              "430 years",
+              "530 years"
+            ]
+          },
+          "c": 2
+        }
+      ]
+    },
+    {
+      "hu": "Átkelés a Vörös-tengeren",
+      "en": "Crossing the Red Sea",
+      "qs": [
+        {
+          "hu": {
+            "q": "Miért üldözte a fáraó serege az izraelitákat a tengerig?",
+            "o": [
+              "A fáraó meggondolta magát, és vissza akarta hozni őket",
+              "Az izraeliták loptak valamit",
+              "Háborút akartak indítani",
+              "Békét akartak kötni"
+            ]
+          },
+          "en": {
+            "q": "Why did the army of Pharaoh pursue the Israelites to the sea?",
+            "o": [
+              "Pharaoh changed his mind and wanted them back",
+              "The Israelites had stolen something",
+              "They wanted to start a war",
+              "They wanted to make peace"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan nyitotta meg Isten a tengert Mózes előtt?",
+            "o": [
+              "Erős keleti széllel egész éjjel",
+              "Egy angyal kettévágta karddal",
+              "Földrengéssel",
+              "Mózes botja varázslattal"
+            ]
+          },
+          "en": {
+            "q": "How did God part the sea before Moses?",
+            "o": [
+              "With a strong east wind all night",
+              "An angel split it with a sword",
+              "With an earthquake",
+              "By magic through the staff of Moses"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi történt a fáraó seregével a tengerben?",
+            "o": [
+              "Visszazáródott a víz, és mind odavesztek",
+              "Megfulladtak egy viharban",
+              "Elfogták őket",
+              "Visszafordultak félelemből"
+            ]
+          },
+          "en": {
+            "q": "What happened to the army of Pharaoh when they drove into the sea?",
+            "o": [
+              "The water closed back and they all perished",
+              "They drowned in a storm",
+              "They were captured",
+              "They turned back in fear"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi vezette Izrael népét nappal a pusztában?",
+            "o": [
+              "Felhőoszlop",
+              "Csillag",
+              "Egy próféta",
+              "Egy sereg angyal"
+            ]
+          },
+          "en": {
+            "q": "What led the people of Israel by day in the desert?",
+            "o": [
+              "A pillar of cloud",
+              "A star",
+              "A prophet",
+              "A host of angels"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi vezette a népet éjszaka?",
+            "o": [
+              "Tűzoszlop",
+              "Holdfény",
+              "Fáklyák",
+              "Egy vezető ének"
+            ]
+          },
+          "en": {
+            "q": "What led the people by night?",
+            "o": [
+              "A pillar of fire",
+              "Moonlight",
+              "Torches",
+              "A guiding song"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért féltek az izraeliták, amikor meglátták a fáraó seregét?",
+            "o": [
+              "Attól tartottak, hogy elpusztulnak a pusztában vagy fogságba esnek",
+              "Örültek a találkozásnak",
+              "Azt hitték, segítségért jöttek",
+              "Nem vették észre a sereget"
+            ]
+          },
+          "en": {
+            "q": "Why were the Israelites afraid when they saw the army of Pharaoh?",
+            "o": [
+              "They feared they would perish in the desert or be captured",
+              "They were glad to meet them",
+              "They thought they came to help",
+              "They did not notice the army"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit mondott Mózes a népnek, hogy bátorítsa őket a tenger előtt?",
+            "o": [
+              "Álljanak meg, és lássák az Úr szabadítását",
+              "Meneküljenek azonnal",
+              "Harcoljanak a sereggel",
+              "Térjenek vissza Egyiptomba"
+            ]
+          },
+          "en": {
+            "q": "What did Moses tell the people to encourage them before the sea?",
+            "o": [
+              "Stand firm and see the deliverance of the Lord",
+              "Flee immediately",
+              "Fight the army",
+              "Return to Egypt"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mivel nyitotta meg Mózes a tengert?",
+            "o": [
+              "A botjával, kinyújtva a kezét",
+              "Egy imádsággal csak",
+              "Egy kővel",
+              "Egy tűzzel"
+            ]
+          },
+          "en": {
+            "q": "With what did Moses part the sea?",
+            "o": [
+              "With his staff, stretching out his hand",
+              "With a prayer alone",
+              "With a stone",
+              "With fire"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen éneket énekelt Mózes és a nép a tengeren való átkelés után?",
+            "o": [
+              "Mózes énekét",
+              "Zsoltárt Dávidtól",
+              "Egy panaszéneket",
+              "Egy gyászéneket"
+            ]
+          },
+          "en": {
+            "q": "What song did Moses and the people sing after crossing the sea?",
+            "o": [
+              "The Song of Moses",
+              "A psalm of David",
+              "A song of complaint",
+              "A song of mourning"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki vezette az asszonyokat táncban és énekben a győzelem után?",
+            "o": [
+              "Mirjam",
+              "Debóra",
+              "Ráhel",
+              "Naomi"
+            ]
+          },
+          "en": {
+            "q": "Who led the women in dance and song after the victory?",
+            "o": [
+              "Miriam",
+              "Deborah",
+              "Rachel",
+              "Naomi"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Manna a pusztában",
+      "en": "Manna in the Desert",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mivel táplálta Isten a népet reggelente?",
+            "o": [
+              "Mannával",
+              "Kenyérrel",
+              "Gyümölccsel",
+              "Hallal"
+            ]
+          },
+          "en": {
+            "q": "What did God feed the people with each morning in the desert?",
+            "o": [
+              "Manna",
+              "Bread",
+              "Fruit",
+              "Fish"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen madarat küldött Isten a népnek húsként?",
+            "o": [
+              "Fürjet",
+              "Galambot",
+              "Sast",
+              "Varjút"
+            ]
+          },
+          "en": {
+            "q": "What bird did God send the people as meat?",
+            "o": [
+              "Quail",
+              "Dove",
+              "Eagle",
+              "Crow"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi történt a mannával, ha valaki másnapra tette félre?",
+            "o": [
+              "Megromlott és férgesedett",
+              "Megkövesedett",
+              "Eltűnt",
+              "Édesebb lett"
+            ]
+          },
+          "en": {
+            "q": "What happened to the manna if someone saved it overnight?",
+            "o": [
+              "It spoiled and bred worms",
+              "It turned to stone",
+              "It disappeared",
+              "It became sweeter"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mikor panaszkodott a nép először éhségről a pusztában?",
+            "o": [
+              "Nem sokkal a Vörös-tengeren való átkelés után",
+              "Negyven évvel később",
+              "Még Egyiptomban",
+              "A Sínai-hegynél csak"
+            ]
+          },
+          "en": {
+            "q": "When did the people first complain of hunger in the desert?",
+            "o": [
+              "Not long after crossing the Red Sea",
+              "Forty years later",
+              "Still in Egypt",
+              "Only at Mount Sinai"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány napi mannát kellett gyűjteni a szombat előtt?",
+            "o": [
+              "Ugyanannyit, mint máskor",
+              "Kétszer annyit, kétnapi adagot",
+              "Háromszor annyit",
+              "Semmit sem kellett gyűjteni"
+            ]
+          },
+          "en": {
+            "q": "How many days worth of manna had to be gathered before the Sabbath?",
+            "o": [
+              "The same as usual",
+              "Twice as much, enough for two days",
+              "Three times as much",
+              "None at all"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Milyen ízűnek írja le a Biblia a mannát?",
+            "o": [
+              "Mint a mézeslepény",
+              "Mint a kenyér",
+              "Mint a hús",
+              "Mint a gyümölcs"
+            ]
+          },
+          "en": {
+            "q": "How does the Bible describe the taste of manna?",
+            "o": [
+              "Like wafers made with honey",
+              "Like bread",
+              "Like meat",
+              "Like fruit"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mennyi mannát kellett naponta gyűjtenie egy embernek?",
+            "o": [
+              "Egy ómer mennyiséget",
+              "Egy vekni kenyeret",
+              "Egy zsák gabonát",
+              "Egy kosár gyümölcsöt"
+            ]
+          },
+          "en": {
+            "q": "How much manna was each person to gather daily?",
+            "o": [
+              "An omer’s worth",
+              "A loaf of bread",
+              "A sack of grain",
+              "A basket of fruit"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tettek egy edénybe emlékeztetőül a manna felfedezésének?",
+            "o": [
+              "Egy ómernyi mannát",
+              "Egy darab kenyeret",
+              "Egy követ",
+              "Egy virágot"
+            ]
+          },
+          "en": {
+            "q": "What was placed in a jar as a reminder of the discovery of manna?",
+            "o": [
+              "An omer of manna",
+              "A piece of bread",
+              "A stone",
+              "A flower"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Meddig ette Izrael népe a mannát a pusztában?",
+            "o": [
+              "Húsz évig",
+              "Negyven évig",
+              "Hatvan évig",
+              "Tíz évig"
+            ]
+          },
+          "en": {
+            "q": "For how long did the people of Israel eat manna in the desert?",
+            "o": [
+              "Twenty years",
+              "Forty years",
+              "Sixty years",
+              "Ten years"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Miből fakasztott Mózes vizet a szomjazó népnek Meribánál?",
+            "o": [
+              "Egy sziklából",
+              "Egy fa gyökeréből",
+              "Egy felhőből",
+              "Egy forrásból, amit ástak"
+            ]
+          },
+          "en": {
+            "q": "From what did Moses bring forth water for the thirsty people at Meribah?",
+            "o": [
+              "A rock",
+              "The root of a tree",
+              "A cloud",
+              "A well they had dug"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "A Tízparancsolat",
+      "en": "The Ten Commandments",
+      "qs": [
+        {
+          "hu": {
+            "q": "Hol adta Isten a Tízparancsolatot Mózesnek?",
+            "o": [
+              "A Sínai-hegyen",
+              "Az Olajfák hegyén",
+              "A Kármel-hegyen",
+              "A Nébó-hegyen"
+            ]
+          },
+          "en": {
+            "q": "Where did Moses receive the Ten Commandments?",
+            "o": [
+              "On Mount Sinai",
+              "On the Mount of Olives",
+              "On Mount Carmel",
+              "On Mount Nebo"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mire íratta Isten a parancsolatokat?",
+            "o": [
+              "Kőtáblákra",
+              "Pergamenre",
+              "Fatáblákra",
+              "Fémlemezekre"
+            ]
+          },
+          "en": {
+            "q": "What did God have the commandments written on?",
+            "o": [
+              "Stone tablets",
+              "Parchment",
+              "Wooden tablets",
+              "Metal plates"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik parancsolat szól a szüleink tiszteletéről?",
+            "o": [
+              "Az ötödik",
+              "A harmadik",
+              "A hetedik",
+              "A tizedik"
+            ]
+          },
+          "en": {
+            "q": "Which commandment concerns honoring one’s parents?",
+            "o": [
+              "The fifth",
+              "The third",
+              "The seventh",
+              "The tenth"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tiltanak a Tízparancsolat első parancsolatai Isten tiszteletével kapcsolatban?",
+            "o": [
+              "Más istenek imádását és a bálványkészítést",
+              "A szombat megtartását",
+              "Az áldozatbemutatást",
+              "A böjtölést"
+            ]
+          },
+          "en": {
+            "q": "What do the first commandments forbid regarding the worship of God?",
+            "o": [
+              "Worshiping other gods and making idols",
+              "Keeping the Sabbath",
+              "Offering sacrifices",
+              "Fasting"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik parancsolat tiltja a hamis tanúskodást?",
+            "o": [
+              "A kilencedik",
+              "A negyedik",
+              "A második",
+              "A hatodik"
+            ]
+          },
+          "en": {
+            "q": "Which commandment forbids false testimony?",
+            "o": [
+              "The ninth",
+              "The fourth",
+              "The second",
+              "The sixth"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik parancsolat tiltja a gyilkosságot?",
+            "o": [
+              "A hatodik",
+              "A harmadik",
+              "Az első",
+              "A nyolcadik"
+            ]
+          },
+          "en": {
+            "q": "Which commandment forbids murder?",
+            "o": [
+              "The sixth",
+              "The third",
+              "The first",
+              "The eighth"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik parancsolat szól a szombat megtartásáról?",
+            "o": [
+              "A negyedik",
+              "Az első",
+              "A hetedik",
+              "A kilencedik"
+            ]
+          },
+          "en": {
+            "q": "Which commandment concerns keeping the Sabbath?",
+            "o": [
+              "The fourth",
+              "The first",
+              "The seventh",
+              "The ninth"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány napig volt Mózes a hegyen, amikor a parancsolatokat kapta?",
+            "o": [
+              "Húsz napig",
+              "Negyven napig",
+              "Hetven napig",
+              "Tíz napig"
+            ]
+          },
+          "en": {
+            "q": "How many days was Moses on the mountain when he received the commandments?",
+            "o": [
+              "Twenty days",
+              "Forty days",
+              "Seventy days",
+              "Ten days"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Milyen jelenségek kísérték Isten megjelenését a Sínai-hegyen?",
+            "o": [
+              "Mennydörgés, villámlás és füst",
+              "Csend és nyugalom",
+              "Eső és szivárvány",
+              "Madárdal"
+            ]
+          },
+          "en": {
+            "q": "What phenomena accompanied the appearance of God on Mount Sinai?",
+            "o": [
+              "Thunder, lightning, and smoke",
+              "Silence and calm",
+              "Rain and a rainbow",
+              "Birdsong"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért félt a nép Isten hangjától a Sínai-hegynél?",
+            "o": [
+              "Túl félelmetes volt számukra közvetlenül hallani",
+              "Nem értették a nyelvet",
+              "Éjszaka volt",
+              "Messze álltak"
+            ]
+          },
+          "en": {
+            "q": "Why did the people fear the voice of God at Mount Sinai?",
+            "o": [
+              "It was too fearsome for them to hear directly",
+              "They did not understand the language",
+              "It was nighttime",
+              "They stood too far away"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Az aranyborjú",
+      "en": "The Golden Calf",
+      "qs": [
+        {
+          "hu": {
+            "q": "Miért készítettek az izraeliták aranyborjút?",
+            "o": [
+              "Mert türelmetlenek voltak, míg Mózes a hegyen volt",
+              "Mert Isten megparancsolta",
+              "Mert egy próféta kérte",
+              "Hogy megvédjék magukat"
+            ]
+          },
+          "en": {
+            "q": "Why did the Israelites make a golden calf?",
+            "o": [
+              "Because they grew impatient while Moses was on the mountain",
+              "Because God commanded it",
+              "Because a prophet asked for it",
+              "To protect themselves"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki gyűjtötte össze az aranyat és készítette a borjút?",
+            "o": [
+              "Áron",
+              "Józsué",
+              "Kálev",
+              "Hór"
+            ]
+          },
+          "en": {
+            "q": "Who collected the gold and made the calf?",
+            "o": [
+              "Aaron",
+              "Joshua",
+              "Caleb",
+              "Hur"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tett Mózes, amikor meglátta az aranyborjút?",
+            "o": [
+              "Összetörte a kőtáblákat haragjában",
+              "Megáldotta a népet",
+              "Elmenekült a hegyre",
+              "Elégette a sátrat"
+            ]
+          },
+          "en": {
+            "q": "What did Moses do when he saw the golden calf?",
+            "o": [
+              "He broke the stone tablets in anger",
+              "He blessed the people",
+              "He fled to the mountain",
+              "He burned the tent"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért gondolta a nép, hogy Mózes nem tér vissza a hegyről?",
+            "o": [
+              "Sokáig késett",
+              "Egy angyal mondta nekik",
+              "Áron azt hazudta, hogy meghalt",
+              "Egy vihar elzárta az utat"
+            ]
+          },
+          "en": {
+            "q": "Why did the people think Moses would not return from the mountain?",
+            "o": [
+              "He was delayed a long time",
+              "An angel told them so",
+              "Aaron lied that he had died",
+              "A storm blocked the way"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miből készítette Áron az aranyborjút?",
+            "o": [
+              "A nép fülbevalóiból",
+              "Egy meglévő szoborból",
+              "Templomi edényekből",
+              "Egyiptomi zsákmányból, amit külön tartottak"
+            ]
+          },
+          "en": {
+            "q": "From what did Aaron make the golden calf?",
+            "o": [
+              "The earrings of the people",
+              "An existing statue",
+              "Temple vessels",
+              "Egyptian spoils kept aside"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit mondott a nép az aranyborjúról?",
+            "o": [
+              "Hogy ez az isten, aki kihozta őket Egyiptomból",
+              "Hogy csak dísztárgy",
+              "Hogy Mózes ajándéka",
+              "Hogy egy próféta jele"
+            ]
+          },
+          "en": {
+            "q": "What did the people say about the golden calf?",
+            "o": [
+              "That this was the god who brought them out of Egypt",
+              "That it was only a decoration",
+              "That it was a gift from Moses",
+              "That it was a sign from a prophet"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki könyörgött Istennek, hogy ne pusztítsa el a népet az aranyborjú miatt?",
+            "o": [
+              "Mózes",
+              "Áron",
+              "Józsué",
+              "Hór"
+            ]
+          },
+          "en": {
+            "q": "Who pleaded with God not to destroy the people because of the golden calf?",
+            "o": [
+              "Moses",
+              "Aaron",
+              "Joshua",
+              "Hur"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tett Mózes az aranyborjúval, miután lezúzta?",
+            "o": [
+              "Porrá törte, vízbe szórta és megitatta a néppel",
+              "Elégette és eltemette",
+              "Visszaadta Áronnak",
+              "Elküldte a pusztába"
+            ]
+          },
+          "en": {
+            "q": "What did Moses do with the golden calf after crushing it?",
+            "o": [
+              "He ground it to powder, scattered it on water, and made the people drink it",
+              "He burned it and buried it",
+              "He gave it back to Aaron",
+              "He sent it into the desert"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik törzs állt Mózes mellé, amikor felszólította a népet?",
+            "o": [
+              "Lévi törzse",
+              "Júda törzse",
+              "Efraim törzse",
+              "Benjámin törzse"
+            ]
+          },
+          "en": {
+            "q": "Which tribe stood with Moses when he called out to the people?",
+            "o": [
+              "The tribe of Levi",
+              "The tribe of Judah",
+              "The tribe of Ephraim",
+              "The tribe of Benjamin"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit vitt fel Mózes újra a hegyre az aranyborjú bűne után?",
+            "o": [
+              "Két új kőtáblát",
+              "Egy áldozati bárányt",
+              "Egy aranyláncot",
+              "Egy pecsétgyűrűt"
+            ]
+          },
+          "en": {
+            "q": "What did Moses take up the mountain again after the sin of the golden calf?",
+            "o": [
+              "Two new stone tablets",
+              "A sacrificial lamb",
+              "A gold chain",
+              "A signet ring"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "A frigyláda és a szövetség sátra",
+      "en": "The Ark of the Covenant",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mit őriztek a frigyládában?",
+            "o": [
+              "A kőtáblákat a Tízparancsolattal",
+              "Aranyat és ezüstöt",
+              "A fáraó koronáját",
+              "Csak a botot"
+            ]
+          },
+          "en": {
+            "q": "What was kept in the Ark of the Covenant?",
+            "o": [
+              "The stone tablets with the Ten Commandments",
+              "Gold and silver",
+              "The crown of Pharaoh",
+              "Only a staff"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi volt a szövetség sátrának (hajlék) célja?",
+            "o": [
+              "Isten jelenlétének helye legyen a nép között",
+              "Piactér legyen",
+              "Királyi palota legyen",
+              "Erőd legyen"
+            ]
+          },
+          "en": {
+            "q": "What was the purpose of the Tabernacle?",
+            "o": [
+              "To be the place of the presence of God among the people",
+              "To be a marketplace",
+              "To be a royal palace",
+              "To be a fortress"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki volt az első főpap, aki a szövetség sátránál szolgált?",
+            "o": [
+              "Áron",
+              "Mózes",
+              "Józsué",
+              "Fineás"
+            ]
+          },
+          "en": {
+            "q": "Who was the first high priest who served at the Tabernacle?",
+            "o": [
+              "Aaron",
+              "Moses",
+              "Joshua",
+              "Phinehas"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miből készült a frigyláda?",
+            "o": [
+              "Akácfából, arannyal bevonva",
+              "Tiszta aranyból",
+              "Kőből",
+              "Cédrusfából"
+            ]
+          },
+          "en": {
+            "q": "What was the Ark of the Covenant made of?",
+            "o": [
+              "Acacia wood, overlaid with gold",
+              "Pure gold",
+              "Stone",
+              "Cedar wood"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi volt a frigyláda fedelén, ahol Isten megjelent?",
+            "o": [
+              "A kegyelem táblája két kerubbal",
+              "Egy díszes felirat",
+              "Egy tükör",
+              "Egy korona"
+            ]
+          },
+          "en": {
+            "q": "What was on the lid of the Ark, where God appeared?",
+            "o": [
+              "The atonement cover with two cherubim",
+              "A decorative inscription",
+              "A mirror",
+              "A crown"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki tervezte és készítette a szövetség sátrának tárgyait mesteri munkával?",
+            "o": [
+              "Becalél",
+              "Józsué",
+              "Kálev",
+              "Áron egyedül"
+            ]
+          },
+          "en": {
+            "q": "Who designed and crafted the objects of the Tabernacle with skilled work?",
+            "o": [
+              "Bezalel",
+              "Joshua",
+              "Caleb",
+              "Aaron alone"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miből gyűjtötték az anyagokat a szövetség sátrának építéséhez?",
+            "o": [
+              "A nép önkéntes adományaiból",
+              "Egyiptomi adóból",
+              "Királyi kincstárból",
+              "Idegen kereskedőktől"
+            ]
+          },
+          "en": {
+            "q": "From what were the materials for building the Tabernacle gathered?",
+            "o": [
+              "The voluntary offerings of the people",
+              "Egyptian taxes",
+              "A royal treasury",
+              "Foreign traders"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi jelezte, hogy Isten dicsősége betöltötte a szövetség sátrát?",
+            "o": [
+              "Egy felhő borította be",
+              "Egy hang kiáltott",
+              "Tűz gyulladt ki mindenhol",
+              "Egy angyal jelent meg láthatóan"
+            ]
+          },
+          "en": {
+            "q": "What indicated that the glory of God had filled the Tabernacle?",
+            "o": [
+              "A cloud covered it",
+              "A voice cried out",
+              "Fire broke out everywhere",
+              "An angel appeared visibly"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen ruhát kellett viselnie a főpapnak a szolgálat során?",
+            "o": [
+              "Különleges szent ruhákat",
+              "Egyszerű pásztorruhát",
+              "Katonai páncélt",
+              "Királyi bíbor köntöst"
+            ]
+          },
+          "en": {
+            "q": "What kind of garments did the high priest have to wear during service?",
+            "o": [
+              "Special sacred garments",
+              "A simple shepherd’s outfit",
+              "Military armor",
+              "A royal purple robe"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi állt a szövetség sátrának udvarán az áldozatok bemutatására?",
+            "o": [
+              "Az égőáldozati oltár",
+              "Egy kút",
+              "Egy oszlopcsarnok",
+              "Egy trónus"
+            ]
+          },
+          "en": {
+            "q": "What stood in the courtyard of the Tabernacle for presenting sacrifices?",
+            "o": [
+              "The altar of burnt offering",
+              "A well",
+              "A colonnade",
+              "A throne"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "A kémek és a lázadás",
+      "en": "The Spies and the Rebellion",
+      "qs": [
+        {
+          "hu": {
+            "q": "Hány kémet küldött Mózes Kánaán feltérképezésére?",
+            "o": [
+              "10",
+              "12",
+              "14",
+              "7"
+            ]
+          },
+          "en": {
+            "q": "How many spies did Moses send to scout the land of Canaan?",
+            "o": [
+              "10",
+              "12",
+              "14",
+              "7"
+            ]
+          },
+          "c": 1
+        },
+        {
+          "hu": {
+            "q": "Melyik két kém bízott Istenben, és biztatta a népet?",
+            "o": [
+              "Józsué és Kálev",
+              "Áron és Hór",
+              "Nádáb és Abihú",
+              "Mirjam és Debóra"
+            ]
+          },
+          "en": {
+            "q": "Which two spies trusted God and encouraged the people to enter the land?",
+            "o": [
+              "Joshua and Caleb",
+              "Aaron and Hur",
+              "Nadab and Abihu",
+              "Miriam and Deborah"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért kellett 40 évig a pusztában vándorolniuk?",
+            "o": [
+              "Mert nem bíztak Istenben, és nem mentek be a földre",
+              "Mert eltévedtek",
+              "Mert háborúban álltak",
+              "Mert éhínség sújtotta a földet"
+            ]
+          },
+          "en": {
+            "q": "Why did the people have to wander in the desert for 40 years?",
+            "o": [
+              "Because they did not trust God and refused to enter the land",
+              "Because they got lost",
+              "Because they were at war",
+              "Because famine struck the land"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik törzsből származott Józsué?",
+            "o": [
+              "Efraim törzséből",
+              "Júda törzséből",
+              "Lévi törzséből",
+              "Benjámin törzséből"
+            ]
+          },
+          "en": {
+            "q": "From which tribe did Joshua come?",
+            "o": [
+              "The tribe of Ephraim",
+              "The tribe of Judah",
+              "The tribe of Levi",
+              "The tribe of Benjamin"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik törzsből származott Káleb?",
+            "o": [
+              "Júda törzséből",
+              "Efraim törzséből",
+              "Simeon törzséből",
+              "Dán törzséből"
+            ]
+          },
+          "en": {
+            "q": "From which tribe did Caleb come?",
+            "o": [
+              "The tribe of Judah",
+              "The tribe of Ephraim",
+              "The tribe of Simeon",
+              "The tribe of Dan"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen jelentést hoztak a többi tíz kém a földről?",
+            "o": [
+              "Hogy a lakosok túl erősek, nem tudják elfoglalni",
+              "Hogy a föld terméketlen",
+              "Hogy nincs is ott senki",
+              "Hogy már elfoglalta más nép"
+            ]
+          },
+          "en": {
+            "q": "What report did the other ten spies bring about the land?",
+            "o": [
+              "That the inhabitants were too strong to conquer",
+              "That the land was barren",
+              "That no one lived there",
+              "That another people had already taken it"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen gyümölcsöt hoztak vissza a kémek bizonyítékként a föld termékenységéről?",
+            "o": [
+              "Egy hatalmas szőlőfürtöt",
+              "Egy zsák búzát",
+              "Egy kosár fügét csak",
+              "Egy korsó mézet"
+            ]
+          },
+          "en": {
+            "q": "What fruit did the spies bring back as proof of the fertility of the land?",
+            "o": [
+              "A huge cluster of grapes",
+              "A sack of wheat",
+              "A basket of figs only",
+              "A jar of honey"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi történt a hamis jelentést hozó tíz kémmel?",
+            "o": [
+              "Csapás által meghaltak",
+              "Kiűzték őket a táborból",
+              "Kővel dobálták meg őket",
+              "Rabszolgává lettek"
+            ]
+          },
+          "en": {
+            "q": "What happened to the ten spies who brought the false report?",
+            "o": [
+              "They died by a plague",
+              "They were driven out of the camp",
+              "They were stoned",
+              "They became slaves"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kik léphettek be végül az ígéret földjére a régi nemzedékből?",
+            "o": [
+              "Csak Józsué és Káleb",
+              "Az összes férfi húsz év fölött",
+              "Csak a papok",
+              "Senki a régi nemzedékből"
+            ]
+          },
+          "en": {
+            "q": "Who from the old generation was eventually allowed to enter the promised land?",
+            "o": [
+              "Only Joshua and Caleb",
+              "All men over twenty",
+              "Only the priests",
+              "No one from the old generation"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki vezette Izrael népét Mózes után az ígéret földjére?",
+            "o": [
+              "Józsué",
+              "Áron",
+              "Kálev",
+              "Sámuel"
+            ]
+          },
+          "en": {
+            "q": "Who led the people of Israel into the promised land after Moses?",
+            "o": [
+              "Joshua",
+              "Aaron",
+              "Caleb",
+              "Samuel"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    }
+  ]
+}

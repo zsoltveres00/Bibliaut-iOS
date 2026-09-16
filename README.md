@@ -51,6 +51,19 @@ illetve Beállítások → Általános → VPN és eszközkezelés → a fejlesz
 Mentések: a haladás `UserDefaults`-ban van (`bq-*` kulcsok), az app törlésével elvész; újratelepítés
 (frissítés) megtartja.
 
+## Tartalom és build (webes változat)
+
+A tananyag forrása a `content/` mappa: `base.json` (szintek, ikonok), `gifts.json` (gyűjthető kártyák),
+`modules/NN-uX.json` (egy modul: név, szín, `chests` = mely állomások után van láda, `stations` = állomások
+12+ kérdéses bankkal). A `build.ps1` összefűzi ezeket a `Bibliaut/Resources/content.json`-ba, és abból
+legyártja a `docs/play.html`-t (a `docs/play.template.html` sablonból):
+
+```powershell
+.\build.ps1
+```
+
+Képek helye (később): `docs/img/stations/uX-NN.png`, `docs/img/cards/<kártya-id>.png`, `docs/img/mascot/olivia.png`.
+
 ## Fájlok
 
 | Fájl | Mi van benne |

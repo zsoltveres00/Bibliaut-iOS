@@ -1,0 +1,2169 @@
+{
+  "id": "u6",
+  "emoji": "🔥",
+  "color": "#E63950",
+  "hu": "Az egyház születése",
+  "en": "The Early Church",
+  "stations": [
+    {
+      "hu": "A mennybemenetel",
+      "en": "The Ascension",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mi történt Jézussal negyven nappal a feltámadása után?",
+            "o": [
+              "Felment a mennybe tanítványai szeme láttára",
+              "Visszatért Názáretbe",
+              "Elrejtőzött a tanítványok elől",
+              "Meghalt másodszor"
+            ]
+          },
+          "en": {
+            "q": "What happened to Jesus forty days after his resurrection?",
+            "o": [
+              "He ascended into heaven before his disciples",
+              "He returned to Nazareth",
+              "He hid from the disciples",
+              "He died a second time"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ígértek az angyalok a tanítványoknak?",
+            "o": [
+              "Hogy Jézus ugyanúgy visszatér majd",
+              "Hogy soha nem térnek vissza vele",
+              "Hogy egy másik próféta jön",
+              "Hogy a világ hamarosan véget ér"
+            ]
+          },
+          "en": {
+            "q": "What did the angels promise the disciples at the ascension of Jesus?",
+            "o": [
+              "That Jesus would return in the same way",
+              "That they would never see him again",
+              "That another prophet was coming",
+              "That the world would soon end"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit parancsolt Jézus a tanítványainak, mielőtt felment a mennybe?",
+            "o": [
+              "Várjanak Jeruzsálemben a Szentlélekre",
+              "Térjenek vissza Galileába azonnal",
+              "Építsenek templomot",
+              "Menjenek Rómába"
+            ]
+          },
+          "en": {
+            "q": "What did Jesus command his disciples before ascending?",
+            "o": [
+              "Wait in Jerusalem for the Holy Spirit",
+              "Return to Galilee immediately",
+              "Build a temple",
+              "Go to Rome"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hol történt Jézus mennybemenetele?",
+            "o": [
+              "Az Olajfák hegyénél",
+              "A Golgotán",
+              "A Sínai-hegyen",
+              "A templom udvarán"
+            ]
+          },
+          "en": {
+            "q": "Where did the ascension of Jesus take place?",
+            "o": [
+              "At the Mount of Olives",
+              "At Golgotha",
+              "On Mount Sinai",
+              "In the temple courtyard"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tettek a tanítványok Jézus mennybemenetele után?",
+            "o": [
+              "Visszatértek Jeruzsálembe, és imádkoztak",
+              "Szétszéledtek a világba azonnal",
+              "Visszatértek a halászathoz véglegesen",
+              "Elrejtőztek egy barlangban"
+            ]
+          },
+          "en": {
+            "q": "What did the disciples do after the ascension of Jesus?",
+            "o": [
+              "They returned to Jerusalem and prayed",
+              "They scattered into the world immediately",
+              "They returned permanently to fishing",
+              "They hid in a cave"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kit választottak Júdás helyére az apostolok közé?",
+            "o": [
+              "Mátyást",
+              "Barnabást",
+              "Timóteust",
+              "Szilászt"
+            ]
+          },
+          "en": {
+            "q": "Whom did they choose to replace Judas among the apostles?",
+            "o": [
+              "Matthias",
+              "Barnabas",
+              "Timothy",
+              "Silas"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mennyi ideig jelent meg Jézus a tanítványoknak a feltámadás után?",
+            "o": [
+              "Negyven napon át",
+              "Hét napon át",
+              "Egy éven át",
+              "Csak egyszer"
+            ]
+          },
+          "en": {
+            "q": "Over what period did Jesus appear to the disciples after the resurrection, before ascending?",
+            "o": [
+              "Over forty days",
+              "Over seven days",
+              "Over one year",
+              "Only once"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miről beszélt Jézus a tanítványoknak ez alatt a negyven nap alatt?",
+            "o": [
+              "Isten országáról",
+              "A rómaiak elleni harcról",
+              "A templom újjáépítéséről",
+              "A saját életrajzáról"
+            ]
+          },
+          "en": {
+            "q": "What did Jesus speak to the disciples about during these forty days?",
+            "o": [
+              "The kingdom of God",
+              "War against the Romans",
+              "Rebuilding the temple",
+              "His own life story"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Nagyjából hányan gyűltek össze imádkozni Jeruzsálemben Jézus mennybemenetele után?",
+            "o": [
+              "Kb. 12-en",
+              "Kb. 70-en",
+              "Kb. 120-an",
+              "Kb. 500-an"
+            ]
+          },
+          "en": {
+            "q": "How many gathered to pray in Jerusalem after the ascension of Jesus?",
+            "o": [
+              "About 12",
+              "About 70",
+              "About 120",
+              "About 500"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Mit láttak a tanítványok, amikor Jézus felment a mennybe?",
+            "o": [
+              "Egy felhő takarta el a szemük elől",
+              "Egy tüzes szekeret",
+              "Egy hatalmas villámlást",
+              "Egy angyalsereget körülötte"
+            ]
+          },
+          "en": {
+            "q": "What did the disciples see as Jesus ascended to heaven?",
+            "o": [
+              "A cloud hid him from their sight",
+              "A fiery chariot",
+              "A great flash of lightning",
+              "A host of angels surrounding him"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Pünkösd",
+      "en": "Pentecost",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mi történt az apostolokkal pünkösd napján?",
+            "o": [
+              "Megkapták a Szentlelket, és más nyelveken kezdtek beszélni",
+              "Elmenekültek Jeruzsálemből",
+              "Megjelent nekik egy angyal",
+              "Böjtölni kezdtek"
+            ]
+          },
+          "en": {
+            "q": "What happened to the apostles on the day of Pentecost?",
+            "o": [
+              "They received the Holy Spirit and began speaking in other tongues",
+              "They fled Jerusalem",
+              "An angel appeared to them",
+              "They began fasting"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki tartotta az első nagy prédikációt pünkösdkor?",
+            "o": [
+              "Péter",
+              "Pál",
+              "János",
+              "Jakab"
+            ]
+          },
+          "en": {
+            "q": "Who delivered the first great sermon at Pentecost?",
+            "o": [
+              "Peter",
+              "Paul",
+              "John",
+              "James"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Nagyjából hányan tértek meg Péter prédikációja után?",
+            "o": [
+              "Kb. 3000-an",
+              "Kb. 12-en",
+              "Kb. 100-an",
+              "Kb. 500-an"
+            ]
+          },
+          "en": {
+            "q": "Roughly how many people converted after the sermon of Peter?",
+            "o": [
+              "About 3,000",
+              "About 12",
+              "About 100",
+              "About 500"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen hangjelenség kísérte a Szentlélek eljövetelét?",
+            "o": [
+              "Hatalmas szélrohamhoz hasonló zúgás",
+              "Mennydörgés csak",
+              "Madárdal",
+              "Teljes csend"
+            ]
+          },
+          "en": {
+            "q": "What sound accompanied the coming of the Holy Spirit?",
+            "o": [
+              "A sound like a rushing mighty wind",
+              "Thunder alone",
+              "Birdsong",
+              "Complete silence"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen látható jel jelent meg az apostolok fején pünkösdkor?",
+            "o": [
+              "Tűznek látszó nyelvek",
+              "Fehér galambok",
+              "Arany koronák",
+              "Ragyogó csillagok"
+            ]
+          },
+          "en": {
+            "q": "What visible sign appeared on the heads of the apostles at Pentecost?",
+            "o": [
+              "Tongues resembling fire",
+              "White doves",
+              "Golden crowns",
+              "Shining stars"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért gyűltek össze annyi nemzetből zsidók Jeruzsálemben pünkösdkor?",
+            "o": [
+              "A pünkösd ünnepe miatt",
+              "Egy császári parancs miatt",
+              "Egy háború elől menekülve",
+              "Egy vásár miatt"
+            ]
+          },
+          "en": {
+            "q": "Why had Jews from so many nations gathered in Jerusalem at Pentecost?",
+            "o": [
+              "Because of the feast of Pentecost",
+              "Because of an imperial order",
+              "Fleeing a war",
+              "Because of a market fair"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mivel vádolták meg gúnyosan az apostolokat pünkösdkor?",
+            "o": [
+              "Hogy részegek",
+              "Hogy tolvajok",
+              "Hogy hazugok",
+              "Hogy varázslók"
+            ]
+          },
+          "en": {
+            "q": "What were the apostles mockingly accused of, when speaking other languages?",
+            "o": [
+              "That they were drunk",
+              "That they were thieves",
+              "That they were liars",
+              "That they were sorcerers"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik próféta szavait idézte Péter a beszédében?",
+            "o": [
+              "Jóel prófétáét",
+              "Ézsaiás prófétáét",
+              "Jeremiás prófétáét",
+              "Dániel prófétáét"
+            ]
+          },
+          "en": {
+            "q": "Whose prophetic words did Peter quote in his Pentecost sermon?",
+            "o": [
+              "The prophet Joel",
+              "The prophet Isaiah",
+              "The prophet Jeremiah",
+              "The prophet Daniel"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mire szólította fel Péter a hallgatóságot a beszéde végén?",
+            "o": [
+              "Térjenek meg és keresztelkedjenek meg",
+              "Térjenek haza csendben",
+              "Fizessenek adót a templomnak",
+              "Várjanak egy újabb jelre"
+            ]
+          },
+          "en": {
+            "q": "What did Peter urge the crowd to do at the end of his sermon?",
+            "o": [
+              "Repent and be baptized",
+              "Go home quietly",
+              "Pay taxes to the temple",
+              "Wait for another sign"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan jellemzi az Apostolok Cselekedetei az újonnan megtértek mindennapjait?",
+            "o": [
+              "Örömmel és egyszerű szívvel törték a kenyeret",
+              "Elzárkózva éltek egymástól",
+              "Folyamatosan vitatkoztak",
+              "Elhagyták a városukat azonnal"
+            ]
+          },
+          "en": {
+            "q": "How does the Book of Acts describe the daily life of the new converts?",
+            "o": [
+              "They broke bread with glad and sincere hearts",
+              "They lived isolated from one another",
+              "They argued constantly",
+              "They immediately left their city"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Az első gyülekezet",
+      "en": "The First Church Community",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mit tettek közössé az első keresztények?",
+            "o": [
+              "Javaikat és vagyonukat",
+              "Csak az ételüket",
+              "Csak az imáikat",
+              "Semmit, mindenki külön élt"
+            ]
+          },
+          "en": {
+            "q": "What did the first Christians in Jerusalem hold in common?",
+            "o": [
+              "Their possessions and property",
+              "Only their food",
+              "Only their prayers",
+              "Nothing, everyone lived separately"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen tevékenységekben voltak állhatatosak az első hívők?",
+            "o": [
+              "Tanításban, közösségben, kenyértörésben és imádságban",
+              "Kizárólag böjtölésben",
+              "Kizárólag kereskedésben",
+              "Kizárólag utazásban"
+            ]
+          },
+          "en": {
+            "q": "In what activities were the first believers steadfast?",
+            "o": [
+              "Teaching, fellowship, breaking of bread, and prayer",
+              "Only fasting",
+              "Only trading",
+              "Only traveling"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hol gyűltek össze rendszeresen imádkozni?",
+            "o": [
+              "A templomban és egymás otthonaiban",
+              "Csak a sivatagban",
+              "Csak hegyeken",
+              "Csak temetőkben"
+            ]
+          },
+          "en": {
+            "q": "Where did the first Christians regularly gather to pray?",
+            "o": [
+              "In the temple and in homes of one another",
+              "Only in the desert",
+              "Only on mountains",
+              "Only in cemeteries"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen csodát tett Péter egy sántán a templom kapujában?",
+            "o": [
+              "Meggyógyította, és az járni tudott",
+              "Étellel látta el",
+              "Pénzt adott neki",
+              "Elküldte egy orvoshoz"
+            ]
+          },
+          "en": {
+            "q": "What miracle did Peter perform on a lame man at the temple gate?",
+            "o": [
+              "He healed him, and he was able to walk",
+              "He gave him food",
+              "He gave him money",
+              "He sent him to a doctor"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik templomkapunál történt a sánta ember meggyógyítása?",
+            "o": [
+              "Az Ékes-kapunál",
+              "A Vízkapunál",
+              "A Juhkapunál",
+              "A Nyugati kapunál"
+            ]
+          },
+          "en": {
+            "q": "At which temple gate did the healing of the lame man happen?",
+            "o": [
+              "The Beautiful Gate",
+              "The Water Gate",
+              "The Sheep Gate",
+              "The Western Gate"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kit vetettek börtönbe a vallási vezetők a gyógyítás miatt?",
+            "o": [
+              "Pétert és Jánost",
+              "Csak Pétert",
+              "Az egész gyülekezetet",
+              "Csak a sánta embert"
+            ]
+          },
+          "en": {
+            "q": "Whom did the religious leaders imprison because of this healing?",
+            "o": [
+              "Peter and John",
+              "Peter alone",
+              "The whole congregation",
+              "The lame man alone"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen házaspár hazudott a vagyonuk eladásáról az egyháznak?",
+            "o": [
+              "Anániás és Szafira",
+              "Akvila és Priscilla",
+              "Zakariás és Erzsébet",
+              "József és Mária"
+            ]
+          },
+          "en": {
+            "q": "Which married couple lied about the sale of their property to the church?",
+            "o": [
+              "Ananias and Sapphira",
+              "Aquila and Priscilla",
+              "Zechariah and Elizabeth",
+              "Joseph and Mary"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért választottak diakónusokat az első gyülekezetben?",
+            "o": [
+              "Hogy segítsenek az özvegyek ellátásában",
+              "Hogy vezessék a missziós utakat",
+              "Hogy tanítsák a törvényt",
+              "Hogy őrizzék a templomot"
+            ]
+          },
+          "en": {
+            "q": "Why were deacons chosen in the early church?",
+            "o": [
+              "To help with caring for the widows",
+              "To lead the missionary journeys",
+              "To teach the law",
+              "To guard the temple"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány diakónust választottak elsőként?",
+            "o": [
+              "Hármat",
+              "Ötöt",
+              "Hetet",
+              "Tizenkettőt"
+            ]
+          },
+          "en": {
+            "q": "How many deacons were first chosen?",
+            "o": [
+              "Three",
+              "Five",
+              "Seven",
+              "Twelve"
+            ]
+          },
+          "c": 2
+        },
+        {
+          "hu": {
+            "q": "Milyen csodák kísérték az apostolok szolgálatát az első gyülekezetben?",
+            "o": [
+              "Sok jel és csoda történt általuk",
+              "Csak elvétve történt csoda",
+              "Nem történtek csodák",
+              "Csak Péter tett csodát"
+            ]
+          },
+          "en": {
+            "q": "What kinds of miracles accompanied the ministry of the apostles in the early church?",
+            "o": [
+              "Many signs and wonders were done through them",
+              "Miracles happened only rarely",
+              "No miracles happened",
+              "Only Peter performed miracles"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "István vértanúsága",
+      "en": "The Martyrdom of Stephen",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mi volt István feladata az első gyülekezetben?",
+            "o": [
+              "Az egyik első diakónus volt, aki a szegényekről gondoskodott",
+              "Ő volt a főpap",
+              "Ő vezette a missziós utakat",
+              "Ő írta az evangéliumokat"
+            ]
+          },
+          "en": {
+            "q": "What was the role of Stephen in the early church?",
+            "o": [
+              "He was one of the first deacons, caring for the poor",
+              "He was the high priest",
+              "He led the missionary journeys",
+              "He wrote the Gospels"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért ítélték halálra Istvánt?",
+            "o": [
+              "Mert bátran hirdette Krisztust a zsidó tanács előtt",
+              "Mert lopott",
+              "Mert fellázadt Róma ellen",
+              "Mert elhagyta a hitét"
+            ]
+          },
+          "en": {
+            "q": "Why was Stephen condemned to death?",
+            "o": [
+              "Because he boldly preached Christ before the Jewish council",
+              "Because he stole something",
+              "Because he rebelled against Rome",
+              "Because he abandoned his faith"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hogyan halt meg István?",
+            "o": [
+              "Megkövezték",
+              "Keresztre feszítették",
+              "Lefejezték",
+              "Vízbe fojtották"
+            ]
+          },
+          "en": {
+            "q": "How did Stephen die?",
+            "o": [
+              "He was stoned",
+              "He was crucified",
+              "He was beheaded",
+              "He was drowned"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért vádolták be Istvánt a zsidó tanács előtt?",
+            "o": [
+              "Hamisan azzal vádolták, hogy a templom és a törvény ellen beszélt",
+              "Lopással vádolták",
+              "Gyilkossággal vádolták",
+              "Hazaárulással vádolták"
+            ]
+          },
+          "en": {
+            "q": "Why was Stephen accused before the Jewish council?",
+            "o": [
+              "He was falsely accused of speaking against the temple and the law",
+              "He was accused of theft",
+              "He was accused of murder",
+              "He was accused of treason"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen beszédet mondott István a tanács előtt?",
+            "o": [
+              "Áttekintette Izrael történetét",
+              "Csak hallgatott",
+              "Elismerte a vádakat",
+              "Kérte a szabadon bocsátását"
+            ]
+          },
+          "en": {
+            "q": "What kind of speech did Stephen give before the council?",
+            "o": [
+              "He reviewed the history of Israel",
+              "He remained silent",
+              "He admitted the charges",
+              "He asked to be released"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit látott István, mielőtt megkövezték?",
+            "o": [
+              "Az eget megnyílva, és Jézust Isten jobbján",
+              "Egy angyalsereget csatázni",
+              "A templomot leomlani",
+              "Egy fényes csillagot"
+            ]
+          },
+          "en": {
+            "q": "What did Stephen see before he was stoned?",
+            "o": [
+              "Heaven opened, and Jesus standing at the right hand of God",
+              "A host of angels in battle",
+              "The temple collapsing",
+              "A bright star"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit kiáltott István, miközben megkövezték?",
+            "o": [
+              "Ne tulajdonítsd nekik ezt a bűnt",
+              "Álljatok meg azonnal",
+              "Mentsetek meg engem",
+              "Ez igazságtalanság"
+            ]
+          },
+          "en": {
+            "q": "What did Stephen cry out while being stoned?",
+            "o": [
+              "Do not hold this sin against them",
+              "Stop this at once",
+              "Save me now",
+              "This is unjust"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kinek a lábai elé rakták le ruháikat István megkövezésekor?",
+            "o": [
+              "Saul lábai elé",
+              "A főpap lábai elé",
+              "Péter lábai elé",
+              "A helytartó lábai elé"
+            ]
+          },
+          "en": {
+            "q": "At whose feet did they lay their coats during the stoning of Stephen?",
+            "o": [
+              "At the feet of Saul",
+              "At the feet of the high priest",
+              "At the feet of Peter",
+              "At the feet of the governor"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi következett közvetlenül István halála után a gyülekezetre?",
+            "o": [
+              "Nagy üldözés kezdődött Jeruzsálemben",
+              "Béke és nyugalom állt be",
+              "A gyülekezet azonnal feloszlott",
+              "A rómaiak védelmet adtak nekik"
+            ]
+          },
+          "en": {
+            "q": "What immediately followed the death of Stephen for the church?",
+            "o": [
+              "A great persecution broke out in Jerusalem",
+              "Peace and calm settled in",
+              "The church immediately disbanded",
+              "The Romans gave them protection"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tett a gyülekezet az üldözés miatt szétszóródva?",
+            "o": [
+              "Hirdették az igét, ahova mentek",
+              "Elrejtőztek örökre",
+              "Feladták a hitüket",
+              "Visszatértek a zsidó vallás gyakorlatához teljesen"
+            ]
+          },
+          "en": {
+            "q": "What did the church do as it was scattered by the persecution?",
+            "o": [
+              "They preached the word wherever they went",
+              "They hid forever",
+              "They gave up their faith",
+              "They fully returned to the old religious practice"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Saul üldözi a keresztényeket",
+      "en": "Saul Persecutes the Christians",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mit tett Saul István megkövezésekor?",
+            "o": [
+              "Helyeselte a halálát, és őrizte a ruhákat",
+              "Megvédte Istvánt",
+              "Elmenekült",
+              "Megtért azonnal"
+            ]
+          },
+          "en": {
+            "q": "What did Saul do at the stoning of Stephen?",
+            "o": [
+              "He approved of his death and guarded the coats",
+              "He defended Stephen",
+              "He fled",
+              "He converted immediately"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tett Saul a keresztényekkel István halála után?",
+            "o": [
+              "Üldözte és börtönbe vetette őket",
+              "Csatlakozott hozzájuk",
+              "Megvédte őket",
+              "Figyelmen kívül hagyta őket"
+            ]
+          },
+          "en": {
+            "q": "What did Saul do to Christians after the death of Stephen?",
+            "o": [
+              "He persecuted them and threw them into prison",
+              "He joined them",
+              "He protected them",
+              "He ignored them"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik városba tartott Saul, amikor Jézus megjelent neki?",
+            "o": [
+              "Damaszkuszba",
+              "Antiókhiába",
+              "Rómába",
+              "Korintusba"
+            ]
+          },
+          "en": {
+            "q": "To which city was Saul traveling when Jesus appeared to him?",
+            "o": [
+              "Damascus",
+              "Antioch",
+              "Rome",
+              "Corinth"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen felhatalmazással indult Saul Damaszkuszba?",
+            "o": [
+              "Levelekkel a főpaptól, hogy elfoghassa a keresztényeket",
+              "Egy római katonai paranccsal",
+              "Saját elhatározásából, felhatalmazás nélkül",
+              "Heródes engedélyével"
+            ]
+          },
+          "en": {
+            "q": "With what authority did Saul set out for Damascus?",
+            "o": [
+              "With letters from the high priest to arrest Christians",
+              "With a Roman military order",
+              "On his own decision, without authorization",
+              "With permission from Herod"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kiket keresett Saul Damaszkuszban?",
+            "o": [
+              "Az \"Út\" követőit, férfiakat és nőket",
+              "Csak a papokat",
+              "Csak a rómaiakat",
+              "Csak Pétert személyesen"
+            ]
+          },
+          "en": {
+            "q": "Whom was Saul seeking in Damascus?",
+            "o": [
+              "Followers of \"the Way,\" men and women",
+              "Only priests",
+              "Only Romans",
+              "Only Peter personally"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hova akarta vinni Saul az elfogott keresztényeket?",
+            "o": [
+              "Vissza Jeruzsálembe",
+              "Rómába",
+              "Egyiptomba",
+              "Antiókhiába"
+            ]
+          },
+          "en": {
+            "q": "Where did Saul intend to take the arrested Christians?",
+            "o": [
+              "Back to Jerusalem",
+              "To Rome",
+              "To Egypt",
+              "To Antioch"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen házakba ment be Saul a keresztények üldözése során?",
+            "o": [
+              "Házról házra járt",
+              "Csak a gazdagok házaiba",
+              "Csak a papok házaiba",
+              "Nem ment be sehova, csak várt"
+            ]
+          },
+          "en": {
+            "q": "What kind of places did Saul enter while persecuting Christians?",
+            "o": [
+              "He went from house to house",
+              "Only the houses of the wealthy",
+              "Only the houses of priests",
+              "He entered nowhere, he only waited"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen háttere volt Saulnak, mielőtt buzgó üldöző lett?",
+            "o": [
+              "Farizeus és törvénytudó volt",
+              "Római katona volt",
+              "Halász volt",
+              "Kereskedő volt"
+            ]
+          },
+          "en": {
+            "q": "What was the background of Saul, before he became a zealous persecutor?",
+            "o": [
+              "A Pharisee and a teacher of the law",
+              "A Roman soldier",
+              "A fisherman",
+              "A merchant"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik városban tanult Saul, mielőtt Jeruzsálembe került?",
+            "o": [
+              "Tárzuszban",
+              "Antiókhiában",
+              "Alexandriában",
+              "Efezusban"
+            ]
+          },
+          "en": {
+            "q": "In which city did Saul study, before coming to Jerusalem?",
+            "o": [
+              "Tarsus",
+              "Antioch",
+              "Alexandria",
+              "Ephesus"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki mellett tanult Saul Jeruzsálemben a törvényt?",
+            "o": [
+              "Gamáliel mellett",
+              "Kaifás mellett",
+              "Annás mellett",
+              "Nikodémus mellett"
+            ]
+          },
+          "en": {
+            "q": "Under whom did Saul study the law in Jerusalem?",
+            "o": [
+              "Under Gamaliel",
+              "Under Caiaphas",
+              "Under Annas",
+              "Under Nicodemus"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Saul megtérése",
+      "en": "The Conversion of Saul",
+      "qs": [
+        {
+          "hu": {
+            "q": "Mi történt Saullal a damaszkuszi úton?",
+            "o": [
+              "Fény vette körül, és meghallotta Jézus hangját",
+              "Álmot látott éjjel",
+              "Egy próféta figyelmeztette",
+              "Megbetegedett"
+            ]
+          },
+          "en": {
+            "q": "What happened to Saul on the road to Damascus?",
+            "o": [
+              "A light surrounded him and he heard the voice of Jesus",
+              "He had a dream at night",
+              "A prophet warned him",
+              "He fell ill"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi történt Saul szemével a látomás után?",
+            "o": [
+              "Három napig megvakult",
+              "Azonnal jobban látott",
+              "Semmi sem történt",
+              "Könnyezni kezdett"
+            ]
+          },
+          "en": {
+            "q": "What happened to the eyes of Saul after the vision?",
+            "o": [
+              "He was blind for three days",
+              "He saw better immediately",
+              "Nothing happened",
+              "He began to cry"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki gyógyította meg és keresztelte meg Sault Damaszkuszban?",
+            "o": [
+              "Ananiás",
+              "Péter",
+              "Barnabás",
+              "Fülöp"
+            ]
+          },
+          "en": {
+            "q": "Who healed Saul and baptized him in Damascus?",
+            "o": [
+              "Ananias",
+              "Peter",
+              "Barnabas",
+              "Philip"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit kérdezett Jézus Saultól a fényben?",
+            "o": [
+              "\"Saul, Saul, miért üldözöl engem?\"",
+              "\"Miért nem hiszel bennem?\"",
+              "\"Ki vagy te?\"",
+              "\"Hova mész?\""
+            ]
+          },
+          "en": {
+            "q": "What did Jesus ask Saul in the light?",
+            "o": [
+              "\"Saul, Saul, why do you persecute me?\"",
+              "\"Why do you not believe in me?\"",
+              "\"Who are you?\"",
+              "\"Where are you going?\""
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit válaszolt Saul a hangnak?",
+            "o": [
+              "\"Ki vagy, Uram?\"",
+              "\"Nem hallak téged\"",
+              "\"Menj el tőlem\"",
+              "\"Nem félek tőled\""
+            ]
+          },
+          "en": {
+            "q": "What did Saul answer the voice?",
+            "o": [
+              "\"Who are you, Lord?\"",
+              "\"I cannot hear you\"",
+              "\"Go away from me\"",
+              "\"I am not afraid of you\""
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tettek Saul kísérői a fény és a hang idején?",
+            "o": [
+              "Némán álltak, hallották a hangot, de senkit sem láttak",
+              "Elmenekültek azonnal",
+              "Ők is földre estek vakon",
+              "Megtámadták Sault"
+            ]
+          },
+          "en": {
+            "q": "What did the companions of Saul do during the light and the voice?",
+            "o": [
+              "They stood speechless, hearing the sound but seeing no one",
+              "They fled immediately",
+              "They too fell blind to the ground",
+              "They attacked Saul"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hova vezették Sault, miután megvakult?",
+            "o": [
+              "Damaszkuszba",
+              "Vissza Jeruzsálembe",
+              "Egy közeli faluba",
+              "Antiókhiába"
+            ]
+          },
+          "en": {
+            "q": "Where was Saul led after he became blind?",
+            "o": [
+              "Into Damascus",
+              "Back to Jerusalem",
+              "To a nearby village",
+              "To Antioch"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit evett és ivott Saul a három vak nap alatt?",
+            "o": [
+              "Semmit",
+              "Csak vizet",
+              "Csak kenyeret",
+              "Bőségesen evett"
+            ]
+          },
+          "en": {
+            "q": "What did Saul eat and drink during the three blind days?",
+            "o": [
+              "Nothing",
+              "Only water",
+              "Only bread",
+              "He ate abundantly"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tett Ananiás Saul szemére, hogy visszanyerje látását?",
+            "o": [
+              "Rátette a kezét",
+              "Vizet öntött rá",
+              "Olajjal kente meg",
+              "Egy kendőt tett rá"
+            ]
+          },
+          "en": {
+            "q": "What did Ananias do to the eyes of Saul to restore his sight?",
+            "o": [
+              "He laid his hands on him",
+              "He poured water on them",
+              "He anointed them with oil",
+              "He placed a cloth over them"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit hirdetett Saul azonnal a megtérése után Damaszkuszban?",
+            "o": [
+              "Hogy Jézus az Isten Fia",
+              "Hogy vissza kell térni a törvényhez",
+              "Hogy a rómaiak ellen kell harcolni",
+              "Hogy vissza kell térni Jeruzsálembe azonnal"
+            ]
+          },
+          "en": {
+            "q": "What did Saul immediately proclaim after his conversion in Damascus?",
+            "o": [
+              "That Jesus is the Son of God",
+              "That they must return to the law",
+              "That they must fight the Romans",
+              "That they must return to Jerusalem immediately"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Péter és Kornéliusz",
+      "en": "Peter and Cornelius",
+      "qs": [
+        {
+          "hu": {
+            "q": "Ki volt Kornéliusz?",
+            "o": [
+              "Egy római századparancsnok, aki félte Istent",
+              "Egy zsidó főpap",
+              "Egy görög filozófus",
+              "Egy egyiptomi kereskedő"
+            ]
+          },
+          "en": {
+            "q": "Who was Cornelius?",
+            "o": [
+              "A Roman centurion who feared God",
+              "A Jewish high priest",
+              "A Greek philosopher",
+              "An Egyptian merchant"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen látomást kapott Péter, mielőtt Kornéliuszhoz ment?",
+            "o": [
+              "Egy leereszkedő lepedőt mindenféle állattal",
+              "Egy tüzes szekeret",
+              "Egy angyalt karddal",
+              "Egy hajót a viharban"
+            ]
+          },
+          "en": {
+            "q": "What vision did Peter have before going to Cornelius?",
+            "o": [
+              "A sheet lowered with all kinds of animals",
+              "A fiery chariot",
+              "An angel with a sword",
+              "A ship in a storm"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi volt a jelentősége annak, hogy Péter elment Kornéliuszhoz?",
+            "o": [
+              "Megmutatta, hogy az evangélium a pogányoknak is szól",
+              "Ez volt az első keresztény zsinat",
+              "Ez indította el a templom építését",
+              "Ez véget vetett az üldözésnek"
+            ]
+          },
+          "en": {
+            "q": "What was the significance of Peter going to the Gentile Cornelius?",
+            "o": [
+              "It showed that the gospel was also for the Gentiles",
+              "It was the first Christian council",
+              "It began the building of the temple",
+              "It ended the persecution"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik városban élt Kornéliusz?",
+            "o": [
+              "Cézáreában",
+              "Jeruzsálemben",
+              "Antiókhiában",
+              "Joppéban"
+            ]
+          },
+          "en": {
+            "q": "In which city did Cornelius live?",
+            "o": [
+              "Caesarea",
+              "Jerusalem",
+              "Antioch",
+              "Joppa"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért volt ismert Kornéliusz jótékonysága?",
+            "o": [
+              "Bőkezűen adakozott a szegényeknek",
+              "Templomot épített",
+              "Sereget vezetett a szegényekért",
+              "Ingyen adott munkát mindenkinek"
+            ]
+          },
+          "en": {
+            "q": "What was Cornelius known for besides his devotion?",
+            "o": [
+              "He gave generously to the poor",
+              "He built a temple",
+              "He led an army for the poor",
+              "He gave free jobs to everyone"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki jelent meg Kornéliusznak látomásban, mielőtt Péterért küldött?",
+            "o": [
+              "Egy angyal",
+              "Péter maga",
+              "Egy próféta hangja",
+              "Jézus közvetlenül"
+            ]
+          },
+          "en": {
+            "q": "Who appeared to Cornelius in a vision before he sent for Peter?",
+            "o": [
+              "An angel",
+              "Peter himself",
+              "The voice of a prophet",
+              "Jesus directly"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hol tartózkodott Péter, amikor a látomást kapta?",
+            "o": [
+              "Joppéban, egy tímár házában",
+              "Jeruzsálemben a templomban",
+              "Antiókhiában",
+              "Damaszkuszban"
+            ]
+          },
+          "en": {
+            "q": "Where was Peter staying when he received the vision?",
+            "o": [
+              "In Joppa, at the house of a tanner",
+              "In Jerusalem at the temple",
+              "In Antioch",
+              "In Damascus"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit mondott a hang Péternek a lepedős látomásban?",
+            "o": [
+              "\"Amit Isten tisztává tett, te ne mondd tisztátalannak\"",
+              "\"Ne egyél húst többé\"",
+              "\"Menj vissza Jeruzsálembe azonnal\"",
+              "\"Ez egy próba csupán\""
+            ]
+          },
+          "en": {
+            "q": "What did the voice tell Peter in the vision of the sheet?",
+            "o": [
+              "\"Do not call anything impure that God has made clean\"",
+              "\"Never eat meat again\"",
+              "\"Return to Jerusalem immediately\"",
+              "\"This is merely a test\""
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mi történt Kornéliusz házában, miközben Péter beszélt?",
+            "o": [
+              "A Szentlélek leszállt mindazokra, akik hallgatták az igét",
+              "Egy vihar tört ki",
+              "Kornéliusz elájult",
+              "A hallgatók elmenekültek"
+            ]
+          },
+          "en": {
+            "q": "What happened in the house of Cornelius while Peter was speaking?",
+            "o": [
+              "The Holy Spirit fell on all who heard the message",
+              "A storm broke out",
+              "Cornelius fainted",
+              "The listeners fled"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit tett Péter Kornéliusz és háza népe után, hogy megpecsételje befogadásukat?",
+            "o": [
+              "Megkeresztelte őket",
+              "Áldozatot mutatott be helyettük",
+              "Elküldte őket Jeruzsálembe",
+              "Elutasította a kérésüket"
+            ]
+          },
+          "en": {
+            "q": "What did Peter do for Cornelius and his household to seal their acceptance?",
+            "o": [
+              "He had them baptized",
+              "He offered a sacrifice on their behalf",
+              "He sent them to Jerusalem",
+              "He refused their request"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "A missziós utak",
+      "en": "The Missionary Journeys of Paul",
+      "qs": [
+        {
+          "hu": {
+            "q": "Ki kísérte el Pált az első missziós útjára?",
+            "o": [
+              "Barnabás",
+              "Péter",
+              "Timóteus",
+              "Lukács"
+            ]
+          },
+          "en": {
+            "q": "Who accompanied Paul on his first missionary journey?",
+            "o": [
+              "Barnabas",
+              "Peter",
+              "Timothy",
+              "Luke"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Nagyjából hány missziós utat tett Pál apostol a hagyomány szerint?",
+            "o": [
+              "3",
+              "1",
+              "5",
+              "7"
+            ]
+          },
+          "en": {
+            "q": "Roughly how many missionary journeys did Paul traditionally take?",
+            "o": [
+              "3",
+              "1",
+              "5",
+              "7"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik város volt Pál útjainak egyik fő kiindulópontja?",
+            "o": [
+              "Antiókhia",
+              "Róma",
+              "Alexandria",
+              "Korintus"
+            ]
+          },
+          "en": {
+            "q": "Which city was a starting point for the missionary journeys of Paul?",
+            "o": [
+              "Antioch",
+              "Rome",
+              "Alexandria",
+              "Corinth"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik szigetről indult Pál első missziós útja Barnabással?",
+            "o": [
+              "Ciprusról",
+              "Krétáról",
+              "Máltáról",
+              "Rodoszról"
+            ]
+          },
+          "en": {
+            "q": "From which island did the first missionary journey of Paul with Barnabas begin?",
+            "o": [
+              "Cyprus",
+              "Crete",
+              "Malta",
+              "Rhodes"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Ki csatlakozott Pál második missziós útjához Timóteus mellett?",
+            "o": [
+              "Szilász",
+              "Barnabás",
+              "Apollós",
+              "Titusz"
+            ]
+          },
+          "en": {
+            "q": "Who joined the second missionary journey of Paul alongside Timothy?",
+            "o": [
+              "Silas",
+              "Barnabas",
+              "Apollos",
+              "Titus"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik görög városban alapított Pál híresen gyülekezetet?",
+            "o": [
+              "Korintusban",
+              "Athénban",
+              "Spártában",
+              "Türosban"
+            ]
+          },
+          "en": {
+            "q": "In which Greek city did Paul famously found a church?",
+            "o": [
+              "Corinth",
+              "Athens",
+              "Sparta",
+              "Tyre"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik domb tetején prédikált Pál Athénban?",
+            "o": [
+              "Az Areopáguszon",
+              "Az Akropoliszon",
+              "A piactéren csak",
+              "A kikötőben"
+            ]
+          },
+          "en": {
+            "q": "On which hill did Paul preach in Athens?",
+            "o": [
+              "The Areopagus",
+              "The Acropolis",
+              "Only the marketplace",
+              "The harbor"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen mesterséget űzött Pál a megélhetéséért útjai során?",
+            "o": [
+              "Sátorkészítő volt",
+              "Halász volt",
+              "Ács volt",
+              "Kovács volt"
+            ]
+          },
+          "en": {
+            "q": "What trade did Paul practice for his livelihood during his journeys?",
+            "o": [
+              "He was a tentmaker",
+              "He was a fisherman",
+              "He was a carpenter",
+              "He was a blacksmith"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik városban tartották fogva Pált két évig?",
+            "o": [
+              "Cézáreában",
+              "Rómában",
+              "Antiókhiában",
+              "Efezusban"
+            ]
+          },
+          "en": {
+            "q": "In which city was Paul held for two years before being taken to Rome?",
+            "o": [
+              "Caesarea",
+              "Rome",
+              "Antioch",
+              "Ephesus"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen módon utazott Pál Rómába, ahol végül fogságban élt?",
+            "o": [
+              "Hajón, fogolyként, hajótörést is átélve",
+              "Gyalog az egész úton",
+              "Lovon keresztül a szárazföldön",
+              "Egy karavánnal"
+            ]
+          },
+          "en": {
+            "q": "How did Paul travel to Rome, where he eventually lived under guard?",
+            "o": [
+              "By ship, as a prisoner, surviving a shipwreck",
+              "On foot the entire way",
+              "On horseback overland",
+              "With a caravan"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "Pál levelei",
+      "en": "The Letters of Paul",
+      "qs": [
+        {
+          "hu": {
+            "q": "Nagyjából hány levelet tulajdonít a hagyomány Pálnak az Újszövetségben?",
+            "o": [
+              "13",
+              "7",
+              "21",
+              "27"
+            ]
+          },
+          "en": {
+            "q": "How many New Testament letters are traditionally attributed to Paul?",
+            "o": [
+              "13",
+              "7",
+              "21",
+              "27"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik gyülekezetnek írta Pál a szeretet himnuszát?",
+            "o": [
+              "A korintusi gyülekezetnek",
+              "Az efezusi gyülekezetnek",
+              "A római gyülekezetnek",
+              "A galáciai gyülekezetnek"
+            ]
+          },
+          "en": {
+            "q": "To which church did Paul write the famous hymn to love, 1 Corinthians 13?",
+            "o": [
+              "The church in Corinth",
+              "The church in Ephesus",
+              "The church in Rome",
+              "The church in Galatia"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Honnan írta Pál több levelét, amikor fogságban volt?",
+            "o": [
+              "Börtönből, például Rómából",
+              "Egy hajóról",
+              "Egy templomból",
+              "Egy sivatagi táborból"
+            ]
+          },
+          "en": {
+            "q": "From where did Paul write several of his letters while imprisoned?",
+            "o": [
+              "From prison, such as in Rome",
+              "From a ship",
+              "From a temple",
+              "From a desert camp"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik levelet írta Pál a filippi gyülekezetnek, örömről szólva?",
+            "o": [
+              "A Filippi levelet",
+              "A Kolosséi levelet",
+              "A Galata levelet",
+              "A Titusz levelet"
+            ]
+          },
+          "en": {
+            "q": "Which letter did Paul write to the church in Philippi, largely about joy?",
+            "o": [
+              "The Letter to the Philippians",
+              "The Letter to the Colossians",
+              "The Letter to the Galatians",
+              "The Letter to Titus"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik levélben tárgyalja Pál részletesen a megigazulás tanát?",
+            "o": [
+              "A Rómaiakhoz írt levélben",
+              "A Filemonhoz írt levélben",
+              "A 2 Timóteushoz írt levélben",
+              "A Júdás levélben"
+            ]
+          },
+          "en": {
+            "q": "In which letter does Paul discuss the doctrine of justification in detail?",
+            "o": [
+              "The Letter to the Romans",
+              "The Letter to Philemon",
+              "The Second Letter to Timothy",
+              "The Letter of Jude"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kinek írta Pál a Timóteushoz és Tituszhoz írt leveleket?",
+            "o": [
+              "Fiatal gyülekezeti vezetőknek, munkatársainak",
+              "Egy egész gyülekezetnek",
+              "Egy római tisztviselőnek",
+              "A zsidó tanácsnak"
+            ]
+          },
+          "en": {
+            "q": "To whom did Paul write the letters to Timothy and Titus?",
+            "o": [
+              "Young church leaders, his co-workers",
+              "An entire congregation",
+              "A Roman official",
+              "The Jewish council"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik levelet írta Pál egy szökött rabszolga ügyében?",
+            "o": [
+              "A Filemonhoz írt levelet",
+              "A Rómaiakhoz írt levelet",
+              "A Galatákhoz írt levelet",
+              "A 2 Korintusi levelet"
+            ]
+          },
+          "en": {
+            "q": "Which letter did Paul write concerning a runaway slave?",
+            "o": [
+              "The Letter to Philemon",
+              "The Letter to the Romans",
+              "The Letter to the Galatians",
+              "The Second Letter to the Corinthians"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen fő témát tárgyal Pál a Galatákhoz írt levelében?",
+            "o": [
+              "A hit általi szabadságot a törvénnyel szemben",
+              "A gyülekezeti rendtartást",
+              "Az utolsó időkről szóló tanítást",
+              "A missziós stratégiát"
+            ]
+          },
+          "en": {
+            "q": "What main theme does Paul address in the letter to the Galatians?",
+            "o": [
+              "Freedom through faith as opposed to the law",
+              "Church order and discipline",
+              "Teaching about the end times",
+              "Missionary strategy"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik levélben ír Pál a Lélek gyümölcseiről?",
+            "o": [
+              "A Galatákhoz írt levélben",
+              "A Filemonhoz írt levélben",
+              "A 2 Tesszalonikaiakhoz írt levélben",
+              "A Titusz levélben"
+            ]
+          },
+          "en": {
+            "q": "In which letter does Paul write about the fruit of the Spirit?",
+            "o": [
+              "The Letter to the Galatians",
+              "The Letter to Philemon",
+              "The Second Letter to the Thessalonians",
+              "The Letter to Titus"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Melyik levélben ír Pál a hit, remény és szeretet hármasáról?",
+            "o": [
+              "Az 1 Korintusi levélben",
+              "A Rómaiakhoz írt levélben",
+              "A Filippi levélben",
+              "A Kolosséi levélben"
+            ]
+          },
+          "en": {
+            "q": "In which letter does Paul write about faith, hope, and love together?",
+            "o": [
+              "The First Letter to the Corinthians",
+              "The Letter to the Romans",
+              "The Letter to the Philippians",
+              "The Letter to the Colossians"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    },
+    {
+      "hu": "János jelenései",
+      "en": "The Revelation of John",
+      "qs": [
+        {
+          "hu": {
+            "q": "Melyik szigeten kapta János a látomásokat?",
+            "o": [
+              "Pátmosz",
+              "Ciprus",
+              "Kréta",
+              "Málta"
+            ]
+          },
+          "en": {
+            "q": "On which island did John receive the visions of the Book of Revelation?",
+            "o": [
+              "Patmos",
+              "Cyprus",
+              "Crete",
+              "Malta"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Hány gyülekezetnek címezte János a könyvét?",
+            "o": [
+              "7",
+              "12",
+              "3",
+              "4"
+            ]
+          },
+          "en": {
+            "q": "To how many churches did John address the Book of Revelation?",
+            "o": [
+              "7",
+              "12",
+              "3",
+              "4"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ír le a könyv a végén, végső reménységként?",
+            "o": [
+              "Egy új eget és új földet",
+              "Egy új háborút",
+              "Egy új törvényt",
+              "Egy új birodalmat"
+            ]
+          },
+          "en": {
+            "q": "What does the Book of Revelation describe at the end, as the final hope of the people of God?",
+            "o": [
+              "A new heaven and a new earth",
+              "A new war",
+              "A new law",
+              "A new empire"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Miért került János Pátmosz szigetére?",
+            "o": [
+              "Isten igéje és Jézus bizonysága miatt száműzték",
+              "Missziós útra ment önként",
+              "Hajótörést szenvedett",
+              "Zarándoklatra ment"
+            ]
+          },
+          "en": {
+            "q": "Why was John on the island of Patmos?",
+            "o": [
+              "He was exiled because of the word of God and the testimony of Jesus",
+              "He went on a voluntary mission trip",
+              "He was shipwrecked",
+              "He went on a pilgrimage"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen napon kapta János az első látomást?",
+            "o": [
+              "Az Úr napján",
+              "Egy böjti napon",
+              "Pünkösd napján",
+              "Egy ünnepnapon csak véletlenül"
+            ]
+          },
+          "en": {
+            "q": "On which day did John receive the first vision?",
+            "o": [
+              "On the Lord’s Day",
+              "On a fasting day",
+              "On the day of Pentecost",
+              "Only by chance on a feast day"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kit látott János a hét gyertyatartó között?",
+            "o": [
+              "Az Emberfiához hasonlót, a feltámadt Krisztust",
+              "Egy angyalt egyedül",
+              "Mózest és Illést",
+              "Egy fényes felhőt csak"
+            ]
+          },
+          "en": {
+            "q": "Whom did John see among the seven lampstands?",
+            "o": [
+              "One like the Son of Man, the risen Christ",
+              "An angel alone",
+              "Moses and Elijah",
+              "Only a bright cloud"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit szimbolizál a hét gyertyatartó a Jelenések könyvében?",
+            "o": [
+              "A hét gyülekezetet",
+              "A hét napot",
+              "A hét mennyet",
+              "A hét angyalt önmagában"
+            ]
+          },
+          "en": {
+            "q": "What do the seven lampstands symbolize in the Book of Revelation?",
+            "o": [
+              "The seven churches",
+              "The seven days",
+              "The seven heavens",
+              "The seven angels by themselves"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Milyen könyvet lát János, amit senki sem tudott felnyitni, csak a Bárány?",
+            "o": [
+              "A hét pecséttel lezárt könyvet",
+              "A Tízparancsolat tábláit",
+              "Egy próféciás tekercset névtelenül",
+              "Egy családfa könyvét"
+            ]
+          },
+          "en": {
+            "q": "What book does John see that no one could open, except the Lamb?",
+            "o": [
+              "The scroll sealed with seven seals",
+              "The tablets of the Ten Commandments",
+              "An unnamed prophetic scroll",
+              "A book of genealogy"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Kit ábrázol a Bárány jelképe a Jelenések könyvében?",
+            "o": [
+              "Jézus Krisztust",
+              "Keresztelő Jánost",
+              "Egy angyalt",
+              "Mózest"
+            ]
+          },
+          "en": {
+            "q": "Whom does the symbol of the Lamb represent in the Book of Revelation?",
+            "o": [
+              "Jesus Christ",
+              "John the Baptist",
+              "An angel",
+              "Moses"
+            ]
+          },
+          "c": 0
+        },
+        {
+          "hu": {
+            "q": "Mit ír le János az Új Jeruzsálemről a könyv végén?",
+            "o": [
+              "Isten lakik majd az emberek között, nem lesz többé fájdalom",
+              "Egy hatalmas háborút",
+              "Egy új törvénykönyvet",
+              "Egy új birodalmi fővárost csak politikailag"
+            ]
+          },
+          "en": {
+            "q": "What does John describe about the New Jerusalem at the end of the book?",
+            "o": [
+              "God would dwell among people, and there would be no more pain",
+              "A great war",
+              "A new book of law",
+              "Only a new imperial capital, politically"
+            ]
+          },
+          "c": 0
+        }
+      ]
+    }
+  ]
+}
