@@ -36,9 +36,11 @@ illetve Beállítások → Általános → VPN és eszközkezelés → a fejlesz
 
 **B) Nincs Mac:** iOS-appot csak macOS-en lehet lefordítani, ezért két reális lehetőség van:
 - felhő-Mac bérlése óradíjban (pl. MacinCloud, MacStadium) és ott az A) lépések;
-- GitHub Actions `macos` futtatóval buildelni egy aláíratlan `.ipa`-t, majd Windowsról
-  **Sideloadly** vagy **AltStore** programmal (ingyenes Apple ID-vel) rátenni a telefonra – ez is
-  7 naponta újra aláírást kér.
+- a repó **GitHub Actions** workflow-ja (`.github/workflows/ios-build.yml`) minden `main`-re
+  pusholt commitnál macOS-futtatón lefordítja az appot, és feltölt egy aláíratlan
+  `Bibliaut-unsigned.ipa` artifactot (Actions fül → legutóbbi futás → Artifacts). Ezt Windowsról
+  **Sideloadly** vagy **AltStore** programmal (ingyenes Apple ID-vel) lehet a telefonra tenni –
+  ez is 7 naponta újra aláírást kér.
 
 Mentések: a haladás `UserDefaults`-ban van (`bq-*` kulcsok), az app törlésével elvész; újratelepítés
 (frissítés) megtartja.
@@ -71,8 +73,8 @@ Mentések: a haladás `UserDefaults`-ban van (`bq-*` kulcsok), az app törlésé
 
 - A tartalom nem lett kézzel átgépelve: a webes artifact adatszekciójából script exportálta
   JSON-ba, így a 600 kérdés szó szerint azonos.
-- A kód Windows-on készült, Xcode nélkül; fordítási hibát nem tudtam ellenőrizni, ezért az első
-  buildnél apró javítás előfordulhat.
+- A kód Windows-on készült, Xcode nélkül; a GitHub Actions build (Xcode 16.4, iOS 18 SDK)
+  hiba és warning nélkül lefordítja.
 - Ismert szépséghiba: sötét módban a „Holló” képes válasz nagyon sötét (`#2B2B2B`) ikonja alig látszik
   a kártyán – ugyanez a weben is így van, a színt a `content.json`-ban lehet módosítani.
 - Az app-ikont a `make-icon.ps1` (GDI+) script rajzolta; ha más kell, egy tetszőleges 1024×1024 PNG-t
